@@ -12,6 +12,11 @@
   <link rel="stylesheet" href="../vendor/recline/vendor/leaflet.markercluster/MarkerCluster.Default.css" rel="stylesheet" />
 
   <style type="text/css">
+    @import url(http://fonts.googleapis.com/css?family=PT+Sans);
+    body {
+      font-family: 'PT Sans', Georgia, sans-serif;
+    }
+
     .recline-map .map {
       position: absolute;
       top: 0;
@@ -33,6 +38,22 @@
       top: 5px;
       z-index: 10000;
     }
+    .logo img {
+      display: block;
+    }
+
+    .footer {
+      position: absolute;
+      left: 5px;
+      bottom: 5px;
+      z-index: 10000;
+      font-size: 13px;
+    }
+
+    .footer a {
+      color: #333;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -44,6 +65,10 @@
 <div class="logo">
   <a href="/"><img src="../images/logo_odhd3_sm.png" width="206" height="68" alt="International Open Data Hackathon" /></a>
 </div>
+<div class="footer">
+  <a href="https://docs.google.com/a/okfn.org/spreadsheet/ccc?key=0AqR8dXc6Ji4JdFNQRExkVjI3Q3RtRVZuU1hXRmhlTVE#gid=0">Add your event</a>
+</div>
+
 <div class="map" style="width: 100%; height: 100%;"></div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
