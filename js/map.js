@@ -6,7 +6,8 @@ jQuery(function($) {
   });
   var map = new recline.View.Map({
     el: $('.map'),
-    model: dataset
+    model: dataset,
+    state: { cluster: true }
   });
   map.render();
   dataset.fetch()
@@ -14,9 +15,7 @@ jQuery(function($) {
       dataset.records.each(function(record) {
         if (record.get('latitude')=='' && record.get('place')) {
           var url = 'http://open.mapquestapi.com/search?format=json&q=' + encodeURIComponent(record.get('place'));
-          console.log(url);
           $.getJSON(url, function(data) {
-            console.log(data);
             record.set({
               latitude: data[0].lat,
               longitude: data[0].lon
