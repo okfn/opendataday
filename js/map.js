@@ -11,7 +11,6 @@ jQuery(function($) {
   map.render();
   dataset.fetch()
     .done(function() {
-      $('.loading').hide();
       dataset.records.each(function(record) {
         if (record.get('latitude')=='' && record.get('place')) {
           var url = 'http://open.mapquestapi.com/search?format=json&q=' + encodeURIComponent(record.get('place'));
@@ -25,6 +24,8 @@ jQuery(function($) {
           });
         }
       });
+
+      $('.loading').hide();
     })
     ;
 });
