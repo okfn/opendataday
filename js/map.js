@@ -12,18 +12,22 @@ jQuery(function($) {
   map.render();
   dataset.fetch()
     .done(function() {
-      dataset.records.each(function(record) {
-        if (record.get('latitude')=='' && record.get('place')) {
-          var url = 'http://open.mapquestapi.com/nominatim/v1/search?format=json&q=' + encodeURIComponent(record.get('place'));
-          $.getJSON(url, function(data) {
-            record.set({
-              latitude: data[0].lat,
-              longitude: data[0].lon
-            });
+      var recordCount = dataset.recordCount;
+      $('.js-num-events').text(recordCount);
+      dataset.query({size: recordCount})
+        .done(function() {
+          dataset.records.each(function(record) {
+            if (record.get('latitude')=='' && record.get('place')) {
+              var url = 'http://open.mapquestapi.com/nominatim/v1/search?format=json&q=' + encodeURIComponent(record.get('place'));
+              $.getJSON(url, function(data) {
+                record.set({
+                  latitude: data[0].lat,
+                  longitude: data[0].lon
+                });
+              });
+            }
           });
-        }
-      });
-
+        });
       $('.loading').hide();
     })
     ;
