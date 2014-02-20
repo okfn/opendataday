@@ -29,10 +29,10 @@ jQuery(function($) {
               });
             }
             
-            var eventurl = data[0].url;
+            // var eventurl = record.get('url');
             // TODO sanity check on URL?
             // linkify urls
-            record.set({url: "<a href=\"" + eventurl + "\">" + eventurl + "</a>"});
+            // record.set({url: "<a href=\"" + eventurl + "\">" + eventurl + "</a>"});
           });
         });
       $('.loading').hide();
