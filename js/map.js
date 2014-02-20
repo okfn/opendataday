@@ -17,15 +17,22 @@ jQuery(function($) {
       dataset.query({size: recordCount})
         .done(function() {
           dataset.records.each(function(record) {
+            //geocode place name if the latitude and longitude fields are not filled in
+            //TODO cache result?
             if (record.get('latitude')=='' && record.get('place')) {
-              var url = 'http://open.mapquestapi.com/nominatim/v1/search?format=json&q=' + encodeURIComponent(record.get('place'));
-              $.getJSON(url, function(data) {
+              var geocodeurl = 'http://open.mapquestapi.com/nominatim/v1/search?format=json&q=' + encodeURIComponent(record.get('place'));
+              $.getJSON(geocodeurl, function(data) {
                 record.set({
                   latitude: data[0].lat,
                   longitude: data[0].lon
                 });
               });
             }
+            
+            var eventurl = data[0].url;
+            // TODO sanity check on URL?
+            // linkify urls
+            record.set({url: "<a href=\"" + eventurl + "\">" + eventurl + "</a>"});
           });
         });
       $('.loading').hide();
