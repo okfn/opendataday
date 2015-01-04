@@ -7,7 +7,7 @@ jQuery(function($) {
   var map = new recline.View.Map({
     el: $('.map'),
     model: dataset,
-    state: { cluster: true }
+    state: { cluster: false }
   });
   map.render();
   dataset.fetch()
