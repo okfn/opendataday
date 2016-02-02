@@ -6,12 +6,25 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  
+  <link rel="stylesheet" href="css/nanoscroller.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  <!-- Some additional styling info for local use of nanoscroller. -->
+  <link rel="stylesheet" href="css/nanoscroller-mod.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+
   <!--[if IE 7]>
   	<link rel="stylesheet" type="text/css" href="ie7.css">
   <![endif]-->
 
   <title>International Open Data Hackathon</title>
+  
+  
+  <!-- Was going to update jquery version from 1.4.2 to 2.2.0 
+       but localScroll no longer worked. -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+  
+  <!-- Load scrollbar routines foe navigation -->
+  <script src="js/jquery.nanoscroller.min.js" type="text/javascript" charset="utf-8"></script>  
+    
   <script src="js/cufon.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/comicsans.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/scrollto.js" type="text/javascript" charset="utf-8"></script>
@@ -20,16 +33,25 @@
   <script type="text/javascript" >
   Cufon.replace('h1')('h2')('h3')('h4')('h5');
   $(document).ready( function() {
+    // Animated scrolling navigation.
     $.localScroll();
   });
   </script>
+
+
 </head>
 
 <body>
   <div id="wrapper">
-    <div id="content" class="clearfix">
-      <ul id="navigation">
-        <li><a href="#"><img src="images/logo_odhd3_sm.png" width="206" height="68" alt="International Open Data Hackathon" /></a></li>
+    <div id="content" class="clearfix"> 
+    
+       
+      <div id="left" class="nano" style="position:fixed; top:135px; margin-left:-40px; height:300px;">
+      <div class="nano-content">
+      
+      <ul id="navigation2">
+          
+        <li><a href="#"><img src="images/logo_odhd3_sm.png" width="200" height="60" alt="International Open Data Hackathon" /></a></li>
         <li><a href="#what">What is this?</a></li>
         <li><a href="#eventfor">Who is the hackfest for?</a></li>
         <li><a href="#hackfest">Hackathon details</a></li>
@@ -49,12 +71,20 @@
         <li><a href="index_zh.html">繁體中文版</a></li>
         <li><a href="index_lt.html">Lietuviška versija</a></li>
         <li><a href="index_ja.html">日本語版</a></li>
+        
       </ul>
       
+      </div>
+      </div>
+      
+      
+      
+      
+      <div id="right">
       <div class="content-shifter">
         <div class="block intro">
           <h2>
-            You're Invited. Again.
+            You're Invited. Again!
             <br />
             <small>Open Data Day will take place on Saturday, 5 March 2016</small>
           </h2>
@@ -258,9 +288,21 @@
           </div><!-- .col-3 last -->
         </div><!-- .footer -->
       </div><!-- .content-shifter -->
+      
+      </div><!-- end div right -->
+      
     </div><!-- #content -->
+    
+
   </div><!-- #wrapper -->
 
+<!-- Envoke scrollbar for navigation menu. -->
+<script type="text/javascript">     
+    jQuery(document).ready(function(){
+        jQuery('.nano').nanoScroller();
+    });     
+</script>    
+      
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-33874954-12']);
