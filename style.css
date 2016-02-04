@@ -49,6 +49,9 @@ ul#navigation { position:fixed; top:135px; margin-left:-40px;}
 ul#navigation li { list-style:none; font-size:12px; text-shadow:1px 1px 2px #000;  }
 ul#navigation li a {  padding:8px 8px 0 0; margin-bottom:0px; display:inline-block; }
 
+ul#navigation2 li { list-style:none; font-size:12px; text-shadow:1px 1px 2px #000;  }
+ul#navigation2 li a {  padding:8px 8px 0 0; margin-bottom:0px; display:inline-block; }
+
 .block { border-bottom:1px solid #222; margin: 40px 0; padding:0 0 0px 0;}
 .block:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
 
