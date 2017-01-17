@@ -3,27 +3,13 @@
 <link rel="stylesheet" href="{{ '/css/style.css'|url }}">
 <title>{% block title %}Welcome{% endblock %} — Open Data Day</title>
 <body>
-  <header>
-    <h1>Open Data Day</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
-        {% for href, title in [
-          ['/about', 'About'],
-          ['/style-guide', 'Style Guide']
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </header>
-  <div class="page">
-    {% block body %}{% endblock %}
-  </div>
+
+  {% block body %}{% endblock %}
+
   <footer>
-    &copy; Copyright 2017 by Sam Smith.
+    <div>
+      Footer
+    </div>
   </footer>
   {% include 'includes/icons.svg' %}
 </body>

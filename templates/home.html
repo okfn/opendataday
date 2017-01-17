@@ -1,0 +1,94 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<header class="banner">
+  <h1>{{ this.banner_heading_1 }}{% if this.banner_heading_2 %}<br />{{ this.banner_heading_2 }}{% endif %}</h1>
+  <p>
+    {{ this.banner_content }}
+  </p>
+</header>
+{% include 'includes/nav.html' %}
+<section>
+  <div>
+    <div class="about">
+      <h2>{{ this.intro_heading }}</h2>
+      {{ this.intro_body }}
+      <a href="about">{{ this.intro_button }}</a>
+    </div>
+    <div class="this-year">
+      <h2>Open Data Day {{ this.next_date.strftime('%Y') }}</h2>
+      {{ this.year_intro }}
+
+      <ul>
+        <li>
+          {{ this.year_label_1 }}
+        </li>
+        <li>
+          {{ this.year_label_2 }}
+        </li>
+        <li>
+          {{ this.year_label_3 }}
+        </li>
+        <li>
+          {{ this.year_label_4 }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  map
+</section>
+
+<section>
+  <div>
+    <h2>{{ this.who_heading }}</h2>
+    {{ this.who_body }}
+
+    <ul>
+      <li>
+        <svg><use xlink:href="#icon-code-outline" /></svg>
+        <h3>{{ this.who_title_1 }}</h3>
+        {{ this.who_description_1 }}
+      </li>
+      <li>
+        <svg><use xlink:href="#icon-brush" /></svg>
+        <h3>{{ this.who_title_2 }}</h3>
+        {{ this.who_description_2 }}
+      </li>
+      <li>
+        <svg><use xlink:href="#icon-book" /></svg>
+        <h3>{{ this.who_title_3 }}</h3>
+        {{ this.who_description_3 }}
+      </li>
+      <li>
+        <svg><use xlink:href="#icon-chart-bar" /></svg>
+        <h3>{{ this.who_title_4 }}</h3>
+        {{ this.who_description_4 }}
+      </li>
+      <li>
+        <svg><use xlink:href="#icon-user-outline" /></svg>
+        <h3>{{ this.who_title_5 }}</h3>
+        {{ this.who_description_5 }}
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div>
+    <h2>{{ this.resources_heading }}</h2>
+    {{ this.resources_body }}
+    <a>{{ this.resources_button }}</a>
+  </div>
+</section>
+
+<section>
+  <div>
+    <h2>{{ this.support_scheme_heading }}</h2>
+    {{ this.support_scheme_body }}
+  </div>
+</section>
+
+{% endblock %}

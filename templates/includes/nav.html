@@ -1,0 +1,16 @@
+<nav>
+  <ul class="nav navbar-nav">
+    <li{% if this._path == '/' %} class="active"{% endif
+      %}><a href="{{ '/'|url }}">Welcome</a></li>
+    {% for href, title in [
+      ['/about', 'About'],
+      ['/style-guide', 'Style Guide']
+    ] %}
+      <li{% if this.is_child_of(href) %} class="active"{% endif
+        %}><a href="{{ href|url }}">{{ title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <a>{{ this.language }}</a>
+
+</nav>
