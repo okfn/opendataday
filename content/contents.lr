@@ -4,13 +4,15 @@ language: en
 ---
 next_date: 2017-03-04
 ---
-title: You are invited.
+title: You are invited
 ---
 banner_heading_1: You are invited.
 ---
 banner_heading_2: Again!
 ---
-banner_content: Open Data Day will take place on Saturday, 4 March 2017
+banner_content_1: Open Data Day will take place on
+---
+banner_content_2: Saturday, 4 March 2017
 ---
 intro_heading: What is Open Data Day?
 ---

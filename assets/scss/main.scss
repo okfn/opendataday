@@ -1,3 +1,14 @@
+@import "colours";
+@import "type";
+@import "sizes";
+@import "nav";
+@import "home";
+
 .svgstore {
+  display: none;
+}
+
+
+#lektor-edit-link {
   display: none;
 }

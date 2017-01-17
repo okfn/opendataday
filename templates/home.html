@@ -2,10 +2,16 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 <header class="banner">
-  <h1>{{ this.banner_heading_1 }}{% if this.banner_heading_2 %}<br />{{ this.banner_heading_2 }}{% endif %}</h1>
-  <p>
-    {{ this.banner_content }}
-  </p>
+  <div>
+    {% set banner_heading_1_words = this.banner_heading_1.split(' ') %}
+    {% set banner_heading_2_words = this.banner_heading_2.split(' ') %}
+    {% set banner_content_1_words = this.banner_content_1.split(' ') %}
+    {% set banner_content_2_words = this.banner_content_2.split(' ') %}
+    <h1>{% for w in banner_heading_1_words %}<span>&nbsp;{{ w }}</span>{% endfor %}{% if this.banner_heading_2 %}<br />{% for w in banner_heading_2_words %}<span>&nbsp;{{ w }}</span>{% endfor %}{% endif %}</h1>
+    <p>
+      {% for w in banner_content_1_words %}<span>&nbsp;{{ w }}</span>{% endfor %}{% if this.banner_content_2 %}<br />{% for w in banner_content_2_words %}<span>&nbsp;{{ w }}</span>{% endfor %}{% endif %}
+    </p>
+  </div>
 </header>
 {% include 'includes/nav.html' %}
 <section>

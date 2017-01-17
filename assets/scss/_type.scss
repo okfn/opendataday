@@ -1,0 +1,10 @@
+$base-font-family: 'Noto Sans', sans-serif;
+$base-font-size: 1em;
+$base-line-height: 1.5;
+
+body {
+  color: $black;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}

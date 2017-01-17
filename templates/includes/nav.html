@@ -1,4 +1,4 @@
-<nav>
+<nav class="main-nav">
   <ul class="nav navbar-nav">
     <li{% if this._path == '/' %} class="active"{% endif
       %}><a href="{{ '/'|url }}">Welcome</a></li>
@@ -11,13 +11,16 @@
     {% endfor %}
   </ul>
 
-  <a>{{ this.language }}</a>
-  <ul>
-    <li{% if this.language == "en" %} class="active"{% endif %}>
-      <a href="{{ '.'|url(alt='en') }}">EN</a>
-    </li>
-    <li{% if this.language == "de" %} class="active"{% endif %}>
-      <a href="{{ '.'|url(alt='de') }}">DE</a>
-    </li>
-  </ul>
+  <div class="language">
+    <a class="current" href="#lang">{{ this.language }}</a>
+    <ul id="lang">
+      <li{% if this.language == "en" %} class="active"{% endif %}>
+        <a href="{{ '.'|url(alt='en') }}">EN</a>
+      </li>
+      <li{% if this.language == "de" %} class="active"{% endif %}>
+        <a href="{{ '.'|url(alt='de') }}">DE</a>
+      </li>
+    </ul>
+  </div>
+
 </nav>

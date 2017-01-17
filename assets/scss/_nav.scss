@@ -1,0 +1,60 @@
+.main-nav {
+  .language {
+    position: fixed;
+    top: $base-spacing;
+    right: $base-spacing;
+    text-transform: uppercase;
+
+    & > a {
+      border: solid 1px #fff;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: bold;
+      color: #fff;
+      border-radius: 4px;
+      font-size: 14px;
+      padding: 3px 6px;
+
+      &:after {
+        content: ' \25BE';
+        font-size: 13px;
+        position: relative;
+        top: -1px;
+      }
+    }
+
+    &:hover {
+      & > a {
+        background-color: $black;
+      }
+
+      #lang {
+        display: block;
+        font-size: 14px;
+        margin: 10px 0 0 0;
+        padding: 0;
+        background-color: $black;
+        padding: 3px 6px;
+        border: solid 1px #fff;
+        border-radius: 4px;
+
+        li {
+          display: block;
+
+          a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  #lang {
+    display: none;
+
+    &:target{
+      display: block;
+    }
+  }
+}
