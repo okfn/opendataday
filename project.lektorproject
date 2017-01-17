@@ -1,2 +1,12 @@
 [project]
 name = Open Data Day
+
+[alternatives.en]
+name = English
+primary = yes
+locale = en
+
+[alternatives.de]
+name = German
+url_prefix = /de/
+locale = de

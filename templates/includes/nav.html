@@ -12,5 +12,12 @@
   </ul>
 
   <a>{{ this.language }}</a>
-
+  <ul>
+    <li{% if this.language == "en" %} class="active"{% endif %}>
+      <a href="{{ '.'|url(alt='en') }}">EN</a>
+    </li>
+    <li{% if this.language == "de" %} class="active"{% endif %}>
+      <a href="{{ '.'|url(alt='de') }}">DE</a>
+    </li>
+  </ul>
 </nav>
