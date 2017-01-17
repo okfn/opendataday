@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+
+<div class="container">
+  {{ this.body }}
+
+  <section id="icons" class="icons">
+    <h2>Icons</h2>
+
+    <ul>
+      {% include 'includes/icons-demo.html' %}
+    </ul>
+  </section>
+</div>
+
+{% endblock %}

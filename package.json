@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-svgstore": "^1.0.0"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  },
+  "author": "Sam Smith"
+}
