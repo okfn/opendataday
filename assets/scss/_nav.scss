@@ -80,6 +80,10 @@
             text-decoration: none;
             display: block;
           }
+
+          &.active {
+            font-weight: bold;
+          }
         }
       }
     }
