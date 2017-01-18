@@ -31,12 +31,12 @@
   }
 
   .language {
-    position: fixed;
-    top: $base-spacing;
-    right: $base-spacing;
-    z-index: 3;
+    position: relative;
+    float: right;
+    top: 14px;
     text-transform: uppercase;
     text-align: left;
+    margin-left: $base-spacing;
 
     & > a {
       border: solid 1px #fff;
@@ -71,6 +71,7 @@
         position: absolute;
         width: 100%;
         box-sizing: border-box;
+        bottom: 0;
 
         li {
           display: block;
@@ -102,13 +103,10 @@
     top:0;
 
     .language {
-      position: relative;
-      float: right;
-      top: 14px;
-    }
-
-    .menu {
-      margin-right: 100px;
+      #lang {
+        bottom: auto;
+        top: 0;
+      }
     }
   }
 }
