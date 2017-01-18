@@ -46,7 +46,7 @@ module.exports = function(grunt) {
         separator: '\n',
       },
       dist: {
-        src: ['node_modules/waypoints/lib/jquery.waypoints.min.js', 'node_modules/waypoints/lib/shortcuts/sticky.min.js'],
+        src: ['node_modules/waypoints/lib/jquery.waypoints.min.js', 'node_modules/waypoints/lib/shortcuts/sticky.min.js', 'node_modules/smooth-scroll/dist/js/smooth-scroll.min.js'],
         dest: 'assets/js/plugins.js',
       },
     },

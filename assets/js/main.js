@@ -5,4 +5,9 @@ jQuery(document).ready(function($){
     element: $('.main-nav')[0]
   })
 
+  // smoothscroll
+  smoothScroll.init({
+    offset: 100
+  });
+
 });

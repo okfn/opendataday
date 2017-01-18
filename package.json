@@ -6,6 +6,7 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-svgstore": "^1.0.0",
+    "smooth-scroll": "github:cferdinandi/smooth-scroll",
     "waypoints": "^4.0.1"
   },
   "dependencies": {
