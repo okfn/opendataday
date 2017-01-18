@@ -17,13 +17,13 @@
       vertical-align: middle;
       padding: $base-spacing;
       text-align: center;
-      line-height: 1.3;
 
       h1 {
         text-transform: capitalize;
         font-size: 9vmin;
         margin-bottom: 1vh;
-        
+        line-height: 1.2;
+
         span {
           background-color: $black;
           color: #fff;
@@ -40,6 +40,10 @@
             bottom: 0;
             z-index: -1;
           }
+
+          &.l1 {
+            z-index: 2;
+          }
         }
       }
 
@@ -49,6 +53,8 @@
         display: inline-block;
         max-width: 50%;
         mix-blend-mode: lighten;
+        line-height: 1.3;
+
         span {
           background-color: #fff;
           position: relative;
