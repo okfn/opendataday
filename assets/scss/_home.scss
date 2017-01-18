@@ -83,4 +83,16 @@
       }
     }
   }
+
+  & > section {
+    & > div {
+      @include container;
+      padding: $base-spacing;
+    }
+
+    h2 {
+      font-size: 48px;
+      text-transform: uppercase;
+    }
+  }
 }
