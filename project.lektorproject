@@ -1,6 +1,12 @@
 [project]
 name = Open Data Day
 
+[servers.staging]
+name = Staging
+enabled = yes
+default = yes
+target = ghpages://smth/opendataday
+
 [alternatives.en]
 name = English
 primary = yes
