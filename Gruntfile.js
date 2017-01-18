@@ -41,6 +41,16 @@ module.exports = function(grunt) {
       }
     },
 
+    concat: {
+      options: {
+        separator: '\n',
+      },
+      dist: {
+        src: ['node_modules/waypoints/lib/jquery.waypoints.min.js', 'node_modules/waypoints/lib/shortcuts/sticky.min.js'],
+        dest: 'assets/js/plugins.js',
+      },
+    },
+
 		watch: {
 			css: {
 				files: '**/*.scss',
@@ -62,8 +72,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-concat');
 
   grunt.registerTask('icons', ['svgstore']);
+  grunt.registerTask('plugins', ['concat']);
   grunt.registerTask('default',['watch']);
 
 };

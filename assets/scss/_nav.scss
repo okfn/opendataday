@@ -62,12 +62,15 @@
       #lang {
         display: block;
         font-size: 14px;
-        margin: 10px 0 0 0;
+        margin: 0;
         padding: 0;
         background-color: $black;
         padding: 3px 6px;
         border: solid 1px #fff;
         border-radius: 4px;
+        position: absolute;
+        width: 100%;
+        box-sizing: border-box;
 
         li {
           display: block;
@@ -86,6 +89,22 @@
 
     &:target{
       display: block;
+    }
+  }
+
+  &.stuck {
+    position:fixed;
+    width: 100%;
+    top:0;
+
+    .language {
+      position: relative;
+      float: right;
+      top: 14px;
+    }
+
+    .menu {
+      margin-right: 100px;
     }
   }
 }

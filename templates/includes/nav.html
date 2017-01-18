@@ -2,18 +2,6 @@
   <div>
     <a class="logo">{% include 'includes/logo.svg' %}</a>
 
-    <ul class="menu">
-      <li{% if this._path == '/' %} class="active"{% endif
-        %}><a href="{{ '/'|url }}">Welcome</a></li>
-      {% for href, title in [
-        ['/about', 'About'],
-        ['/style-guide', 'Style Guide']
-      ] %}
-        <li{% if this.is_child_of(href) %} class="active"{% endif
-          %}><a href="{{ href|url }}">{{ title }}</a></li>
-      {% endfor %}
-    </ul>
-
     <div class="language">
       {% if this.language %}
       {% set current_language = this.language %}
@@ -30,5 +18,18 @@
       {% endfor %}
       </ul>
     </div>
+
+    <ul class="menu">
+      <li{% if this._path == '/' %} class="active"{% endif
+        %}><a href="{{ '/'|url }}">Welcome</a></li>
+      {% for href, title in [
+        ['/about', 'About'],
+        ['/style-guide', 'Style Guide']
+      ] %}
+        <li{% if this.is_child_of(href) %} class="active"{% endif
+          %}><a href="{{ href|url }}">{{ title }}</a></li>
+      {% endfor %}
+    </ul>
+
   </div>
 </nav>
