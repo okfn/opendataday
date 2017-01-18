@@ -1,31 +1,34 @@
 <nav class="main-nav">
-  <ul class="nav navbar-nav">
-    <li{% if this._path == '/' %} class="active"{% endif
-      %}><a href="{{ '/'|url }}">Welcome</a></li>
-    {% for href, title in [
-      ['/about', 'About'],
-      ['/style-guide', 'Style Guide']
-    ] %}
-      <li{% if this.is_child_of(href) %} class="active"{% endif
-        %}><a href="{{ href|url }}">{{ title }}</a></li>
-    {% endfor %}
-  </ul>
+  <div>
+    <a class="logo">{% include 'includes/logo.svg' %}</a>
 
-  <div class="language">
-    {% if this.language %}
-    {% set current_language = this.language %}
-    {% else %}
-    {% set current_language = "en" %}
-    {% endif %}
-    <a class="current" href="#lang">{{ current_language }}</a>
-
-    <ul id="lang">
-    {% for lang in bag('languages.all') %}
-      <li{% if current_language == lang %} class="active"{% endif %}>
-        <a href="{{ '.'|url(alt=lang) }}">{{ lang }}</a>
-      </li>
-    {% endfor %}
+    <ul class="menu">
+      <li{% if this._path == '/' %} class="active"{% endif
+        %}><a href="{{ '/'|url }}">Welcome</a></li>
+      {% for href, title in [
+        ['/about', 'About'],
+        ['/style-guide', 'Style Guide']
+      ] %}
+        <li{% if this.is_child_of(href) %} class="active"{% endif
+          %}><a href="{{ href|url }}">{{ title }}</a></li>
+      {% endfor %}
     </ul>
-  </div>
 
+    <div class="language">
+      {% if this.language %}
+      {% set current_language = this.language %}
+      {% else %}
+      {% set current_language = "en" %}
+      {% endif %}
+      <a class="current" href="#lang">{{ current_language }}</a>
+
+      <ul id="lang">
+      {% for lang in bag('languages.all') %}
+        <li{% if current_language == lang %} class="active"{% endif %}>
+          <a href="{{ '.'|url(alt=lang) }}">{{ lang }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
 </nav>
