@@ -12,14 +12,19 @@
   </ul>
 
   <div class="language">
-    <a class="current" href="#lang">{{ this.language }}</a>
+    {% if this.language %}
+    {% set current_language = this.language %}
+    {% else %}
+    {% set current_language = "en" %}
+    {% endif %}
+    <a class="current" href="#lang">{{ current_language }}</a>
+
     <ul id="lang">
-      <li{% if this.language == "en" %} class="active"{% endif %}>
-        <a href="{{ '.'|url(alt='en') }}">EN</a>
+    {% for lang in bag('languages.all') %}
+      <li{% if current_language == lang %} class="active"{% endif %}>
+        <a href="{{ '.'|url(alt=lang) }}">{{ lang }}</a>
       </li>
-      <li{% if this.language == "de" %} class="active"{% endif %}>
-        <a href="{{ '.'|url(alt='de') }}">DE</a>
-      </li>
+    {% endfor %}
     </ul>
   </div>
 
