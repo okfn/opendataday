@@ -74,12 +74,14 @@
       }
     }
 
-    & + .main-nav,
-    & + .sticky-wrapper .main-nav {
-      margin-top: -97px;
+    @media (min-width: $medium-screen) {
+      & + .main-nav,
+      & + .sticky-wrapper .main-nav {
+        margin-top: -97px;
 
-      &.stuck {
-        margin-top: 0;
+        &.stuck {
+          margin-top: 0;
+        }
       }
     }
   }

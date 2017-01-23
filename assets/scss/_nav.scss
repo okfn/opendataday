@@ -2,6 +2,11 @@
   background-color: $black;
   color: #fff;
   text-align: right;
+  min-height: 62px;
+
+  @media (min-width: $medium-screen) {
+    min-height: 98px;
+  }
 
   a {
     color: inherit;
@@ -10,80 +15,177 @@
 
   & > div {
     @include container;
-    padding: $base-spacing;
+    padding: $base-spacing*0.75 0;
+
+    @media (min-width: $medium-screen) {
+      padding: $base-spacing;
+    }
+
+    & > div {
+      margin-left: $base-spacing;
+      margin-right: $base-spacing;
+      position: relative;
+
+      @media (min-width: $medium-screen) {
+        margin: 0;
+        display: table;
+        width: 100%;
+      }
+    }
   }
 
   .logo {
     display: inline-block;
-    width: 146px;
+    width: 80px;
     float: left;
     line-height: 1;
+
+    @media (min-width: $medium-screen) {
+      width: 146px;
+    }
   }
 
   .menu {
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
     @include clearafter;
+    display: none;
+
+    &:target{
+      display: block;
+    }
+
+    @media (min-width: $medium-screen) {
+      display: table-cell;
+      margin-right: 4.5em;
+      vertical-align: middle;
+    }
 
     li {
-      display: inline-block;
-      padding-left: $base-spacing;
+      display: block;
+      text-align: center;
+
+      @media (min-width: $medium-screen) {
+        display: inline-block;
+        padding-left: $base-spacing;
+      }
+    }
+  }
+
+  .slicknav_menu > a,
+  .language > div > a {
+    border: solid 1px #fff;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .slicknav_menu {
+    float: right;
+    margin: -1px 0 0 $base-spacing/2;
+    text-align: left;
+
+    .slicknav_menutxt {
+      text-transform: uppercase;
+    }
+
+    .slicknav_btn {
+      padding: 6px;
+    }
+
+    .slicknav_icon-bar {
+  		background-color: #fff;
+      height: 1px;
+
+      & + .slicknav_icon-bar {
+    		margin-top: 3px;
+    	}
+  	}
+
+    .slicknav_nav{
+  		background-color: $black;
+      position: absolute;
+      z-index: 1;
+      top: 40px;
+      right: -$base-spacing;
+      left: -$base-spacing;
+      margin: 0;
+      padding: 6px $base-spacing $base-spacing $base-spacing;
+
+      a {
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+      }
+  	}
+
+    @media (min-width: $medium-screen) {
+      display: none;
     }
   }
 
   .language {
-    position: relative;
-    float: right;
-    top: 14px;
-    text-transform: uppercase;
-    text-align: left;
-    margin-left: $base-spacing;
+    display: none;
 
-    & > a {
-      border: solid 1px #fff;
-      display: inline-block;
-      font-weight: bold;
-      border-radius: 4px;
-      font-size: 14px;
-      padding: 3px 6px;
-
-      &:after {
-        content: ' \25BE';
-        font-size: 13px;
-        position: relative;
-        top: -1px;
-      }
+    @media (min-width: $medium-screen) {
+      width: 5em;
+      display: table-cell;
+      vertical-align: middle;
+      float: none;
     }
 
-    &:hover {
+    & > div {
+      position: relative;
+      text-transform: uppercase;
+      margin-left: $base-spacing/2;
+      width: 3em;
+      display: inline-block;
+
       & > a {
-        background-color: $black;
+        padding: 3px 6px;
+        font-weight: bold;
+        display: block;
+        text-align: left;
+
+        &:after {
+          content: ' \25BE';
+          font-size: 13px;
+          position: relative;
+          top: -1px;
+        }
       }
 
-      #lang {
-        display: block;
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-        background-color: $black;
-        padding: 3px 6px;
-        border: solid 1px #fff;
-        border-radius: 4px;
-        position: absolute;
-        width: 100%;
-        box-sizing: border-box;
-        bottom: 0;
+      &:hover {
+        & > a {
+          background-color: $black;
+        }
 
-        li {
+        #lang {
           display: block;
+          font-size: 14px;
+          margin: 0;
+          padding: 0;
+          background-color: $black;
+          padding: 3px 6px;
+          border: solid 1px #fff;
+          border-radius: 4px;
+          position: absolute;
+          width: 100%;
+          box-sizing: border-box;
+          text-align: left;
+          bottom: 0;
 
-          a {
-            color: #fff;
-            text-decoration: none;
+          li {
             display: block;
-          }
 
-          &.active {
-            font-weight: bold;
+            a {
+              color: #fff;
+              text-decoration: none;
+              display: block;
+            }
+
+            &.active {
+              font-weight: bold;
+            }
           }
         }
       }
@@ -101,8 +203,9 @@
     position:fixed;
     width: 100%;
     top:0;
+    z-index: 99;
 
-    .language {
+    .language > div {
       #lang {
         bottom: auto;
         top: 0;

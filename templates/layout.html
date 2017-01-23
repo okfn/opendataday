@@ -18,4 +18,24 @@
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="{{ '/js/plugins.js'|url }}"></script>
   <script src="{{ '/js/main.js'|url }}"></script>
+
+  {% if this.language %}
+  {% set current_language = this.language %}
+  {% else %}
+  {% set current_language = "en" %}
+  {% endif %}
+  <script>
+    $(function(){
+      $('#nav').slicknav({
+        'prependTo': '.main-nav > div > div'
+      });
+    });
+
+    $(function(){
+      $('#lang').slicknav({
+        'prependTo': '.main-nav > div > div',
+        'label' : '{{ current_language }}',
+      });
+    });
+  </script>
 </body>
