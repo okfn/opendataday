@@ -27,7 +27,8 @@
   <script>
     $(function(){
       $('#nav').slicknav({
-        'prependTo': '.main-nav > div > div'
+        'prependTo': '.main-nav > div > div',
+        'label' : '{{ bag('global-content', this.alt).menu_label }}'
       });
     });
 
