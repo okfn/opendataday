@@ -22,13 +22,14 @@
         text-transform: capitalize;
         font-size: 9vmin;
         margin-bottom: 1vh;
-        line-height: 1.2;
+        line-height: 1.5;
 
         span {
           background-color: $black;
           color: #fff;
           position: relative;
           z-index: 1;
+          display: inline-block;
 
           &:after {
             content: '\00a0';
@@ -43,6 +44,10 @@
 
           &.l1 {
             z-index: 2;
+          }
+
+          &.l2 {
+            top: -0.3em;
           }
         }
       }
@@ -59,6 +64,7 @@
           background-color: #fff;
           position: relative;
           z-index: 1;
+          display: inline-block;
 
           &:after {
             content: '\00a0';
@@ -69,6 +75,12 @@
             top: 0;
             bottom: 0;
             z-index: -1;
+          }
+        }
+
+        @media (max-width: $large-screen) {
+          br {
+            display: none;
           }
         }
       }
