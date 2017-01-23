@@ -11,3 +11,18 @@
     display: table;
   }
 }
+
+@mixin button($colour:$blue, $text:#fff) {
+  background-color: $colour;
+  color: $text;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.8em 1.8em;
+  display: inline-block;
+}
+
+@mixin rev-text($col:#fff) {
+  color: $col;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

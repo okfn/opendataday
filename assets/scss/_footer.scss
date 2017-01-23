@@ -1,0 +1,8 @@
+.site-footer {
+  background-color: $black;
+  @include rev-text;
+
+  & > div {
+    @include container;
+  }
+}

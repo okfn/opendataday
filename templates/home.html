@@ -17,28 +17,31 @@
 <section id="what">
   <div>
     <div class="about">
-      <h2>{{ this.intro_heading }}</h2>
-      {{ this.intro_body }}
-      <a href="about">{{ this.intro_button }}</a>
+      <article>
+        <h2>{{ this.intro_heading }}</h2>
+        {{ this.intro_body }}
+        <a href="about">{{ this.intro_button }}</a>
+      </article>
     </div>
     <div class="this-year">
-      <h2>Open Data Day {{ this.next_date.strftime('%Y') }}</h2>
-      {{ this.year_intro }}
-
-      <ul>
-        <li>
-          {{ this.year_label_1 }}
-        </li>
-        <li>
-          {{ this.year_label_2 }}
-        </li>
-        <li>
-          {{ this.year_label_3 }}
-        </li>
-        <li>
-          {{ this.year_label_4 }}
-        </li>
-      </ul>
+      <article>
+        <h2>Open Data Day {{ this.next_date.strftime('%Y') }}</h2>
+        {{ this.year_intro }}
+        <ul>
+          <li>
+            {{ this.year_label_1 }}
+          </li>
+          <li>
+            {{ this.year_label_2 }}
+          </li>
+          <li>
+            {{ this.year_label_3 }}
+          </li>
+          <li>
+            {{ this.year_label_4 }}
+          </li>
+        </ul>
+      </article>
     </div>
   </div>
 </section>
@@ -49,32 +52,43 @@
 
 <section id="who">
   <div>
-    <h2>{{ this.who_heading }}</h2>
-    {{ this.who_body }}
-
+    <article>
+      <h2>{{ this.who_heading }}</h2>
+      {{ this.who_body }}
+    </article>
     <ul>
       <li>
-        <svg><use xlink:href="#icon-code-outline" /></svg>
+        <span>
+          <svg><use xlink:href="#icon-code-outline" /></svg>
+        </span>
         <h3>{{ this.who_title_1 }}</h3>
         {{ this.who_description_1 }}
       </li>
       <li>
-        <svg><use xlink:href="#icon-brush" /></svg>
+        <span>
+          <svg><use xlink:href="#icon-brush" /></svg>
+        </span>
         <h3>{{ this.who_title_2 }}</h3>
         {{ this.who_description_2 }}
       </li>
       <li>
-        <svg><use xlink:href="#icon-book" /></svg>
+        <span>
+          <svg><use xlink:href="#icon-book" /></svg>
+        </span>
         <h3>{{ this.who_title_3 }}</h3>
         {{ this.who_description_3 }}
       </li>
       <li>
-        <svg><use xlink:href="#icon-chart-bar" /></svg>
+        <span>
+          <svg><use xlink:href="#icon-chart-bar" /></svg>
+        </span>
         <h3>{{ this.who_title_4 }}</h3>
         {{ this.who_description_4 }}
       </li>
       <li>
-        <svg><use xlink:href="#icon-user-outline" /></svg>
+        <span>
+          <svg><use xlink:href="#icon-user-outline" /></svg>
+        </span>
         <h3>{{ this.who_title_5 }}</h3>
         {{ this.who_description_5 }}
       </li>
@@ -84,9 +98,11 @@
 
 <section id="resources">
   <div>
-    <h2>{{ this.resources_heading }}</h2>
-    {{ this.resources_body }}
-    <a>{{ this.resources_button }}</a>
+    <article>
+      <h2>{{ this.resources_heading }}</h2>
+      {{ this.resources_body }}
+      <a>{{ this.resources_button }}</a>
+    </article>
   </div>
 </section>
 

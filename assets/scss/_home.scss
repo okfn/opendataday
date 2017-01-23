@@ -15,7 +15,7 @@
     & > div {
       display: table-cell;
       vertical-align: middle;
-      padding: $base-spacing;
+      padding: $gutter;
       text-align: center;
 
       h1 {
@@ -26,7 +26,7 @@
 
         span {
           background-color: $black;
-          color: #fff;
+          @include rev-text;
           position: relative;
           z-index: 1;
           display: inline-block;
@@ -99,14 +99,159 @@
   }
 
   & > section {
+    clear: both;
+
     & > div {
       @include container;
-      padding: $base-spacing;
     }
 
     h2 {
       font-size: 48px;
       text-transform: uppercase;
+      margin-bottom: 0;
+    }
+
+    h3 {
+      font-size: 26px;
+      margin-bottom: 0;
+    }
+
+    .about,
+    .this-year {
+      article {
+        padding: $gutter;
+      }
+    }
+
+    .about {
+      article {
+        h2 {
+          color: $blue;
+        }
+
+        & > a {
+          @include button;
+        }
+
+        @media (min-width:$max-width +($gutter*2)) {
+          padding-left: 0;
+        }
+      }
+
+      @media (min-width: $medium-screen) {
+        float: left;
+        width: 50%;
+      }
+    }
+    .this-year {
+      background-color: $purple;
+      @include rev-text;
+      position: relative;
+
+      @media (min-width: $medium-screen) {
+        float: right;
+        width: 50%;
+
+        &:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 100%;
+          width: 50vw;
+          background-color: $purple;
+        }
+      }
+
+      article {
+        @media (min-width:$max-width +($gutter*2)) {
+          padding-right: 0;
+        }
+      }
+    }
+
+    &#who {
+      background-color: $blue;
+      @include rev-text;
+
+      & > div {
+        padding: $gutter 0;
+
+        article {
+          padding-left: $gutter;
+          padding-right: $gutter;
+          padding-bottom: $base-spacing;
+
+          p {
+            font-size: 1.2em;
+          }
+
+          @media (min-width:$max-width +($gutter*2)) {
+            margin-left: -$gutter;
+            margin-right: -$gutter;
+          }
+        }
+
+        ul {
+          @include clearafter;
+          padding: 0;
+          margin: 0;
+          text-align: center;
+
+          @media (min-width:$max-width +($gutter*2)) {
+            margin-left: -$gutter;
+            margin-right: -$gutter;
+          }
+
+          li {
+            display: block;
+            float: left;
+            padding: $base-spacing $gutter 0 $gutter;
+            box-sizing: border-box;
+            font-size: 0.9em;
+
+            @media (min-width: $large-screen) {
+              width: 20%;
+            }
+
+            span {
+              display: inline-block;
+              background-color: #fff;
+              padding: 1.2em;
+              border-radius: 50%;
+
+              svg {
+                fill:$blue;
+                display: block;
+                width: 100px;
+                height: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &#resources {
+      text-align: center;
+
+      & > div {
+        & > article {
+
+          h2 {
+            color: $blue;
+          }
+
+          & > a {
+            @include button;
+          }
+        }
+      }
+    }
+
+    &#support {
+      background-color: $purple;
+      @include rev-text;
     }
   }
 }

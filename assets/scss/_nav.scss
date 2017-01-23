@@ -18,12 +18,12 @@
     padding: $base-spacing*0.75 0;
 
     @media (min-width: $medium-screen) {
-      padding: $base-spacing;
+      padding: $base-spacing $gutter;
     }
 
     & > div {
-      margin-left: $base-spacing;
-      margin-right: $base-spacing;
+      margin-left: $gutter;
+      margin-right: $gutter;
       position: relative;
 
       @media (min-width: $medium-screen) {
@@ -67,7 +67,7 @@
 
       @media (min-width: $medium-screen) {
         display: inline-block;
-        padding-left: $base-spacing;
+        padding-left: $gutter;
       }
     }
   }
@@ -82,7 +82,7 @@
 
   .slicknav_menu {
     float: right;
-    margin: -1px 0 0 $base-spacing/2;
+    margin: -1px 0 0 $gutter/2;
     text-align: left;
 
     .slicknav_menutxt {
@@ -107,10 +107,10 @@
       position: absolute;
       z-index: 1;
       top: 40px;
-      right: -$base-spacing;
-      left: -$base-spacing;
+      right: -$gutter;
+      left: -$gutter;
       margin: 0;
-      padding: 6px $base-spacing $base-spacing $base-spacing;
+      padding: 6px $gutter $gutter $gutter;
 
       a {
         padding-top: 0.2em;
@@ -136,7 +136,7 @@
     & > div {
       position: relative;
       text-transform: uppercase;
-      margin-left: $base-spacing/2;
+      margin-left: $gutter/2;
       width: 3em;
       display: inline-block;
 
