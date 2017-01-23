@@ -9,7 +9,7 @@
     {% set banner_content_2_words = this.banner_content_2.split(' ') %}
     <h1>{% for w in banner_heading_1_words %}<span class="l1">&nbsp;{{ w }}</span>{% endfor %}{% if this.banner_heading_2 %}<br />{% for w in banner_heading_2_words %}<span class="l2">&nbsp;{{ w }}</span>{% endfor %}{% endif %}</h1>
     <p>
-      {% for w in banner_content_1_words %}<span>&nbsp;{{ w }}</span class="l1">{% endfor %}{% if this.banner_content_2 %}<br />{% for w in banner_content_2_words %}<span class="l2" class="l1">&nbsp;{{ w }}</span>{% endfor %}{% endif %}
+      {% for w in banner_content_1_words %}<span class="l1">&nbsp;{{ w }}</span>{% endfor %}{% if this.banner_content_2 %}<br />{% for w in banner_content_2_words %}<span class="l2">&nbsp;{{ w }}</span>{% endfor %}{% endif %}
     </p>
   </div>
 </header>
