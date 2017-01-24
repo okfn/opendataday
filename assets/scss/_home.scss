@@ -213,7 +213,7 @@
       }
 
       article {
-        padding: $gutter;
+        padding: $gutter $gutter 0 $gutter;
 
         @media (min-width:$max-screen) {
           padding-right: 0;
@@ -233,13 +233,17 @@
         }
 
         li {
-          float: left;
-          width: 25%;
           text-align: center;
           display: block;
           padding-left: $gutter/2;
           padding-right: $gutter/2;
           box-sizing: border-box;
+          margin-top: $gutter;
+
+          @media (min-width: $medium-screen) {
+            float: left;
+            width: 25%;
+          }
 
           svg {
             width: 100px;
