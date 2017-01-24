@@ -372,8 +372,9 @@
             margin-right: auto;
           }
 
-          & > a {
+          & + a {
             @include button;
+            margin-bottom: $gutter;
           }
         }
       }
@@ -382,6 +383,35 @@
     &#support {
       background-color: $purple;
       @include rev-text;
+
+      & > div {
+        & > article {
+          padding: $gutter $gutter 0 $gutter;
+
+          & + a {
+            @include button(#fff, $purple);
+            margin: $gutter;
+          }
+        }
+      }
+
+      @media (min-width:$max-screen) {
+        position: relative;
+        padding-top: 75px;
+
+        &:before {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 80px 100vw 0 0;
+          border-color: #fff transparent transparent;
+          top: 0;
+          left: 0;
+          z-index: 1;
+        }
+      }
     }
   }
 }
