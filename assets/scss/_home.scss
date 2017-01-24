@@ -349,19 +349,19 @@
           svg {
             width: 120px;
             height: 120px;
-            fill: $yellow;
             margin: $gutter $gutter/2 $gutter/2 $gutter/2;
 
-            & + svg {
+            &.research {
+              fill: $yellow;
+            }
+            &.money {
               fill: $red;
-
-              & + svg {
-                fill: $green;
-
-                & + svg {
-                  fill: $purple;
-                }
-              }
+            }
+            &.environment {
+              fill: $green;
+            }
+            &.rights {
+              fill: $purple;
             }
           }
 
