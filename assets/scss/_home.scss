@@ -12,11 +12,12 @@
       background-image: url(../images/banner_2x.png);
     }
 
-    & > div {
+    & > a {
       display: table-cell;
       vertical-align: middle;
       padding: $gutter;
       text-align: center;
+      color: $black;
 
       h1 {
         text-transform: capitalize;
@@ -82,6 +83,18 @@
           br {
             display: none;
           }
+        }
+      }
+
+      .down {
+        display: block;
+        opacity: 0.5;
+        position: relative;
+        bottom: -2vh;
+
+        svg {
+          height: 64px;
+          fill: #fff;
         }
       }
     }
@@ -408,7 +421,7 @@
 
       & > div {
         padding-bottom: $gutter;
-        
+
         & > header {
           padding: $gutter $gutter 0 $gutter;
 

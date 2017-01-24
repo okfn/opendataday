@@ -36,7 +36,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'assets/css/style.css': ['node_modules/normalize.css/normalize.css', 'assets/css/main.css']
+          'assets/css/style.css': ['node_modules/normalize.css/normalize.css', 'node_modules/animate.css/animate.css', 'assets/css/main.css']
         }
       }
     },
