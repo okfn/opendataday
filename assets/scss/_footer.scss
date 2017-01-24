@@ -4,5 +4,10 @@
 
   & > div {
     @include container;
+
+    & > span {
+      display: block;
+      padding: $gutter $gutter $gutter/2 $gutter;
+    }
   }
 }

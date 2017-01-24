@@ -21,7 +21,9 @@
         <h2>{{ this.intro_heading }}</h2>
         {{ this.intro_body }}
       </header>
+      {% if this.intro_button %}
       <a href="about">{{ this.intro_button }}</a>
+      {% endif %}
     </div>
     <div class="this-year">
       <header>
@@ -126,7 +128,9 @@
       <h2>{{ this.support_scheme_heading }}</h2>
       {{ this.support_scheme_body }}
     </header>
+    {% if this.support_scheme_button %}
     <a>{{ this.support_scheme_button }}</a>
+    {% endif %}
   </div>
 </section>
 

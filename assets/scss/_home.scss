@@ -124,7 +124,7 @@
     .this-year {
       header {
         @media (min-width:$max-screen) {
-          max-width: 440px;
+          max-width: 450px;
         }
       }
     }
@@ -407,6 +407,8 @@
       @include rev-text;
 
       & > div {
+        padding-bottom: $gutter;
+        
         & > header {
           padding: $gutter $gutter 0 $gutter;
 

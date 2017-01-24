@@ -25,6 +25,10 @@
   color: $col;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  a {
+    color: inherit;
+  }
 }
 
 @mixin columns($width: 300px, $number: 3, $gap:$gutter*2) {

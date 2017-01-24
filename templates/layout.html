@@ -10,7 +10,10 @@
 
   <footer class="site-footer">
     <div>
-      Footer
+      <span>
+        {{ bag('global-content', this.alt).footer | markdown }}
+      </span>
+    
     </div>
   </footer>
   {% include 'includes/icons.svg' %}
