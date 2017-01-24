@@ -6,8 +6,9 @@ jQuery(document).ready(function($){
   })
 
   // smoothscroll
-  smoothScroll.init({
-    offset: 100
+  $('.main-nav a').smoothScroll({
+    offset: -90,
+    preventDefault: false
   });
 
 });

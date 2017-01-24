@@ -6,7 +6,7 @@
       <ul class="menu" id="nav">
         {% for label, path in bag('main-nav', this.alt).iteritems() %}
         <li{% if this.is_child_of(path) %} class="active"{% endif
-          %}><a href="{{ path }}" data-scroll>{{ label }}</a>
+          %}><a href="{{ path }}">{{ label }}</a>
       {% endfor %}
       </ul>
 

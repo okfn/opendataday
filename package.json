@@ -6,9 +6,9 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-svgstore": "^1.0.0",
+    "jquery-smooth-scroll": "^2.1.2",
     "normalize.css": "^5.0.0",
     "slicknav": "^1.0.8",
-    "smooth-scroll": "github:cferdinandi/smooth-scroll",
     "waypoints": "^4.0.1"
   },
   "author": "Sam Smith"
