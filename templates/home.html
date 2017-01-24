@@ -20,28 +20,32 @@
       <article>
         <h2>{{ this.intro_heading }}</h2>
         {{ this.intro_body }}
-        <a href="about">{{ this.intro_button }}</a>
       </article>
+      <a href="about">{{ this.intro_button }}</a>
     </div>
     <div class="this-year">
       <article>
-        <h2>Open Data Day {{ this.next_date.strftime('%Y') }}</h2>
+        <h2>Open Data<br /> Day {{ this.next_date.strftime('%Y') }}</h2>
         {{ this.year_intro }}
-        <ul>
-          <li>
-            {{ this.year_label_1 }}
-          </li>
-          <li>
-            {{ this.year_label_2 }}
-          </li>
-          <li>
-            {{ this.year_label_3 }}
-          </li>
-          <li>
-            {{ this.year_label_4 }}
-          </li>
-        </ul>
       </article>
+      <ul>
+        <li>
+          <svg><use xlink:href="#icon-research" /></svg>
+          {{ this.year_label_1 }}
+        </li>
+        <li>
+          <svg><use xlink:href="#icon-money" /></svg>
+          {{ this.year_label_2 }}
+        </li>
+        <li>
+          <svg><use xlink:href="#icon-environment" /></svg>
+          {{ this.year_label_3 }}
+        </li>
+        <li>
+          <svg><use xlink:href="#icon-rights" /></svg>
+          {{ this.year_label_4 }}
+        </li>
+      </ul>
     </div>
   </div>
 </section>
