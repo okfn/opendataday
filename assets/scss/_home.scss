@@ -105,24 +105,24 @@
       @include container;
     }
 
-    article {
+    header {
       font-size: 1.2em;
     }
 
     h2 {
       font-size: 48px;
       text-transform: uppercase;
-      margin-bottom: 0;
+      margin-bottom: 0.4em;
     }
 
     h3 {
       font-size: 26px;
-      margin-bottom: 0;
+      margin-bottom: 0.4em;
     }
 
     .about,
     .this-year {
-      article {
+      header {
         @media (min-width:$max-screen) {
           max-width: 440px;
         }
@@ -130,7 +130,7 @@
     }
 
     .about {
-      article {
+      header {
         padding: $gutter $gutter $gutter/2 $gutter;
 
         h2 {
@@ -212,7 +212,7 @@
         }
       }
 
-      article {
+      header {
         padding: $gutter $gutter 0 $gutter;
 
         @media (min-width:$max-screen) {
@@ -283,7 +283,7 @@
       & > div {
         padding: $gutter 0;
 
-        article {
+        header {
           padding-left: $gutter;
           padding-right: $gutter;
           padding-bottom: $base-spacing;
@@ -338,7 +338,7 @@
       text-align: center;
 
       & > div {
-        & > article {
+        & > header {
           padding-left: $gutter;
           padding-right: $gutter;
 
@@ -377,6 +377,28 @@
             margin-bottom: $gutter;
           }
         }
+
+        article {
+          display: none;
+        }
+      }
+
+      &:target {
+        & > div {
+          & > header {
+            & + a {
+              display: none;
+            }
+          }
+        }
+        article {
+          display: block;
+          text-align: left;
+
+          & > div {
+            @include columns;
+          }
+        }
       }
     }
 
@@ -385,7 +407,7 @@
       @include rev-text;
 
       & > div {
-        & > article {
+        & > header {
           padding: $gutter $gutter 0 $gutter;
 
           & + a {

@@ -26,3 +26,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@mixin columns($width: 300px, $number: 3, $gap:$gutter*2) {
+  -webkit-columns: $width $number;
+  -moz-columns: $width $number;
+  columns: $width $number;
+  -webkit-column-gap: $gap;
+  -moz-column-gap: $gap;
+  column-gap: $gap;
+}

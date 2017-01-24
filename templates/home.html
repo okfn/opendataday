@@ -17,17 +17,17 @@
 <section id="what">
   <div>
     <div class="about">
-      <article>
+      <header>
         <h2>{{ this.intro_heading }}</h2>
         {{ this.intro_body }}
-      </article>
+      </header>
       <a href="about">{{ this.intro_button }}</a>
     </div>
     <div class="this-year">
-      <article>
+      <header>
         <h2>Open Data<br /> Day {{ this.next_date.strftime('%Y') }}</h2>
         {{ this.year_intro }}
-      </article>
+      </header>
       <ul>
         <li>
           <svg><use xlink:href="#icon-research" /></svg>
@@ -56,10 +56,10 @@
 
 <section id="who">
   <div>
-    <article>
+    <header>
       <h2>{{ this.who_heading }}</h2>
       {{ this.who_body }}
-    </article>
+    </header>
     <ul>
       <li>
         <span>
@@ -102,24 +102,30 @@
 
 <section id="resources">
   <div>
-    <article>
+    <header>
       <h2>{{ this.resources_heading }}</h2>
       <svg class="research"><use xlink:href="#icon-research" /></svg>
       <svg class="money"><use xlink:href="#icon-money" /></svg>
       <svg class="environment"><use xlink:href="#icon-environment" /></svg>
       <svg class="rights"><use xlink:href="#icon-rights" /></svg>
-      {{ this.resources_body }}
+      {{ this.resources_intro }}
+    </header>
+    <a href="#resources">{{ this.resources_button }}</a>
+    <article>
+      <h3>{{ this.resources_ideas_heading }}</h3>
+      <div>
+        {{ this.resources_ideas_text }}
+      </div>
     </article>
-    <a>{{ this.resources_button }}</a>
   </div>
 </section>
 
 <section id="support">
   <div>
-    <article>
+    <header>
       <h2>{{ this.support_scheme_heading }}</h2>
       {{ this.support_scheme_body }}
-    </article>
+    </header>
     <a>{{ this.support_scheme_button }}</a>
   </div>
 </section>
