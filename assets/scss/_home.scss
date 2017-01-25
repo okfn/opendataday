@@ -313,12 +313,12 @@
 
           li {
             display: block;
-            float: left;
             padding: $base-spacing $gutter 0 $gutter;
             box-sizing: border-box;
             font-size: 0.9em;
 
             @media (min-width: $large-screen) {
+              float: left;
               width: 20%;
             }
 
