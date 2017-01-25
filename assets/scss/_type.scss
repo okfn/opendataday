@@ -14,6 +14,24 @@ h1, h2, h3, h4, h5, h6 {
   line-height: $heading-line-height;
 }
 
+h2 {
+  font-size: 48px;
+  margin-bottom: 0.4em;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 26px;
+  margin-bottom: 0.4em;
+}
+h4 {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+}
+h5 {
+  font-size: 1em;
+  margin-bottom: 0.3em;
+}
+
 p {
   margin-top: 0;
 }

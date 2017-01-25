@@ -122,17 +122,6 @@
       font-size: 1.2em;
     }
 
-    h2 {
-      font-size: 48px;
-      text-transform: uppercase;
-      margin-bottom: 0.4em;
-    }
-
-    h3 {
-      font-size: 26px;
-      margin-bottom: 0.4em;
-    }
-
     .about,
     .this-year {
       header {
@@ -411,9 +400,38 @@
         article {
           display: block;
           text-align: left;
+          padding: $gutter;
 
           & > div {
             @include columns;
+
+            .theme {
+              break-inside: avoid;
+              display: block;
+
+              &:nth-of-type(1) h4 {
+                color: $yellow;
+              }
+              &:nth-of-type(2) h4 {
+                color: $red;
+              }
+              &:nth-of-type(3) h4 {
+                color: $green;
+              }
+              &:nth-of-type(4) h4 {
+                color: $purple;
+              }
+            }
+
+            h4 {
+              margin-top: 0;
+            }
+
+            h4,
+            h5 {
+              break-after: avoid;
+              break-inside: avoid;
+            }
           }
         }
       }
