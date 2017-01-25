@@ -1,6 +1,0 @@
-/** modificatrions to nanoscroller etup **/
-
-.nano { background: background: #444; width: 240px; height: 300px; }
-.nano .nano-content { padding: 5px; }
-.nano .nano-pane   { background: #888; }
-.nano .nano-slider { background: #fff; }
