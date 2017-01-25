@@ -12,6 +12,8 @@ It has a bunch of [dependencies](https://github.com/okfn/opendataday/blob/v2/pac
 
 `grunt` will watch for changes to your SCSS files, and also icons (see [svgstore](https://github.com/FWeinb/grunt-svgstore)).
 
+`lektor deploy` will deploy to the gh-pages branch, putting changes live.
+
 ### TODO
 
 #### Map
