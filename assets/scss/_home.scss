@@ -264,64 +264,6 @@
       }
     }
 
-    &#map {
-      height: 620px;
-      max-height: 100vh;
-      position: relative;
-
-      .map {
-        margin: 0;
-        max-width: 100%;
-        height: 100%;
-      }
-
-      .recline-map .map {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-      }
-      .loading {
-        position: absolute;
-        z-index: 10000;
-        top: 45%;
-        left: 40%;
-      }
-      .logo {
-        position: absolute;
-        right: 5px;
-        top: 5px;
-        z-index: 10000;
-      }
-      .logo img {
-        display: block;
-      }
-      header {
-        position: absolute;
-        top: 0;
-        z-index: 10000;
-        width: 100%;
-        pointer-events: none;
-
-        & > div {
-          @include container;
-
-          & > div {
-            background-color: #fff;
-            float: right;
-            margin-top: $base-spacing;
-            padding: $gutter*0.75 $gutter;
-          }
-        }
-
-         a {
-          pointer-events: all;
-          @include button;
-        }
-      }
-    }
-
     &#who {
       background-color: $blue;
       @include rev-text;
