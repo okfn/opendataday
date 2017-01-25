@@ -264,6 +264,36 @@
       }
     }
 
+    &#map {
+      position: relative;
+      height: 620px;
+      max-height: 100vh;
+      display: none; //remove when map is ready
+
+      header {
+        position: absolute;
+        width: 100%;
+        top: $gutter;
+        pointer-events: none;
+        font-size: 0.8em;
+
+        & > div {
+          @include container;
+
+          & > div {
+            float: right;
+            pointer-events: all;
+            background-color: rgba(#fff,0.8);
+            padding: $gutter*0.3;
+
+            a {
+              @include button;
+            }
+          }
+        }
+      }
+    }
+
     &#who {
       background-color: $blue;
       @include rev-text;
