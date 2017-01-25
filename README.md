@@ -18,7 +18,7 @@ It has a bunch of [dependencies](https://github.com/okfn/opendataday/blob/v2/pac
 
 #### Map
 
-Needs to be added [here](https://github.com/okfn/opendataday/blob/v2/templates/home.html#L60). Then [this line](https://github.com/okfn/opendataday/blob/v2/assets/scss/_home.scss#L271) can be remove.
+Needs to be added [here](https://github.com/okfn/opendataday/blob/v2/templates/home.html#L60). Then [this line](https://github.com/okfn/opendataday/blob/v2/assets/scss/_home.scss#L271) can be removed.
 
 #### Translations (currently [commented out](https://github.com/okfn/opendataday/blob/v2/templates/includes/nav.html#L12-L31))
 
