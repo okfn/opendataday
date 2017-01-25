@@ -138,6 +138,10 @@
       header {
         @media (min-width:$max-screen) {
           max-width: 450px;
+
+          p + p {
+            max-width: 350px;
+          }
         }
       }
     }

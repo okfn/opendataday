@@ -20,7 +20,9 @@ intro_body:
 
 Open Data Day is an annual celebration of open data all over the world. For the fifth time in history, groups from around the world will create local events on the day where they will use open data in their communities. It is an opportunity to show the benefits of open data and encourage the adoption of open data policies in government, business and civil society.
 ---
-intro_button: More
+intro_body_2:
+
+All outputs are open for everyone to use and re-use.
 ---
 year_intro:
 
@@ -38,7 +40,7 @@ who_heading: Who is this for? Everyone!
 ---
 who_body:
 
-If you have an idea for using open data, want to find an interesting project to contribute towards, learn about how to visualise or analyse data or simply want to see what's happening, then definitely come participate! No matter your skill-set or interests, we are encouraging organisers to foster opportunities for you to learn and help the global open data community grow.
+If you have an idea for using open data, want to find an interesting project to contribute towards, learn about how to visualise or analyse data or simply want to see what's happening, then definitely come participate! Participation is a core value of Open Data Day, everyone is free to voice their opinions in a constructive manner. No matter your skill-set or interests, we are encouraging organisers to foster opportunities for you to learn and help the global open data community grow.
 ---
 who_title_1: Citizens
 ---

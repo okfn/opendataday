@@ -21,6 +21,9 @@
       <header>
         <h2>{{ this.intro_heading }}</h2>
         {{ this.intro_body }}
+        {% if this.intro_body_2 and (this.intro_button is not defined) %}
+        {{ this.intro_body_2 }}
+        {% endif %}
       </header>
       {% if this.intro_button %}
       <a href="about">{{ this.intro_button }}</a>
