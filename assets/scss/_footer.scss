@@ -1,6 +1,7 @@
 .site-footer {
   background-color: $black;
-  @include rev-text;
+  @include rev-text(rgba(#fff,0.8));
+  font-size: 0.9em;
 
   & > div {
     @include container;
