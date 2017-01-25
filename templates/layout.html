@@ -13,7 +13,7 @@
       <span>
         {{ bag('global-content', this.alt).footer | markdown }}
       </span>
-    
+
     </div>
   </footer>
   {% include 'includes/icons.svg' %}
@@ -21,6 +21,12 @@
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="{{ '/js/plugins.js'|url }}"></script>
   <script src="{{ '/js/main.js'|url }}"></script>
+  <script src="{{ '/vendor/recline/vendor/leaflet/0.7.3/leaflet.js'|url }}"></script>
+  <script src="{{ '/vendor/recline/vendor/leaflet.markercluster/leaflet.markercluster.js'|url }}"></script>
+  <script src="{{ '/vendor/recline/dist/recline.dataset.js'|url }}"></script>
+  <script src="{{ '/vendor/recline/src/view.map.js'|url }}"></script>
+  <script src="http://okfnlabs.org/recline.backend.gdocs/backend.gdocs.js"></script>
+  <script src="{{ '/js/map.js'|url }}"></script>
 
   {% if this.language %}
   {% set current_language = this.language %}
