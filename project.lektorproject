@@ -5,7 +5,7 @@ name = Open Data Day
 name = Staging
 enabled = yes
 default = yes
-target = ghpages://smth/opendataday
+target = ghpages://okfn/opendataday
 
 [alternatives.en]
 name = English
