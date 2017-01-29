@@ -16,3 +16,8 @@ locale = en
 name = German
 url_prefix = /de/
 locale = de
+
+[alternatives.de_at]
+name = Österreich
+url_prefix = /de_at/
+locale = de_at
