@@ -127,7 +127,7 @@
     display: none;
 
     @media (min-width: $medium-screen) {
-      width: 5em;
+      width: 6em;
       display: table-cell;
       vertical-align: middle;
       float: none;
@@ -137,7 +137,7 @@
       position: relative;
       text-transform: uppercase;
       margin-left: $gutter/2;
-      width: 3em;
+      width: 4.1em;
       display: inline-block;
 
       & > a {
