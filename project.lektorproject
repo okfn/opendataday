@@ -21,3 +21,8 @@ locale = de
 name = Österreich
 url_prefix = /de_at/
 locale = de_at
+
+[alternatives.es_mx]
+name = Español
+url_prefix = /es_mx/
+locale = es_mx
