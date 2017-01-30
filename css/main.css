@@ -206,7 +206,7 @@ html {
     display: none; }
     @media (min-width: 600px) {
       .main-nav .language {
-        width: 5em;
+        width: 6em;
         display: table-cell;
         vertical-align: middle;
         float: none; } }
@@ -214,7 +214,7 @@ html {
       position: relative;
       text-transform: uppercase;
       margin-left: 15px;
-      width: 3em;
+      width: 4.1em;
       display: inline-block; }
       .main-nav .language > div > a {
         padding: 3px 6px;
