@@ -10,6 +10,8 @@ This site is built with [Lektor](https://www.getlektor.com/).
 
 It has a bunch of [dependencies](https://github.com/okfn/opendataday/blob/v2/package.json), so do an `npm install`.
 
+Before first building the site you will need to generate some files using `grunt sass`, `grunt icons`, `grunt plugins` and `grunt icons`.
+
 `grunt` will watch for changes to your [SCSS files](https://github.com/okfn/opendataday/tree/v2/assets/scss), and also [icons](https://github.com/okfn/opendataday/tree/v2/assets/icons) (see [svgstore](https://github.com/FWeinb/grunt-svgstore)).
 
 `lektor deploy` will deploy to the gh-pages branch, putting changes live.
