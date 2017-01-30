@@ -17,12 +17,12 @@
           {% else %}
           {% set current_language = "en" %}
           {% endif %}
-          <a class="current" href="#lang">{{ current_language }}</a>
+          <a class="current" href="#lang">{{ current_language |replace("_", " ") }}</a>
 
           <ul id="lang">
           {% for lang in bag('languages.all') %}
             <li{% if current_language == lang %} class="active"{% endif %}>
-              <a href="{{ '.'|url(alt=lang) }}">{{ lang | upper}}</a>
+              <a href="{{ '.'|url(alt=lang) }}">{{ lang |upper |replace("_", " ")}}</a>
             </li>
           {% endfor %}
           </ul>
