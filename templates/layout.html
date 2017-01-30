@@ -38,7 +38,7 @@
     $(function(){
       $('#lang').slicknav({
         'prependTo': '.main-nav > div > div',
-        'label' : '{{ current_language }}',
+        'label' : '{{ current_language |replace("_", " ") }}',
       });
     });
 
