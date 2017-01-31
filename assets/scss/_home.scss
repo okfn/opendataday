@@ -504,3 +504,51 @@
     }
   }
 }
+
+.modal--fade,
+.modal--show {
+  line-height: inherit;
+
+  .map {
+    background-color: rgba($blue,0.5);
+    height: 190px;
+    position: relative;
+    @media (min-height:800px) {
+      height: 250px;
+    }
+  }
+  .modal-content {
+    font-size: 0.9em;
+
+    .description {
+      @media (min-width:$medium-screen) {
+        float: left;
+        width: 70%;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+      }
+    }
+    .meta {
+
+      h5 {
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+
+      @media (min-width:$medium-screen) {
+        margin-left: 73%;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
+
+  .modal-close {
+    @media (min-width:$medium-screen) {
+      &:after {
+        z-index: 19;
+      }
+    }
+  }
+}
