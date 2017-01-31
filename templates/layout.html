@@ -4,6 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700" rel="stylesheet">
 <link rel="stylesheet" href="{{ '/css/style.css'|url }}">
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js"></script>
+<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css" rel="stylesheet" />
 <body class="{{ this._model }}">
 
   {% block body %}{% endblock %}
@@ -19,6 +21,7 @@
   {% include 'includes/icons.svg' %}
 
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="{{ '/js/map.js'|url }}"></script>
   <script src="{{ '/js/plugins.js'|url }}"></script>
   <script src="{{ '/js/main.js'|url }}"></script>
 
