@@ -4,10 +4,11 @@ var url = "https://spreadsheets.google.com/feeds/list/1cV43fuzwy2q2ZKDWrHVS6XR4O
 mapboxgl.accessToken = 'pk.eyJ1Ijoib2tmbiIsImEiOiJjaXlrOW5yczgwMDEzMnlwaWd2ZzF6MDQ3In0.2UJlkR69zbu4-3YRJJgN5w';
 
 var map = new mapboxgl.Map({
-  container: 'map',
+  container: 'map-container',
   style: 'mapbox://styles/mapbox/streets-v9',
   center: [0,0],
   zoom: 1.2,
+  minZoom: 1.2,
   scrollZoom: false
 });
 
@@ -21,10 +22,8 @@ mapboxgl.util.getJSON(url, function(err, data) {
 
   data.feed.entry.forEach(function(d) {
     var lng, lat;
-
     lat = d['gsx$latitude']['$t'];
     lng = d['gsx$longitude']['$t'];
-
     geojson.features.push({
       type: 'Feature',
       properties: {
@@ -59,22 +58,19 @@ mapboxgl.util.getJSON(url, function(err, data) {
       "text-color": "#fff",
       "text-halo-color": "#000",
       "text-halo-width": 1
-
     }
   });
+
   map.on('click', function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: ['points'] });
-
     if (!features.length) {
       return;
+    } else {
+      var feature = features[0];
+      var popup = new mapboxgl.Popup()
+          .setLngLat(feature.geometry.coordinates)
+          .setHTML(feature.properties.description)
+          .addTo(map);
     }
-
-    var feature = features[0];
-
-    var popup = new mapboxgl.Popup()
-        .setLngLat(feature.geometry.coordinates)
-        .setHTML(feature.properties.description)
-        .addTo(map);
   });
-
 });
