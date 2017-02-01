@@ -268,7 +268,10 @@
       position: relative;
       height: 620px;
       max-height: 100vh;
-//      display: none; //remove when map is ready
+
+      #map-container {
+        max-width: none;
+      }
 
       header {
         position: absolute;
