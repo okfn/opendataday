@@ -5,8 +5,8 @@ var map = new mapboxgl.Map({
   container: 'map-container',
   style: 'mapbox://styles/mapbox/streets-v9',
   center: [0,0],
-  zoom: 1.2,
-  minZoom: 1.2,
+  zoom: 1.3,
+  minZoom: 1.3,
   scrollZoom: false
 });
 
