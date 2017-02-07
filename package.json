@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "grunt sass && grunt icons && grunt plugins"
+  },
   "devDependencies": {
     "animate.css": "^3.5.2",
     "css-modal": "^1.5.0",
