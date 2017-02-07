@@ -16,5 +16,6 @@ script:
 deploy:
   provider: script
   script: lektor deploy ci
+  skip_cleanup: true
   on:
     branch: master
