@@ -1,10 +1,14 @@
 [project]
 name = Open Data Day
 
-[servers.ghpages]
+[servers.ci]
+enabled = yes
+target = ghpages+https://okfn/opendataday?cname=opendataday.org
+
+[servers.manual]
 enabled = yes
 default = yes
-target = ghpages+https://okfn/opendataday?cname=opendataday.org
+target = ghpages://okfn/opendataday?cname=opendataday.org
 
 [alternatives.en]
 name = English
