@@ -13,4 +13,4 @@ script:
 - lektor build
 deploy:
   provider: script
-  script: lektor deploy
+  script: lektor deploy ghpages

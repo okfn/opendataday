@@ -1,11 +1,10 @@
 [project]
 name = Open Data Day
 
-[servers.staging]
-name = Staging
+[servers.ghpages]
 enabled = yes
 default = yes
-target = ghpages://okfn/opendataday?cname=opendataday.org
+target = ghpages+https://okfn/opendataday?cname=opendataday.org
 
 [alternatives.en]
 name = English
