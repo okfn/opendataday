@@ -4,6 +4,8 @@ python:
 install:
 - nvm install 6.1
 - nvm use 6.1
+- rvm install 2.1
+- gem install sass
 - pip install --upgrade pip
 - pip install lektor
 - npm install -g grunt
