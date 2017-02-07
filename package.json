@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "grunt sass && grunt icons && grunt plugins"
+    "build": "grunt plugins && grunt icons && grunt sass && grunt cssmin"
   },
   "devDependencies": {
     "animate.css": "^3.5.2",
