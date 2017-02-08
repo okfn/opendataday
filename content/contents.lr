@@ -94,9 +94,15 @@ resources_ideas_intro:
 
 Hey there Open Data enthusiast! You just saw that International Open Data Day will be on Saturday, 4th March 2017 and will be interested in hosting an event in your locality. Your only challenge now is finding the right idea that will hit the right spot. Our friends from the Open Data community have some ideas and data sources worth checking out.
 ---
-resources_ideas_theme_1: Open Research Data
+resources_ideas_theme_1: data.world
 ---
 resources_ideas_theme_1_text:
+
+Use [data.world](https://data.world) to upload or find data from many sources and organize all aspects of a project - including data, notebooks, analysis, and discussions - in a single workspace. Collaborate efficiently using many tools: query uploaded data with SQL, interact with data via R Studio or Python programs using the data.world API, link a Google Sheet to a dataset, or work locally in a spreadsheet and upload a file. After Open Data Day, this work is preserved to showcase what was achieved and permit the community to build upon progress without unnecessarily repeating the data prep and analysis completed on Open Data Day.
+---
+resources_ideas_theme_2: Open Research Data
+---
+resources_ideas_theme_2_text:
 
 Root data commons - Repository for general public data sets of scientific interest, hosted on the OSDC.
 Explore Open Data policies with the US Federal data sharing resource
@@ -105,15 +111,15 @@ Try text & data mining: Content Mine
 Find a reusable dataset in your field: Zenodo
 [tbc: help others make their dataset available]
 ---
-resources_ideas_theme_2: Tracking Public Money flows
+resources_ideas_theme_3: Tracking Public Money flows
 ---
-resources_ideas_theme_2_text:
+resources_ideas_theme_3_text:
 
 Open Contracting, Open Spending, Cooking budgets, Panama Papers, Municipal Money, Development check
 ---
-resources_ideas_theme_3: Environment theme
+resources_ideas_theme_4: Environment theme
 ---
-resources_ideas_theme_3_text:
+resources_ideas_theme_4_text:
 
 Drought in Southern Africa
 In the news:
@@ -145,9 +151,9 @@ Extract-A-Fact, a project by Publish What You Pay, is a toolset to find facts in
 Earth Observatory data
 Global Forest Watch’s fire data/map
 ---
-resources_ideas_theme_4: Human Rights theme
+resources_ideas_theme_5: Human Rights theme
 ---
-resources_ideas_theme_4_text:
+resources_ideas_theme_5_text:
 
 LGBTQ rights - http://www.lgbtdata.com/ (note: This website does not state that the data is open, but link to datasets)
 War crimes  - see for example how BVT datalab showed the story of the bombing in Barcelona during the civil war
