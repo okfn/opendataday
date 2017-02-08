@@ -206,7 +206,6 @@ html {
     display: none; }
     @media (min-width: 600px) {
       .main-nav .language {
-        width: 6em;
         display: table-cell;
         vertical-align: middle;
         float: none; } }
@@ -214,8 +213,8 @@ html {
       position: relative;
       text-transform: uppercase;
       margin-left: 15px;
-      width: 4.1em;
-      display: inline-block; }
+      display: inline-block;
+      white-space: nowrap; }
       .main-nav .language > div > a {
         padding: 3px 6px;
         font-weight: bold;
@@ -238,7 +237,7 @@ html {
         border: solid 1px #fff;
         border-radius: 4px;
         position: absolute;
-        width: 100%;
+        min-width: 100%;
         box-sizing: border-box;
         text-align: left;
         bottom: 0; }
