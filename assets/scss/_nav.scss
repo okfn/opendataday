@@ -127,7 +127,6 @@
     display: none;
 
     @media (min-width: $medium-screen) {
-      width: 6em;
       display: table-cell;
       vertical-align: middle;
       float: none;
@@ -137,8 +136,8 @@
       position: relative;
       text-transform: uppercase;
       margin-left: $gutter/2;
-      width: 4.1em;
       display: inline-block;
+      white-space: nowrap;
 
       & > a {
         padding: 3px 6px;
@@ -169,7 +168,7 @@
           border: solid 1px #fff;
           border-radius: 4px;
           position: absolute;
-          width: 100%;
+          min-width: 100%;
           box-sizing: border-box;
           text-align: left;
           bottom: 0;
