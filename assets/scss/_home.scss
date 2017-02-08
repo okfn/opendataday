@@ -279,6 +279,7 @@
         top: $gutter;
         pointer-events: none;
         font-size: 0.8em;
+        text-align: center;
 
         & > div {
           @include container;
@@ -289,8 +290,15 @@
             background-color: rgba(#fff,0.8);
             padding: $gutter*0.3;
 
+            .count {
+              display: block;
+              font-weight: 700;
+              padding-top: $base-spacing/3;
+            }
+
             a {
               @include button;
+              display: block;
             }
           }
         }

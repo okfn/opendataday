@@ -14,8 +14,6 @@ banner_content_2: Saturday, 4 March 2017
 ---
 intro_heading: What is Open Data Day?
 ---
-register_text: Register your event here
----
 intro_body:
 
 Open Data Day is an annual celebration of open data all over the world. For the fifth time in history, groups from around the world will create local events on the day where they will use open data in their communities. It is an opportunity to show the benefits of open data and encourage the adoption of open data policies in government, business and civil society.
@@ -35,6 +33,10 @@ year_label_2: Tracking public **money** flows
 year_label_3: Open data for **environment**
 ---
 year_label_4: Open data for **human rights**
+---
+register_text: Register your event here
+---
+events_registered: events registered
 ---
 who_heading: Who is this for? Everyone!
 ---
