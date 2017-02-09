@@ -1,0 +1,164 @@
+_model: home
+---
+next_date: 2017-03-04
+---
+title: Você está convidado
+---
+banner_heading_1: Você está convidado.
+---
+banner_heading_2: De novo!
+---
+banner_content_1: O Dia dos Dados Abertos será no
+---
+banner_content_2: Sábado, 4 de março de 2017
+---
+intro_heading: O que é o Dia dos Dados Abertos?
+---
+register_text: Registre o seu evento aqui
+---
+intro_body:
+
+O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Pela quinta vez na história, grupos de todas as partes do mundo criarão eventos locais no dia em que usarão dados abertos em suas comunidades. É uma oportunidade para mostrar os benefícios dos dados abertos e encorajar a adoção de políticas de dados abertos no governo, empresas e na sociedade civil.
+---
+intro_body_2:
+
+Todos os resultados são abertos para que todos usem e reusem.
+---
+year_intro:
+
+Para o Dia dos Dados Abertos 2017, nós queremos aperfeiçoar. O foco desse ano será em quatro áreas chave que acreditamos que os dados abertos podem resolver.
+---
+year_label_1: Dados abertos de **pesquisas** acadêmicas
+---
+year_label_2: Rastrear fluxos de **dinheiro** público
+---
+year_label_3: Dados abertos para o **meio ambiente**
+---
+year_label_4: Dados abertos para os **direitos humanos**
+---
+who_heading: Isso é para quem? Para todo mundo!
+---
+who_body:
+
+Se você tem uma ideia que usa dados abertos, quer encontrar um projeto interessante para o qual contribuir, aprender como visualizar ou analisar dados ou simplesmente quer ver o que está acontecendo, então definitivamente venha participar! A participação é um valor essencial do Dia dos Dados Abertos. Todo mundo é livre para dar suas opiniões de uma maneira construtiva. Não importa quais são as suas habilidades ou interesses, nós estamos encorajando os organizadores a propiciar oportunidades para você aprender e ajudar a comunidade global de dados abertos a crescer.
+---
+who_title_1: Cidadãos
+---
+who_description_1:
+
+Precisamos de você ao máximo. Se não fosse por você, essa coisa toda não estaria acontecendo. Precisamos de ideias, líderes de torcida e amigos para espalhar a palavra.
+---
+who_title_2: Servidores públicos
+---
+who_description_2:
+
+Suas contribuições e contexto podem nos ajudar a tornar os dados de governo melhores. Venha conversar e aprender.
+---
+who_title_3: Designers
+---
+who_description_3:
+
+Ajude-nos a tornar os dados abertos acessíveis, para que mais pessoas os usem e os entendam.
+---
+who_title_4: Desenvolvedores
+---
+who_description_4:
+
+Use suas habilidades para desenvolver soluções que podem ajudar a resolver questões sociais importantes.
+---
+who_title_5: Estatísticos
+---
+who_description_5:
+
+Use suas habilidades para ajudar a entender os dados e obter revelações importantes a partir deles.
+---
+resources_heading: Recursos para Eventos
+---
+resources_intro:
+
+Precisa de inspiração para um evento do Dia dos Dados Abertos, ou não sabe onde encontrar os dados que precisa? Confira os nossos recursos para eventos de 2017.
+---
+resources_button: Recursos
+---
+resources_materials_heading: Materiais
+---
+resources_materials_text:
+
+Crie uma logomarca para o seu evento com [este gerador de logomarcas](http://odd.structure-and-representation.com/)!
+---
+resources_ideas_heading: Ideias e fontes de dados
+---
+resources_ideas_intro:
+
+Ei, entusiasta dos Dados Abertos! Você acabou de ver que o Dia Internacional dos Dados Abertos será no sábado, 4 de março de 2017 e estará interessado em hospedar um evento na sua localidade. Seu único desafio agora é encontrar a ideia certa para acertar o ponto ideal. Nossos amigos da comunidade dos Dados Abertos têm algumas ideias e fontes de dados que valem a pena conferir.
+---
+resources_ideas_theme_1: Dados Abertos de Pesquisas Acadêmicas
+---
+resources_ideas_theme_1_text:
+
+Root data commons - Repositório para conjuntos de dados públicos gerais de interesse científico, hospedados no OSDC.
+Explore políticas de Dados Abertos com o recurso de compartilhamento de dados federal dos Estados Unidos
+Todos os dados sobre testes clínicos, ligados: Open Trials
+Tente mineração de texto e de dados: Content Mine
+Encontre um conjunto de dados reutilizável na sua área de conhecimento: Zenodo
+[a confirmar: ajude os outros a tornar seu conjunto de dados disponível]
+---
+resources_ideas_theme_2: Rastreamento de fluxos de dinheiro público
+---
+resources_ideas_theme_2_text:
+
+Open Contracting, Open Spending, Cooking budgets, Panama Papers, Municipal Money, Development check
+---
+resources_ideas_theme_3: Tema Meio Ambiente
+---
+resources_ideas_theme_3_text:
+
+Seca no Sul da África
+Nas notícias:
+Guardian, março de 2016
+hompson Reuters, novembro de 2016
+Trabalho de Dados em execução:
+Hack 4 Water (África do Sul) http://www.hack4water.org.za/ https://www.dwa.gov.za/events/hack4water/default.aspx
+
+##### Enchentes
+FloodAlerts é um site que usa dados da Agência do Meio Ambiente Britânica para fornecer alertas sobre eventos de enchentes a residentes na Inglaterra e País de Gales.
+Relatório UNOCHA de dezembro de 2016 sobre a resposta ao El Niño no leste e no sul ta África.
+O iminente desastre ao longo da fronteira Zâmbia/Zimbábue se o muro de Kariba Dam ruir (história em andamento - janeiro de 2017)
+
+##### Desmatamento
+Global Forest Watch fornece vários conjuntos de dados sobre a cobertura, uso e perda de florestas e povos indígenas.
+
+#####Poluição - ar, água
+Dados de sensores de https://www.opensensors.io
+https://opendevelopmentmekong.net/
+O mapa de “Derramamentos no Brooklyn” visualiza registros do Departamento de Conservação do Estado de Nova Iorque para mostrar derramamentos de produtos químicos nocivos em diferentes locais ao longo da vizinhança de Brooklyn em Nova Iorque.
+O aplicativo Allairgoo oferece a pessoas com asma ou alergias informações indivisuais sobre a qualidade do ar em múltiplas cidades. Ele combina dados sobre qualidade do ar, i.e. dados sobre cada poluente, índices oficiais de qualidade do ar, etc. com dados pessoais do utilizador, por exemplo sobre doenças crônicas respiratórias.
+Airlapse mostra a concentração de partículas, tais como monóxido de carbono por hora, em diferentes áreas da cidade de Bath (Reino Unido).
+
+##### Extrativismo
+Open Oil disponibiliza modelos financeiros abertos no período que antecede o Natal para cerca de doze países. Construa a partir dos modelos/descobertas? http://openoil.net/contract-modeling/
+Extract-A-Fact, um projeto da Publish What You Pay (Publique o que Você Paga), é um conjunto de ferramentas para encontrar fatos em dados abertos sobre as indústrias extrativas, incluindo pagamentos feitos ao governo.
+
+##### Incêndios
+Dados do Earth Observatory (Observatório da Terra)
+Dados/mapa de incêndios da Global Forest Watch
+---
+resources_ideas_theme_4: Tema Direitos Humanos
+---
+resources_ideas_theme_4_text:
+
+Direitos LGBT - http://www.lgbtdata.com/ (nota: Esse site não afirma que os dados são abertos, mas fornece links para conjuntos de dados)
+Crimes de guerra  - veja, por exemplo, como o BVT datalab mostrou a história do bombardeio em Barcelona durante a guerra civil
+Imigração - veja o trabalho atual de arquivos de migração, openmigration + dados da ACNUR sobre a situação de refugiados
+Desligamentos da Internet - formas de combinar informações da AccessNow, Dyn Research, Akamai  (SOTI) com outras fontes de dados
+Impostos - poderia compartilhar algumas coisas interessantes dos Dados Abertos para o projeto Tax Justice sobre a superposição entre impostos e direitos humanos
+Tracking poverty in cities (Rastrar pobreza nas cidades) - não usa dados abertos, mas é um exemplo interessante de como histórias alternativas sobre a pobreza são contadas.
+A cidade de Indianápolis desenvolveu um portal de dados abertos para mostrar informações sobre o uso da força, policiais envolvidos em tiroteios e reclamações contra policiais.
+---
+support_scheme_heading: Plano de Apoio
+---
+support_scheme_body:
+
+Estamos anunciando o plano de mini bolsas do Dia Internacional dos Dados Abertos 2017! Este ano, com financiamento da SPARC, o Programa Open Contracting da Hivos e a Artigo 19, e a Fundação Hewlett, a Open Knowledge Internacional distribuirá US$12,500 em mini bolsas para apoiar as suas ideias para eventos.
+---
+support_scheme_button: Saiba mais
