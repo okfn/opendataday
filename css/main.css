@@ -665,6 +665,7 @@ html {
       text-decoration: none;
       padding: 0.8em 1.8em;
       display: inline-block;
+      text-align: center;
       margin-left: 30px;
       margin-bottom: 30px; }
       @media (min-width: 1260px) {
@@ -769,7 +770,8 @@ html {
       width: 100%;
       top: 30px;
       pointer-events: none;
-      font-size: 0.8em; }
+      font-size: 0.8em;
+      text-align: center; }
       .home > section#map header > div {
         max-width: 1200px;
         margin-left: auto;
@@ -779,13 +781,19 @@ html {
           pointer-events: all;
           background-color: rgba(255, 255, 255, 0.8);
           padding: 9px; }
+          .home > section#map header > div > div .count {
+            display: block;
+            font-weight: 700;
+            padding-top: 0.5em; }
           .home > section#map header > div > div a {
             background-color: #0086FF;
             color: #fff;
             font-weight: bold;
             text-decoration: none;
             padding: 0.8em 1.8em;
-            display: inline-block; }
+            display: inline-block;
+            text-align: center;
+            display: block; }
   .home > section#who {
     background-color: #0086FF;
     color: #fff;
@@ -880,6 +888,7 @@ html {
         text-decoration: none;
         padding: 0.8em 1.8em;
         display: inline-block;
+        text-align: center;
         margin-bottom: 30px; }
     .home > section#resources > div article {
       display: none; }
@@ -931,6 +940,7 @@ html {
           text-decoration: none;
           padding: 0.8em 1.8em;
           display: inline-block;
+          text-align: center;
           margin: 30px; }
     @media (min-width: 1260px) {
       .home > section#support {

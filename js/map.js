@@ -44,6 +44,8 @@ map.on('load', function() {
       }
     });
 
+    $("#event-number").text(data.feed.entry.length);
+
     map.addSource("events", {
       "type": "geojson",
       "data": geojson,
