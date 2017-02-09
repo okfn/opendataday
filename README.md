@@ -18,10 +18,6 @@ It has a bunch of [dependencies](https://github.com/okfn/opendataday/blob/v2/pac
 
 ### TODO
 
-#### Map
-
-Needs to be added [here](https://github.com/okfn/opendataday/blob/v2/templates/home.html#L60). Then [this line](https://github.com/okfn/opendataday/blob/v2/assets/scss/_home.scss#L271) can be removed.
-
 #### Translations
 
 To translate the site we need to duplicate the [contents.lr](https://github.com/okfn/opendataday/blob/v2/content/contents.lr) file, and save with the language code in the file name, like [contents+de.lr](https://github.com/okfn/opendataday/blob/v2/content/contents%2Bde.lr).
