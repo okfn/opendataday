@@ -34,3 +34,8 @@ locale = es_mx
 name = Português brasileiro
 url_prefix = /pt_br/
 locale = pt_br
+
+[alternatives.zh_tw]
+name = 正體中文
+url_prefix = /zh_tw/
+locale = zh_tw
