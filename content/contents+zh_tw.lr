@@ -2,9 +2,9 @@ _model: home
 ---
 next_date: 2017-03-04
 ---
-title: 您已受邀
+title: 您已被邀請
 ---
-banner_heading_1: 您已受邀
+banner_heading_1: 您已被邀請
 ---
 banner_heading_2: (又來了!)
 ---
@@ -12,45 +12,45 @@ banner_content_1: 國際開放資料日再次舉辦：
 ---
 banner_content_2: 2017 年 3 月 4 日(週六)
 ---
-intro_heading: 什麼是開放資料日？
+intro_heading: 什麼是開放資料日 (Open Data Day) ?
 ---
 intro_body:
 
-Open Data Day is an annual celebration of open data all over the world. For the fifth time in history, groups from around the world will create local events on the day where they will use open data in their communities. It is an opportunity to show the benefits of open data and encourage the adoption of open data policies in government, business and civil society.
+開放資料日 (Open Data Day) 是一年一度的全球性慶典，今年是第五次舉辦。在這天全球的各個社群將會在當地舉辦活動，並在活動中利用各式各樣的開放資料。這是一個機會展示開放資料帶來的各種好處，進而鼓勵政府、企業及公民社會接受並採納開放資料的想法。
 ---
 intro_body_2:
 
-All outputs are open for everyone to use and re-use.
+所有活動的產出皆開放予所有人使用及重製
 ---
 year_intro:
 
-For Open Data Day 2017, we want to take things up a notch. The focus this year will be on four key areas that we believe open data can solve.
+在 Open Data Day 2017，我們希望能將這個活動再往上一個檔次。今年的活動將聚焦於這四個我們認為開放資料能夠協助我們解決的主題。
 ---
-year_label_1: Open **research** data
+year_label_1: 開放**研究**資料
 ---
-year_label_2: Tracking public **money** flows
+year_label_2: 公共**金流**追蹤
 ---
-year_label_3: Open data for **environment**
+year_label_3: 開放**環境**資料
 ---
-year_label_4: Open data for **human rights**
+year_label_4: 開放**人權**資料
 ---
-register_text: Register your event here
+register_text: 在此註冊你的活動
 ---
-events_registered: events registered
+events_registered: 活動已註冊
 ---
-who_heading: Who is this for? Everyone!
+who_heading: 誰可以參加這個活動? 任何人!
 ---
 who_body:
 
 If you have an idea for using open data, want to find an interesting project to contribute towards, learn about how to visualise or analyse data or simply want to see what's happening, then definitely come participate! Participation is a core value of Open Data Day, everyone is free to voice their opinions in a constructive manner. No matter your skill-set or interests, we are encouraging organisers to foster opportunities for you to learn and help the global open data community grow.
 ---
-who_title_1: Citizens
+who_title_1: 市民
 ---
 who_description_1:
 
-We need you the most. If it wasn’t for you, this whole thing wouldn’t be happening. We need ideas, cheerleaders, and friends to spread the word.
+市民們是我們最需要的成員! 如果不是為了你們，這個活動不可能會發生! 我們需要各種想法、啦啦隊/應援團，及各位幫我們向全世界宣傳。
 ---
-who_title_2: Public Servants
+who_title_2: 公僕
 ---
 who_description_2:
 
@@ -169,4 +169,4 @@ support_scheme_body:
 
 Announcing the 2017 International Open Data Day Mini Grants Scheme! This year, with funding from SPARC, the Open Contracting Program of Hivos and Article 19, and Hewlett Foundation, Open Knowledge International will distribute $12,500 worth of mini grants to support your event ideas.
 ---
-support_scheme_button: Learn more
+support_scheme_button: 了解更多
