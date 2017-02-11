@@ -2,93 +2,93 @@ _model: home
 ---
 next_date: 2017-03-04
 ---
-title: 您已被邀請
+title: Open Data Day
 ---
-banner_heading_1: 您已被邀請
+banner_heading_1: 2017
 ---
-banner_heading_2: (又來了!)
+banner_heading_2: Open Data Day
 ---
-banner_content_1: 國際開放資料日再次舉辦：
+banner_content_1: 邀請您撥出這一天來加入我們活動：
 ---
-banner_content_2: 2017 年 3 月 4 日(週六)
+banner_content_2: 2017 年 3 月 4 日 星期六
 ---
-intro_heading: 什麼是開放資料日 (Open Data Day) ?
+intro_heading: 什麼是 Open Data Day ？
 ---
 intro_body:
 
-開放資料日 (Open Data Day) 是一年一度的全球性慶典，今年是第五次舉辦。在這天全球的各個社群將會在當地舉辦活動，並在活動中利用各式各樣的開放資料。這是一個機會展示開放資料帶來的各種好處，進而鼓勵政府、企業及公民社會接受並採納開放資料的想法。
+Open Data Day 是個一年一度的全球性慶典，今年是第五次舉辦。在這天全球的各個社群將會在當地舉辦活動，並在活動中利用各式各樣的開放資料。這是一個機會展示開放資料帶來的各種好處，進而鼓勵政府、企業及公民社會接受並採納開放資料的想法。
 ---
 intro_body_2:
 
-所有活動的產出皆開放予所有人使用及重製
+所有活動的成果皆開放予所有人使用及再利用
 ---
 year_intro:
 
-在 Open Data Day 2017，我們希望能將這個活動再往上一個檔次。今年的活動將聚焦於這四個我們認為開放資料能夠協助我們解決的主題。
+在這次的 Open Data Day，我們要延續上一次的活動，將重心放在我們認為開放資料可能有辦法解決的以下四大主題：
 ---
-year_label_1: 開放**研究**資料
+year_label_1: 開放 **研究** 資料
 ---
-year_label_2: 公共**金流**追蹤
+year_label_2: 公共 **金流** 追蹤
 ---
-year_label_3: 開放**環境**資料
+year_label_3: 開放 **環境** 資料
 ---
-year_label_4: 開放**人權**資料
+year_label_4: 開放 **人權** 資料
 ---
-register_text: 在此註冊你的活動
+register_text: 立即報名
 ---
-events_registered: 活動已註冊
+events_registered: 人已報名參加
 ---
-who_heading: 誰可以參加這個活動? 任何人!
+who_heading: 每一個人都可以來參與這個大會活動！！
 ---
 who_body:
 
-If you have an idea for using open data, want to find an interesting project to contribute towards, learn about how to visualise or analyse data or simply want to see what's happening, then definitely come participate! Participation is a core value of Open Data Day, everyone is free to voice their opinions in a constructive manner. No matter your skill-set or interests, we are encouraging organisers to foster opportunities for you to learn and help the global open data community grow.
+如果你對開放資料有任何想法、想要發掘有興趣的專案來貢獻、學習如何透過分析並視覺化資料來觀察其資料變化，那麼快來參與這個大會活動吧！參加這個非常有價值的活動，每個人可提出有建設性的意見或想法互相交流。無論你在專業技能方面或者興趣如何，我們鼓勵各機構培育學習和幫助全世界開放資料社群成長的機會。
 ---
 who_title_1: 市民
 ---
 who_description_1:
 
-市民們是我們最需要的成員! 如果不是為了你們，這個活動不可能會發生! 我們需要各種想法、啦啦隊/應援團，及各位幫我們向全世界宣傳。
+活動要能夠舉行就是要靠廣大的市民們！快來加入我們來貢獻你的想法，也可以幫助我們向各地宣傳此活動。
 ---
-who_title_2: 公僕
+who_title_2: 公務人員
 ---
 who_description_2:
 
-Your input and context can help us to make government data better. Come converse and learn.
+你的參與將幫助政府資料呈現更完美，快來學習如何將更完美的資料呈現用在政府中。
 ---
-who_title_3: Designers
+who_title_3: 設計師
 ---
 who_description_3:
 
-Help us make open data relatable, so more people will use it and understand it.
+快來幫助我們讓開放資料更容易被廣大的市民們了解並使用這些資料。
 ---
-who_title_4: Developers
+who_title_4: 開發者
 ---
 who_description_4:
 
-Use your skills to develop solutions that can help solve important societal issues.
+快來貢獻你的專業技能來研究各種重大社會議題的解決方案。
 ---
-who_title_5: Statisticians
+who_title_5: 統計專業學者
 ---
 who_description_5:
 
-Use your skills to help understand the data and get important insights from it.
+快來貢獻你的專業技能來幫助我們分析資料並提出你的看法。
 ---
-resources_heading: Event Resources
+resources_heading: 活動主題資源
 ---
 resources_intro:
 
-Need some inspiration for an Open Data Day event, or don't know where to find the data you need? Checkout our 2017 event resources.
+參加活動需要一些靈感嗎？還是不知道在這活動中有什麼主題可以探索嗎？快來看看這次活動的主題
 ---
-resources_button: Resources
+resources_button: 檢視主題資源
 ---
 resources_materials_heading: Materials
 ---
 resources_materials_text:
 
-Create a logo for your event with [this logo generator](http://odd.structure-and-representation.com/)!
+立即產生你的 [組織 Logo ](http://odd.structure-and-representation.com/)！
 ---
-resources_ideas_heading: Ideas and data sources
+resources_ideas_heading: 資源、議題、想法分類
 ---
 resources_ideas_intro:
 
@@ -100,7 +100,7 @@ resources_ideas_theme_1_text:
 
 Use [data.world](https://data.world) to upload or find data from many sources and organize all aspects of a project - including data, notebooks, analysis, and discussions - in a single workspace. Collaborate efficiently using many tools: query uploaded data with SQL, interact with data via R Studio or Python programs using the data.world API, link a Google Sheet to a dataset, or work locally in a spreadsheet and upload a file. After Open Data Day, this work is preserved to showcase what was achieved and permit the community to build upon progress without unnecessarily repeating the data prep and analysis completed on Open Data Day.
 ---
-resources_ideas_theme_2: Open Research Data
+resources_ideas_theme_2: 開放研究資料
 ---
 resources_ideas_theme_2_text:
 
@@ -111,13 +111,13 @@ Try text & data mining: Content Mine
 Find a reusable dataset in your field: Zenodo
 [tbc: help others make their dataset available]
 ---
-resources_ideas_theme_3: Tracking Public Money flows
+resources_ideas_theme_3: 公共金流追蹤
 ---
 resources_ideas_theme_3_text:
 
 Open Contracting, Open Spending, Cooking budgets, Panama Papers, Municipal Money, Development check
 ---
-resources_ideas_theme_4: Environment theme
+resources_ideas_theme_4: 環境議題
 ---
 resources_ideas_theme_4_text:
 
@@ -128,15 +128,15 @@ hompson Reuters, November 2016
 Ongoing Data Work:
 Hack 4 Water (South Africa) http://www.hack4water.org.za/ https://www.dwa.gov.za/events/hack4water/default.aspx
 
-##### Floods
+##### 洪水
 FloodAlerts is a website using data from the British Environment Agency to supply residents in England and Wales with alerts about flood events.
 UNOCHA report from December 2016 on El Nino response in East and Southern Africa.
 The impending disaster along the Zambia/Zimbabwe border if Kariba Dam wall collapses (Developing Story - January 2017)
 
-##### Deforestation
+##### 森林砍伐
 Global Forest Watch provides several data sets on forest coverage, use, loss, and indigenous peoples.
 
-#####Pollution - air, water
+##### 環境污染 - 空氣雨水
 Sensor data from https://www.opensensors.io
 https://opendevelopmentmekong.net/
 The map of “Spills in Brooklyn” visualizes records of the New York State Department of Conservation to show noxious chemical spills in different locations around New York’s neighbourhood Brooklyn.
@@ -147,11 +147,11 @@ Airlapse shows the concentration of particles such as carbon monoxide per hour i
 Open Oil releasing open financial models in the run-up to Christmas for around a dozen countries. Build on models/findings? http://openoil.net/contract-modeling/
 Extract-A-Fact, a project by Publish What You Pay, is a toolset to find facts in open data on extractives industries, including payments made to the government.
 
-##### Fires
+##### 森林大火、火燒山
 Earth Observatory data
 Global Forest Watch’s fire data/map
 ---
-resources_ideas_theme_5: Human Rights theme
+resources_ideas_theme_5: 人權議題
 ---
 resources_ideas_theme_5_text:
 
@@ -161,9 +161,9 @@ Immigration - see current work of the migrant files, openmigration + data from U
 Internet shutdowns - ways to combine information from AccessNow, Dyn Research, Akamai  (SOTI) with other data sources
 Tax - could share some interesting things from Open Data for Tax Justice project about overlap between tax and human rights
 Tracking poverty in cities - not using open data, but interesting example of how alternative stories about poverty are told.
-The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.
+The City of Indianapolis developed an open data portal to show information about the use of force, officers involved shootings and complaints against officers.
 ---
-support_scheme_heading: Support Scheme
+support_scheme_heading: 贊助方案
 ---
 support_scheme_body:
 
