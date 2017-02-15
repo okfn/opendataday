@@ -34,3 +34,8 @@ locale = es_mx
 name = Português brasileiro
 url_prefix = /pt_br/
 locale = pt_br
+
+[alternatives.nl]
+name = Nederlands
+url_prefix = /nl/
+locale = nl
