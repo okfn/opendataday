@@ -42,7 +42,9 @@ who_heading: 誰可以參加這個活動? 任何人!
 ---
 who_body:
 
-If you have an idea for using open data, want to find an interesting project to contribute towards, learn about how to visualise or analyse data or simply want to see what's happening, then definitely come participate! Participation is a core value of Open Data Day, everyone is free to voice their opinions in a constructive manner. No matter your skill-set or interests, we are encouraging organisers to foster opportunities for you to learn and help the global open data community grow.
+如果你有使用開放資料的想法，如果你在尋找有興趣的專案貢獻，如果你想要知道如何視覺化、分析資料，或單純只是想知道開放資料在做什麼，那你一定要來參加 Open Data Day！ 積極參與是 Open Data Day 的核心價值，任何人都可以自由地表達看法（有建設性的）。不論你的專業和興趣為何，我們鼓勵籌辦者提供機會去學習和幫助全球的開放資料社群成長。
+
+
 ---
 who_title_1: 市民
 ---
@@ -54,25 +56,28 @@ who_title_2: 公僕
 ---
 who_description_2:
 
-Your input and context can help us to make government data better. Come converse and learn.
+你提供的想法、專業與對政府的了解，可以幫助我們讓政府的資料更好。直接來吧，一起協作和學習。
 ---
-who_title_3: Designers
+who_title_3: 設計師
 ---
 who_description_3:
 
-Help us make open data relatable, so more people will use it and understand it.
+幫助我們將開放資料變得平易近人，這樣才可以讓更多人使用和瞭解開放資料。
+
 ---
-who_title_4: Developers
+who_title_4: 開發者
 ---
 who_description_4:
 
-Use your skills to develop solutions that can help solve important societal issues.
+用你的洪荒之力開發重大社會議題的解決方案。
+
 ---
-who_title_5: Statisticians
+who_title_5: 統計學家
 ---
 who_description_5:
 
-Use your skills to help understand the data and get important insights from it.
+用你的專業幫助大家理解資料，並從中發掘資料的意義。
+
 ---
 resources_heading: Event Resources
 ---
@@ -163,10 +168,10 @@ Tax - could share some interesting things from Open Data for Tax Justice project
 Tracking poverty in cities - not using open data, but interesting example of how alternative stories about poverty are told.
 The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.
 ---
-support_scheme_heading: Support Scheme
+support_scheme_heading: 支持方案
 ---
 support_scheme_body:
 
-Announcing the 2017 International Open Data Day Mini Grants Scheme! This year, with funding from SPARC, the Open Contracting Program of Hivos and Article 19, and Hewlett Foundation, Open Knowledge International will distribute $12,500 worth of mini grants to support your event ideas.
+在此公佈 2017 國際 Open Data Day 的微型補助方案！ This year, with funding from SPARC, the Open Contracting Program of Hivos and Article 19, and Hewlett Foundation, Open Knowledge International will distribute $12,500 worth of mini grants to support your event ideas.
 ---
 support_scheme_button: 了解更多
