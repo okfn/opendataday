@@ -35,6 +35,11 @@ name = Português brasileiro
 url_prefix = /pt_br/
 locale = pt_br
 
+[alternatives.nl]
+name = Nederlands
+url_prefix = /nl/
+locale = nl
+
 [alternatives.zh_tw]
 name = 正體中文
 url_prefix = /zh_tw/
