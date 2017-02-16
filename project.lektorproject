@@ -40,7 +40,13 @@ name = Nederlands
 url_prefix = /nl/
 locale = nl
 
+
 [alternatives.it]
 name = Italiano
 url_prefix = /it/
 locale = it
+
+[alternatives.zh_tw]
+name = 正體中文
+url_prefix = /zh_tw/
+locale = zh_tw
