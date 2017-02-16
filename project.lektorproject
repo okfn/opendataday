@@ -39,3 +39,8 @@ locale = pt_br
 name = Nederlands
 url_prefix = /nl/
 locale = nl
+
+[alternatives.it]
+name = Italiano
+url_prefix = /it/
+locale = it
