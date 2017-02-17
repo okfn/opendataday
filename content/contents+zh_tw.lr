@@ -2,15 +2,15 @@ _model: home
 ---
 next_date: 2017-03-04
 ---
-title: 您已被邀請
+title: Open Data Day
 ---
-banner_heading_1: 您已被邀請
+banner_heading_1: 2017
 ---
-banner_heading_2: Again!
+banner_heading_2: 國際開放資料日
 ---
-banner_content_1: Open Data Day will take place on
+banner_content_1: 邀請您撥出這一天來加入我們活動：
 ---
-banner_content_2: Saturday, 4 March 2017
+banner_content_2: 2017 年 3 月 4 日 星期六
 ---
 intro_heading: 什麼是 Open Data Day?
 ---
@@ -28,7 +28,7 @@ year_intro:
 ---
 year_label_1: 開放**研究**資料
 ---
-year_label_2: 公共*金流*追蹤
+year_label_2: 公共**金流**追蹤
 ---
 year_label_3: 開放**環境**資料
 ---
