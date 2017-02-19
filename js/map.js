@@ -20,8 +20,8 @@ map.on('load', function() {
     };
 
     data.feed.entry.forEach(function(d) {
-      var lat = d.gsx$latitude.$t,
-          lng = d.gsx$longitude.$t,
+      var lat = Number(d.gsx$latitude.$t),
+          lng = Number(d.gsx$longitude.$t),
           title = d.title.$t.split(",")[0],
           program = d.gsx$program.$t,
           organizers = d.gsx$organizers.$t,
