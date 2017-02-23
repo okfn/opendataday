@@ -26,3 +26,8 @@ locale = de_at
 name = Español
 url_prefix = /es_mx/
 locale = es_mx
+
+[alternatives.es_es]
+name = Castellano
+url_prefix = /es_es/
+locale = es_es
