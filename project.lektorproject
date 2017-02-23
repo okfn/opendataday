@@ -1,8 +1,11 @@
 [project]
 name = Open Data Day
 
-[servers.staging]
-name = Staging
+[servers.ci]
+enabled = yes
+target = ghpages+https://okfn/opendataday?cname=opendataday.org
+
+[servers.manual]
 enabled = yes
 default = yes
 target = ghpages://okfn/opendataday?cname=opendataday.org
@@ -31,3 +34,24 @@ locale = es_mx
 name = Castellano
 url_prefix = /es_es/
 locale = es_es
+
+[alternatives.pt_br]
+name = Português brasileiro
+url_prefix = /pt_br/
+locale = pt_br
+
+[alternatives.nl]
+name = Nederlands
+url_prefix = /nl/
+locale = nl
+
+
+[alternatives.it]
+name = Italiano
+url_prefix = /it/
+locale = it
+
+[alternatives.zh_tw]
+name = 正體中文
+url_prefix = /zh_tw/
+locale = zh_tw
