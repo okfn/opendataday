@@ -30,6 +30,11 @@ name = Español
 url_prefix = /es_mx/
 locale = es_mx
 
+[alternatives.es_es]
+name = Castellano
+url_prefix = /es_es/
+locale = es_es
+
 [alternatives.pt_br]
 name = Português brasileiro
 url_prefix = /pt_br/
@@ -39,7 +44,6 @@ locale = pt_br
 name = Nederlands
 url_prefix = /nl/
 locale = nl
-
 
 [alternatives.it]
 name = Italiano
