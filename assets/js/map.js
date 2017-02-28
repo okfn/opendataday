@@ -1,5 +1,5 @@
 var url = "https://spreadsheets.google.com/feeds/list/1cV43fuzwy2q2ZKDWrHVS6XR4O8B01eLevh4PD6nCENE/4/public/full?alt=json";
-mapboxgl.accessToken = 'pk.eyJ1Ijoib2tmbiIsImEiOiJjaXlrOW5yczgwMDEzMnlwaWd2ZzF6MDQ3In0.2UJlkR69zbu4-3YRJJgN5w';
+mapboxgl.accessToken = 'pk.eyJ1IjoibWFwZm93bGVyIiwiYSI6ImNpenA2a2NzejAwOGIycXA3aHZvMmw2amEifQ.KrhQQ_KpFFfiRBZ9ghKJ6g';
 
 var map = new mapboxgl.Map({
   container: 'map-container',
