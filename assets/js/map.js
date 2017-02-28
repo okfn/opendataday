@@ -75,9 +75,9 @@ map.on('load', function() {
     });
 
     var layers = [
-      [4, '#FF4900'], //red
-      [2, '#0086FF'], //blue
-      [0, '#FFB900'] //yellow
+      [20, '#FFB900'], //yellow
+      [10, '#FF4900'], //red
+      [2, '#0086FF'] //blue
     ];
 
     layers.forEach(function (layer, i) {
