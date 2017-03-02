@@ -94,21 +94,15 @@ resources_ideas_intro:
 
 Hey there Open Data enthusiast! You just saw that International Open Data Day will be on Saturday, 4th March 2017 and will be interested in hosting an event in your locality. Your only challenge now is finding the right idea that will hit the right spot. Our friends from the Open Data community have some ideas and data sources worth checking out.
 ---
-resources_ideas_theme_1: Datazar
+resources_ideas_theme_1: data.world
 ---
 resources_ideas_theme_1_text:
 
-[Datazar](https://www.datazar.com) is a cloud-based research collaboration platform where you can run your analysis in your browser. Upload your data and create R notebooks, D3 visualizations, Scientia scripts, LaTeX publications and more directly from your projects. While you're making sense of the data, discuss with your team in real time and decide the best methods. Use the REST API to send the data directly from your local applications. Datazar is offering its computational resources for free so that open data can shred and analyzed by everyone.
----
-resources_ideas_theme_2: data.world
----
-resources_ideas_theme_2_text:
-
 Use [data.world](https://data.world) to upload or find data from many sources and organize all aspects of a project - including data, notebooks, analysis, and discussions - in a single workspace. Collaborate efficiently using many tools: query uploaded data with SQL, interact with data via R Studio or Python programs using the data.world API, link a Google Sheet to a dataset, or work locally in a spreadsheet and upload a file. After Open Data Day, this work is preserved to showcase what was achieved and permit the community to build upon progress without unnecessarily repeating the data prep and analysis completed on Open Data Day.
 ---
-resources_ideas_theme_3: Open Research Data
+resources_ideas_theme_2: Open Research Data
 ---
-resources_ideas_theme_3_text:
+resources_ideas_theme_2_text:
 
 Root data commons - Repository for general public data sets of scientific interest, hosted on the OSDC.
 Explore Open Data policies with the US Federal data sharing resource - http://datasharing.sparcopen.org/
@@ -117,9 +111,9 @@ Try text & data mining: Content Mine - http://contentmine.org/
 Find a reusable dataset in your field: [Zenodo](https://zenodo.org/search?page=1&size=20&q=&access_right=open)
 [tbc: help others make their dataset available]
 ---
-resources_ideas_theme_4: Tracking Public Money flows
+resources_ideas_theme_3: Tracking Public Money flows
 ---
-resources_ideas_theme_4_text:
+resources_ideas_theme_3_text:
 
 Open Contracting - http://www.open-contracting.org/
 Open Spending - http://next.openspending.org/
@@ -127,6 +121,12 @@ Cooking budgets - http://www.cookingbudgets.com/
 Panama Papers - https://panamapapers.icij.org/
 Municipal Money - https://municipalmoney.gov.za/
 Development check - http://www.developmentcheck.org/
+---
+resources_ideas_theme_4: Datazar
+---
+resources_ideas_theme_4_text:
+
+[Datazar](https://www.datazar.com) is a cloud-based research collaboration platform where you can run your analysis in your browser. Upload your data and create R notebooks, D3 visualizations, Scientia scripts, LaTeX publications and more directly from your projects. While you're making sense of the data, discuss with your team in real time and decide the best methods. Use the REST API to send the data directly from your local applications. Datazar is offering its computational resources for free so that open data can be shared and analyzed by everyone.
 ---
 resources_ideas_theme_5: Environment theme
 ---
