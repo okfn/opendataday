@@ -122,9 +122,15 @@ Panama Papers - https://panamapapers.icij.org/
 Municipal Money - https://municipalmoney.gov.za/
 Development check - http://www.developmentcheck.org/
 ---
-resources_ideas_theme_4: Environment theme
+resources_ideas_theme_4: Datazar
 ---
 resources_ideas_theme_4_text:
+
+[Datazar](https://www.datazar.com) is a cloud-based research collaboration platform where you can run your analysis in your browser. Upload your data and create R notebooks, D3 visualizations, Scientia scripts, LaTeX publications and more directly from your projects. While you're making sense of the data, discuss with your team in real time and decide the best methods. Use the REST API to send the data directly from your local applications. Datazar is offering its computational resources for free so that open data can be shared and analyzed by everyone.
+---
+resources_ideas_theme_5: Environment theme
+---
+resources_ideas_theme_5_text:
 
 Drought in Southern Africa
 In the news:
@@ -156,9 +162,9 @@ Extract-A-Fact, a project by Publish What You Pay, is a toolset to find facts in
 Earth Observatory data
 Global Forest Watch’s fire data/map
 ---
-resources_ideas_theme_5: Human Rights theme
+resources_ideas_theme_6: Human Rights theme
 ---
-resources_ideas_theme_5_text:
+resources_ideas_theme_6_text:
 
 LGBTQ rights - http://www.lgbtdata.com/ (note: This website does not state that the data is open, but link to datasets)
 War crimes  - see for example how BVT datalab showed the story of the bombing in Barcelona during the civil war
