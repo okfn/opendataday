@@ -293,7 +293,6 @@
             .count {
               display: block;
               font-weight: 700;
-              padding-top: $base-spacing/3;
             }
 
             a {
@@ -418,11 +417,11 @@
             margin-left: auto;
             margin-right: auto;
           }
+        }
 
-          & + a {
-            @include button;
-            margin-bottom: $gutter;
-          }
+        & > a {
+          @include button;
+          margin-bottom: $gutter;
         }
 
         article {

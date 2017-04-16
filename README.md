@@ -8,7 +8,7 @@ Check <http://opendataday.org/> for public website.
 
 ## Editing / contributing
 
-This site is built with [Lektor](https://www.getlektor.com/).
+This site is built with [Lektor](https://www.getlektor.com/).  Install using pip or download it from their website.
 
 It has a bunch of [dependencies](https://github.com/okfn/opendataday/blob/master/package.json), so do `npm install` and then `npm run build`.
 
