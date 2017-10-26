@@ -2,7 +2,7 @@ language: pt_br
 ---
 _model: home
 ---
-next_date: 2017-03-04
+next_date: 2018-03-03
 ---
 title: Você está convidado
 ---
@@ -12,7 +12,7 @@ banner_heading_2: De novo!
 ---
 banner_content_1: O Dia dos Dados Abertos será no
 ---
-banner_content_2: Sábado, 4 de março de 2017
+banner_content_2: Sábado, 4 de março de 2018
 ---
 intro_heading: O que é o Dia dos Dados Abertos?
 ---
@@ -28,7 +28,7 @@ Todos os resultados são abertos para que todos usem e reusem.
 ---
 year_intro:
 
-Para o Dia dos Dados Abertos 2017, nós queremos aperfeiçoar. O foco desse ano será em quatro áreas chave que acreditamos que os dados abertos podem resolver.
+Para o Dia dos Dados Abertos 2018, nós queremos aperfeiçoar. O foco desse ano será em quatro áreas chave que acreditamos que os dados abertos podem resolver.
 ---
 year_label_1: Dados abertos de **pesquisas** acadêmicas
 ---
@@ -78,7 +78,7 @@ resources_heading: Recursos para Eventos
 ---
 resources_intro:
 
-Precisa de inspiração para um evento do Dia dos Dados Abertos, ou não sabe onde encontrar os dados que precisa? Confira os nossos recursos para eventos de 2017.
+Precisa de inspiração para um evento do Dia dos Dados Abertos, ou não sabe onde encontrar os dados que precisa? Confira os nossos recursos para eventos de 2018.
 ---
 resources_button: Recursos
 ---
@@ -92,7 +92,7 @@ resources_ideas_heading: Ideias e fontes de dados
 ---
 resources_ideas_intro:
 
-Ei, entusiasta dos Dados Abertos! Você acabou de ver que o Dia Internacional dos Dados Abertos será no sábado, 4 de março de 2017 e estará interessado em hospedar um evento na sua localidade. Seu único desafio agora é encontrar a ideia certa para acertar o ponto ideal. Nossos amigos da comunidade dos Dados Abertos têm algumas ideias e fontes de dados que valem a pena conferir.
+Ei, entusiasta dos Dados Abertos! Você acabou de ver que o Dia Internacional dos Dados Abertos será no sábado, 4 de março de 2018 e estará interessado em hospedar um evento na sua localidade. Seu único desafio agora é encontrar a ideia certa para acertar o ponto ideal. Nossos amigos da comunidade dos Dados Abertos têm algumas ideias e fontes de dados que valem a pena conferir.
 ---
 resources_ideas_theme_1: Dados Abertos de Pesquisas Acadêmicas
 ---
@@ -125,7 +125,7 @@ Hack 4 Water (África do Sul) http://www.hack4water.org.za/ https://www.dwa.gov.
 ##### Enchentes
 FloodAlerts é um site que usa dados da Agência do Meio Ambiente Britânica para fornecer alertas sobre eventos de enchentes a residentes na Inglaterra e País de Gales.
 Relatório UNOCHA de dezembro de 2016 sobre a resposta ao El Niño no leste e no sul ta África.
-O iminente desastre ao longo da fronteira Zâmbia/Zimbábue se o muro de Kariba Dam ruir (história em andamento - janeiro de 2017)
+O iminente desastre ao longo da fronteira Zâmbia/Zimbábue se o muro de Kariba Dam ruir (história em andamento - janeiro de 2018)
 
 ##### Desmatamento
 Global Forest Watch fornece vários conjuntos de dados sobre a cobertura, uso e perda de florestas e povos indígenas.
@@ -161,6 +161,6 @@ support_scheme_heading: Plano de Apoio
 ---
 support_scheme_body:
 
-Estamos anunciando o plano de mini bolsas do Dia Internacional dos Dados Abertos 2017! Este ano, com financiamento da SPARC, o Programa Open Contracting da Hivos e a Artigo 19, e a Fundação Hewlett, a Open Knowledge Internacional distribuirá US$12,500 em mini bolsas para apoiar as suas ideias para eventos.
+Estamos anunciando o plano de mini bolsas do Dia Internacional dos Dados Abertos 2018! Este ano, com financiamento da SPARC, o Programa Open Contracting da Hivos e a Artigo 19, e a Fundação Hewlett, a Open Knowledge Internacional distribuirá US$12,500 em mini bolsas para apoiar as suas ideias para eventos.
 ---
 support_scheme_button: Saiba mais
