@@ -20,7 +20,7 @@ register_text: Registre o seu evento aqui
 ---
 intro_body:
 
-O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Pela quinta vez na história, grupos de todas as partes do mundo criarão eventos locais no dia em que usarão dados abertos em suas comunidades. É uma oportunidade para mostrar os benefícios dos dados abertos e encorajar a adoção de políticas de dados abertos no governo, empresas e na sociedade civil.
+O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Pela sétima vez na história, grupos de todas as partes do mundo criarão eventos locais no dia em que usarão dados abertos em suas comunidades. É uma oportunidade para mostrar os benefícios dos dados abertos e encorajar a adoção de políticas de dados abertos no governo, empresas e na sociedade civil.
 ---
 intro_body_2:
 
@@ -161,6 +161,6 @@ support_scheme_heading: Plano de Apoio
 ---
 support_scheme_body:
 
-Estamos anunciando o plano de mini bolsas do Dia Internacional dos Dados Abertos 2018! Este ano, com financiamento da SPARC, o Programa Open Contracting da Hivos e a Artigo 19, e a Fundação Hewlett, a Open Knowledge Internacional distribuirá US$12,500 em mini bolsas para apoiar as suas ideias para eventos.
+Estamos atualmente preparando os detalhes acerca do plano de apoio para o Open Data Day 2018. Fique ligado! Tem alguma ideia ou quer apoiar? Envie-nos suas palavras [network@okfn.org](mailto:network@okfn.org)
 ---
-support_scheme_button: Saiba mais
+[//]: # (support_scheme_button: Learn more)
