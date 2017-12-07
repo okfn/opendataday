@@ -12,7 +12,7 @@ banner_heading_2: De novo!
 ---
 banner_content_1: O Dia dos Dados Abertos será no
 ---
-banner_content_2: Sábado, 4 de março de 2018
+banner_content_2: Sábado, 3 de março de 2018
 ---
 intro_heading: O que é o Dia dos Dados Abertos?
 ---
@@ -20,7 +20,7 @@ register_text: Registre o seu evento aqui
 ---
 intro_body:
 
-O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Pela quinta vez na história, grupos de todas as partes do mundo criarão eventos locais no dia em que usarão dados abertos em suas comunidades. É uma oportunidade para mostrar os benefícios dos dados abertos e encorajar a adoção de políticas de dados abertos no governo, empresas e na sociedade civil.
+O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Pela sétima vez na história, grupos de todas as partes do mundo criarão eventos locais no dia em que usarão dados abertos em suas comunidades. É uma oportunidade para mostrar os benefícios dos dados abertos e encorajar a adoção de políticas de dados abertos no governo, empresas e na sociedade civil.
 ---
 intro_body_2:
 
@@ -92,7 +92,7 @@ resources_ideas_heading: Ideias e fontes de dados
 ---
 resources_ideas_intro:
 
-Ei, entusiasta dos Dados Abertos! Você acabou de ver que o Dia Internacional dos Dados Abertos será no sábado, 4 de março de 2018 e estará interessado em hospedar um evento na sua localidade. Seu único desafio agora é encontrar a ideia certa para acertar o ponto ideal. Nossos amigos da comunidade dos Dados Abertos têm algumas ideias e fontes de dados que valem a pena conferir.
+Ei, entusiasta dos Dados Abertos! Você acabou de ver que o Dia Internacional dos Dados Abertos será no sábado, 3 de março de 2018 e estará interessado em hospedar um evento na sua localidade. Seu único desafio agora é encontrar a ideia certa para acertar o ponto ideal. Nossos amigos da comunidade dos Dados Abertos têm algumas ideias e fontes de dados que valem a pena conferir.
 ---
 resources_ideas_theme_1: Dados Abertos de Pesquisas Acadêmicas
 ---
@@ -125,7 +125,7 @@ Hack 4 Water (África do Sul) http://www.hack4water.org.za/ https://www.dwa.gov.
 ##### Enchentes
 FloodAlerts é um site que usa dados da Agência do Meio Ambiente Britânica para fornecer alertas sobre eventos de enchentes a residentes na Inglaterra e País de Gales.
 Relatório UNOCHA de dezembro de 2016 sobre a resposta ao El Niño no leste e no sul ta África.
-O iminente desastre ao longo da fronteira Zâmbia/Zimbábue se o muro de Kariba Dam ruir (história em andamento - janeiro de 2018)
+O iminente desastre ao longo da fronteira Zâmbia/Zimbábue se o muro de Kariba Dam ruir (história em andamento - janeiro de 2017)
 
 ##### Desmatamento
 Global Forest Watch fornece vários conjuntos de dados sobre a cobertura, uso e perda de florestas e povos indígenas.
@@ -161,6 +161,6 @@ support_scheme_heading: Plano de Apoio
 ---
 support_scheme_body:
 
-Estamos anunciando o plano de mini bolsas do Dia Internacional dos Dados Abertos 2018! Este ano, com financiamento da SPARC, o Programa Open Contracting da Hivos e a Artigo 19, e a Fundação Hewlett, a Open Knowledge Internacional distribuirá US$12,500 em mini bolsas para apoiar as suas ideias para eventos.
+Estamos atualmente preparando os detalhes acerca do plano de apoio para o Open Data Day 2018. Fique ligado! Tem alguma ideia ou quer apoiar? Envie-nos suas palavras [network@okfn.org](mailto:network@okfn.org)
 ---
-support_scheme_button: Saiba mais
+[//]: # (support_scheme_button: Learn more)
