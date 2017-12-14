@@ -40,6 +40,11 @@ name = Português brasileiro
 url_prefix = /pt_br/
 locale = pt_br
 
+[alternatives.ne]
+name = Nepali
+url_prefix = /ne/
+locale = ne
+
 [alternatives.nl]
 name = Nederlands
 url_prefix = /nl/
