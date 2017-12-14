@@ -1,4 +1,4 @@
-language: es_es
+language: es
 ---
 next_date: 2018-03-03
 ---
@@ -10,7 +10,7 @@ banner_heading_2: ¡De nuevo!
 ---
 banner_content_1: El Día de los Datos Abiertos se llevará a cabo el
 ---
-banner_content_2: sábado, 4 de marzo de 2018
+banner_content_2: sábado, 3 de marzo de 2018
 ---
 intro_heading: ¿Qué es el día de los datos abiertos?
 ---
