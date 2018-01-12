@@ -741,7 +741,7 @@ html {
         display: table; }
       @media (min-width: 1260px) {
         .home > section .this-year ul {
-          margin-right: -15px; } }
+          margin-right: -40%; } }
       .home > section .this-year ul li {
         text-align: center;
         display: block;
@@ -872,7 +872,7 @@ html {
           fill: #FFB900; }
         .home > section#resources > div > header svg.money {
           fill: #FF4900; }
-        .home > section#resources > div > header svg.environment {
+        .home > section#resources > div > header svg.mapping {
           fill: #48C0AC; }
         .home > section#resources > div > header svg.rights {
           fill: #9B20DC; }
