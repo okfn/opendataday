@@ -16,7 +16,7 @@ primary = yes
 locale = en
 
 [alternatives.de]
-name = German
+name = Deutsch
 url_prefix = /de/
 locale = de
 
