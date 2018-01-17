@@ -741,7 +741,7 @@ html {
         display: table; }
       @media (min-width: 1260px) {
         .home > section .this-year ul {
-          margin-right: -40%; } }
+          margin-right: -35%; } }
       .home > section .this-year ul li {
         text-align: center;
         display: block;
