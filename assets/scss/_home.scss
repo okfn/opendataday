@@ -235,7 +235,7 @@
         @include clearafter;
 
         @media (min-width:$max-screen) {
-          margin-right: -$gutter/2;
+          margin-right: -35%;
         }
 
         li {
@@ -404,7 +404,7 @@
             &.money {
               fill: $red;
             }
-            &.environment {
+            &.mapping {
               fill: $green;
             }
             &.rights {
