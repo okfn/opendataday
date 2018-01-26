@@ -170,8 +170,8 @@ Immigration - see current work of the migrant files, openmigration + data from U
 Internet shutdowns - ways to combine information from AccessNow, Dyn Research, Akamai  (SOTI) with other data sources
 Tax - could share some interesting things from Open Data for Tax Justice project about overlap between tax and human rights
 Tracking poverty in cities - not using open data, but interesting example of how alternative stories about poverty are told.
-The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.
----)
+The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.)
+---
 support_scheme_heading: Support Scheme
 ---
 support_scheme_body:
@@ -179,3 +179,7 @@ support_scheme_body:
 Are you organizing an Open Data Day event on any of these tracks? The mini-grant support scheme for Open Data Day 2018 is now open!
 ---
 support_scheme_button: Learn more
+---
+support_scheme_logos:
+Open Data Day 2018 mini grants are kindly supported by:
+---
