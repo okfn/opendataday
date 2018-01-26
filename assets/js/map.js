@@ -33,7 +33,7 @@ map.on('load', function() {
           type: 'Feature',
           properties: {
             title: title,
-            icon: "triangle",
+            icon: "circle",
             description: '<strong>Program:</strong> ' + program + '<br><strong>URL:</strong> ' + url + '<br><strong>Organizers:</strong> ' + organizers
           },
           geometry: {
@@ -45,6 +45,7 @@ map.on('load', function() {
     });
 
     $("#event-number").text(data.feed.entry.length);
+
 
     map.addSource("events", {
       "type": "geojson",
@@ -60,7 +61,7 @@ map.on('load', function() {
       "source": "events",
       "filter": ["!has", "point_count"],
       "layout": {
-        "icon-image": "{icon}-15",
+        "icon-image": "{icon}-11",
         "text-size": 12,
         "text-field": "{title}",
         "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
