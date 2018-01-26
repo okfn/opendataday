@@ -107,7 +107,6 @@ Explore Open Data policies with the US Federal data sharing resource - http://da
 All data on clinical trials, linked: Open Trials - http://opentrials.net/
 Try text & data mining: Content Mine - http://contentmine.org/
 Find a reusable dataset in your field: [Zenodo](https://zenodo.org/search?page=1&size=20&q=&access_right=open)
-[tbc: help others make their dataset available]
 ---
 resources_ideas_theme_3: Tracking Public Money flows
 ---
@@ -145,7 +144,7 @@ The impending disaster along the Zambia/Zimbabwe border if Kariba Dam wall colla
 ##### Deforestation
 Global Forest Watch provides several data sets on forest coverage, use, loss, and indigenous peoples.
 
-#####Pollution - air, water
+##### Pollution - air, water
 Sensor data from https://www.opensensors.io
 https://opendevelopmentmekong.net/
 The map of “Spills in Brooklyn” visualizes records of the New York State Department of Conservation to show noxious chemical spills in different locations around New York’s neighbourhood Brooklyn.
