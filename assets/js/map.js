@@ -61,7 +61,7 @@ map.on('load', function() {
       "source": "events",
       "filter": ["!has", "point_count"],
       "layout": {
-        "icon-image": "{icon}-11",
+        "icon-image": "{icon}-15",
         "text-size": 12,
         "text-field": "{title}",
         "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
