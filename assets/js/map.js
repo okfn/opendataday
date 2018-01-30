@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoib2tmbiIsImEiOiJjaXlrOW5yczgwMDEzMnlwaWd2ZzF6M
 
 var map = new mapboxgl.Map({
   container: 'map-container',
-  style: 'mapbox://styles/mapbox/light-v9',
+  style: 'mapbox://styles/mapbox/bright-v9',
   center: [0,0],
   zoom: 1.3,
   minZoom: 1.3,
@@ -61,7 +61,7 @@ map.on('load', function() {
       "source": "events",
       "filter": ["!has", "point_count"],
       "layout": {
-        "icon-image": "{icon}-15",
+        "icon-image": "{icon}-11",
         "text-size": 12,
         "text-field": "{title}",
         "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
