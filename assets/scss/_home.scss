@@ -232,7 +232,7 @@
         @include clearafter;
 
         @media (min-width:$max-screen) {
-          margin-right: -35%;
+          margin-right: $gutter/2;
         }
 
         li {
@@ -403,7 +403,7 @@
                   fill: $green;
                 }
 
-                &.rights {
+                &.equality {
                   fill: $purple;
                 }
               }
