@@ -741,7 +741,7 @@ html {
         display: table; }
       @media (min-width: 1260px) {
         .home > section .this-year ul {
-          margin-right: -35%; } }
+          margin-right: 15px; } }
       .home > section .this-year ul li {
         text-align: center;
         display: block;
@@ -874,7 +874,7 @@ html {
           fill: #FF4900; }
         .home > section#resources > div > header svg.mapping {
           fill: #48C0AC; }
-        .home > section#resources > div > header svg.rights {
+        .home > section#resources > div > header svg.equality {
           fill: #9B20DC; }
       .home > section#resources > div > header p {
         max-width: 770px;
