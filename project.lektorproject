@@ -54,3 +54,8 @@ locale = it
 name = 正體中文
 url_prefix = /zh_tw/
 locale = zh_tw
+
+[alternatives.ru]
+name = Russian
+url_prefix = /ru/
+locale = ru
