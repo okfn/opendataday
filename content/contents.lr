@@ -30,9 +30,9 @@ year_label_1: Open **research** data
 ---
 year_label_2: Tracking public **money** flows
 ---
-year_label_3: Open data for **environment**
+year_label_3: Open **mapping**
 ---
-year_label_4: Open data for **human rights**
+year_label_4: Data for **equal development**
 ---
 register_text: Register your event here
 ---
@@ -109,7 +109,6 @@ Explore Open Data policies with the US Federal data sharing resource - http://da
 All data on clinical trials, linked: Open Trials - http://opentrials.net/
 Try text & data mining: Content Mine - http://contentmine.org/
 Find a reusable dataset in your field: [Zenodo](https://zenodo.org/search?page=1&size=20&q=&access_right=open)
-[tbc: help others make their dataset available]
 ---
 resources_ideas_theme_3: Tracking Public Money flows
 ---
@@ -128,9 +127,9 @@ resources_ideas_theme_4_text:
 
 [Datazar](https://www.datazar.com) is a cloud-based research collaboration platform where you can run your analysis in your browser. Upload your data and create R notebooks, D3 visualizations, Scientia scripts, LaTeX publications and more directly from your projects. While you're making sense of the data, discuss with your team in real time and decide the best methods. Use the REST API to send the data directly from your local applications. Datazar is offering its computational resources for free so that open data can be shared and analyzed by everyone.
 ---
-resources_ideas_theme_5: Environment theme
+[//]: # (resources_ideas_theme_5: Environment theme)
 ---
-resources_ideas_theme_5_text:
+[//]: # (resources_ideas_theme_5_text:
 
 Drought in Southern Africa
 In the news:
@@ -147,7 +146,7 @@ The impending disaster along the Zambia/Zimbabwe border if Kariba Dam wall colla
 ##### Deforestation
 Global Forest Watch provides several data sets on forest coverage, use, loss, and indigenous peoples.
 
-#####Pollution - air, water
+##### Pollution - air, water
 Sensor data from https://www.opensensors.io
 https://opendevelopmentmekong.net/
 The map of “Spills in Brooklyn” visualizes records of the New York State Department of Conservation to show noxious chemical spills in different locations around New York’s neighbourhood Brooklyn.
@@ -160,7 +159,7 @@ Extract-A-Fact, a project by Publish What You Pay, is a toolset to find facts in
 
 ##### Fires
 Earth Observatory data
-Global Forest Watch’s fire data/map
+Global Forest Watch’s fire data/map)
 ---
 resources_ideas_theme_6: Human Rights theme
 ---
@@ -172,12 +171,16 @@ Immigration - see current work of the migrant files, openmigration + data from U
 Internet shutdowns - ways to combine information from AccessNow, Dyn Research, Akamai  (SOTI) with other data sources
 Tax - could share some interesting things from Open Data for Tax Justice project about overlap between tax and human rights
 Tracking poverty in cities - not using open data, but interesting example of how alternative stories about poverty are told.
-The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.
+The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.)
 ---
 support_scheme_heading: Support Scheme
 ---
 support_scheme_body:
 
-We are currently working on the details regarding the support scheme for Open Data Day 2018. Stay tuned! Got any ideas or want to support? Drop us a line [network@okfn.org](mailto:network@okfn.org)
+The mini-grant applications are now closed. Good luck to all who applied!
 ---
-[//]: # (support_scheme_button: Learn more)
+support_scheme_button: Learn more
+---
+support_scheme_logos:
+Open Data Day 2018 mini grants are kindly supported by:
+---

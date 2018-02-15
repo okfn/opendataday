@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoib2tmbiIsImEiOiJjaXlrOW5yczgwMDEzMnlwaWd2ZzF6M
 
 var map = new mapboxgl.Map({
   container: 'map-container',
-  style: 'mapbox://styles/mapbox/streets-v9',
+  style: 'mapbox://styles/mapbox/bright-v9',
   center: [0,0],
   zoom: 1.3,
   minZoom: 1.3,
@@ -33,7 +33,7 @@ map.on('load', function() {
           type: 'Feature',
           properties: {
             title: title,
-            icon: "triangle",
+            icon: "circle",
             description: '<strong>Program:</strong> ' + program + '<br><strong>URL:</strong> ' + url + '<br><strong>Organizers:</strong> ' + organizers
           },
           geometry: {
@@ -45,6 +45,7 @@ map.on('load', function() {
     });
 
     $("#event-number").text(data.feed.entry.length);
+
 
     map.addSource("events", {
       "type": "geojson",

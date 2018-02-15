@@ -30,7 +30,7 @@ year_label_1: खुल्ला **अनुसन्धान** डाटा
 ---
 year_label_2: सार्वजनिक **रकम** प्रवाहहरू ट्र्याक गर्न
 ---
-year_label_3: **वातावरण** को लागि खुल्ला डाटा
+year_label_3: **खुल्ला म्यापिङ**
 ---
 year_label_4: **मानव अधिकार** को लागि खुल्ला डाटा
 ---
@@ -182,4 +182,4 @@ support_scheme_body:
 अहिले हामी खुल्ला डाटा दिवस २०१८ को समर्थन योजना सम्बन्धी विवरणहरूमा काम गरिरहेका छौं। के तपाईं सँग कुनै विचारहरू छ वा समर्थन गर्न चाहनुहुन्छ? हामीलाई ईमेल छोड्नुहोस्।
 [network@okfn.org](mailto:network@okfn.org)
 ---
-[//]: # (support_scheme_button: Learn more)
+[//]: This is a bottom-up initiative coordinated through this mailing list.

@@ -44,11 +44,11 @@
           {{ this.year_label_2 }}
         </li>
         <li>
-          <svg><use xlink:href="#icon-environment" /></svg>
+          <svg><use xlink:href="#icon-mapping" /></svg>
           {{ this.year_label_3 }}
         </li>
         <li>
-          <svg><use xlink:href="#icon-rights" /></svg>
+          <svg><use xlink:href="#icon-equality" /></svg>
           {{ this.year_label_4 }}
         </li>
       </ul>
@@ -176,8 +176,8 @@
       <h2>{{ this.resources_heading }}</h2>
       <svg class="research"><use xlink:href="#icon-research" /></svg>
       <svg class="money"><use xlink:href="#icon-money" /></svg>
-      <svg class="environment"><use xlink:href="#icon-environment" /></svg>
-      <svg class="rights"><use xlink:href="#icon-rights" /></svg>
+      <svg class="mapping"><use xlink:href="#icon-mapping" /></svg>
+      <svg class="equality"><use xlink:href="#icon-equality" /></svg>
       {{ this.resources_intro }}
     </header>
     <a href="#resources">{{ this.resources_button }}</a>
@@ -219,8 +219,37 @@
       {{ this.support_scheme_body }}
     </header>
     {% if this.support_scheme_button %}
-    <a href="https://blog.okfn.org/2018/01/25/announcing-the-2018-international-open-data-day-mini-grants-scheme/" rel="external">{{ this.support_scheme_button }}</a>
+    <a href="https://blog.okfn.org/2018/01/22/announcing-the-open-data-day-2018-mini-grants-scheme/" rel="external">{{ this.support_scheme_button }}</a>
     {% endif %}
+  </div>
+</section>
+<section id="logos">
+  <div>
+    <header>
+      {{ this.support_scheme_logos }}
+    </header>
+    <ul>
+      <li>
+        <span>
+          <svg><use xlink:href="#icon-sparc" /></svg>
+        </span>
+      </li>
+      <li>
+      <span>
+        <svg><use xlink:href="#icon-hivos" /></svg>
+      </span>
+      </li>
+      <li>
+      <span>
+        <svg><use xlink:href="#icon-mapbox" /></svg>
+      </span>
+      </li>
+      <li>
+      <span>
+        <svg><use xlink:href="#icon-hewlett" /></svg>
+      </span>
+      </li>
+    </ul>
   </div>
 </section>
 
