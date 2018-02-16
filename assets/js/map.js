@@ -13,7 +13,7 @@ var map = new mapboxgl.Map({
 map.addControl(new mapboxgl.NavigationControl(), 'top-left');
 
 map.on('load', function() {
-  mapboxgl.util.getJSON(url, function(err, data) {
+  $.getJSON(url).done(function(data) {
     var geojson = {
       type: 'FeatureCollection',
       features: []
