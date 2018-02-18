@@ -75,27 +75,21 @@ map.on('load', function() {
       }
     });
 
-    var layers = [
-      [20, '#FFB900'], //yellow
-      [10, '#FF4900'], //red
-      [2, '#0086FF'] //blue
-    ];
-
-    layers.forEach(function (layer, i) {
-      map.addLayer({
-        "id": "cluster-" + i,
-        "type": "circle",
-        "source": "events",
-        "paint": {
-          "circle-color": layer[1],
-          "circle-radius": 18
-        },
-        "filter": i === 0 ?
-          [">=", "point_count", layer[0]] :
-          ["all",
-           [">=", "point_count", layer[0]],
-           ["<", "point_count", layers[i - 1][0]]]
-      });
+    map.addLayer({
+      "id": "clusters",
+      "type": "circle",
+      "source": "events",
+      "filter": ["has", "point_count"],
+      "paint": {
+        "circle-color": [
+          "step",
+          ["get", "point_count"],
+          '#0086FF',     // blue
+          10, '#FF4900', // red from count 10 up
+          20, '#FFB900'  // yellow from count 20 up
+        ],
+        "circle-radius": 18
+      }
     });
 
     map.addLayer({
