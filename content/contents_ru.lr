@@ -28,7 +28,7 @@ year_intro:
 ---
 year_label_1: Открытые **научные** данные
 ---
-year_label_2: Публичное отслеживание **денежных потоков**
+year_label_2: Открытые **государственные данные**
 ---
 year_label_3: Открытая **картография**
 ---
@@ -48,7 +48,6 @@ who_title_1: Люди
 ---
 who_description_1:
 
-We need you the most. If it wasn’t for you, this whole thing wouldn’t be happening. Wherever you come from and whatever your background, we need you.
 Мы больше всего нуждаемся в вас. Если бы это было не для вас, то всё это не произошло бы. Куда бы вы ни пришли, и что бы вы ни делали, мы нуждаемся в вас.
 ---
 who_title_2: Государственные служащие
@@ -61,7 +60,6 @@ who_title_3: Дизайнеры
 ---
 who_description_3:
 
-Help us make open data relatable, so more people will use it and understand it.
 Помогите нам сделать открытые данные наглядными, поэтому все больше людей будут использовать и понимать их.
 ---
 who_title_4: Разработчики
@@ -94,7 +92,7 @@ resources_ideas_heading: Идеи и источники данных
 ---
 resources_ideas_intro:
 
-Привет, энтузиаст Открытых Данных! Вы только что увидели, что Международный день открытых данных будет в субботу, 4 марта 2018 года, и заинтересованы в проведении мероприятия в вашем городе. Теперь ваша единственная задача - найти правильную идею, которая попадёт в нужное место. У наших друзей из сообщества Открытых Данных есть некоторые идеи и источники данных, которые вам стоит узнать.
+Привет, энтузиаст Открытых Данных! Вы только что увидели, что Международный день открытых данных будет в воскресенье, 4 марта 2018 года, и заинтересованы в проведении мероприятия в вашем городе. Теперь ваша единственная задача - найти правильную идею, которая попадёт в нужное место. У наших друзей из сообщества Открытых Данных есть некоторые идеи и источники данных, которые вам стоит узнать.
 ---
 resources_ideas_theme_1: Данные.Планеты
 ---
@@ -105,12 +103,6 @@ resources_ideas_theme_1_text:
 resources_ideas_theme_2: Открытые научные данные
 ---
 resources_ideas_theme_2_text:
-
-Root data commons - Repository for general public data sets of scientific interest, hosted on the OSDC.
-Explore Open Data policies with the US Federal data sharing resource - http://datasharing.sparcopen.org/
-All data on clinical trials, linked: Open Trials - http://opentrials.net/
-Try text & data mining: Content Mine - http://contentmine.org/
-Find a reusable dataset in your field: [Zenodo](https://zenodo.org/search?page=1&size=20&q=&access_right=open)
 
 Основной источник данные - хранилище для общедоступных наборов данных, представляющих научный интерес, размещённых на OSDC.
 Изучите политику использования «Открытых данных» с помощью информации Федерального фонда обмена данными США - http://datasharing.sparcopen.org/
@@ -178,7 +170,6 @@ support_scheme_heading: Схема поддержки
 ---
 support_scheme_body:
 
-Are you organizing an Open Data Day event on any of these tracks? The mini-grant support scheme for Open Data Day 2018 is now open!
 Вы организуете событие Open Data Day по любому из этих направлений? В настоящее время открыта схема поддержки мини-грантами организации Дня Открытых Данных 2018!
 ---
 support_scheme_button: Узнать больше
