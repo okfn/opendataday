@@ -61,6 +61,8 @@ map.on('load', function() {
       "source": "events",
       "filter": ["!has", "point_count"],
       "layout": {
+        "icon-allow-overlap": true,
+        "text-allow-overlap": true,
         "icon-image": "{icon}-15",
         "text-size": 12,
         "text-field": "{title}",
