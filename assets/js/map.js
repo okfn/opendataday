@@ -123,16 +123,78 @@ map.on('load', function() {
     });
 
     map.on('click', function (e) {
-      var features = map.queryRenderedFeatures(e.point, { layers: ['points'] });
+      var features = map.queryRenderedFeatures(e.point, { layers: ['points', 'clusters'] });
       if (!features.length) {
         return;
-      } else {
-        var feature = features[0];
+      }
+      var feature = features[0];
+
+      if (!feature.properties.cluster) {
         var popup = new mapboxgl.Popup()
             .setLngLat(feature.geometry.coordinates)
             .setHTML(feature.properties.description)
             .addTo(map);
+      } else {
+        // We need to expand a cluster
+        var oldZoom = map.getZoom();
+        var expansionZoom = getClusterExpansionZoom(clustering, feature.properties.cluster_id, Math.floor(oldZoom));
+
+        if (expansionZoom <= clusterMaxZoom) {
+          // +0.001 required as a workaround to https://github.com/mapbox/mapbox-gl-js/issues/6191
+          map.flyTo({center: feature.geometry.coordinates, zoom: expansionZoom + 0.001});
+        } else {
+          // If we ran out of clustering levels, zoom to fit the individual points
+          var points = clustering.getLeaves(feature.properties.cluster_id, Math.floor(oldZoom), 9999, 0);
+          var bounds = pointsToBounds(points);
+          var oldCenter = map.getCenter();
+
+          // Perform a test fit to calculate prospective center and zoom
+          map.fitBounds(bounds, {
+            animate: false,
+            padding: {
+              top:    $('#map-container').height()*0.1 + $('.main-nav').height(),
+              bottom: $('#map-container').height()*0.2,
+              left:   $('#map-container').width()*0.2,
+              right:  $('#map-container').width()*0.2
+            }
+          });
+          var newCenter = map.getCenter();
+          var newZoom = map.getZoom();
+
+          // Make sure we stay past the clustering levels
+          newZoom = Math.max(newZoom, clusterMaxZoom + 1);
+
+          // Animate from old view to new view
+          map.jumpTo({center: oldCenter, zoom: oldZoom});
+          map.flyTo({center: newCenter, zoom: newZoom});
+        }
       }
     });
   });
 });
+
+function pointsToBounds(points) {
+  return points.reduce(
+    function(bounds, point) {
+      return bounds.extend(point.geometry.coordinates);
+    },
+    new mapboxgl.LngLatBounds(
+      points[0].geometry.coordinates,
+      points[0].geometry.coordinates
+    )
+  );
+}
+
+// Version of clustering.getClusterExpansionZoom that distinguishes running out of zoom levels
+// From https://github.com/mapbox/supercluster/pull/76
+function getClusterExpansionZoom(clustering, clusterId, clusterZoom) {
+  while (true) {
+    // if we've run out of cluster levels, return next zoom level
+    if (clusterZoom >= clustering.options.maxZoom) return clusterZoom + 1;
+    var children = clustering.getChildren(clusterId, clusterZoom);
+    clusterZoom++;
+    if (children.length !== 1) break; // found expansion level
+    clusterId = children[0].properties.cluster_id;
+  }
+  return clusterZoom;
+}
