@@ -143,9 +143,10 @@ map.on('load', function() {
       var feature = features[0];
 
       if (!feature.properties.cluster) {
+        var descriptions = features.map(function (f) { return f.properties.description; });
         var popup = new mapboxgl.Popup()
-            .setLngLat(feature.geometry.coordinates)
-            .setHTML(feature.properties.description)
+            .setLngLat(features.length == 1 ? features[0].geometry.coordinates : e.lngLat)
+            .setHTML(descriptions.join('<br><br>'))
             .addTo(map);
       } else {
         // We need to expand a cluster
