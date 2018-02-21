@@ -122,6 +122,19 @@ map.on('load', function() {
       }
     });
 
+    map.on('mousemove', 'points', function(e) {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'points', function(e) {
+      map.getCanvas().style.cursor = '';
+    });
+    map.on('mousemove', 'clusters', function(e) {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'clusters', function(e) {
+      map.getCanvas().style.cursor = '';
+    });
+
     map.on('click', function (e) {
       var features = map.queryRenderedFeatures(e.point, { layers: ['points', 'clusters'] });
       if (!features.length) {
