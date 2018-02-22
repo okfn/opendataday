@@ -1,4 +1,6 @@
-_model: Главная
+language: ru
+---
+_model: home
 ---
 next_date: 2018-03-03
 ---
