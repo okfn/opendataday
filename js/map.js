@@ -1,6 +1,9 @@
 var url = "https://spreadsheets.google.com/feeds/list/1cV43fuzwy2q2ZKDWrHVS6XR4O8B01eLevh4PD6nCENE/4/public/full?alt=json";
 mapboxgl.accessToken = 'pk.eyJ1Ijoib2tmbiIsImEiOiJjaXlrOW5yczgwMDEzMnlwaWd2ZzF6MDQ3In0.2UJlkR69zbu4-3YRJJgN5w';
 
+var clusterRadius = 50,
+    clusterMaxZoom = 14; // Max zoom to cluster points on
+
 var map = new mapboxgl.Map({
   container: 'map-container',
   style: 'mapbox://styles/mapbox/bright-v9',
@@ -51,8 +54,16 @@ map.on('load', function() {
       "type": "geojson",
       "data": geojson,
       cluster: true,
-      clusterMaxZoom: 14 // Max zoom to cluster points on
+      clusterRadius: clusterRadius,
+      clusterMaxZoom: clusterMaxZoom
     });
+
+    // Duplicate instance of the Mapbox internal clustering code for external access
+    // See e.g. https://github.com/mapbox/mapbox-gl-js/issues/3318
+    var clustering = supercluster({
+      radius: clusterRadius,
+      maxZoom: clusterMaxZoom
+    }).load(geojson.features);
 
     map.addLayer({
       "id": "points",
@@ -61,6 +72,8 @@ map.on('load', function() {
       "source": "events",
       "filter": ["!has", "point_count"],
       "layout": {
+        "icon-allow-overlap": true,
+        "text-allow-overlap": true,
         "icon-image": "{icon}-15",
         "text-size": 12,
         "text-field": "{title}",
@@ -75,27 +88,21 @@ map.on('load', function() {
       }
     });
 
-    var layers = [
-      [20, '#FFB900'], //yellow
-      [10, '#FF4900'], //red
-      [2, '#0086FF'] //blue
-    ];
-
-    layers.forEach(function (layer, i) {
-      map.addLayer({
-        "id": "cluster-" + i,
-        "type": "circle",
-        "source": "events",
-        "paint": {
-          "circle-color": layer[1],
-          "circle-radius": 18
-        },
-        "filter": i === 0 ?
-          [">=", "point_count", layer[0]] :
-          ["all",
-           [">=", "point_count", layer[0]],
-           ["<", "point_count", layers[i - 1][0]]]
-      });
+    map.addLayer({
+      "id": "clusters",
+      "type": "circle",
+      "source": "events",
+      "filter": ["has", "point_count"],
+      "paint": {
+        "circle-color": [
+          "step",
+          ["get", "point_count"],
+          '#0086FF',     // blue
+          10, '#FF4900', // red from count 10 up
+          20, '#FFB900'  // yellow from count 20 up
+        ],
+        "circle-radius": 18
+      }
     });
 
     map.addLayer({
@@ -117,17 +124,93 @@ map.on('load', function() {
       }
     });
 
+    map.on('mousemove', 'points', function(e) {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'points', function(e) {
+      map.getCanvas().style.cursor = '';
+    });
+    map.on('mousemove', 'clusters', function(e) {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'clusters', function(e) {
+      map.getCanvas().style.cursor = '';
+    });
+
     map.on('click', function (e) {
-      var features = map.queryRenderedFeatures(e.point, { layers: ['points'] });
+      var features = map.queryRenderedFeatures(e.point, { layers: ['points', 'clusters'] });
       if (!features.length) {
         return;
-      } else {
-        var feature = features[0];
+      }
+      var feature = features[0];
+
+      if (!feature.properties.cluster) {
+        var descriptions = features.map(function (f) { return f.properties.description; });
         var popup = new mapboxgl.Popup()
-            .setLngLat(feature.geometry.coordinates)
-            .setHTML(feature.properties.description)
+            .setLngLat(features.length == 1 ? features[0].geometry.coordinates : e.lngLat)
+            .setHTML(descriptions.join('<br><br>'))
             .addTo(map);
+      } else {
+        // We need to expand a cluster
+        var oldZoom = map.getZoom();
+        var expansionZoom = getClusterExpansionZoom(clustering, feature.properties.cluster_id, Math.floor(oldZoom));
+
+        if (expansionZoom <= clusterMaxZoom) {
+          // +0.001 required as a workaround to https://github.com/mapbox/mapbox-gl-js/issues/6191
+          map.flyTo({center: feature.geometry.coordinates, zoom: expansionZoom + 0.001});
+        } else {
+          // If we ran out of clustering levels, zoom to fit the individual points
+          var points = clustering.getLeaves(feature.properties.cluster_id, Math.floor(oldZoom), 9999, 0);
+          var bounds = pointsToBounds(points);
+          var oldCenter = map.getCenter();
+
+          // Perform a test fit to calculate prospective center and zoom
+          map.fitBounds(bounds, {
+            animate: false,
+            padding: {
+              top:    $('#map-container').height()*0.1 + $('.main-nav').height(),
+              bottom: $('#map-container').height()*0.2,
+              left:   $('#map-container').width()*0.2,
+              right:  $('#map-container').width()*0.2
+            }
+          });
+          var newCenter = map.getCenter();
+          var newZoom = map.getZoom();
+
+          // Make sure we stay past the clustering levels
+          newZoom = Math.max(newZoom, clusterMaxZoom + 1);
+
+          // Animate from old view to new view
+          map.jumpTo({center: oldCenter, zoom: oldZoom});
+          map.flyTo({center: newCenter, zoom: newZoom});
+        }
       }
     });
   });
 });
+
+function pointsToBounds(points) {
+  return points.reduce(
+    function(bounds, point) {
+      return bounds.extend(point.geometry.coordinates);
+    },
+    new mapboxgl.LngLatBounds(
+      points[0].geometry.coordinates,
+      points[0].geometry.coordinates
+    )
+  );
+}
+
+// Version of clustering.getClusterExpansionZoom that distinguishes running out of zoom levels
+// From https://github.com/mapbox/supercluster/pull/76
+function getClusterExpansionZoom(clustering, clusterId, clusterZoom) {
+  while (true) {
+    // if we've run out of cluster levels, return next zoom level
+    if (clusterZoom >= clustering.options.maxZoom) return clusterZoom + 1;
+    var children = clustering.getChildren(clusterId, clusterZoom);
+    clusterZoom++;
+    if (children.length !== 1) break; // found expansion level
+    clusterId = children[0].properties.cluster_id;
+  }
+  return clusterZoom;
+}
