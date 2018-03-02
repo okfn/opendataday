@@ -989,12 +989,12 @@ html {
           @media (min-width: 900px) {
             .home > section#logos > div ul li {
               float: left;
-              width: 25%; } }
+              width: 20%; } }
           .home > section#logos > div ul li span {
             display: inline-block; }
             .home > section#logos > div ul li span svg {
               display: block;
-              width: 120px;
+              width: 100px;
               margin-bottom: -100px;
               margin-top: -50px; }
 
