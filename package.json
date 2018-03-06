@@ -17,5 +17,8 @@
     "supercluster": "^2.3.0",
     "waypoints": "^4.0.1"
   },
-  "author": "Sam Smith"
+  "author": "Sam Smith",
+  "dependencies": {
+    "npm": "^5.7.1"
+  }
 }
