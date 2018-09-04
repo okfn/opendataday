@@ -5,12 +5,6 @@
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700" rel="stylesheet">
 <link rel="stylesheet" href="./css/style.css">
 <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css" rel="stylesheet" />
-<script>
-  var okiConsent = {
-    analyticsTrackingID: 'UA-33874954-12',
-  };
-</script>
-<script src="https://a.okfn.org/html/oki/consent/assets/js/consent.js"></script>
 <body class="home">
 
   
@@ -22,7 +16,7 @@
     
     <h1><span class="l1">&nbsp;You</span><span class="l1">&nbsp;are</span><span class="l1">&nbsp;invited.</span><br /><span class="l2">&nbsp;Again!</span></h1>
     <p>
-      <span class="l1">&nbsp;Open</span><span class="l1">&nbsp;Data</span><span class="l1">&nbsp;Day</span><span class="l1">&nbsp;2018</span><span class="l1">&nbsp;took</span><span class="l1">&nbsp;place</span><br /><span class="l2">&nbsp;Saturday,</span><span class="l2">&nbsp;3</span><span class="l2">&nbsp;March</span>
+      <span class="l1">&nbsp;Open</span><span class="l1">&nbsp;Data</span><span class="l1">&nbsp;Day</span><span class="l1">&nbsp;will</span><span class="l1">&nbsp;take</span><span class="l1">&nbsp;place</span><span class="l1">&nbsp;on</span><br /><span class="l2">&nbsp;Saturday,</span><span class="l2">&nbsp;3</span><span class="l2">&nbsp;March</span><span class="l2">&nbsp;2018</span>
     </p>
     <span class="down animated bounce"><svg><use xlink:href="#icon-down" /></svg></span>
   </a>
@@ -385,7 +379,7 @@ Development check - <a href="http://www.developmentcheck.org/">http://www.develo
   <footer class="site-footer">
     <div>
       <span>
-        <p>This is a bottom-up initiative coordinated through <a href="https://groups.google.com/forum/#!forum/open-data-day">this mailing list</a> | <a href="https://okfn.org/privacy-policy/">Privacy Policy</a></p>
+        <p>This is a bottom-up initiative coordinated through <a href="https://groups.google.com/forum/#!forum/open-data-day">this mailing list</a>.</p>
 
       </span>
 
@@ -530,5 +524,15 @@ Development check - <a href="http://www.developmentcheck.org/">http://www.develo
         'label' : 'en',
       });
     });
+
+    // analytics
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33874954-12']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
   </script>
 </body>
