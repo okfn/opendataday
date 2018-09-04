@@ -5,12 +5,6 @@
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css" rel="stylesheet" />
-<script>
-  var okiConsent = {
-    analyticsTrackingID: 'UA-33874954-12',
-  };
-</script>
-<script src="https://a.okfn.org/html/oki/consent/assets/js/consent.js"></script>
 <body class="home">
 
   
@@ -410,7 +404,7 @@ A cidade de Indianápolis desenvolveu um portal de dados abertos para mostrar in
   <footer class="site-footer">
     <div>
       <span>
-        <p>Esta é uma verdadeira iniciativa de raiz que é coordenada <a href="https://groups.google.com/forum/#!forum/open-data-day">nessa lista de e-mails</a>. Este ano, a <a href="http://okfn.org/">Open Knowledge Internacional</a> ajudou a construir o site do Dia dos Dados Abertos e está oferecendo mini bolsas com a <a href="http://sparcopen.org/">SPARC</a> e a <a href="http://hivos.org/">HIVOS</a> para ajudar a fazer acontecer os eventos. Qualquer um pode contribuir para o Dia dos Dados Abertos usando a lista ou contribuindo para o <a href="https://github.com/okfn/opendataday">repositório no GitHub</a> | <a href="https://okfn.org/privacy-policy/">Privacy Policy</a></p>
+        <p>Esta é uma verdadeira iniciativa de raiz que é coordenada <a href="https://groups.google.com/forum/#!forum/open-data-day">nessa lista de e-mails</a>. Este ano, a <a href="http://okfn.org/">Open Knowledge Internacional</a> ajudou a construir o site do Dia dos Dados Abertos e está oferecendo mini bolsas com a <a href="http://sparcopen.org/">SPARC</a> e a <a href="http://hivos.org/">HIVOS</a> para ajudar a fazer acontecer os eventos. Qualquer um pode contribuir para o Dia dos Dados Abertos usando a lista ou contribuindo para o <a href="https://github.com/okfn/opendataday">repositório no GitHub</a>.</p>
 
       </span>
 
@@ -555,5 +549,15 @@ A cidade de Indianápolis desenvolveu um portal de dados abertos para mostrar in
         'label' : 'pt br',
       });
     });
+
+    // analytics
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33874954-12']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
   </script>
 </body>
