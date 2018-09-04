@@ -19,6 +19,6 @@
   },
   "author": "Sam Smith",
   "dependencies": {
-    "npm": "^5.7.1"
+    "npm": "^5.10.0"
   }
 }
