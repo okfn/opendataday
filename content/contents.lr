@@ -1,6 +1,6 @@
 _model: home
 ---
-next_date: 2018-03-03
+next_date: 2019-03-02
 ---
 title: You are invited
 ---
@@ -8,15 +8,15 @@ banner_heading_1: You are invited.
 ---
 banner_heading_2: Again!
 ---
-banner_content_1: Open Data Day 2018 took place
+banner_content_1: Open Data Day 2019 will take place
 ---
-banner_content_2: on Saturday, March 3rd
+banner_content_2: Saturday, March 2nd
 ---
 intro_heading: What is Open Data Day?
 ---
 intro_body:
 
-Open Data Day is an annual celebration of open data all over the world. For the seventh time in history, groups from around the world will create local events on the day where they will use open data in their communities. It is an opportunity to show the benefits of open data and encourage the adoption of open data policies in government, business and civil society.
+Open Data Day is an annual celebration of open data all over the world. For the ninth time in history, groups from around the world will create local events on the day where they will use open data in their communities. It is an opportunity to show the benefits of open data and encourage the adoption of open data policies in government, business and civil society.
 ---
 intro_body_2:
 
@@ -24,7 +24,7 @@ All outputs are open for everyone to use and re-use.
 ---
 year_intro:
 
-For Open Data Day 2018, we want to take things up a notch. The focus this year will be on four key areas that we believe open data can solve.
+For Open Data Day 2019, we want keep the community growing. We'll give mini-grants on key areas that we believe open data can solve. You can see the past topics below
 ---
 year_label_1: Open **research** data
 ---
@@ -78,7 +78,7 @@ resources_heading: Event Resources
 ---
 resources_intro:
 
-Need some inspiration for an Open Data Day event, or don't know where to find the data you need? Checkout our 2018 event resources.
+Need some inspiration for an Open Data Day event, or don't know where to find the data you need? Checkout our 2019 event resources.
 ---
 resources_button: Resources
 ---
@@ -92,7 +92,7 @@ resources_ideas_heading: Ideas and data sources
 ---
 resources_ideas_intro:
 
-Hey there Open Data enthusiast! You just saw that International Open Data Day will be on Saturday, 4th March 2018 and will be interested in hosting an event in your locality. Your only challenge now is finding the right idea that will hit the right spot. Our friends from the Open Data community have some ideas and data sources worth checking out.
+Hey there Open Data enthusiast! You just saw that International Open Data Day will be on Saturday, 2nd March 2019 and will be interested in hosting an event in your locality. Your only challenge now is finding the right idea that will hit the right spot. Our friends from the Open Data community have some ideas and data sources worth checking out.
 ---
 resources_ideas_theme_1: data.world
 ---
@@ -182,5 +182,5 @@ The mini-grant applications are now closed. Good luck to all who applied!
 support_scheme_button: Learn more
 ---
 support_scheme_logos:
-Open Data Day 2018 mini grants are kindly supported by:
+Open Data Day 2018 mini grants were kindly supported by:
 ---
