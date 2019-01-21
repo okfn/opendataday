@@ -309,8 +309,8 @@ html {
     opacity: 1; }
   .is-active.modal--fade, .is-active.modal--show {
     display: block\9;
-    height: 100% \9;
-    width: 100% \9; }
+    height: 100% \9 ;
+    width: 100% \9 ; }
   .modal--fade:target, .modal--show:target, .is-active.modal--fade, .is-active.modal--show {
     display: block\9; }
   .modal--fade .modal-inner, .modal--show .modal-inner {
