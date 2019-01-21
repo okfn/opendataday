@@ -733,7 +733,7 @@ html {
           float: right; } }
     .home > section .this-year ul {
       padding: 0;
-      margin: 0 15px;
+      margin: 0 0 0 15px;
       clear: right; }
       .home > section .this-year ul::after {
         clear: both;
