@@ -26,7 +26,7 @@ year_intro:
 
 For Open Data Day 2019, we want keep the community growing. We'll give mini-grants on key areas that we believe open data can solve. You can see this year's tracks below
 ---
-[//] year_label_1: Open **research** data
+year_label_1: Open **science**
 ---
 year_label_2: Tracking public **money** flows
 ---
@@ -100,7 +100,7 @@ resources_ideas_theme_1_text:
 
 Use [data.world](https://data.world) to upload or find data from many sources and organize all aspects of a project - including data, notebooks, analysis, and discussions - in a single workspace. Collaborate efficiently using many tools: query uploaded data with SQL, interact with data via R Studio or Python programs using the data.world API, link a Google Sheet to a dataset, or work locally in a spreadsheet and upload a file. After Open Data Day, this work is preserved to showcase what was achieved and permit the community to build upon progress without unnecessarily repeating the data prep and analysis completed on Open Data Day.
 ---
-resources_ideas_theme_2: Open Research Data
+resources_ideas_theme_2: Open Science
 ---
 resources_ideas_theme_2_text:
 
@@ -177,7 +177,7 @@ support_scheme_heading: Support Scheme
 ---
 support_scheme_body:
 
-This year we will provide mini-grants for you event. Learn more from the launch blog post.
+This year we will support some events through mini-grants. Learn more from the launch blog post.
 ---
 support_scheme_button: Learn more
 ---
