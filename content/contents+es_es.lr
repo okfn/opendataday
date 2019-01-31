@@ -1,6 +1,6 @@
 language: es_es
 ---
-next_date: 2018-03-03
+next_date: 2019-03-02
 ---
 title: Están invitadxs
 ---
@@ -10,7 +10,7 @@ banner_heading_2: ¡De nuevo!
 ---
 banner_content_1: El Día de los Datos Abiertos se llevará a cabo el
 ---
-banner_content_2: sábado, 3 de marzo de 2018
+banner_content_2: sábado, 2 de marzo de 2018
 ---
 intro_heading: ¿Qué es el día de los datos abiertos?
 ---
@@ -26,15 +26,15 @@ Todos los trabajos realizados son abiertos para usarse y re-usarse.
 ---
 year_intro:
 
-Para el Día de los datos abiertos 2018 queremos mejorar más. El enfoque este año será en cuatro áreas claves que creemos que los datos abiertos pueden ayudar a resolver.
+Para el Día de los datos abiertos 2019 queremos mejorar más. El enfoque este año será en cuatro áreas claves que creemos que los datos abiertos pueden ayudar a resolver.
 ---
-year_label_1: Datos abiertos de **investigación**
+year_label_1: **Ciencia** abierta
 ---
 year_label_2: Rastreo de flujos de **dinero** público
 ---
-year_label_3: Datos abiertos sobre **medio ambiente**
+year_label_3: **Mapeo** abierto
 ---
-year_label_4: Datos abiertos sobre **derechos humanos**
+year_label_4: **Desarrollo** equitativo
 ---
 who_heading: ¿A quién está dirigido? ¡A Todxs!
 ---
@@ -42,11 +42,11 @@ who_body:
 
 Si tienes una idea que use datos abiertos, quieres encontrar un proyecto interesante para contribuir, aprender sobre cómo visualizar o analisar datos o simplemente quieres ver lo que está pasando, entonces ¡definitivamente ven a participar! La participación es un valor central del hackatón, todo el mundo es libre de expresar sus opiniones de forma constructiva. No importa qué habilidades tengas o cuáles sean tus intereses, invitamos a lxs organizadores a facilitar oportunidades de aprendizaje y ayudar a que la comunidad global de datos abiertos crezca.
 ---
-who_title_1: Ciudadanxs
+who_title_1: La gente
 ---
 who_description_1:
 
-Todxs somos ciudadanxs, el día de los datos abiertos es un evento que nace de la ciudadanía. Si somos más, más eco tendremos. Son bienvenidas todas las personas que traigan ideas, promotorxs de proyectos y amigxs que ayuden a pasar la voz.
+El día de los datos abiertos es un evento que nace de la gente. Si somos más, más eco tendremos. Son bienvenidas todas las personas que traigan ideas, promotorxs de proyectos y amigxs que ayuden a pasar la voz.
 ---
 who_title_2: Servidorxs Públicos
 ---
@@ -90,71 +90,61 @@ resources_ideas_heading: Ideas y fuentes de datos
 ---
 resources_ideas_intro:
 
-¡Hola, entusiasta de los datos abiertos! Acabas de ver que el día de los datos abiertos será el sábado 4 de marzo de 2018 y tendrás interés en facilitar un evento en tu localidad. Tu único reto es encontrar la idea correcta. Nuestros amigxs de la comunidad de datos abiertos tienen algunas ideas y recursos de datos que vale la pena revisar.
+¡Hola, entusiasta de los datos abiertos! Acabas de ver que el día de los datos abiertos será el sábado 2 de marzo de 2019 y tendrás interés en facilitar un evento en tu localidad. Tu único reto es encontrar la idea correcta. Nuestros amigxs de la comunidad de datos abiertos tienen algunas ideas y recursos de datos que vale la pena revisar.
 ---
-resources_ideas_theme_1: Datos Abietos de Investigación
+resources_ideas_theme_1: Data sources
 ---
 resources_ideas_theme_1_text:
 
-Root data commons - Repositorio de conjuntos de datos públicos generales de interés científico, hospedado en el OSDC.
-Explora las políticas de datos abiertos con el US Federal data sharing resource
-Todos los datos de pruebas clínicas enlazados: Open Trials
-Minería de datos y texto: Content Mine
-Encuentra un conjunto de datos reusable: Zenodo
-[tbc: ayuda a que el conjunto de datos de otro esté disponible]
+Use [data.world](https://data.world) to upload or find data from many sources and organize all aspects of a project - including data, notebooks, analysis, and discussions - in a single workspace.
+
+You can access the [Humanitarian Data Exchange](https://data.humdata.org/) to find data related to humanitarian actions from different sources.
+
+If you have data but don't know where to put it, you can use the [CKAN DataHub](https://datahub.ckan.io/). You can publish or register datasets, create and manage groups and communities.
 ---
-resources_ideas_theme_2: Rastreo de flujos de fondos públicos
+resources_ideas_theme_2: Open Science
 ---
 resources_ideas_theme_2_text:
 
-Open Contracting, Open Spending, Cooking budgets, Panama Papers, Municipal Money, Development check
+[Frictionless Data for Reproducible Research](https://frictionlessdata.io/reproducible-research/) is excited to fund mini-grants
+for the Open Science track! Are you looking for ideas for your event? Frictionless Data has a collection of resources to help you get inspired.
+Check out our [Field Guide](http://frictionlessdata.io/field-guide/) to learn how to use our tools, such as the [Data Package Creator](http://create.frictionlessdata.io/),  [data validation tool](http://try.goodtables.io/), and our [software](http://frictionlessdata.io/software/), including libraries in R, Python, and Julia. We also have [workshop slides](https://docs.google.com/presentation/d/14dyORE_Ftvd30nEf1-rhspDSsVptGIINeRagmCm3f94/edit?usp=sharing) you can reuse (CC-BY) and
+[tutorial videos](https://www.youtube.com/channel/UCQe-pXn0XZzmRzvyOMZpfEg) to inspire you.
+
+- Just in case, here is a [complete list of integrations](http://frictionlessdata.io/software/) of Frictionless Data into tools and platforms for working with data, including Kaggle, Open Refine, SPSS, R, Julia, etc
+- You can also join the Frictionless Data community on [Gitter](https://gitter.im/frictionlessdata/chat) and [Discuss](https://discuss.okfn.org/c/frictionless-data)
+- Frictionless Data resources are open source and can be found here on GitHub
 ---
-resources_ideas_theme_3: Medio Ambiente
+resources_ideas_theme_3: Tracking Public Money flows
 ---
 resources_ideas_theme_3_text:
 
-Listado de recursos:
+If you are planning on organizing a track to follow the money, here are some interesting ideas and projects you can
+use to run your event:
 
-#### Sequía
+[#DataOnTheStreets International Rally](http://www.fiscaltransparency.net/blog_open_public.php?IdToOpen=6323). A great opportunity to invite the public to use the data generated by governments, go out to the streets and see how data reflects in their real life. It is a public participation process in the budget implementation phase through open data and digital tools, such as maps and visualizations.
 
-Sequía en el sur de África
-En las noticias:
-Guardian, Marzo 2016
-Thompson Reuters, Noviembre 2016
-Trabajo de datos que está ocurriendo:
-Hack 4 Water (South Africa) http://www.hack4water.org.za/ https://www.dwa.gov.za/events/hack4water/default.aspx
+[Better Budget Dataquest for sustainable development](http://www.fiscaltransparency.net/blog_open_public.php?IdToOpen=6309). The Dataquest is an opportunity to find new insights on certain topics and innovative ideas to improve budget allocations and execution.
 
-##### Inundaciones
-FloodAlerts es un siito web que usa datos de la British Environment Agency para informar a lxs habitantes de Inglaterra y Gales con alertas sobre posibles inundaciones.
-
-##### Deforestación
-Global Forest Watch http://www.globalforestwatch.org/ ofrece datos sobre superficie de los bosques, usos, pérdidas, comunidades indígenas, etc.
-
-##### Contaminación - aire, agua
-Datos de sensores de https://www.opensensors.io
-
-##### Extractivas
-Imagina una industria del petróleo con información de datos abiertos y un modelo de contratos. Eso lo puedes encontrar en http://openoil.net
-
-##### Incendios
-Se puede utilizar tanto Global Forest Watch como el observatorio de datos de la tierra de la NASA, http://earthobservatory.nasa.gov/, entre otros.
+These are two ways to engage people using budget and spending data.
 
 ---
-resources_ideas_theme_4: Derechos humanos
+resources_ideas_theme_4: Equal Development
 ---
 resources_ideas_theme_4_text:
 
-Según el informe anual de Amnistía Internacional, el número de personas desplazadas y en busca de refugio en el mundo es el más elevado desde la Segunda Guerra Mundial. Vivimos una época de creciente inacción política mientras se abren brechas en los derechos humanos a nivel mundial.
-
-Pero las injusticias no siempre se producen a miles de kilómetros de distancia. La defensa de los Derechos Humanos empieza en nuestro entorno. En nuestro barrio y nuestra ciudad. En España, leyes como la Ley de Seguridad Ciudadana han recortado derechos fundamentales. Mientras tanto, la pobreza infantil y la dificultad de acceso a la vivienda siguen azotando a nuestra sociedad.
-
-En línea con ese enfoque local, en el año 2000 los países de la Unión Europea firmaron la Carta Europea de Salvaguarda de los Derechos Humanos de la Ciudad. Algunos ayuntamientos están impulsando nuevas políticas con arreglo a esas líneas de actuación. Por ejemplo, el Ayuntamiento de Madrid está recopilando datos para llevar a cabo un plan transversal de Derechos Humanos que afecte a todas sus políticas públicas.
+LGBTQ rights - http://www.lgbtdata.com/ (note: This website does not state that the data is open, but links to datasets)
+War crimes  - see for example how BVT datalab showed the story of the bombing in Barcelona during the civil war
+Immigration - see current work of the migrant files, openmigration + data from UNHCR on refugee situations
+Internet shutdowns - ways to combine information from AccessNow, Dyn Research, Akamai  (SOTI) with other data sources
+Tax - could share some interesting things from Open Data for Tax Justice project about overlap between tax and human rights
+Tracking poverty in cities - not using open data, but interesting example of how alternative stories about poverty are told.
+The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.)
 
 ---
 support_scheme_heading: Apoyos
 ---
 support_scheme_body:
 
-Open Knowlede International, organización que vertebra el día de los datos abiertos ha conseguido fondos de SPARC, el programa de Contrataciones Abiertas de Hivos, Article 19 y la Hewlett Foundation. De esta manera, se distribuirán 12.500 dólares EE.UU. en mini becas para apoyar sus ideas para eventos.
----
+Open Knowlede International, organización que apoya el día de los datos abiertos ha conseguido fondos de Hivos, Mapbox, el UK-FCO y Frictionless Data para apoyar los eventos con mini-becas.
 support_scheme_button: Conoce más
