@@ -1,6 +1,6 @@
 _model: home
 ---
-next_date: 2018-03-03
+next_date: 2019-03-02
 ---
 title: Open Data Day
 ---
@@ -8,36 +8,36 @@ banner_heading_1: Doe mee met
 ---
 banner_heading_2: Open Data Day!
 ---
-banner_content_1: Open Data Day vond plaats op
+banner_content_1: Open Data Day vindt plaats op
 ---
-banner_content_2: Zaterdag 3 Maart 2018
+banner_content_2: Zaterdag 2 Maart 2019
 ---
 intro_heading: Wat is Open Data Day?
 ---
 intro_body:
 
-De Open Data Day is een jaarlijkse evenement ter ere van open data. Voor de vijfde keer in de geschiedenis hebben mensen wereldwijd de voordelen van open data aangetoond in de hoop open data beleid bij overheden en bedrijven te stimuleren.
+De Open Data Day is een jaarlijkse evenement ter ere van open data. Voor de negende keer in de geschiedenis tonen mensen wereldwijd de voordelen van open data aan in de hoop open data beleid bij overheden en bedrijven te stimuleren en de voordelen van het publiceren van open data te realiseren.
 
 ---
 intro_body_2:
 
-Alles wat op Open Data Day wordt gemaakt zal als creative commons beschikbaar worden gesteld.
+Alles wat op Open Data Day wordt gemaakt zal via een open licentie, zoals van Creative Commons, beschikbaar worden gesteld.
 ---
 year_intro:
 
-Voor Open Data Day 2018 verdelen we de activiteiten in vier categoriën.
+Voor Open Data Day 2019 verdelen we de activiteiten in vier categoriën.
 ---
-year_label_1: Open data voor **onderzoek**
+year_label_1: Open **onderzoeksdata**
 ---
-year_label_2: Publiek **geld**
+year_label_2: Het volgen van publieke **geldstromen**
 ---
-year_label_3: Open data voor het **milieu**
+year_label_3: Open data voor **kaarten**
 ---
-year_label_4: Open data voor **human rights**
+year_label_4: Open data voor **emancipatie**
 ---
 register_text: Publiceer je evenement >
 ---
-events_registered: evenementen
+events_registered: Evenementen
 ---
 who_heading: Voor wie? Voor iedereen!
 ---
@@ -161,7 +161,8 @@ resources_ideas_theme_4_text:
 support_scheme_heading: Ondersteuning
 ---
 support_scheme_body:
-Er zijn fondsen beschikbaar voor de 2018 International Open Data Day! Via SPARC, het Open Contracting programma van Hivos en Artikel 19, en de Hewlett Foundation mag Open Knowledge International ruim twaalfduizend dollar gebruiken om evenementen te ondersteunen. Klik op onderstaande knop om meer te lezen over de besteding van dit geld (Engels)
+Er zijn fondsen beschikbaar voor de 2019 International Open Data Day! Klik op onderstaande knop om meer te lezen over hoe je in aanmerking komt voor dit geld (in het Engels):
 ---
 support_scheme_button: Ik wil meer weten over ondersteuning!
-  
+---
+support_scheme_logos: We bedanken de volgende donoren voor het ter beschikking stellen van ee Open Data Day 2019 mini-subsidies:
