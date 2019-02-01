@@ -1,16 +1,16 @@
 _model: home
 ---
-next_date: 2018-03-03
+next_date: 2019-03-0
 ---
 title: Open Data Day
 ---
-banner_heading_1: 2018
+banner_heading_1: 2019
 ---
 banner_heading_2: 國際開放資料日
 ---
 banner_content_1: 邀請您撥出這一天來加入我們活動：
 ---
-banner_content_2: 2018 年 3 月 4 日 星期六
+banner_content_2: 2019 年 3 月 2 日 星期六
 ---
 intro_heading: 什麼是 Open Data Day?
 ---
@@ -24,15 +24,16 @@ intro_body_2:
 ---
 year_intro:
 
-在Open Data Day 2018，我們希望能將這個活動再往上一個檔次。今年的活動將聚焦於這四個我們認為開放資料能夠協助我們解決的主題。
+在Open Data Day 2019，我們希望能將社群再往上一個檔次。今年的活動將給針對以下我們認為開放資料能夠協助我們解決的主題，給予小型獎助金。你可以看下面的領域。
+
 ---
-year_label_1: 開放**研究**資料
+year_label_1: 開放研究資料
 ---
-year_label_2: 公共**金流**追蹤
+year_label_2: 追蹤公共資金動向
 ---
-year_label_3: 開放**環境**資料
+year_label_3: 開放繪製地圖
 ---
-year_label_4: 開放**人權**資料
+year_label_4: 資料為了平等發展
 ---
 register_text: 在此註冊你的活動
 ---
@@ -83,7 +84,7 @@ resources_heading: 活動資源
 ---
 resources_intro:
 
-需要一些靈感嗎？或是不知道如何找到你所需要的資料？來看一下我們 2018 Open Data Day 的活動資源。
+需要一些靈感嗎？或是不知道如何找到你所需要的資料？來看一下我們 2019 Open Data Day 的活動資源。
 
 ---
 resources_button: 點我找資源
@@ -98,7 +99,7 @@ resources_ideas_heading: 點子和資料來源
 ---
 resources_ideas_intro:
 
-嘿，各位開放資料愛好者你們好！你現在知道國際 Open Data Day 會在 2018 年 3 月 4 日星期六舉行，而且有興趣在當地舉辦開放資料的活動。你只剩下要找到那個可以一擊中的的點子。這邊有一些開放資料社群提供的點子和資料源，你可以參考。
+嘿，各位開放資料愛好者你們好！你現在知道國際 Open Data Day 會在 2019 年 3 月 2 日星期六舉行，而且有興趣在當地舉辦開放資料的活動。你只剩下要找到那個可以一擊中的的點子。這邊有一些開放資料社群提供的點子和資料源，你可以參考。
 
 ---
 resources_ideas_theme_1: data.world
