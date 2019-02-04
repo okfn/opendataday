@@ -518,7 +518,7 @@
           @include rev-text;
 
           & > div {
-            padding-bottom: $gutter/4;
+            padding-bottom: $gutter/5;
 
             header {
               padding: $gutter $gutter 0;
@@ -533,7 +533,7 @@
               padding: 0;
               margin-left: $gutter/2;
               @media (min-width:$max-screen) {
-                margin-left: 5%;
+                margin-left: 1%;
               }
 
               li {
@@ -542,7 +542,7 @@
                 box-sizing: border-box;
                 @media (min-width: $large-screen) {
                   float: left;
-                  width: 20%;
+                  width: 30%;
                 }
 
                 span {
@@ -550,10 +550,11 @@
 
                   svg {
                     display: block;
-                    width: 100px;
+                    width: 35%;
                     margin-bottom: -100px;
-                    margin-top: -50px;
+                    margin-top: -40px;
                   }
+
                 }
               }
             }
