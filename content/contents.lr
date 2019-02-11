@@ -24,9 +24,9 @@ All outputs are open for everyone to use and re-use.
 ---
 year_intro:
 
-For Open Data Day 2019, we want keep the community growing. We'll give mini-grants on key areas that we believe open data can solve. You can see the past topics below
+For Open Data Day 2019, we want keep the community growing. We'll give mini-grants on key areas that we believe open data can solve. You can see this year's tracks below
 ---
-year_label_1: Open **research** data
+year_label_1: Open **science**
 ---
 year_label_2: Tracking public **money** flows
 ---
@@ -36,7 +36,7 @@ year_label_4: Data for **equal development**
 ---
 register_text: Register your event here
 ---
-events_registered: events registered in 2018
+events_registered: events registered so far
 ---
 who_heading: Who is this for? Everyone!
 ---
@@ -86,7 +86,7 @@ resources_materials_heading: Materials
 ---
 resources_materials_text:
 
-Create a logo for your event with [this logo generator](http://odd.structure-and-representation.com/)!
+Create a logo for the event in your city using the [logo generator](http://odd.structure-and-representation.com/)!
 ---
 resources_ideas_heading: Ideas and data sources
 ---
@@ -94,38 +94,54 @@ resources_ideas_intro:
 
 Hey there Open Data enthusiast! You just saw that International Open Data Day will be on Saturday, 2nd March 2019 and will be interested in hosting an event in your locality. Your only challenge now is finding the right idea that will hit the right spot. Our friends from the Open Data community have some ideas and data sources worth checking out.
 ---
-resources_ideas_theme_1: data.world
+resources_ideas_theme_1: Data sources
 ---
 resources_ideas_theme_1_text:
 
-Use [data.world](https://data.world) to upload or find data from many sources and organize all aspects of a project - including data, notebooks, analysis, and discussions - in a single workspace. Collaborate efficiently using many tools: query uploaded data with SQL, interact with data via R Studio or Python programs using the data.world API, link a Google Sheet to a dataset, or work locally in a spreadsheet and upload a file. After Open Data Day, this work is preserved to showcase what was achieved and permit the community to build upon progress without unnecessarily repeating the data prep and analysis completed on Open Data Day.
+Use [data.world](https://data.world) to upload or find data from many sources and organize all aspects of a project - including data, notebooks, analysis, and discussions - in a single workspace.
+
+You can access the [Humanitarian Data Exchange](https://data.humdata.org/) to find data related to humanitarian actions from different sources.
+
+If you have data but don't know where to put it, you can use the [CKAN DataHub](https://datahub.ckan.io/). You can publish or register datasets, create and manage groups and communities.
 ---
-resources_ideas_theme_2: Open Research Data
+resources_ideas_theme_2: Open Science
 ---
 resources_ideas_theme_2_text:
 
-Root data commons - Repository for general public data sets of scientific interest, hosted on the OSDC.
-Explore Open Data policies with the US Federal data sharing resource - http://datasharing.sparcopen.org/
-All data on clinical trials, linked: Open Trials - http://opentrials.net/
-Try text & data mining: Content Mine - http://contentmine.org/
-Find a reusable dataset in your field: [Zenodo](https://zenodo.org/search?page=1&size=20&q=&access_right=open)
+[Frictionless Data for Reproducible Research](https://frictionlessdata.io/reproducible-research/) is excited to fund mini-grants
+for the Open Science track! Are you looking for ideas for your event? Frictionless Data has a collection of resources to help you get inspired.
+Check out our [Field Guide](http://frictionlessdata.io/field-guide/) to learn how to use our tools, such as the [Data Package Creator](http://create.frictionlessdata.io/),  [data validation tool](http://try.goodtables.io/), and our [software](http://frictionlessdata.io/software/), including libraries in R, Python, and Julia. We also have [workshop slides](https://docs.google.com/presentation/d/14dyORE_Ftvd30nEf1-rhspDSsVptGIINeRagmCm3f94/edit?usp=sharing) you can reuse (CC-BY) and
+[tutorial videos](https://www.youtube.com/channel/UCQe-pXn0XZzmRzvyOMZpfEg) to inspire you.
+
+- Just in case, here is a [complete list of integrations](http://frictionlessdata.io/software/) of Frictionless Data into tools and platforms for working with data, including Kaggle, Open Refine, SPSS, R, Julia, etc
+- You can also join the Frictionless Data community on [Gitter](https://gitter.im/frictionlessdata/chat) and [Discuss](https://discuss.okfn.org/c/frictionless-data)
+- Frictionless Data resources are open source and can be found here on GitHub
 ---
 resources_ideas_theme_3: Tracking Public Money flows
 ---
 resources_ideas_theme_3_text:
 
-Open Contracting - http://www.open-contracting.org/
-Open Spending - http://next.openspending.org/
-Cooking budgets - http://www.cookingbudgets.com/
-Panama Papers - https://panamapapers.icij.org/
-Municipal Money - https://municipalmoney.gov.za/
-Development check - http://www.developmentcheck.org/
+If you are planning on organizing a track to follow the money, here are some interesting ideas and projects you can
+use to run your event:
+
+[#DataOnTheStreets International Rally](http://www.fiscaltransparency.net/blog_open_public.php?IdToOpen=6323). A great opportunity to invite the public to use the data generated by governments, go out to the streets and see how data reflects in their real life. It is a public participation process in the budget implementation phase through open data and digital tools, such as maps and visualizations.
+
+[Better Budget Dataquest for sustainable development](http://www.fiscaltransparency.net/blog_open_public.php?IdToOpen=6309). the Dataquest is an opportunity to find new insights on certain topics and innovative ideas to improve budget allocations and execution.
+
+These are two ways to engage people using budget and spending data.
+
 ---
-resources_ideas_theme_4: Datazar
+resources_ideas_theme_4: Equal Development
 ---
 resources_ideas_theme_4_text:
 
-[Datazar](https://www.datazar.com) is a cloud-based research collaboration platform where you can run your analysis in your browser. Upload your data and create R notebooks, D3 visualizations, Scientia scripts, LaTeX publications and more directly from your projects. While you're making sense of the data, discuss with your team in real time and decide the best methods. Use the REST API to send the data directly from your local applications. Datazar is offering its computational resources for free so that open data can be shared and analyzed by everyone.
+LGBTQ rights - http://www.lgbtdata.com/ (note: This website does not state that the data is open, but links to datasets)
+War crimes  - see for example how BVT datalab showed the story of the bombing in Barcelona during the civil war
+Immigration - see current work of the migrant files, openmigration + data from UNHCR on refugee situations
+Internet shutdowns - ways to combine information from AccessNow, Dyn Research, Akamai  (SOTI) with other data sources
+Tax - could share some interesting things from Open Data for Tax Justice project about overlap between tax and human rights
+Tracking poverty in cities - not using open data, but interesting example of how alternative stories about poverty are told.
+The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.)
 ---
 [//]: # (resources_ideas_theme_5: Environment theme)
 ---
@@ -165,22 +181,16 @@ resources_ideas_theme_6: Human Rights theme
 ---
 resources_ideas_theme_6_text:
 
-LGBTQ rights - http://www.lgbtdata.com/ (note: This website does not state that the data is open, but link to datasets)
-War crimes  - see for example how BVT datalab showed the story of the bombing in Barcelona during the civil war
-Immigration - see current work of the migrant files, openmigration + data from UNHCR on refugee situations
-Internet shutdowns - ways to combine information from AccessNow, Dyn Research, Akamai  (SOTI) with other data sources
-Tax - could share some interesting things from Open Data for Tax Justice project about overlap between tax and human rights
-Tracking poverty in cities - not using open data, but interesting example of how alternative stories about poverty are told.
-The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.)
+
 ---
 support_scheme_heading: Support Scheme
 ---
 support_scheme_body:
 
-The mini-grant applications are now closed. Good luck to all who applied!
+This year we will support some events through mini-grants from $200 to $300. You can apply for a mini-grant until February 10,2019! Learn more from the launch blog post.
 ---
 support_scheme_button: Learn more
 ---
 support_scheme_logos:
-Open Data Day 2018 mini grants were kindly supported by:
+The Open Data Day 2019 mini grants are kindly supported by:
 ---

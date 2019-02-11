@@ -4,3 +4,4 @@ icons-demo.html
 icons.svg
 plugins.js
 *.scssc
+.DS_Store
