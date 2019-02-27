@@ -70,7 +70,7 @@ map.on('load', function() {
       "interactive": true,
       "type": "symbol",
       "source": "events",
-      "filter": ["!",["has", "point_count"]],
+      "filter": ["!has", "point_count"],
       "layout": {
         "icon-allow-overlap": true,
         "text-allow-overlap": true,
