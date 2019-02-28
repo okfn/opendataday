@@ -2,7 +2,7 @@ language: pt_br
 ---
 _model: home
 ---
-next_date: 2018-03-03
+next_date: 2019-03-09
 ---
 title: Você está convidado
 ---
@@ -12,7 +12,7 @@ banner_heading_2: De novo!
 ---
 banner_content_1: O Dia dos Dados Abertos será no
 ---
-banner_content_2: Sábado, 3 de março de 2018
+banner_content_2: Sábado, 9 de março de 2019
 ---
 intro_heading: O que é o Dia dos Dados Abertos?
 ---
@@ -20,7 +20,7 @@ register_text: Registre o seu evento aqui
 ---
 intro_body:
 
-O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Pela sétima vez na história, grupos de todas as partes do mundo criarão eventos locais no dia em que usarão dados abertos em suas comunidades. É uma oportunidade para mostrar os benefícios dos dados abertos e encorajar a adoção de políticas de dados abertos no governo, empresas e na sociedade civil.
+O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Pela nona vez na história, grupos de todas as partes do mundo criarão eventos locais no dia em que usarão dados abertos em suas comunidades. É uma oportunidade para mostrar os benefícios dos dados abertos e encorajar a adoção de políticas de dados abertos no governo, empresas e na sociedade civil.
 ---
 intro_body_2:
 
@@ -28,15 +28,19 @@ Todos os resultados são abertos para que todos usem e reusem.
 ---
 year_intro:
 
-Para o Dia dos Dados Abertos 2018, nós queremos aperfeiçoar. O foco desse ano será em quatro áreas chave que acreditamos que os dados abertos podem resolver.
+Para o Dia dos Dados Abertos 2019, nós queremos que a comunidade continue crescendo. Daremos minibolsas em áreas chave que acreditamos que os dados abertos podem solucionar. Você pode ver as trilhas deste ano abaixo
 ---
-year_label_1: Dados abertos de **pesquisas** acadêmicas
+year_label_1: **Ciência** aberta
 ---
 year_label_2: Rastrear fluxos de **dinheiro** público
 ---
-year_label_3: Dados abertos para o **meio ambiente**
+year_label_3: **Mapas** abertos
 ---
-year_label_4: Dados abertos para os **direitos humanos**
+year_label_4: Dados para o **desenvolvimento igualitário**
+---
+register_text: Registre o seu evento aqui
+---
+events_registered: eventos registrados até agora
 ---
 who_heading: Isso é para quem? Para todo mundo!
 ---
@@ -44,11 +48,11 @@ who_body:
 
 Se você tem uma ideia que usa dados abertos, quer encontrar um projeto interessante para o qual contribuir, aprender como visualizar ou analisar dados ou simplesmente quer ver o que está acontecendo, então definitivamente venha participar! A participação é um valor essencial do Dia dos Dados Abertos. Todo mundo é livre para dar suas opiniões de uma maneira construtiva. Não importa quais são as suas habilidades ou interesses, nós estamos encorajando os organizadores a propiciar oportunidades para você aprender e ajudar a comunidade global de dados abertos a crescer.
 ---
-who_title_1: Cidadãos
+who_title_1: Pessoas
 ---
 who_description_1:
 
-Precisamos de você ao máximo. Se não fosse por você, essa coisa toda não estaria acontecendo. Precisamos de ideias, líderes de torcida e amigos para espalhar a palavra.
+Precisamos de você ao máximo. Se não fosse por você, essa coisa toda não estaria acontecendo. De onde quer que você venha e qualquer que seja a sua formação, precisamos de você.
 ---
 who_title_2: Servidores públicos
 ---
@@ -78,7 +82,7 @@ resources_heading: Recursos para Eventos
 ---
 resources_intro:
 
-Precisa de inspiração para um evento do Dia dos Dados Abertos, ou não sabe onde encontrar os dados que precisa? Confira os nossos recursos para eventos de 2018.
+Precisa de inspiração para um evento do Dia dos Dados Abertos, ou não sabe onde encontrar os dados que precisa? Confira os nossos recursos para eventos de 2019.
 ---
 resources_button: Recursos
 ---
@@ -92,28 +96,60 @@ resources_ideas_heading: Ideias e fontes de dados
 ---
 resources_ideas_intro:
 
-Ei, entusiasta dos Dados Abertos! Você acabou de ver que o Dia Internacional dos Dados Abertos será no sábado, 3 de março de 2018 e estará interessado em hospedar um evento na sua localidade. Seu único desafio agora é encontrar a ideia certa para acertar o ponto ideal. Nossos amigos da comunidade dos Dados Abertos têm algumas ideias e fontes de dados que valem a pena conferir.
+Ei, entusiasta dos Dados Abertos! Você acabou de ver que o Dia Internacional dos Dados Abertos será no sábado, 9 de março de 2019 e estará interessado em hospedar um evento na sua localidade. Seu único desafio agora é encontrar a ideia certa para acertar o ponto ideal. Nossos amigos da comunidade dos Dados Abertos têm algumas ideias e fontes de dados que valem a pena conferir.
 ---
-resources_ideas_theme_1: Dados Abertos de Pesquisas Acadêmicas
+resources_ideas_theme_1: Fontes de dados
 ---
 resources_ideas_theme_1_text:
 
-Root data commons - Repositório para conjuntos de dados públicos gerais de interesse científico, hospedados no OSDC.
-Explore políticas de Dados Abertos com o recurso de compartilhamento de dados federal dos Estados Unidos
-Todos os dados sobre testes clínicos, ligados: Open Trials
-Tente mineração de texto e de dados: Content Mine
-Encontre um conjunto de dados reutilizável na sua área de conhecimento: Zenodo
-[a confirmar: ajude os outros a tornar seu conjunto de dados disponível]
+Use [data.world](https://data.world) para enviar ou encontrar dados de muitas fontes e organizar todos os aspectos de um projeto - incluindo dados, cadernos, análises e discussões - de uma única área de trabalho.
+
+Você pode acessar o [Intercâmbio de Dados Humanitário](https://data.humdata.org/) para encontrar dados relacionados a ações humanitárias de diferentes fontes.
+
+Se você tem dados mas não sabe onde colocá-los, você pude usar o [DataHub do CKAN](https://datahub.ckan.io/). Você pode publicar ou registrar conjuntos de dados, criar e gerenciar grupos e comunidades.
 ---
-resources_ideas_theme_2: Rastreamento de fluxos de dinheiro público
+resources_ideas_theme_2: Ciência aberta
 ---
 resources_ideas_theme_2_text:
 
-Open Contracting, Open Spending, Cooking budgets, Panama Papers, Municipal Money, Development check
+[Frictionless Data para Pesquisas Reproduzíveis](https://frictionlessdata.io/reproducible-research/) está entusiasmado por oferecer minibolsas
+para a trilha Ciência Aberta! Você está procurando por ideias para o seu evento? O Frictionless Data tem uma coleção de recursos para ajudá-lo a se inspirar.
+Confira o nosso [Guia de Campo](http://frictionlessdata.io/field-guide/) para aprender como usar as nossas ferramentas, como o [Criador de Data Packages](http://create.frictionlessdata.io/),  [ferramenta de validação de dados](http://try.goodtables.io/), e os nossos [softwares](http://frictionlessdata.io/software/), incluindo bibliotecas em R, Python, e Julia. Nós também temos [slides de oficinas](https://docs.google.com/presentation/d/14dyORE_Ftvd30nEf1-rhspDSsVptGIINeRagmCm3f94/edit?usp=sharing) que você pode reutilizar (CC-BY) e
+[tutoriais em vídeo](https://www.youtube.com/channel/UCQe-pXn0XZzmRzvyOMZpfEg) para inspirá-lo.
+
+- Por via das dúvidas, aqui está uma [lista completa de integrações](http://frictionlessdata.io/software/) do Frictionless Data em ferramentas e plataformas para trabalhar com dados, incluindo o Kaggle, Open Refine, SPSS, R, Julia, etc.
+- Você também pode se juntar à comunidade Frictionless Data no [Gitter](https://gitter.im/frictionlessdata/chat) e [Discuss](https://discuss.okfn.org/c/frictionless-data)
+- Recursos do Frictionless Data são de código aberto e podem ser encontrados aqui no [GitHub](https://github.com/frictionlessdata/)
 ---
-resources_ideas_theme_3: Tema Meio Ambiente
+resources_ideas_theme_3: Raestreando os fluxos do dinheiro público
 ---
 resources_ideas_theme_3_text:
+
+Se você está planejando ou organizando uma trilha para seguir o dinheiro, aqui estão algumas ideias e projetos interessantes que você pode
+usar para executar o seu evento:
+
+[Manifestação Internacional #DataOnTheStreets](http://www.fiscaltransparency.net/blog_open_public.php?IdToOpen=6323). Uma grande oportunidade para convidar o público para usar os dados gerados por governos, sair para as ruas e ver como os dados se refletem em sua vida real. É um processo de participação pública na fase de implementação do orçamento através de dados abertos e ferramentas digitais, tais como mapas e visualizações.
+
+[Dataquest do Melhor Orçamento para o desenvolvimento sustentável](http://www.fiscaltransparency.net/blog_open_public.php?IdToOpen=6309). O Dataquest é uma oportunidade para encontrar novas reflexões sobre certos tópicos e inovar ideias para melhorar as alocações e execuções de orçamentos.
+
+Esstas são duas maneiras de engajar as pessoas usando dados de orçamento e despesas.
+
+---
+resources_ideas_theme_4: Desenvolvimento Igualitário
+---
+resources_ideas_theme_4_text:
+
+Direitos LGBT - http://www.lgbtdata.com/ (nota: Esse site não afirma que os dados são abertos, mas fornece links para conjuntos de dados)
+Crimes de guerra  - veja, por exemplo, como o BVT datalab mostrou a história do bombardeio em Barcelona durante a guerra civil
+Imigração - veja o trabalho atual de arquivos de migração, openmigration + dados da ACNUR sobre a situação de refugiados
+Desligamentos da Internet - formas de combinar informações da AccessNow, Dyn Research, Akamai  (SOTI) com outras fontes de dados
+Impostos - poderia compartilhar algumas coisas interessantes dos Dados Abertos para o projeto Tax Justice sobre a superposição entre impostos e direitos humanos
+Tracking poverty in cities (Rastrear pobreza nas cidades) - não usa dados abertos, mas é um exemplo interessante de como histórias alternativas sobre a pobreza são contadas.
+A cidade de Indianápolis desenvolveu um portal de dados abertos para mostrar informações sobre o uso da força, policiais envolvidos em tiroteios e reclamações contra policiais.
+---
+[//]: # (resources_ideas_theme_5: Tema Meio Ambiente)
+---
+[//]: # (resources_ideas_theme_5_text:
 
 Seca no Sul da África
 Nas notícias:
@@ -143,24 +179,18 @@ Extract-A-Fact, um projeto da Publish What You Pay (Publique o que Você Paga), 
 
 ##### Incêndios
 Dados do Earth Observatory (Observatório da Terra)
-Dados/mapa de incêndios da Global Forest Watch
+Dados/mapa de incêndios da Global Forest Watch)
 ---
-resources_ideas_theme_4: Tema Direitos Humanos
+resources_ideas_theme_6: Tema Direitos Humanos
 ---
-resources_ideas_theme_4_text:
+resources_ideas_theme_6_text:
 
-Direitos LGBT - http://www.lgbtdata.com/ (nota: Esse site não afirma que os dados são abertos, mas fornece links para conjuntos de dados)
-Crimes de guerra  - veja, por exemplo, como o BVT datalab mostrou a história do bombardeio em Barcelona durante a guerra civil
-Imigração - veja o trabalho atual de arquivos de migração, openmigration + dados da ACNUR sobre a situação de refugiados
-Desligamentos da Internet - formas de combinar informações da AccessNow, Dyn Research, Akamai  (SOTI) com outras fontes de dados
-Impostos - poderia compartilhar algumas coisas interessantes dos Dados Abertos para o projeto Tax Justice sobre a superposição entre impostos e direitos humanos
-Tracking poverty in cities (Rastrar pobreza nas cidades) - não usa dados abertos, mas é um exemplo interessante de como histórias alternativas sobre a pobreza são contadas.
-A cidade de Indianápolis desenvolveu um portal de dados abertos para mostrar informações sobre o uso da força, policiais envolvidos em tiroteios e reclamações contra policiais.
+
 ---
 support_scheme_heading: Plano de Apoio
 ---
 support_scheme_body:
 
-Estamos atualmente preparando os detalhes acerca do plano de apoio para o Open Data Day 2018. Fique ligado! Tem alguma ideia ou quer apoiar? Envie-nos suas palavras [network@okfn.org](mailto:network@okfn.org)
+Este ano apoiaremos alguns eventos por meio de minibolsas de US$200 a US$300. Você pode se candidatar a uma minibolsa até 10 de fevereiro de 2019! Saiba mais na [postagem de blog do lançamento](https://br.okfn.org/2019/01/25/open-data-day-2019/).
 ---
 [//]: # (support_scheme_button: Learn more)
