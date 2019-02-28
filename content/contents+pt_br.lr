@@ -147,10 +147,50 @@ Impostos - poderia compartilhar algumas coisas interessantes dos Dados Abertos p
 Tracking poverty in cities (Rastrear pobreza nas cidades) - não usa dados abertos, mas é um exemplo interessante de como histórias alternativas sobre a pobreza são contadas.
 A cidade de Indianápolis desenvolveu um portal de dados abertos para mostrar informações sobre o uso da força, policiais envolvidos em tiroteios e reclamações contra policiais.
 ---
+[//]: # (resources_ideas_theme_5: Tema Meio Ambiente)
+---
+[//]: # (resources_ideas_theme_5_text:
+
+Seca no Sul da África
+Nas notícias:
+Guardian, março de 2016
+hompson Reuters, novembro de 2016
+Trabalho de Dados em execução:
+Hack 4 Water (África do Sul) http://www.hack4water.org.za/ https://www.dwa.gov.za/events/hack4water/default.aspx
+
+##### Enchentes
+FloodAlerts é um site que usa dados da Agência do Meio Ambiente Britânica para fornecer alertas sobre eventos de enchentes a residentes na Inglaterra e País de Gales.
+Relatório UNOCHA de dezembro de 2016 sobre a resposta ao El Niño no leste e no sul ta África.
+O iminente desastre ao longo da fronteira Zâmbia/Zimbábue se o muro de Kariba Dam ruir (história em andamento - janeiro de 2017)
+
+##### Desmatamento
+Global Forest Watch fornece vários conjuntos de dados sobre a cobertura, uso e perda de florestas e povos indígenas.
+
+#####Poluição - ar, água
+Dados de sensores de https://www.opensensors.io
+https://opendevelopmentmekong.net/
+O mapa de “Derramamentos no Brooklyn” visualiza registros do Departamento de Conservação do Estado de Nova Iorque para mostrar derramamentos de produtos químicos nocivos em diferentes locais ao longo da vizinhança de Brooklyn em Nova Iorque.
+O aplicativo Allairgoo oferece a pessoas com asma ou alergias informações indivisuais sobre a qualidade do ar em múltiplas cidades. Ele combina dados sobre qualidade do ar, i.e. dados sobre cada poluente, índices oficiais de qualidade do ar, etc. com dados pessoais do utilizador, por exemplo sobre doenças crônicas respiratórias.
+Airlapse mostra a concentração de partículas, tais como monóxido de carbono por hora, em diferentes áreas da cidade de Bath (Reino Unido).
+
+##### Extrativismo
+Open Oil disponibiliza modelos financeiros abertos no período que antecede o Natal para cerca de doze países. Construa a partir dos modelos/descobertas? http://openoil.net/contract-modeling/
+Extract-A-Fact, um projeto da Publish What You Pay (Publique o que Você Paga), é um conjunto de ferramentas para encontrar fatos em dados abertos sobre as indústrias extrativas, incluindo pagamentos feitos ao governo.
+
+##### Incêndios
+Dados do Earth Observatory (Observatório da Terra)
+Dados/mapa de incêndios da Global Forest Watch)
+---
+resources_ideas_theme_6: Tema Direitos Humanos
+---
+resources_ideas_theme_6_text:
+
+
+---
 support_scheme_heading: Plano de Apoio
 ---
 support_scheme_body:
 
-Estamos atualmente preparando os detalhes acerca do plano de apoio para o Open Data Day 2018. Fique ligado! Tem alguma ideia ou quer apoiar? Envie-nos suas palavras [network@okfn.org](mailto:network@okfn.org)
+Este ano apoiaremos alguns eventos por meio de minibolsas de US$200 a US$300. Você pode se candidatar a uma minibolsa até 10 de fevereiro de 2019! Saiba mais na [postagem de blog do lançamento](https://br.okfn.org/2019/01/25/open-data-day-2019/).
 ---
 [//]: # (support_scheme_button: Learn more)
