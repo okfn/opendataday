@@ -22,5 +22,8 @@
   "author": "Sam Smith",
   "dependencies": {
     "npm": "^6.7.0"
+  },
+  "engines": {
+    "node": ">=8"
   }
 }
