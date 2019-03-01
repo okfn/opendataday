@@ -58,13 +58,6 @@ map.on('load', function() {
       clusterMaxZoom: clusterMaxZoom
     });
 
-    // Duplicate instance of the Mapbox internal clustering code for external access
-    // See e.g. https://github.com/mapbox/mapbox-gl-js/issues/3318
-    var clustering = supercluster({
-      radius: clusterRadius,
-      maxZoom: clusterMaxZoom
-    }).load(geojson.features);
-
     map.addLayer({
       "id": "points",
       "interactive": true,
@@ -153,37 +146,46 @@ map.on('load', function() {
       } else {
         // We need to expand a cluster
         var oldZoom = map.getZoom();
-        var expansionZoom = getClusterExpansionZoom(clustering, feature.properties.cluster_id, Math.floor(oldZoom));
 
-        if (expansionZoom <= clusterMaxZoom) {
-          // +0.001 required as a workaround to https://github.com/mapbox/mapbox-gl-js/issues/6191
-          map.flyTo({center: feature.geometry.coordinates, zoom: expansionZoom + 0.001});
-        } else {
-          // If we ran out of clustering levels, zoom to fit the individual points
-          var points = clustering.getLeaves(feature.properties.cluster_id, Math.floor(oldZoom), 9999, 0);
-          var bounds = pointsToBounds(points);
-          var oldCenter = map.getCenter();
+        map.getSource('events').getClusterExpansionZoom(feature.properties.cluster_id, function (error, expansionZoom) {
+          if (error) {
+            throw error;
+          }
 
-          // Perform a test fit to calculate prospective center and zoom
-          map.fitBounds(bounds, {
-            animate: false,
-            padding: {
-              top:    $('#map-container').height()*0.1 + $('.main-nav').height(),
-              bottom: $('#map-container').height()*0.2,
-              left:   $('#map-container').width()*0.2,
-              right:  $('#map-container').width()*0.2
-            }
-          });
-          var newCenter = map.getCenter();
-          var newZoom = map.getZoom();
+          if (expansionZoom <= clusterMaxZoom) {
+            map.flyTo({center: feature.geometry.coordinates, zoom: expansionZoom });
+          } else {
+            // If we ran out of clustering levels, zoom to fit the individual points
+            map.getSource('events').getClusterLeaves(feature.properties.cluster_id, 9999, 0, function(error, features) {
+              if (error) {
+                throw error;
+              }
 
-          // Make sure we stay past the clustering levels
-          newZoom = Math.max(newZoom, clusterMaxZoom + 1);
+              var bounds = pointsToBounds(features);
+              var oldCenter = map.getCenter();
 
-          // Animate from old view to new view
-          map.jumpTo({center: oldCenter, zoom: oldZoom});
-          map.flyTo({center: newCenter, zoom: newZoom});
-        }
+              // Perform a test fit to calculate prospective center and zoom
+              map.fitBounds(bounds, {
+                animate: false,
+                padding: {
+                  top:    $('#map-container').height()*0.1 + $('.main-nav').height(),
+                  bottom: $('#map-container').height()*0.2,
+                  left:   $('#map-container').width()*0.2,
+                  right:  $('#map-container').width()*0.2
+                }
+              });
+              var newCenter = map.getCenter();
+              var newZoom = map.getZoom();
+
+              // Make sure we stay past the clustering levels
+              newZoom = Math.max(newZoom, clusterMaxZoom + 1);
+
+              // Animate from old view to new view
+              map.jumpTo({center: oldCenter, zoom: oldZoom});
+              map.flyTo({center: newCenter, zoom: newZoom});
+            });
+          }
+        });
       }
     });
   });
@@ -199,18 +201,4 @@ function pointsToBounds(points) {
       points[0].geometry.coordinates
     )
   );
-}
-
-// Version of clustering.getClusterExpansionZoom that distinguishes running out of zoom levels
-// From https://github.com/mapbox/supercluster/pull/76
-function getClusterExpansionZoom(clustering, clusterId, clusterZoom) {
-  while (true) {
-    // if we've run out of cluster levels, return next zoom level
-    if (clusterZoom >= clustering.options.maxZoom) return clusterZoom + 1;
-    var children = clustering.getChildren(clusterId, clusterZoom);
-    clusterZoom++;
-    if (children.length !== 1) break; // found expansion level
-    clusterId = children[0].properties.cluster_id;
-  }
-  return clusterZoom;
 }
