@@ -19,6 +19,7 @@ module.exports = function(grunt) {
     },
 
     sass: {
+      options: { implementation: require('node-sass') },
       dist: {
         files: [{
           expand: true,
@@ -69,7 +70,7 @@ module.exports = function(grunt) {
 
   // Load the plugins
   grunt.loadNpmTasks('grunt-svgstore');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-concat');
