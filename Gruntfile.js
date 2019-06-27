@@ -47,7 +47,7 @@ module.exports = function(grunt) {
         separator: '\n',
       },
       dist: {
-        src: ['node_modules/waypoints/lib/jquery.waypoints.min.js', 'node_modules/waypoints/lib/shortcuts/sticky.min.js', 'node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js', 'node_modules/slicknav/dist/jquery.slicknav.min.js', 'node_modules/supercluster/dist/supercluster.min.js'],
+        src: ['node_modules/waypoints/lib/jquery.waypoints.min.js', 'node_modules/waypoints/lib/shortcuts/sticky.min.js', 'node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js', 'node_modules/slicknav/dist/jquery.slicknav.min.js'],
         dest: 'assets/js/plugins.js',
       },
     },
