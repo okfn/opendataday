@@ -309,8 +309,8 @@ html {
     opacity: 1; }
   .is-active.modal--fade, .is-active.modal--show {
     display: block\9;
-    height: 100%\9;
-    width: 100%\9; }
+    height: 100% \9 ;
+    width: 100% \9 ; }
   .modal--fade:target, .modal--show:target, .is-active.modal--fade, .is-active.modal--show {
     display: block\9; }
   .modal--fade .modal-inner, .modal--show .modal-inner {
@@ -632,13 +632,10 @@ html {
         height: 64px;
         fill: #fff; }
       @media (min-width: 600px) {
-        .home .banner > a .down + .main-nav,
-        .home .banner > a .down + .sticky-wrapper .main-nav {
+        .home .banner > a .down + .main-nav, .home .banner > a .down + .sticky-wrapper .main-nav {
           margin-top: -97px; }
-          .home .banner > a .down + .main-nav.stuck,
-          .home .banner > a .down + .sticky-wrapper .main-nav.stuck {
+          .home .banner > a .down + .main-nav.stuck, .home .banner > a .down + .sticky-wrapper .main-nav.stuck {
             margin-top: 0; } }
-
 .home > section {
   clear: both; }
   .home > section > div {
@@ -1057,3 +1054,5 @@ html {
 
 #lektor-edit-link {
   display: none; }
+
+/*# sourceMappingURL=main.css.map */
