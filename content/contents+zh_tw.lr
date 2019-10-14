@@ -1,16 +1,16 @@
 _model: home
 ---
-next_date: 2018-03-03
+next_date: 2019-03-02
 ---
 title: Open Data Day
 ---
-banner_heading_1: 2018
+banner_heading_1: 2019
 ---
 banner_heading_2: 國際開放資料日
 ---
 banner_content_1: 邀請您撥出這一天來加入我們活動：
 ---
-banner_content_2: 2018 年 3 月 4 日 星期六
+banner_content_2: 2019 年 3 月 2 日 星期六
 ---
 intro_heading: 什麼是 Open Data Day?
 ---
@@ -24,19 +24,20 @@ intro_body_2:
 ---
 year_intro:
 
-在Open Data Day 2018，我們希望能將這個活動再往上一個檔次。今年的活動將聚焦於這四個我們認為開放資料能夠協助我們解決的主題。
+在Open Data Day 2019，我們希望能將社群再往上一個檔次。今年的活動將給針對以下我們認為開放資料能夠協助我們解決的主題，給予小型獎助金。你可以看下面的領域。
+
 ---
-year_label_1: 開放**研究**資料
+year_label_1: 開放研究資料
 ---
-year_label_2: 公共**金流**追蹤
+year_label_2: 追蹤公共資金動向
 ---
-year_label_3: 開放**環境**資料
+year_label_3: 開放繪製地圖
 ---
-year_label_4: 開放**人權**資料
+year_label_4: 資料為了平等發展
 ---
 register_text: 在此註冊你的活動
 ---
-events_registered: 活動已註冊
+events_registered: 已註冊活動
 ---
 who_heading: 誰可以參加這個活動? 任何人!
 ---
@@ -50,7 +51,7 @@ who_title_1: 公民
 ---
 who_description_1:
 
-公民們是我們最需要的成員! 如果不是為了你們，這個活動不可能會發生! 我們需要各種想法、啦啦隊/應援團，及各位幫我們向全世界宣傳。
+公民們是我們最需要的成員! 如果不是為了你們，這個活動不可能會發生! 不論來自何方或是什麼背景，我們需要各種想法、啦啦隊/應援團，及各位幫我們向全世界宣傳。
 ---
 who_title_2: 公務人員
 ---
@@ -83,7 +84,7 @@ resources_heading: 活動資源
 ---
 resources_intro:
 
-需要一些靈感嗎？或是不知道如何找到你所需要的資料？來看一下我們 2018 Open Data Day 的活動資源。
+需要一些靈感嗎？或是不知道如何找到你所需要的資料？來看一下我們 2019 Open Data Day 的活動資源。
 
 ---
 resources_button: 點我找資源
@@ -98,35 +99,46 @@ resources_ideas_heading: 點子和資料來源
 ---
 resources_ideas_intro:
 
-嘿，各位開放資料愛好者你們好！你現在知道國際 Open Data Day 會在 2018 年 3 月 4 日星期六舉行，而且有興趣在當地舉辦開放資料的活動。你只剩下要找到那個可以一擊中的的點子。這邊有一些開放資料社群提供的點子和資料源，你可以參考。
+嘿，各位開放資料愛好者你們好！你現在知道國際 Open Data Day 會在 2019 年 3 月 2 日星期六舉行，而且有興趣在當地舉辦開放資料的活動。你只剩下要找到那個可以一擊中的的點子。這邊有一些開放資料社群提供的點子和資料源，你可以參考。
 
 ---
 resources_ideas_theme_1: data.world
 ---
 resources_ideas_theme_1_text:
 
-Use [data.world](https://data.world) to upload or find data from many sources and organize all aspects of a project - including data, notebooks, analysis, and discussions - in a single workspace. Collaborate efficiently using many tools: query uploaded data with SQL, interact with data via R Studio or Python programs using the data.world API, link a Google Sheet to a dataset, or work locally in a spreadsheet and upload a file. After Open Data Day, this work is preserved to showcase what was achieved and permit the community to build upon progress without unnecessarily repeating the data prep and analysis completed on Open Data Day.
+使用 [data.world](https://data.world) 上傳，或是尋找資料組織不同面向的專案 - 包括資料、筆記本、分析和討論 - 全在單一的工作空間。有效率的協作過程需要使用不同工具：用SQL檢索上傳的資料，使用 R Studio 或是 Pythoon 介接 data.world 的 API，連結 Google 表格到其他資料集，或是在本地端用試算表處理資料並上傳。這些工作要顯示我們社群怎麼達成目標，並且在過程建構社群，又不用做不必要的重覆資料處理過程，以及能在 Open Data Day 分析完資料。
 ---
-resources_ideas_theme_2: Open Research Data
+resources_ideas_theme_2: 開放研究資料
 ---
 resources_ideas_theme_2_text:
 
-Root data commons - Repository for general public data sets of scientific interest, hosted on the OSDC.
-Explore Open Data policies with the US Federal data sharing resource
-All data on clinical trials, linked: Open Trials
-Try text & data mining: Content Mine
-Find a reusable dataset in your field: Zenodo
-[tbc: help others make their dataset available]
+Root data commons - 一般為了科學研究的公共資料資料儲存庫，由 OSDC 架設。
+在美國聯邦資料分享資源站探索開放資料政策 - http://datasharing.sparcopen.org/
+所有臨床試驗資料，連結: Open Trials - http://opentrials.net/
+嘗試文字和資料探勘: Content Mine - http://contentmine.org/
+從你熟悉的領域尋找能重覆使用的資料集: [Zenodo](https://zenodo.org/search?page=1&size=20&q=&access_right=open)
 ---
-resources_ideas_theme_3: Tracking Public Money flows
+resources_ideas_theme_3: 追蹤公共資金流向
 ---
 resources_ideas_theme_3_text:
 
-Open Contracting, Open Spending, Cooking budgets, Panama Papers, Municipal Money, Development check
+Open Contracting - http://www.open-contracting.org/
+Open Spending - http://next.openspending.org/
+Cooking budgets - http://www.cookingbudgets.com/
+Panama Papers - https://panamapapers.icij.org/
+Municipal Money - https://municipalmoney.gov.za/
+Development check - http://www.developmentcheck.org/
 ---
-resources_ideas_theme_4: Environment theme
+resources_ideas_theme_4: Datazar
 ---
 resources_ideas_theme_4_text:
+
+[Datazar](https://www.datazar.com) 是可以在瀏覽器運作的雲端研究協作平台。上傳你的資料以及創建 R 筆記本、D3 視覺化、Scientia 腳本、LaTeX 出版本，以及直接從你的專案上傳。當你在理解你的資料時，你可以與你的團隊即時討論，並且決定最好的作法。使用 REST API 直接傳送資料到你本地的應用程式。Datazar 免費提供運算資源給所有人推廣分享以及分析開放資料。
+
+---
+[//]: # (resources_ideas_theme_5: Environment theme)
+---
+[//]: # (resources_ideas_theme_5_text:
 
 Drought in Southern Africa
 In the news:
@@ -158,22 +170,26 @@ Extract-A-Fact, a project by Publish What You Pay, is a toolset to find facts in
 Earth Observatory data
 Global Forest Watch’s fire data/map
 ---
-resources_ideas_theme_5: Human Rights theme
+resources_ideas_theme_6: Human Rights theme
 ---
-resources_ideas_theme_5_text:
+resources_ideas_theme_6_text:
 
-LGBTQ rights - http://www.lgbtdata.com/ (note: This website does not state that the data is open, but link to datasets)
-War crimes  - see for example how BVT datalab showed the story of the bombing in Barcelona during the civil war
-Immigration - see current work of the migrant files, openmigration + data from UNHCR on refugee situations
-Internet shutdowns - ways to combine information from AccessNow, Dyn Research, Akamai  (SOTI) with other data sources
-Tax - could share some interesting things from Open Data for Tax Justice project about overlap between tax and human rights
-Tracking poverty in cities - not using open data, but interesting example of how alternative stories about poverty are told.
-The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.
+LGBTQ 權利 - http://www.lgbtdata.com/ (注意：網站並沒有註記資料是開放的，但有連結至資料集)
+戰爭罪行  - 請看 BVT datalab 示範的西班牙內戰期間，巴賽隆納被轟炸的故事
+移民議題 - 請見 openmigration + 聯合國難民署難民狀況資料
+斷網 - 從 AccessNow、Dyn Resaerch、Akamai (SOTI) 以及其他資料來源整合的資訊
+稅收 - 也許可以分享稅收正議專案的開放資料部分，關注稅收以及人權議題重疊部分的有趣議題
+追蹤城市中的貧窮 - 沒有使用開放資料，但用有趣的例子顯示述說關於貧窮的另類故事
+印地安那波利市開發開放資料入口網，顯示暴力狀況，其中包括槍擊以及對官方的客訴
 ---
 support_scheme_heading: 支持方案
 ---
 support_scheme_body:
 
-在此公佈 2018 國際 Open Data Day 的微型補助方案！ This year, with funding from SPARC, the Open Contracting Program of Hivos and Article 19, and Hewlett Foundation, Open Knowledge International will distribute $12,500 worth of mini grants to support your event ideas.
+在此公佈 2019 國際 Open Data Day 的微型補助方案！ This year, with funding from SPARC, the Open Contracting Program of Hivos and Article 19, and Hewlett Foundation, Open Knowledge Foundation will distribute $12,500 worth of mini grants to support your event ideas.
 ---
 support_scheme_button: 了解更多
+---
+support_scheme_logos:
+Open Data Day 2019 微型獎助由以下單位康凱提供：
+---

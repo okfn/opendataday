@@ -1,94 +1,98 @@
-language: de
+_model: home
 ---
-title: Du bist eingeladen
+next_date: 2019-03-02
 ---
-banner_heading_1: Du bist eingeladen.
+title: あなたへの招待状
 ---
-banner_heading_2: Aufs Neue!
+banner_heading_1: あなたへの招待状。
 ---
-banner_content_1: Open Data Day findet statt am
+banner_heading_2: この季節がやってきました！
 ---
-banner_content_2: Samstag, den 2. März 2019
+banner_content_1: オープンデータ・デイ2019が開催されます
+---
+banner_content_2: 2019/3/2(土)
+---
+intro_heading: オープンデータ・デイとは？
 ---
 intro_body:
 
-Der Open Data Day ist eine jährlich stattfindende Veranstaltung, um international auf die Bedeutung offener Daten hinzuweisen. Zum neunten Mal werden lokale Interessensgruppen rund um die Welt durch verschiedene Aktivitäten auf die Bedeutung offener Daten hinweisen. Der Open Data Day ist eine gute Gelegenheit auf die Vorteile offener Daten hinzuweisen und den Stellenwert innerhalb von Verwaltung, der Wirtschaft und der Zivilgesellschaft zu erhöhen.
+オープンデータ・デイは年に一度、世界中でオープンデータをお祝いする日です。通算９回目となる今回も、全世界から様々なグループが各地のコミュニティでこの日に地域イベントを立ち上げることでしょう。オープンデータの便益を示し、政府・自治体、ビジネスそして市民社会でのオープンデータ施策の採用を働きかけるきっかけにしてください。
 ---
 intro_body_2:
 
-Alle Ergebnisse stehen jedem zur Nutzung und Wiederverwendung frei.
+すべてのアウトプットはあらゆる人々に公開され、利用及び再利用することができます。
 ---
 year_intro:
 
-Für den Open Data Day 2019 wollen wir noch einen drauf setzen. Der Fokus wird dieses auf vier Schwerpunkten liegen, auf die Open Data unserer Meinung nach positive Auswirkungen haben kann.
+（訳注：以下のコンテンツは2019開催に向けて準備中です）For Open Data Day 2019, we want keep the community growing. We'll give mini-grants on key areas that we believe open data can solve. You can see the past topics below
 ---
-year_label_1: Offene **Forschungsdaten**
+year_label_1: Open **research** data
 ---
-year_label_2: Offene **Haushalte**
+year_label_2: Tracking public **money** flows
 ---
-year_label_3: Offene Daten für den **Umweltschutz**
+year_label_3: Open **mapping**
 ---
-year_label_4: Offene Daten für **Menschenrechte**
+year_label_4: Data for **equal development**
 ---
-register_text: Veranstaltung hier eintragen
+register_text: Register your event here
 ---
-events_registered: eingetragene Veranstaltungen
+events_registered: events registered
 ---
-who_heading: An wen richtet sich der Open Data Day? An jede(n)!
+who_heading: Who is this for? Everyone!
 ---
 who_body:
 
-Wenn du eine Idee zur Verwendung offener Daten hast, egal ob bereits umgesetzt oder noch im Planungsstadium, etwas zur Verwendung offener Daten lernen möchtest oder einfach sehen willst, was am Open Data Day passiert, dann komm einfach bei einem der Events vorbei! Jeder ist herzlich willkommen an den Veranstaltungen teilzunehmen und sich einzubringen. Ganz egal welche Interessen dich mit offenen Daten verbinden oder wie dein aktueller Wissenstand zu offenen Daten ist: Organisatoren von Events rund um den Open Data Day sind bemüht ein interessantes Programm für jede(n) zu bieten!
+If you have an idea for using open data, want to find an interesting project to contribute towards, learn about how to visualise or analyse data or simply want to see what's happening, then definitely come participate! Participation is a core value of Open Data Day, everyone is free to voice their opinions in a constructive manner. No matter your skill-set or interests, we are encouraging organisers to foster opportunities for you to learn and help the global open data community grow.
 ---
-who_title_1: BürgerInnen
+who_title_1: People
 ---
 who_description_1:
 
-Wir brauchen Dich! Offene Daten sind (vor allem) für BürgerInnen, daher gibt es den Open Data Day. Wir brauchen Ideen und Multiplikatoren, um die Idee weiterzuverbreiten!
+We need you the most. If it wasn’t for you, this whole thing wouldn’t be happening. Wherever you come from and whatever your background, we need you.
 ---
-who_title_2: MitarbeiterInnen der öffentlichen Verwaltung
+who_title_2: Public Servants
 ---
 who_description_2:
 
-Dieser Input ist enorm wichtig! Gemeinsam mit anderen Stakeholdern sind Sie es, die zur Verbesserung der Datenqualität beitragen.
+Your input and context can help us to make government data better. Come converse and learn.
 ---
-who_title_3: Designer
+who_title_3: Designers
 ---
 who_description_3:
 
-Hilf uns Ergebnisse von Auswertungen verständlich darzustellen, damit der Wert offener Daten für viele greifbar wird!
+Help us make open data relatable, so more people will use it and understand it.
 ---
-who_title_4: EntwicklerInnen
+who_title_4: Developers
 ---
 who_description_4:
 
-Hilf mit deinem Wissen und deinen Fähigkeiten wichtige gesellschaftliche Herausforderungen zu lösen.
+Use your skills to develop solutions that can help solve important societal issues.
 ---
-who_title_5: StatistikerInnen
+who_title_5: Statisticians
 ---
 who_description_5:
 
-Trage mit deinen Fähigkeiten dazu bei interessante Erkenntnisse aus Daten herauszuarbeiten.
+Use your skills to help understand the data and get important insights from it.
 ---
-resources_heading: Veranstaltungsressourcen
+resources_heading: Event Resources
 ---
 resources_intro:
 
-Du suchst nach einer Idee was du am Open Data Day machen könntest oder du weißt nicht wie du an die Daten für deine Idee herankomment kannst? Sieh dich in der Liste der Ressourcen um.
+Need some inspiration for an Open Data Day event, or don't know where to find the data you need? Checkout our 2019 event resources.
 ---
-resources_button: Ressourcen
+resources_button: Resources
 ---
-resources_materials_heading: Materialien
+resources_materials_heading: Materials
 ---
 resources_materials_text:
 
-Erzeuge doch ein Logo mit diesem [Logo-Generator](http://odd.structure-and-representation.com/)!
+Create a logo for your event with [this logo generator](http://odd.structure-and-representation.com/)!
 ---
-resources_ideas_heading: Ideen und Datenquellen
+resources_ideas_heading: Ideas and data sources
 ---
 resources_ideas_intro:
 
-Hier ein paar Ideen was du alles am Open Data Day tun könntest:
+Hey there Open Data enthusiast! You just saw that International Open Data Day will be on Saturday, 2nd March 2019 and will be interested in hosting an event in your locality. Your only challenge now is finding the right idea that will hit the right spot. Our friends from the Open Data community have some ideas and data sources worth checking out.
 ---
 resources_ideas_theme_1: data.world
 ---
@@ -96,7 +100,7 @@ resources_ideas_theme_1_text:
 
 Use [data.world](https://data.world) to upload or find data from many sources and organize all aspects of a project - including data, notebooks, analysis, and discussions - in a single workspace. Collaborate efficiently using many tools: query uploaded data with SQL, interact with data via R Studio or Python programs using the data.world API, link a Google Sheet to a dataset, or work locally in a spreadsheet and upload a file. After Open Data Day, this work is preserved to showcase what was achieved and permit the community to build upon progress without unnecessarily repeating the data prep and analysis completed on Open Data Day.
 ---
-resources_ideas_theme_2: Offene Forschungsdaten
+resources_ideas_theme_2: Open Research Data
 ---
 resources_ideas_theme_2_text:
 
@@ -105,9 +109,8 @@ Explore Open Data policies with the US Federal data sharing resource - http://da
 All data on clinical trials, linked: Open Trials - http://opentrials.net/
 Try text & data mining: Content Mine - http://contentmine.org/
 Find a reusable dataset in your field: [Zenodo](https://zenodo.org/search?page=1&size=20&q=&access_right=open)
-[tbc: help others make their dataset available]
 ---
-resources_ideas_theme_3: Offene Haushalte
+resources_ideas_theme_3: Tracking Public Money flows
 ---
 resources_ideas_theme_3_text:
 
@@ -124,9 +127,9 @@ resources_ideas_theme_4_text:
 
 [Datazar](https://www.datazar.com) is a cloud-based research collaboration platform where you can run your analysis in your browser. Upload your data and create R notebooks, D3 visualizations, Scientia scripts, LaTeX publications and more directly from your projects. While you're making sense of the data, discuss with your team in real time and decide the best methods. Use the REST API to send the data directly from your local applications. Datazar is offering its computational resources for free so that open data can be shared and analyzed by everyone.
 ---
-resources_ideas_theme_5: Umweltschutz
+[//]: # (resources_ideas_theme_5: Environment theme)
 ---
-resources_ideas_theme_5_text:
+[//]: # (resources_ideas_theme_5_text:
 
 Drought in Southern Africa
 In the news:
@@ -143,7 +146,7 @@ The impending disaster along the Zambia/Zimbabwe border if Kariba Dam wall colla
 ##### Deforestation
 Global Forest Watch provides several data sets on forest coverage, use, loss, and indigenous peoples.
 
-#####Pollution - air, water
+##### Pollution - air, water
 Sensor data from https://www.opensensors.io
 https://opendevelopmentmekong.net/
 The map of “Spills in Brooklyn” visualizes records of the New York State Department of Conservation to show noxious chemical spills in different locations around New York’s neighbourhood Brooklyn.
@@ -156,9 +159,9 @@ Extract-A-Fact, a project by Publish What You Pay, is a toolset to find facts in
 
 ##### Fires
 Earth Observatory data
-Global Forest Watch’s fire data/map
+Global Forest Watch’s fire data/map)
 ---
-resources_ideas_theme_6: Menschenrechte
+resources_ideas_theme_6: Human Rights theme
 ---
 resources_ideas_theme_6_text:
 
@@ -168,12 +171,16 @@ Immigration - see current work of the migrant files, openmigration + data from U
 Internet shutdowns - ways to combine information from AccessNow, Dyn Research, Akamai  (SOTI) with other data sources
 Tax - could share some interesting things from Open Data for Tax Justice project about overlap between tax and human rights
 Tracking poverty in cities - not using open data, but interesting example of how alternative stories about poverty are told.
-The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.
+The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.)
 ---
-support_scheme_heading: Unterstützung
+support_scheme_heading: Support Scheme
 ---
 support_scheme_body:
 
-Mit Unterstützung von SPARC, Open Contracting Program of Hivos und der Hewlett-Foundation, Open Knowledge International hat 12.000 USD an Mini-grants zur Unterstützung deiner Idee zu vergeben.
+The mini-grant applications are now closed. Good luck to all who applied!
 ---
-support_scheme_button: Erfahre mehr darüber
+support_scheme_button: Learn more
+---
+support_scheme_logos:
+Open Data Day 2018 mini grants were kindly supported by:
+---

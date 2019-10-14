@@ -59,3 +59,8 @@ locale = zh_tw
 name = Russian
 url_prefix = /ru/
 locale = ru
+
+[alternatives.ja]
+name = Japanese
+url_prefix = /ja/
+locale = ja
