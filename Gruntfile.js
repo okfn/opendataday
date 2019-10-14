@@ -19,6 +19,7 @@ module.exports = function(grunt) {
     },
 
     sass: {
+      options: { implementation: require('node-sass') },
       dist: {
         files: [{
           expand: true,
@@ -46,7 +47,7 @@ module.exports = function(grunt) {
         separator: '\n',
       },
       dist: {
-        src: ['node_modules/waypoints/lib/jquery.waypoints.min.js', 'node_modules/waypoints/lib/shortcuts/sticky.min.js', 'node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js', 'node_modules/slicknav/dist/jquery.slicknav.min.js', 'node_modules/supercluster/dist/supercluster.min.js'],
+        src: ['node_modules/waypoints/lib/jquery.waypoints.min.js', 'node_modules/waypoints/lib/shortcuts/sticky.min.js', 'node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js', 'node_modules/slicknav/dist/jquery.slicknav.min.js'],
         dest: 'assets/js/plugins.js',
       },
     },
@@ -69,7 +70,7 @@ module.exports = function(grunt) {
 
   // Load the plugins
   grunt.loadNpmTasks('grunt-svgstore');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-concat');

@@ -4,7 +4,7 @@
       <a class="logo" href="{{ '/'|url }}">{% include 'includes/logo.svg' %}</a>
 
       <ul class="menu" id="nav">
-        {% for label, path in bag('main-nav', this.alt).iteritems() %}
+        {% for label, path in bag('main-nav', this.alt).items() %}
         <li{% if this.is_child_of(path) %} class="active"{% endif
           %}><a href="{{ path }}">{{ label }}</a>
       {% endfor %}
