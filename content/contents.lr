@@ -104,7 +104,7 @@ You can access the [Humanitarian Data Exchange](https://data.humdata.org/) to fi
 
 If you have data but don't know where to put it, you can use the [CKAN DataHub](https://datahub.ckan.io/). You can publish or register datasets, create and manage groups and communities.
 ---
-resources_ideas_theme_2: Open Science
+[//]: # (resources_ideas_theme_2: Open Science
 ---
 resources_ideas_theme_2_text:
 
@@ -115,7 +115,7 @@ Check out our [Field Guide](http://frictionlessdata.io/field-guide/) to learn ho
 
 - Just in case, here is a [complete list of integrations](http://frictionlessdata.io/software/) of Frictionless Data into tools and platforms for working with data, including Kaggle, Open Refine, SPSS, R, Julia, etc
 - You can also join the Frictionless Data community on [Gitter](https://gitter.im/frictionlessdata/chat) and [Discuss](https://discuss.okfn.org/c/frictionless-data)
-- Frictionless Data resources are open source and can be found here on GitHub
+- Frictionless Data resources are open source and can be found here on GitHub)
 ---
 resources_ideas_theme_3: Tracking Public Money flows
 ---
@@ -143,9 +143,9 @@ Tax - could share some interesting things from Open Data for Tax Justice project
 Tracking poverty in cities - not using open data, but interesting example of how alternative stories about poverty are told.
 The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.)
 ---
-[//]: # (resources_ideas_theme_5: Environment theme)
+resources_ideas_theme_5: Environment theme
 ---
-[//]: # (resources_ideas_theme_5_text:
+resources_ideas_theme_5_text:
 
 Drought in Southern Africa
 In the news:
@@ -175,7 +175,7 @@ Extract-A-Fact, a project by Publish What You Pay, is a toolset to find facts in
 
 ##### Fires
 Earth Observatory data
-Global Forest Watch’s fire data/map)
+Global Forest Watch’s fire data/map
 ---
 resources_ideas_theme_6: Human Rights theme
 ---
