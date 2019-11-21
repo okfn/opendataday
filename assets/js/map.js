@@ -1,4 +1,6 @@
-var url = "https://spreadsheets.google.com/feeds/list/1cV43fuzwy2q2ZKDWrHVS6XR4O8B01eLevh4PD6nCENE/4/public/full?alt=json";
+var url = "https://spreadsheets.google.com/feeds/list/1p8BdQAIGYpgsu-oCHxrCIwvKOa9y3lnV-BYSTbCa-zI/1/public/full?alt=json";
+// TODO: recover when ODD2020 has been moved to the first position
+// var url = "https://spreadsheets.google.com/feeds/list/1cV43fuzwy2q2ZKDWrHVS6XR4O8B01eLevh4PD6nCENE/1/public/full?alt=json";
 mapboxgl.accessToken = 'pk.eyJ1Ijoib2tmbiIsImEiOiJjaXlrOW5yczgwMDEzMnlwaWd2ZzF6MDQ3In0.2UJlkR69zbu4-3YRJJgN5w';
 
 var clusterRadius = 50,
@@ -23,21 +25,24 @@ map.on('load', function() {
     };
 
     data.feed.entry.forEach(function(d) {
-      var lat = Number(d.gsx$latitude.$t),
-          lng = Number(d.gsx$longitude.$t),
-          title = d.title.$t.split(",")[0],
-          program = d.gsx$program.$t,
-          organizers = d.gsx$organizers.$t,
-          isworkingurl = new RegExp('^' + 'http').test(d.gsx$url.$t);
-      var url = isworkingurl ? '<a href="' + d.gsx$url.$t + '">' + d.gsx$url.$t + '</a>' : 'TBD';
-
-      if (lng && lat && title && organizers) {
+      try {
+        var lat = Number(d.gsx$latitude.$t)
+        var lng = Number(d.gsx$longitude.$t)
+        var title = d.title.$t.split(",")[0]
+        var event = d.gsx$eventname.$t
+        var organizers = d.gsx$organizers.$t
+        var isworkingurl = new RegExp('^' + 'http').test(d.gsx$url.$t)
+        var url = isworkingurl ? '<a href="' + d.gsx$url.$t + '">' + d.gsx$url.$t + '</a>' : 'TBD'
+      } catch (error) {
+        console.log('Error processing event submitted at "' + d.title.$t + '"')
+      }
+      if (lng && lat && title && event && organizers) {
         geojson.features.push({
           type: 'Feature',
           properties: {
             title: title,
             icon: "circle",
-            description: '<strong>Program:</strong> ' + program + '<br><strong>URL:</strong> ' + url + '<br><strong>Organizers:</strong> ' + organizers
+            description: '<strong>Event:</strong> ' + event + '<br><strong>URL:</strong> ' + url + '<br><strong>Organizers:</strong> ' + organizers
           },
           geometry: {
             type: 'Point',

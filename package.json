@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "grunt plugins && grunt icons && grunt sass && grunt cssmin"
+    "build": "grunt plugins && grunt icons && grunt sass && grunt cssmin",
+    "serve": "lector serve"
   },
   "devDependencies": {
     "animate.css": "^3.5.2",
