@@ -1,16 +1,16 @@
 language: ne
 ---
-next_date: 2019-03-02
+next_date: २०२०-०३-०७ 
 ---
-title: खुल्ला डाटा दिवस
+title: तपाइलाई आमंत्रण गर्दछौ 
 ---
-banner_heading_1: खुल्ला डाटा दिवस २०१९ मा
+banner_heading_1: तपाइलाई आमंत्रण गर्दछौ ।
 ---
-banner_heading_2: हार्दिक निमन्त्रणा
+banner_heading_2: पुनः 
 ---
-banner_content_1: आयोजना हुने दिन
+banner_content_1: खुला डाटा दिवस २०२० निम्न समयमा हुनेछ 
 ---
-banner_content_2: २०१९ मार्च २, शनिबार
+banner_content_2: २०२० मार्च ७, शनिबार
 ---
 intro_heading: खुल्ला डाटा दिवस भनको के हो?
 ---
@@ -24,15 +24,16 @@ intro_body_2:
 ---
 year_intro:
 
-खुल्ला डाटा दिवस २०१८ लाई रोचक बनाउनको लागि हामीले यसपाली केही नयाँ गर्ने प्रयास गरेका छौ। यो वर्षको कार्यक्रमले चार प्रमुख क्षेत्रहरूलाई लक्षित गरेको छ जसलाई हामी खुल्ला डाटाको माध्यमबाट समाधान गर्न सक्दछौं।
+खुल्ला डाटा 
+खुला डाटा दिवस २०२० को लागि, हामी समुदायलाई बढाउँदै राख्न चाहन्छौं। हामी प्रमुख क्षेत्रमा मिनी-अनुदान दिन्छौं जुन हामीलाई विश्वास छ कि खुला डाटाले समाधान गर्न सक्दछ। तपाईं यस बर्षको ट्र्याकहरू तल देख्न सक्नुहुनेछ ।दिवस २०१८ लाई रोचक बनाउनको लागि हामीले यसपाली केही नयाँ गर्ने प्रयास गरेका छौ। यो वर्षको कार्यक्रमले चार प्रमुख क्षेत्रहरूलाई लक्षित गरेको छ जसलाई हामी खुल्ला डाटाको माध्यमबाट समाधान गर्न सक्दछौं।
 ---
-year_label_1: खुल्ला **अनुसन्धान** डाटा
+year_label_1: वातावरणीय ** डाटा **
 ---
 year_label_2: सार्वजनिक **रकम** प्रवाहहरू ट्र्याक गर्न
 ---
-year_label_3: **खुल्ला म्यापिङ**
+year_label_3: खुल्ला **म्यापिङ**
 ---
-year_label_4: **मानव अधिकार** को लागि खुल्ला डाटा
+year_label_4: **समान विकास** को लागी डाटा
 ---
 register_text: तपाइँको कार्यक्रम यहाँ दर्ता गर्नुहोस्  
 ---
@@ -51,7 +52,7 @@ who_description_1:
 
 हामीलाई तपाईहरुको धेरैनै खाँचो छ। यदि यो तपाईंको लागि होइन जस्तो लाग्छ भने, यो सम्पूर्ण चीज हुने थिएन। हामीलाई आवाज फैलाउनका लागि तपाईहरुको विचार, चेयरलिड र तपाईहरु जस्तै साथीहरूको आवश्यकता छ।
 ---
-who_title_2: सार्वजनिक सेवक
+who_title_2:  सरकारी कर्मचारी
 ---
 who_description_2:
 
@@ -61,7 +62,7 @@ who_title_3: डिजाइनर
 ---
 who_description_3:
 
-हामीलाई खुल्ला डाटा सान्दर्भिक बनाउन सहयोग गर्नुहोस्,जस्लाई धेरै मानिसहरूले प्रयोग र बुझ्न सक्नेछन्।
+हामीलाई खुल्ला डाटा सान्दर्भिक बनाउन सहयोग गर्नुहोस्, जस्लाई धेरै मानिसहरूले प्रयोग र बुझ्न सक्नेछन्।
 ---
 who_title_4: डेभेलोपर 
 ---
@@ -89,66 +90,78 @@ resources_materials_text:
 
 तपाईंको कार्यक्रमको लागि लोगो बनाउनुहोस् [लोगो जनरेटर](http://odd.structure-and-representation.com/)!
 ---
-resources_ideas_heading: विचार र डेटा स्रोतहरू
+resources_ideas_heading: विचार र डाटा स्रोतहरू
 ---
 Resources_ideas_intro:
 
-तपाईले भर्खरै अन्तर्राष्ट्रिय खुल्ला डाटा दिवस २०१९ मार्च २ मा हुदैछ भनेर थाहा पाउनुभयो र तपाईको क्षेत्रमा यस्तै एउटा कार्यक्रम आयोजना गर्नेबारे चासो राख्नुभयो। तपाईंको मात्र चुनौती अब सही विचार सही स्थानमा कार्यान्वयन गर्ने हो। खुल्ला डाटा समुदायका हाम्रा साथीहरुको केही विचार र डाटाका स्रोतहरु तल हेर्नुहोस्।
+तपाईले भर्खरै अन्तर्राष्ट्रिय खुल्ला डाटा दिवस २०२० मार्च ७ मा हुदैछ भनेर थाहा पाउनुभयो र तपाईको क्षेत्रमा यस्तै एउटा कार्यक्रम आयोजना गर्नेबारे चासो राख्नुभयो। तपाईंको मात्र चुनौती अब सही विचार सही स्थानमा कार्यान्वयन गर्ने हो। खुल्ला डाटा समुदायका हाम्रा साथीहरुको केही विचार र डाटाका स्रोतहरु तल हेर्नुहोस्।
 ---
-resources_ideas_theme_1: data.world
+resources_ideas_theme_1: डाटा श्रोतहरु
 ---
 resources_ideas_theme_1_text:
 
-Use [data.world](https://data.world) to upload or find data from many sources and organize all aspects of a project - including data, notebooks, analysis, and discussions - in a single workspace. Collaborate efficiently using many tools: query uploaded data with SQL, interact with data via R Studio or Python programs using the data.world API, link a Google Sheet to a dataset, or work locally in a spreadsheet and upload a file. After Open Data Day, this work is preserved to showcase what was achieved and permit the community to build upon progress without unnecessarily repeating the data prep and analysis completed on Open Data Day.
+डाटाका धेरै श्रोतहरुबाट डाटा अपलोड गर्न वा फेला पार्न [data.world] (https://data.world) प्रयोग गर्नुहोस् र परियोजनाको सबै पक्षहरू - डाटा, नोटबुकहरु, विश्लेषण, र छलफलहरू  एउटै  कार्यक्षेत्रमा संगठित गर्नुहोस्। 
+
+
+मानवीय कार्यहरू सम्बन्धित डाटा विभिन्न श्रोतबाट फेला पार्न तपाई  [मानवीय डाटा एक्सचेंज] (https://data.humdata.org/) जान सक्नुहुनेछ ।
+
+
+यदि तपाईंसँग डाटा छ तर यो कहाँ राख्ने थाहा छैन भने, तपाईं [CKAN DataHub] (https://datahub.ckan.io/) प्रयोग गर्न सक्नुहुनेछ। तपाईं डाटासेट प्रकाशित गर्न वा दर्ता गर्न, समूह र समुदायहरू सिर्जना र व्यवस्थापन गर्न सक्नुहुनेछ।
 ---
-resources_ideas_theme_2: Open Research Data
+[//]: # (resources_ideas_theme_2: खुला विज्ञान
 ---
 resources_ideas_theme_2_text:
 
-Root data commons - Repository for general public data sets of scientific interest, hosted on the OSDC.
-Explore Open Data policies with the US Federal data sharing resource - http://datasharing.sparcopen.org/
-All data on clinical trials, linked: Open Trials - http://opentrials.net/
-Try text & data mining: Content Mine - http://contentmine.org/
-Find a reusable dataset in your field: [Zenodo](https://zenodo.org/search?page=1&size=20&q=&access_right=open)
-[tbc: help others make their dataset available]
+हाम्रो उपकरणहरू कसरी प्रयोग गर्ने सिक्न हाम्रो [फिल्ड गाइड] (http://frictionlessdata.io/field-guide/) जाँच गर्नुहोस्, जस्तै [डाटा प्याकेज क्रिएटर] (http://create।frictionlessdata।io/), [डाटा प्रमाणीकरण उपकरण] (http://ry।goodtables।io/), र हाम्रो [सफ्टवेयर] (http://frictionlessdata।io/software/), आर, पाइथन, र जुलियामा पुस्तकालयहरू सहित। हामीसँग [वर्कशॉप स्लाइडहरू) (https://docs।google।com/presentation/d/14dyORE_Ftvd30nEf1-rhspDSsVptGIINeRagmCm3f94/edit?usp=sharing) छन् जुन तपाईंले पुन: प्रयोग गर्न सक्नुहुनेछ (CC-BY) र
+[ट्यूटोरियल भिडियोहरू) (https://www.youtube.com/channel/UCQe-pXn0XZzmRzvyOMZpfEg) जसले तपाईंलाई प्रेरित गर्नेछ।
+
+-यहाँ एक  [एकीकरणको पूर्ण सूची] छ (http://frictionlessdata.io/software/) जसमा फ्रिक्शनलेस डाटाको प्रयोग Kaggle, OpenRefine, SPSS, R, Julia, आदिमा भएको छ।
+
+- तपाईं [Gitter] (https://gitter.im/frictionlessdata/chat) र [Discuss] (https://discuss.okfn.org/c/frictionless-data) प्रयोग गरेर फ्रिक्शनलेस डाटा समुदायमा पनि सामेल हुन सक्नुहुन्छ।
+- फ्रिक्शनलेस डाटा स्रोतहरू खुला स्रोत हुन् र यसलाई GitHub मा फेला पार्न सकिन्छ)
 ---
-resources_ideas_theme_3: Tracking Public Money flows
+resources_ideas_theme_3: 
+सार्वजनिक पैसा(जनताको धन) प्रवाह ट्र्याकिंग गर्ने 
 ---
 resources_ideas_theme_3_text:
+यदि तपाईं सार्वजनिक पैसा(जनताको धन) प्रवाह ट्र्याकिंग गर्ने  योजना गर्दै हुनुहुन्छ भने, यहाँ केहि रोचक विचारहरू र प्रोजेक्टहरू छन् जुन तपाईं तपाइको कार्यक्रममा प्रयोग गर्न सक्नुहुनेछ ।
 
-Open Contracting - http://www.open-contracting.org/
-Open Spending - http://next.openspending.org/
-Cooking budgets - http://www.cookingbudgets.com/
-Panama Papers - https://panamapapers.icij.org/
-Municipal Money - https://municipalmoney.gov.za/
-Development check - http://www.developmentcheck.org/
+[DataOnTheStates अंतरराष्ट्रीय र्याली  ] (http://www.fiscaltransparency.net/blog_open_public.php?IdToOpen=6323)। यो सरकारले उत्पन्न गरेको डाटा प्रयोग गर्न आमन्त्रित गर्ने ठूलो अवसर हो। सडकमा जानुहोस् र डाटाले उनीहरूको वास्तविक जीवनमा कसरी प्रतिबिम्बित गर्दछ हेर्नुहोस्। यो खुला डाटा र डिजिटल उपकरणहरू मार्फत बजेट कार्यान्वयन चरणमा सार्वजनिक सहभागिताको प्रक्रिया हो, जस्तै नक्सा र दृश्यहरू।
+[दिगो विकासका लागि उत्तम बजेट डाटाक्वेस्ट] (http://www.fiscaltransparency.net/blog_open_public.php?IdToOpen=6309)। डाटाक्वेस्ट(Dataquest) भनेको बजेट विनियोजन र कार्यान्वयनमा सुधार ल्याउन केहि नबिन बिचार हुन् ।
+बजेट र खर्च डाटा प्रयोग गरीरहेको मान्छेहरु लाई संलग्न गर्ने  यी दुई तरिकाहरू हुन्।
+
 ---
-resources_ideas_theme_4: Datazar
+resources_ideas_theme_4: समान विकास
 ---
 resources_ideas_theme_4_text:
-
-[Datazar](https://www.datazar.com) is a cloud-based research collaboration platform where you can run your analysis in your browser. Upload your data and create R notebooks, D3 visualizations, Scientia scripts, LaTeX publications and more directly from your projects. While you're making sense of the data, discuss with your team in real time and decide the best methods. Use the REST API to send the data directly from your local applications. Datazar is offering its computational resources for free so that open data can be shared and analyzed by everyone.
+LGBTQ rights - http://www.lgbtdata.com/ (note: This website does not state that the data is open, but links to datasets)
+War crimes  - see for example how BVT datalab showed the story of the bombing in Barcelona during the civil war
+Immigration - see current work of the migrant files, openmigration + data from UNHCR on refugee situations
+Internet shutdowns - ways to combine information from AccessNow, Dyn Research, Akamai (SOTI) with other data sources
+Tax - could share some interesting things from Open Data for Tax Justice project about overlap between tax and human rights
+Tracking poverty in cities - not using open data, but interesting example of how alternative stories about poverty are told.
+The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.)
 ---
-resources_ideas_theme_5: Environment theme
+resources_ideas_theme_5: वातावरणीय बिषय
 ---
 resources_ideas_theme_5_text:
 
 Drought in Southern Africa
 In the news:
 Guardian, March 2016
-hompson Reuters, November 2016
+Thomson Reuters, November 2016
 Ongoing Data Work:
 Hack 4 Water (South Africa) http://www.hack4water.org.za/ https://www.dwa.gov.za/events/hack4water/default.aspx
 
-##### Floods
+##### बाढी
 FloodAlerts is a website using data from the British Environment Agency to supply residents in England and Wales with alerts about flood events.
-UNOCHA report from December 2016 on El Nino response in East and Southern Africa.
+UNOCHA report from December 2016 on El Niño response in East and Southern Africa.
 The impending disaster along the Zambia/Zimbabwe border if Kariba Dam wall collapses (Developing Story - January 2018)
 
-##### Deforestation
+##### वन कटान
 Global Forest Watch provides several data sets on forest coverage, use, loss, and indigenous peoples.
 
-#####Pollution - air, water
+##### प्रदूषण - हावा, पानी
 Sensor data from https://www.opensensors.io
 https://opendevelopmentmekong.net/
 The map of “Spills in Brooklyn” visualizes records of the New York State Department of Conservation to show noxious chemical spills in different locations around New York’s neighbourhood Brooklyn.
@@ -159,27 +172,24 @@ Airlapse shows the concentration of particles such as carbon monoxide per hour i
 Open Oil releasing open financial models in the run-up to Christmas for around a dozen countries. Build on models/findings? http://openoil.net/contract-modeling/
 Extract-A-Fact, a project by Publish What You Pay, is a toolset to find facts in open data on extractives industries, including payments made to the government.
 
-##### Fires
+##### आगो
 Earth Observatory data
 Global Forest Watch’s fire data/map
 ---
-resources_ideas_theme_6: Human Rights theme
+resources_ideas_theme_6: मानवाधिकार विषयवस्तु
 ---
 resources_ideas_theme_6_text:
 
-LGBTQ rights - http://www.lgbtdata.com/ (note: This website does not state that the data is open, but link to datasets)
-War crimes  - see for example how BVT datalab showed the story of the bombing in Barcelona during the civil war
-Immigration - see current work of the migrant files, openmigration + data from UNHCR on refugee situations
-Internet shutdowns - ways to combine information from AccessNow, Dyn Research, Akamai  (SOTI) with other data sources
-Tax - could share some interesting things from Open Data for Tax Justice project about overlap between tax and human rights
-Tracking poverty in cities - not using open data, but interesting example of how alternative stories about poverty are told.
-The City of Indianapolis developed an open data portal to show information about the use of force, officers ­involved shootings and complaints against officers.
+
 ---
-support_scheme_heading: समर्थन योजना
+support_scheme_heading: Support Scheme
 ---
 support_scheme_body:
 
-अहिले हामी खुल्ला डाटा दिवस २०१९ को समर्थन योजना सम्बन्धी विवरणहरूमा काम गरिरहेका छौं। के तपाईं सँग कुनै विचारहरू छ वा समर्थन गर्न चाहनुहुन्छ? हामीलाई ईमेल छोड्नुहोस्।
-[network@okfn.org](mailto:network@okfn.org)
+This year we will support some events across the world through mini-grants from $200 to $300. Watch out for the call for applications due to launch in January 2020.
 ---
-[//]: This is a bottom-up initiative coordinated through this mailing list.
+support_scheme_button: Learn more
+---
+support_scheme_logos:
+The Open Data Day 2020 mini-grants are kindly supported by:
+---
