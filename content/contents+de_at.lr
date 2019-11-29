@@ -1,16 +1,16 @@
 language: de_at
 ---
-next_date: 2018-03-03
+next_date: 2020-03-07
 ---
 title: Du bist eingeladen!
 ---
 banner_heading_1: Du bist eingeladen!
 ---
-banner_heading_2: Wieder
+banner_heading_2: Aufs Neue!
 ---
-banner_content_1: Der Open Data Day findet statt am
+banner_content_1: Der Open Data Day 2020 findet statt am
 ---
-banner_content_2: Freitag, 3 März 2018
+banner_content_2: Samstag, 7. März 2020
 ---
 intro_heading: Was ist der Open Data Tag?
 ---
@@ -18,21 +18,22 @@ register_text: Veranstaltung hier eintragen
 ---
 intro_body:
 
-Der Open Data Day ist eine jährlich stattfindende Veranstaltung um international auf die Bedeutung offener Daten hinzuweisen. Zum fünften Mal werden lokale Interessensgruppen rund um die Welt durch verschiedene Aktivitäten auf die Bedeutung offener Daten hinweisen. Der Open Data Day ist eine gute Gelegenheit auf die Vorteile offener Daten hinzuweisen und den Stellenwert innerhalb von Verwaltung, der Wirtschaft und der Zivilgesellschaft zu erhöhen.
+Der Open Data Day ist eine jährlich stattfindende Veranstaltung um international auf die Bedeutung offener Daten hinzuweisen. Zum 10. Mal werden lokale Interessensgruppen rund um die Welt durch verschiedene Aktivitäten auf die Bedeutung offener Daten hinweisen. Der Open Data Day ist eine gute Gelegenheit auf die Vorteile offener Daten hinzuweisen und den Stellenwert innerhalb von Verwaltung, der Wirtschaft und der Zivilgesellschaft zu erhöhen.
 ---
 intro_body_2:
 ---
 year_intro:
 
-Der Open Data Day 2018 setzt vier Schwerpunkte:
+Beim Open Data Day 2020 wollen wir die Community weiter wachsen lassen. Wir werden Minifinanzierungen für Schlüsselbereiche vergeben, von denen wir glauben, dass sie mit offenen Daten gelöst werden können. Die diesjährigen Tracks findest du unten.
+
 ---
-year_label_1: Offene **Forschungsdaten**
+year_label_1: **Umweltdaten**
 ---
-year_label_2: **Offene Haushalte**
+year_label_2: **Verfolgung der öffentlichen Geldflüsse**
 ---
-year_label_3: Offene Daten für den **Umweltschutz**
+year_label_3: Open Mapping 
 ---
-year_label_4: Offene Daten für **Menschenrechte**
+year_label_4: Offene Daten für **Gleichstellung**
 ---
 who_heading: An wen richtet sich der Open Data Day? An jede(n)!
 ---
