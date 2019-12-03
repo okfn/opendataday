@@ -1,6 +1,6 @@
 _model: home
 ---
-next_date: 2018-03-03
+next_date: 2020-03-07
 ---
 title: Sei invitato
 ---
@@ -10,13 +10,13 @@ banner_heading_2: Di nuovo!
 ---
 banner_content_1: L'Open Data Day si terrà
 ---
-banner_content_2: sabato 3 marzo 2018
+banner_content_2: sabato 7 marzo 2020
 ---
 intro_heading: Cos'è l'Open Data Day?
 ---
 intro_body:
 
-L'Open Data Day è una festa dei dati aperti organizzata ogni anno a livello mondiale. Per la quinta volta, gruppi da tutto il mondo creeranno degli eventi locali in cui useranno dati aperti nelle proprie comunità. È un'opportunità per mostrare i vantaggi dei dati aperti e incoraggiarne l'adozione nel governo, nell'impresa e nella società civile.
+L'Open Data Day è una festa dei dati aperti organizzata ogni anno a livello mondiale. Per la decima volta, gruppi da tutto il mondo creeranno degli eventi locali in cui useranno dati aperti nelle proprie comunità. È un'opportunità per mostrare i vantaggi dei dati aperti e incoraggiarne l'adozione nel governo, nell'impresa e nella società civile.
 ---
 intro_body_2:
 
@@ -24,15 +24,15 @@ Tutti i risultati sono aperti e disponibili a tutti per essere usati e riusati.
 ---
 year_intro:
 
-Per l'Open Data Day 2018 vogliamo alzare ancora il livello. Quest'anno ci concentreremo su quattro aree chiave che crediamo possano trarre vantaggio dall'uso di dati aperti.
+Quest'anno ci concentreremo su quattro aree chiave che crediamo possano trarre vantaggio dall'uso di dati aperti:
 ---
-year_label_1: **Ricerca**
+year_label_1: Open data **ambientali**
 ---
-year_label_2: **Denaro pubblico**
+year_label_2: Tracciabilità dei **flussi finanziari**
 ---
-year_label_3: **Ambiente**
+year_label_3: Open **mappatura**
 ---
-year_label_4: **Diritti umani**
+year_label_4: Dati aperti per **eguaglianza**
 ---
 register_text: Registra il tuo evento qui
 ---
@@ -78,7 +78,7 @@ resources_heading: Risorse
 ---
 resources_intro:
 
-Hai bisogno di ispirazione per un evento in occasione dell'Open Data Day? Non sai dove trovare i dati che ti servono? Dai un'occhiata alle nostre risorse per il 2018.
+Hai bisogno di ispirazione per un evento in occasione dell'Open Data Day? Non sai dove trovare i dati che ti servono? Dai un'occhiata alle nostre risorse.
 ---
 resources_button: Risorse
 ---
@@ -92,7 +92,7 @@ resources_ideas_heading: Idee e sorgenti dati
 ---
 resources_ideas_intro:
 
-Ehi, appassionato di dati aperti! Hai appena visto che l'Open Data Day sarà sabato 3 marzo 2018 e vorresti organizzare un evento nella tua località. Il tuo unico problema ora è trovare l'idea giusta per toccare il tasto giusto. I nostri amici dalla comunità dei dati aperti hanno qualche idea e qualche sorgente dati che potrebbero interessarti.
+Ehi, appassionato di dati aperti! Hai appena visto che l'Open Data Day sarà, e vorresti organizzare un evento nella tua località. Il tuo unico problema ora è trovare l'idea giusta per toccare il tasto giusto. I nostri amici dalla comunità dei dati aperti hanno qualche idea e qualche sorgente dati che potrebbero interessarti.
 ---
 resources_ideas_theme_1: data.world
 ---
