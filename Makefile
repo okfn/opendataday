@@ -1,6 +1,5 @@
 .PHONY: all list build serve install
 
-
 all: list
 
 list:
