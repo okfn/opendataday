@@ -32,7 +32,7 @@ locale = es_es
 
 [alternatives.fr]
 name = French
-url_prefix=/fr/
+url_prefix = /fr/
 locale = fr
 
 [alternatives.it]
