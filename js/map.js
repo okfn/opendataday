@@ -29,19 +29,20 @@ map.on('load', function() {
         var lng = Number(d.gsx$longitude.$t)
         var title = d.title.$t.split(",")[0]
         var event = d.gsx$eventname.$t
-        var organizers = d.gsx$organizers.$t
+        var organisers = d.gsx$organisers.$t
         var isworkingurl = new RegExp('^' + 'http').test(d.gsx$url.$t)
         var url = isworkingurl ? '<a href="' + d.gsx$url.$t + '">' + d.gsx$url.$t + '</a>' : 'TBD'
       } catch (error) {
+        console.error(error)
         console.log('Error processing event submitted at "' + d.title.$t + '"')
       }
-      if (lng && lat && title && event && organizers) {
+      if (lng && lat && title && event && organisers) {
         geojson.features.push({
           type: 'Feature',
           properties: {
             title: title,
             icon: "circle",
-            description: '<strong>Event:</strong> ' + event + '<br><strong>URL:</strong> ' + url + '<br><strong>Organizers:</strong> ' + organizers
+            description: '<strong>Event:</strong> ' + event + '<br><strong>URL:</strong> ' + url + '<br><strong>Organisers:</strong> ' + organisers
           },
           geometry: {
             type: 'Point',
