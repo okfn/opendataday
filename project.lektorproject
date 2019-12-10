@@ -30,10 +30,20 @@ name = Castellano
 url_prefix = /es_es/
 locale = es_es
 
-[alternatives.pt_br]
-name = Português brasileiro
-url_prefix = /pt_br/
-locale = pt_br
+[alternatives.fr]
+name = French
+url_prefix=/fr/
+locale = fr
+
+[alternatives.it]
+name = Italiano
+url_prefix = /it/
+locale = it
+
+[alternatives.ja]
+name = Japanese
+url_prefix = /ja/
+locale = ja
 
 [alternatives.ne]
 name = Nepali
@@ -45,22 +55,17 @@ name = Nederlands
 url_prefix = /nl/
 locale = nl
 
-[alternatives.it]
-name = Italiano
-url_prefix = /it/
-locale = it
-
-[alternatives.zh_tw]
-name = 正體中文
-url_prefix = /zh_tw/
-locale = zh_tw
+[alternatives.pt_br]
+name = Português brasileiro
+url_prefix = /pt_br/
+locale = pt_br
 
 [alternatives.ru]
 name = Russian
 url_prefix = /ru/
 locale = ru
 
-[alternatives.ja]
-name = Japanese
-url_prefix = /ja/
-locale = ja
+[alternatives.zh_tw]
+name = 正體中文
+url_prefix = /zh_tw/
+locale = zh_tw
