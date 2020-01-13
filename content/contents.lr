@@ -93,24 +93,26 @@ resources_ideas_heading: Ideas and data sources
 resources_ideas_intro:
 
 Hey there open data enthusiast! You just saw that Open Data Day will be on Saturday 7th March 2020 and you're interested in hosting an event in your locality? Your only challenge now is finding the idea that will hit the right spot. Our friends from the open data community have some ideas and data sources worth checking out.
----
-resources_ideas_theme_1: Data sources
----
-resources_ideas_theme_1_text:
 
 Visit the [CKAN website](https://ckan.org/about/instances/) to discover all the organisations around the world using CKAN to publish their data.
 
 Use [data.world](https://data.world) to upload or find data from many sources and organise all aspects of a project - including data, notebooks, analysis and discussions - in a single workspace.
 
 If you have data but don't know where to put it, you can use [DataHub](https://datahub.io). You can publish datasets, [search for relevant data](https://datahub.io/search), [browse thematic data collections](https://datahub.io/collections) and [request help](https://gitter.im/datahubio/chat) with your open data publishing.
+
 ---
-[//]: # (resources_ideas_theme_2: Environmental data
+resources_ideas_theme_1: Environmental data
 ---
-resources_ideas_theme_2_text:
+resources_ideas_theme_1_text:
 
 To discover environmental or climate data to use or get inspiration from for your Open Data Day event: visit the [ResourceWatch.org site](https://resourcewatch.org/), a[World Resources Institute](https://www.wri.org/) data portal; explore [NASA's open data website](https://open.nasa.gov/open-data/); head to [geoportal.org](https://www.geoportal.org) for earth observation data; or discover forest cover/loss data with [Global Forest Watch](https://www.globalforestwatch.org/).
 
 [OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) and the [Open Data Charter's OpenUp guide to climate data](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) may also provide useful guidance and advice.
+
+---
+[//]: # (resources_ideas_theme_2: 
+---
+resources_ideas_theme_2_text:
 
 ---
 resources_ideas_theme_3: Tracking public money flows
