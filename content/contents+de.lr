@@ -12,11 +12,11 @@ banner_content_1: Der Open Data Day 2020 findet statt am
 ---
 banner_content_2: Samstag, 7. März 2020
 ---
-intro_heading: Was ist Open Data Day?
+intro_heading: Was ist der Open Data Day?
 ---
 intro_body:
 
-Der Open Data Day ist eine jährlich stattfindende Veranstaltung um international auf die Bedeutung offener Daten hinzuweisen. Lokale Interessensgruppen rund um die Welt werden durch verschiedene Aktivitäten auf die Bedeutung offener Daten hinweisen. Der Open Data Day ist eine gute Gelegenheit auf die Vorteile offener Daten zu hinweisen, und den Stellenwert innerhalb von Verwaltung, der Wirtschaft und der Zivilgesellschaft zu erhöhen.
+Der Open Data Day ist eine jährlich stattfindende Veranstaltung, um international auf die Bedeutung offener Daten hinzuweisen. Lokale Interessensgruppen rund um die Welt werden durch verschiedene Aktivitäten auf die Bedeutung offener Daten hinzuweisen. Der Open Data Day ist eine gute Gelegenheit auf die Vorteile offener Daten zu hinweisen, und den Stellenwert innerhalb von Verwaltung, der Wirtschaft und der Zivilgesellschaft zu erhöhen.
 ---
 intro_body_2:
 
@@ -42,19 +42,19 @@ who_heading: An wen richtet sich der Open Data Day? An jede(n)!
 ---
 who_body:
 
-Wenn du eine Idee zur Verwendung offener Daten hast, egal ob bereits umgesetzt oder noch im Planungsstadium, etwas zur Verwendung offener Daten lernen möchtest oder einfach bei einem der Open Data Events in Österreich dabei sein möchtest, dann ist der Open Day ganz sicher etwas für dich! Trag ganz einfach deine Idee [hier online](https://docs.google.com/spreadsheets/d/17bnNQshA1gJw0UUa1KBZSCP34NFw4541exaqv2843N0/edit#gid=0) ein, sieh dir die [Liste der bereits organisierten Events](https://fusiontables.google.com/embedviz?viz=CARD&q=select+*+from+1moN6-tpBP5F2gsNkQqryVhoJP3_iZA3qVzAG6LPO&tmplt=3&cpr=2) an oder finde ein [Event auf der Karte](https://fusiontables.google.com/embedviz?q=select+col3+from+1moN6-tpBP5F2gsNkQqryVhoJP3_iZA3qVzAG6LPO&viz=MAP&h=false&lat=47.6924900372039&lng=14.71441445000005&t=1&z=8&l=col3&y=2&tmplt=2&hml=ONE_COL_LAT_LNG). Ganz egal welche Interessen dich mit offenen Daten verbinden oder wie dein aktueller Wissenstand zu offenen Daten ist: Organisatoren von Events rund um den Open Data Day sind bemüht ein interessantes Programm für jede(n) zu bieten!
+Wenn du eine Idee zur Verwendung offener Daten hast, egal ob bereits umgesetzt oder noch im Planungsstadium, etwas zur Verwendung offener Daten lernen möchtest oder einfach bei einem der Open Data Events dabei sein möchtest, dann ist der Open Day ganz sicher etwas für dich! Trag ganz einfach deine Idee [hier online](https://docs.google.com/spreadsheets/d/17bnNQshA1gJw0UUa1KBZSCP34NFw4541exaqv2843N0/edit#gid=0) ein, sieh dir die [Liste der bereits organisierten Events](https://fusiontables.google.com/embedviz?viz=CARD&q=select+*+from+1moN6-tpBP5F2gsNkQqryVhoJP3_iZA3qVzAG6LPO&tmplt=3&cpr=2) an oder finde ein [Event auf der Karte](https://fusiontables.google.com/embedviz?q=select+col3+from+1moN6-tpBP5F2gsNkQqryVhoJP3_iZA3qVzAG6LPO&viz=MAP&h=false&lat=47.6924900372039&lng=14.71441445000005&t=1&z=8&l=col3&y=2&tmplt=2&hml=ONE_COL_LAT_LNG). Ganz egal welche Interessen dich mit offenen Daten verbinden oder wie dein aktueller Wissenstand zu offenen Daten ist: Organisatoren von Events rund um den Open Data Day sind bemüht ein interessantes Programm für jede(n) zu bieten!
 ---
 who_title_1: BürgerInnen
 ---
 who_description_1:
 
-Wir brauchen Dich! Offene Daten sind (vor allem) für BürgerInnen, daher gibt es den Open Data Day. Wir brauchen Ideen und Multiplikatoren um die Idee weiterzuverbreiten!
+Wir brauchen Dich! Offene Daten sind (vor allem) für BürgerInnen, daher gibt es den Open Data Day. Wir brauchen Ideen und Multiplikatoren, um die Idee weiterzuverbreiten!
 ---
 who_title_2: MitarbeiterInnen der öffentlichen Verwaltung
 ---
 who_description_2:
 
-Dieser Input ist enorm wichtig! Gemeinsam mit anderen Stakeholdern sind sie es, die zur Verbesserung der Datenqualität beitragen.
+Dieser Input ist enorm wichtig! Gemeinsam mit anderen Stakeholdern seid ihr es, die zur Verbesserung der Datenqualität beitragt.
 ---
 who_title_3: DesignerInnen
 ---
@@ -86,30 +86,30 @@ resources_materials_heading: Materialien
 ---
 resources_materials_text:
 
-Erzeuge ein Logo für deiner Stadt mit diesem [Logo-Generator](http://odd.structure-and-representation.com/)!
+Erzeuge ein Logo für deine Stadt mit diesem [Logo-Generator](http://odd.structure-and-representation.com/)!
 ---
 resources_ideas_heading: Ideen und Datenquellen
 ---
 resources_ideas_intro:
 
-Hallo da offener Datenenthusiast(in)! Du hast gerade gesehen, dass der Tag der offenen Daten am Samstag, den 7. März 2020, stattfindet und bist daran interessiert, eine Veranstaltung in deine Nähe zu veranstalten? Die einzige Herausforderung ist es jetzt, die Idee zu finden, die den richtigen Ort trifft. Unsere Freunde aus der Open Data Community haben ein paar Datenquellen, die es wert sind, dass du dich informierst.
+Hallo da offener Datenenthusiast(in)! Du hast gerade gesehen, dass der Tag der offenen Daten am Samstag, den 7. März 2020, stattfindet und bist daran interessiert, eine Veranstaltung in deine Nähe zu veranstalten? Die einzige Herausforderung ist es jetzt, die Idee zu finden, die den richtigen Ort trifft. Unsere Freunde aus der Open Data Community haben ein paar Ideen und Datenquellen, die es sich lohnt durchzuschauen.
 
 Besuche die [CKAN-Website](https://ckan.org/about/instances/), um alle Organisationen auf der ganzen Welt zu entdecken, die CKAN zur Veröffentlichung ihrer Daten nutzen.
 
-Verwende [data.world](https://data.world), um Daten aus vielen Quellen hochzuladen oder zu finden und alle Aspekte eines Projekts - einschließlich Daten, Notizbücher, Analysen und Diskussionen - in einem einzigen Arbeitsbereich zu organisieren.
+Verwende [data.world](https://data.world), um Daten aus vielen Quellen hochzuladen oder zu finden und alle Aspekte eines Projekts - einschließlich Daten, Notebooks, Analysen und Diskussionen - in einem einzigen Arbeitsbereich zu organisieren.
 
-Wenn du Daten hast aber nicht weisst, wohin sie zu stellen, kannst du [DataHub](https://datahub.io) verwenden. Mit dem Datenveröffentlichung ist es möglich [nach relevanten Daten zu suchen](https://datahub.io/search), [thematische Datensammlungen zu durchstöbern](https://datahub.io/collections) und [Hilfe anzufordern](https://gitter.im/datahubio/chat).
+Wenn du Daten hast aber nicht weisst, wohin sie zu stellen, kannst du [DataHub](https://datahub.io) verwenden. Du kannst Daten veröffentlichen, [nach relevanten Daten suchen](https://datahub.io/search), [thematische Datensammlungen durchstöbern](https://datahub.io/collections) und [Hilfe beim Veröffentlichen deiner Daten anfordern](https://gitter.im/datahubio/chat).
 
 ---
 resources_ideas_theme_1: Umweltdaten
 ---
 resources_ideas_theme_1_text:
 
-Um Umwelt- oder Klimadaten zu entdecken, die für eine Veranstaltung des Open Data Day passen, oder sich davon inspirieren lassen können: besuche [ResourceWatch.org](https://resourcewatch.org/), ein Datenportal des [World Resources Institute](https://www.wri.org/); erkunde die [Open Data Website der NASA](https://open.nasa.gov/open-data/); gehe zum [geoportal.org](https://www.geoportal.org) für Erdbeobachtungsdaten; oder entdecke Waldbedeckungs-/Verlustdaten mit [Global Forest Watch](https://www.globalforestwatch.org/).
+Um Umwelt- oder Klimadaten zu entdecken, die an deinem Open Data Day verwendet werden oder als Inspiration dienen können: besuche [ResourceWatch.org](https://resourcewatch.org/), ein Datenportal des [World Resources Institute](https://www.wri.org/); erkunde die [Open Data Website der NASA](https://open.nasa.gov/open-data/); gehe zum [geoportal.org](https://www.geoportal.org) für Erdbeobachtungsdaten; oder entdecke Waldbedeckungs-/Verlustdaten mit [Global Forest Watch](https://www.globalforestwatch.org/).
 
-[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) und der [Open Data Charter's OpenUp guide to climate data](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) können ebenfalls nützliche Hinweise und Ratschläge geben.
+[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) und der [Open Data Charter's OpenUp guide to climate data](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) können ebenfalls nützliche Hinweise enthalten und Richtung geben.
 ---
-[//]: # (resources_ideas_theme_2: 
+[//]: # (resources_ideas_theme_2:
 ---
 resources_ideas_theme_2_text:
 
