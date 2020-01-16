@@ -23,7 +23,7 @@ locale = de
 [alternatives.de_at]
 name = Österreich
 url_prefix = /de_at/
-locale = de_at
+locale = de
 
 [alternatives.es_es]
 name = Castellano
