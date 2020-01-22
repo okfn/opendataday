@@ -20,11 +20,6 @@ name = Deutsch
 url_prefix = /de/
 locale = de
 
-[alternatives.de_at]
-name = Österreich
-url_prefix = /de_at/
-locale = de_at
-
 [alternatives.es_es]
 name = Castellano
 url_prefix = /es_es/
