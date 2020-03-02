@@ -7,9 +7,8 @@ var clusterRadius = 50,
 var map = new mapboxgl.Map({
   container: 'map-container',
   style: 'mapbox://styles/mapbox/bright-v9',
+  zoom: 1,
   center: [0,0],
-  zoom: 1.3,
-  minZoom: 1.3,
   scrollZoom: false
 });
 
@@ -194,6 +193,7 @@ map.on('load', function() {
       }
     });
   });
+
 });
 
 function pointsToBounds(points) {
