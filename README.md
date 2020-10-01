@@ -1,4 +1,4 @@
-# opendataday
+# Opendataday
 
 [![Build Status](http://travis-ci.org/okfn/opendataday.svg?branch=master)](http://travis-ci.org/okfn/opendataday)
 
@@ -8,7 +8,7 @@ You're invited. Again. The next Open Data Day will take place on Saturday 6 Marc
 
 Check <http://opendataday.org/> for public website.
 
-## Editing / contributing
+## Editing / Contributing
 
 This site is built with [Lektor](https://www.getlektor.com/).
 
