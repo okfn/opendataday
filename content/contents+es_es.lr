@@ -98,7 +98,7 @@ resources_ideas_theme_1_text:
 
 Usa [data.world](https://data.world) para cargar o buscar datos de muchas fuentes y organizar todos los aspectos de un proyecto, incluidos datos, cuadernos, análisis y debates, en un solo espacio de trabajo.
 
-Puedes acceder a [Humanitarian Data Exchange](https://data.humdata.org/) para encontrar datos relacionados a acctiones humanitarias de diversas fuentes.
+Puedes acceder a [Humanitarian Data Exchange](https://data.humdata.org/) para encontrar datos relacionados a acciones humanitarias de diversas fuentes.
 
 Si tienes datos pero no sabes dónde publicarlos, puedes usar [CKAN DataHub](https://datahub.ckan.io/). Puedes publicar o registar conjunto de datos, crear y administrar grupos y comunidades.
 ---
@@ -107,11 +107,11 @@ resources_ideas_theme_2: Ciencia Abierta
 resources_ideas_theme_2_text:
 
 [Frictionless Data for Reproducible Research](https://frictionlessdata.io/reproducible-research/) se complace en otorgar pequeñas subvenciones
-para trabajar en Ciencia Abierta! Estas buscando ideas para tu evento? Frictionless Data tiene una collección de recursos para inspirarte.
-Revisa nuestra [Guía de Campo](http://frictionlessdata.io/field-guide/) para aprender más como usar nuestras herramientas como: [Data Package Creator](http://create.frictionlessdata.io/), [data validation tool](http://try.goodtables.io/), y nuestro [software](http://frictionlessdata.io/software/) incluyendo librerias en R, Python y Julia. También tenemos [workshop slides](https://docs.google.com/presentation/d/14dyORE_Ftvd30nEf1-rhspDSsVptGIINeRagmCm3f94/edit?usp=sharing) que puedes reusar (CC-BY) y
+para trabajar en Ciencia Abierta! Estás buscando ideas para tu evento? Frictionless Data tiene una collección de recursos para inspirarte.
+Revisa nuestra [Guía de Campo](http://frictionlessdata.io/field-guide/) para aprender más como usar nuestras herramientas como: [Data Package Creator](http://create.frictionlessdata.io/), [data validation tool](http://try.goodtables.io/), y nuestro [software](http://frictionlessdata.io/software/) incluyendo librerías en R, Python y Julia. También tenemos [workshop slides](https://docs.google.com/presentation/d/14dyORE_Ftvd30nEf1-rhspDSsVptGIINeRagmCm3f94/edit?usp=sharing) que puedes reusar (CC-BY) y
 [video tutoriales](https://www.youtube.com/channel/UCQe-pXn0XZzmRzvyOMZpfEg) para inspirarte.
 
-- Por si acaso, aquí hay una [lista completa de integraciones](http://frictionlessdata.io/software/) de Frictionless Data con herramientas y plataformas para trabajar con datos, inlcuyendo Kaggle, Open Refine, SPSS, R, Julia, etc.
+- Por si acaso, aquí hay una [lista completa de integraciones](http://frictionlessdata.io/software/) de Frictionless Data con herramientas y plataformas para trabajar con datos, incluyendo Kaggle, Open Refine, SPSS, R, Julia, etc.
 - También puedes unirte a la comunidad de Frictionless Data en [Gitter](https://gitter.im/frictionlessdata/chat) y [Discuss](https://discuss.okfn.org/c/frictionless-data)
 - Los recursos de Frictionless Data son de Código abierto y pueden encontrarse en [GitHub](https://github.com/frictionlessdata/)
 ---
@@ -119,7 +119,7 @@ resources_ideas_theme_3: Seguimiento de Fondos Públicos
 ---
 resources_ideas_theme_3_text:
 
-Si estas planificando organizar un track para seguir el dinero público, aquí te dejamos ideas y proyectos que puedes
+Si estás planificando organizar un track para seguir el dinero público, aquí te dejamos ideas y proyectos que puedes
 utilizar en tu evento:
 
 [#DataOnTheStreets International Rally](http://www.fiscaltransparency.net/blog_open_public.php?IdToOpen=6323). Una gran oportunidad para invitar al público a usar los datos generados por los gobiernos, salir a las calles y ver cómo se reflejan los datos en su vida real. Es un proceso de participación pública en la fase de implementación del presupuesto a través de datos abiertos y herramientas digitales, como mapas y visualizaciones.
@@ -185,7 +185,7 @@ support_scheme_body:
 
 Este año apoyaremos algunos eventos en todo el mundo a través de mini subsidios de $200 a $300. Estén atentos a la convocatoria de aplicaciones que se lanzará en enero de 2021.
 ---
-support_scheme_button: Mas info
+support_scheme_button: Más info
 ---
 support_scheme_logos:
 Las mini-subvenciones del Open Data Day 2021 son gracias a:
