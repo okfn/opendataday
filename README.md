@@ -6,7 +6,7 @@ Open Data Day is a gathering of citizens in cities around the world to write app
 
 You're invited. Again. The next Open Data Day will take place on Saturday 6 March 2021.
 
-Check <http://opendataday.org/> for public website.
+Check <http://opendataday.org> for public website.
 
 ## Editing / contributing
 
