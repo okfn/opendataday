@@ -15,6 +15,11 @@ name = English
 primary = yes
 locale = en
 
+[alternatives.de_at]
+name = Austrian Deutsch
+url_prefix = /de_at
+locale = de_at
+
 [alternatives.de]
 name = Deutsch
 url_prefix = /de/
