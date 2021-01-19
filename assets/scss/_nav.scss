@@ -1,0 +1,214 @@
+.main-nav {
+  background-color: $black;
+  color: #fff;
+  text-align: right;
+  min-height: 62px;
+
+  @media (min-width: $medium-screen) {
+    min-height: 98px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  & > div {
+    @include container;
+    padding: $base-spacing*0.75 0;
+
+    @media (min-width: $medium-screen) {
+      padding: $base-spacing $gutter;
+    }
+
+    & > div {
+      margin-left: $gutter;
+      margin-right: $gutter;
+      position: relative;
+
+      @media (min-width: $medium-screen) {
+        margin: 0;
+        display: table;
+        width: 100%;
+      }
+    }
+  }
+
+  .logo {
+    display: inline-block;
+    width: 80px;
+    float: left;
+    line-height: 1;
+
+    @media (min-width: $medium-screen) {
+      width: 146px;
+    }
+  }
+
+  .menu {
+    margin: 0;
+    padding: 0;
+    @include clearafter;
+    display: none;
+
+    &:target{
+      display: block;
+    }
+
+    @media (min-width: $medium-screen) {
+      display: table-cell;
+      margin-right: 4.5em;
+      vertical-align: middle;
+    }
+
+    li {
+      display: block;
+      text-align: center;
+
+      @media (min-width: $medium-screen) {
+        display: inline-block;
+        padding-left: $gutter;
+      }
+    }
+  }
+
+  .slicknav_menu > a,
+  .language > div > a {
+    border: solid 1px #fff;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .slicknav_menu {
+    float: right;
+    margin: -1px 0 0 $gutter/2;
+    text-align: left;
+
+    .slicknav_menutxt {
+      text-transform: uppercase;
+    }
+
+    .slicknav_btn {
+      padding: 6px;
+    }
+
+    .slicknav_icon-bar {
+  		background-color: #fff;
+      height: 1px;
+
+      & + .slicknav_icon-bar {
+    		margin-top: 3px;
+    	}
+  	}
+
+    .slicknav_nav{
+  		background-color: $black;
+      position: absolute;
+      z-index: 1;
+      top: 40px;
+      right: -$gutter;
+      left: -$gutter;
+      margin: 0;
+      padding: 6px $gutter $gutter $gutter;
+
+      a {
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+      }
+  	}
+
+    @media (min-width: $medium-screen) {
+      display: none;
+    }
+  }
+
+  .language {
+    display: none;
+
+    @media (min-width: $medium-screen) {
+      display: table-cell;
+      vertical-align: middle;
+      float: none;
+    }
+
+    & > div {
+      position: relative;
+      text-transform: uppercase;
+      margin-left: $gutter/2;
+      display: inline-block;
+      white-space: nowrap;
+
+      & > a {
+        padding: 3px 6px;
+        font-weight: bold;
+        display: block;
+        text-align: left;
+
+        &:after {
+          content: ' \25BE';
+          font-size: 13px;
+          position: relative;
+          top: -1px;
+        }
+      }
+
+      &:hover {
+        & > a {
+          background-color: $black;
+        }
+
+        #lang {
+          display: block;
+          font-size: 14px;
+          margin: 0;
+          padding: 0;
+          background-color: $black;
+          padding: 3px 6px;
+          border: solid 1px #fff;
+          border-radius: 4px;
+          position: absolute;
+          min-width: 100%;
+          box-sizing: border-box;
+          text-align: left;
+          bottom: 0;
+
+          li {
+            display: block;
+
+            a {
+              color: #fff;
+              text-decoration: none;
+              display: block;
+            }
+
+            &.active {
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+  #lang {
+    display: none;
+
+    &:target{
+      display: block;
+    }
+  }
+
+  &.stuck {
+    position:fixed;
+    width: 100%;
+    top:0;
+    z-index: 99;
+
+    .language > div {
+      #lang {
+        bottom: auto;
+        top: 0;
+      }
+    }
+  }
+}

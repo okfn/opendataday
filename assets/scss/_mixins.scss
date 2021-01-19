@@ -1,0 +1,42 @@
+@mixin container {
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin clearafter {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+@mixin button($colour:$blue, $text:#fff) {
+  background-color: $colour;
+  color: $text;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.8em 1.8em;
+  display: inline-block;
+  text-align: center;
+}
+
+@mixin rev-text($col:#fff) {
+  color: $col;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  a {
+    color: inherit;
+  }
+}
+
+@mixin columns($width: 300px, $number: 3, $gap:$gutter*2) {
+  -webkit-columns: $width $number;
+  -moz-columns: $width $number;
+  columns: $width $number;
+  -webkit-column-gap: $gap;
+  -moz-column-gap: $gap;
+  column-gap: $gap;
+}
