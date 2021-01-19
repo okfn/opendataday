@@ -1,71 +1,16 @@
 [project]
-name = Open Data Day
+name = Open Data Day Feira
 
 [servers.ci]
 enabled = yes
-target = ghpages+https://okfn/opendataday?cname=opendataday.org
+target = ghpages+https://DadosAbertosDeFeira/opendataday
 
 [servers.manual]
 enabled = yes
 default = yes
-target = ghpages://okfn/opendataday?cname=opendataday.org
-
-[alternatives.en]
-name = English
-primary = yes
-locale = en
-
-[alternatives.de_at]
-name = Austrian Deutsch
-url_prefix = /de_at
-locale = de_at
-
-[alternatives.de]
-name = Deutsch
-url_prefix = /de/
-locale = de
-
-[alternatives.es_es]
-name = Castellano
-url_prefix = /es_es/
-locale = es_es
-
-[alternatives.fr]
-name = French
-url_prefix = /fr/
-locale = fr
-
-[alternatives.it]
-name = Italiano
-url_prefix = /it/
-locale = it
-
-[alternatives.ja]
-name = Japanese
-url_prefix = /ja/
-locale = ja
-
-[alternatives.ne]
-name = Nepali
-url_prefix = /ne/
-locale = ne
-
-[alternatives.nl]
-name = Nederlands
-url_prefix = /nl/
-locale = nl
+target = ghpages://DadosAbertosDeFeira/opendataday
 
 [alternatives.pt_br]
-name = Português brasileiro
-url_prefix = /pt_br/
+name = Português
+primary = yes
 locale = pt_br
-
-[alternatives.ru]
-name = Russian
-url_prefix = /ru/
-locale = ru
-
-[alternatives.zh_tw]
-name = 正體中文
-url_prefix = /zh_tw/
-locale = zh_tw
