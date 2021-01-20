@@ -8,7 +8,7 @@ title: Você está convidada(o)
 ---
 banner_heading_1: Você está convidada(o).
 ---
-banner_heading_2: De novo!
+banner_heading_2:
 ---
 banner_content_1: O Dia dos Dados Abertos 2021 será no
 ---
@@ -18,23 +18,19 @@ intro_heading: O que é o Dia dos Dados Abertos?
 ---
 intro_body:
 
-O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Grupos de todas as partes do mundo criaram eventos locais no dia em que usarão dados abertos em suas comunidades. É uma oportunidade para mostrar os benefícios dos dados abertos e encorajar a adoção de políticas de dados abertos no governo, empresas e na sociedade civil.
+O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Em Feira de Santana não será diferente.
 ---
 intro_body_2:
 
-Todos os resultados são abertos para que todos usem e reusem.
+Vamos mostrar os benefícios da transparência e encorajar a adoção de políticas de dados abertos no governo, empresas e na sociedade civil.
 ---
 year_intro:
 
-Para o Dia dos Dados Abertos 2020, nós demos minibolsas focadas em áreas chave que acreditamos que os dados abertos podem ajudar a resolver. Você pode ver abaixo as trilhas do ano passado
+Nesse ano, além de um hackathon, vamos ter mesas redondas para discutir:
 ---
-year_label_1: **Dados** do meio ambiente
+year_label_1: Transparência como política pública
 ---
-year_label_2: Rastrear fluxos de **dinheiro** público
----
-year_label_3: **Mapas** abertos
----
-year_label_4: Dados para o **desenvolvimento igualitário**
+year_label_2: Ciência Aberta
 ---
 register_text: Registre o seu evento
 ---
