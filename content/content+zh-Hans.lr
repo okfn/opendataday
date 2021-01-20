@@ -1,84 +1,84 @@
-_model: home
+_model: 主页
 ---
 next_date: 2021-03-06
 ---
-title: You are invited
+title: 邀请您参加
 ---
-banner_heading_1: You are invited.
+banner_heading_1: 邀请您
 ---
-banner_heading_2: Again!
+banner_heading_2: 再次参加！
 ---
-banner_content_1: Open Data Day 2021 will take place on
+banner_content_1: 2021 开放数据日将举办于
 ---
-banner_content_2: Saturday 6th March
+banner_content_2: 3 月 6 日周六
 ---
-intro_heading: What is Open Data Day?
+intro_heading: 什么是开放数据日？
 ---
 intro_body:
 
-Open Data Day is an annual celebration of open data all over the world. Groups from around the world create local events on the day where they will use open data in their communities. It is an opportunity to show the benefits of open data and encourage the adoption of open data policies in government, business and civil society.
+开放数据日是每年一次的全球开放数据庆典。来自世界各地的团体会在当天使用社区中的开放数据来举办本地活动。通过展示开放数据的优势，鼓励政府、企业和公民社会采用开放数据政策。
 ---
 intro_body_2:
 
-All outputs are open for everyone to use and re-use.
+所有结果均开放供所有人使用和重复使用。
 ---
 year_intro:
 
-For Open Data Day 2021, we will give mini-grants focused on the key areas below that we believe open data can help solve:
+在 2021 年开放数据日，我们认为开放数据可以帮助解决以下关键领域，我们将针对这些领域给予微型补助金：
 ---
-year_label_1: Environmental **data**
+year_label_1: 环境 **数据**
 ---
-year_label_2: Tracking public **money** flows
+year_label_2: 追踪公共 **资金** 流
 ---
-year_label_3: Open **mapping**
+year_label_3: 开放 **地图**
 ---
-year_label_4: Data for **equal development**
+year_label_4: **平等发展** 数据
 ---
-register_text: Register your event
+register_text: 注册您的活动
 ---
-events_registered: events registered so far
+events_registered: 目前已注册活动
 ---
-who_heading: Who is this for? Everyone!
+who_heading: 谁能参加？所有人！
 ---
 who_body:
 
-If you have an idea for using open data, want to find an interesting project to contribute towards, learn about how to visualise or analyse data or simply want to see what's happening, then come participate! Participation is a core value of Open Data Day, everyone is free to voice their opinions in a constructive manner. No matter your skill-set or interests, we are encouraging organisers to foster opportunities for you to learn and help the global open data community grow.
+如果您有使用开放数据的想法、想向有趣的项目贡献、希望了解如何可视化或分析数据、或者只是想看看正在发生些什么，快来参加吧！参与是开放数据日的核心价值，每个人都可以建设性地发表自己的意见。无论您的技能或兴趣如何，我们都鼓励组织者为您提供学习和帮助全球开放数据社区发展的机会。
 ---
-who_title_1: People
+who_title_1: 公民
 ---
 who_description_1:
 
-We need you the most. If it wasn’t for you, this whole thing wouldn’t be happening. Wherever you come from and whatever your background, we need you.
+我们最需要您。如果不是为了您，那么整个事情就不会发生。无论您来自哪里，无论您来自什么背景，我们都需要您。
 ---
-who_title_2: Public servants
+who_title_2: 公务人员
 ---
 who_description_2:
 
-Your input and context can help us to make government data better. Come converse and learn.
+您的意见和背景可以帮助我们改善政府数据。来与我们聊聊吧。
 ---
-who_title_3: Designers
+who_title_3: 设计师
 ---
 who_description_3:
 
-Help us make open data relatable, so more people will use it and understand it.
+帮助我们使开放数据具有可关联性，以便更多的人使用并理解。
 ---
-who_title_4: Developers
+who_title_4: 开发者
 ---
 who_description_4:
 
-Use your skills to develop solutions that can help solve important societal issues.
+利用您的技能来开发解决方案，以帮助解决重要的社会问题。
 ---
-who_title_5: Statisticians
+who_title_5: 统计学家
 ---
 who_description_5:
 
-Use your skills to help understand the data and get important insights from it.
+使用您的技能来帮助理解数据并从中获得重要的见解。
 ---
-resources_heading: Event Resources
+resources_heading: 活动资源
 ---
 resources_intro:
 
-Need some inspiration for an Open Data Day event, or don't know where to find the data you need? Check out our event resources.
+在开放数据日活动中需要一些灵感，或不知道在哪里找到所需的数据？查看我们的活动资源。
 ---
 resources_button: Resources
 ---
@@ -86,28 +86,28 @@ resources_materials_heading: Materials
 ---
 resources_materials_text:
 
-Create a logo for the event in your city using the [logo generator](http://odd.structure-and-representation.com/)!
+为您的城市活动创建一个图标 [logo generator](http://odd.structure-and-representation.com/)!
 ---
-resources_ideas_heading: Ideas and data sources
+resources_ideas_heading: 灵感与数据资源
 ---
 resources_ideas_intro:
 
-Hey there open data enthusiast! You just saw that Open Data Day will be on Saturday 6th March 2021 and you're interested in hosting an event in your locality? Your only challenge now is finding the idea that will hit the right spot. Our friends from the open data community have some ideas and data sources worth checking out.
+嘿，开放数据爱好者！您刚刚看到开放数据日将在2021年3月6日（星期六）举办，您是否有兴趣在当地举办活动？现在您唯一的挑战是找到正确的想法。我们来自开放数据社区的朋友有一些值得参考的想法和数据源。
 
-Visit the [CKAN website](https://ckan.org/about/instances/) to discover all the organisations around the world using CKAN to publish their data.
+访问 [CKAN website](https://ckan.org/about/instances/) 发现世界各地的使用 CKAN 发布数据的所有组织。
 
-Use [data.world](https://data.world) to upload or find data from many sources and organise all aspects of a project - including data, notebooks, analysis and discussions - in a single workspace.
+使用 [data.world](https://data.world) 从多个来源上传或查找数据，在单一工作区组织项目的各方面-包括数据，笔记本，分析和讨论。
 
-If you have data but don't know where to put it, you can use [DataHub](https://datahub.io). You can publish datasets, [search for relevant data](https://datahub.io/search), [browse thematic data collections](https://datahub.io/collections) and [request help](https://gitter.im/datahubio/chat) with your open data publishing.
+如果您不知道数据放在哪里合适，可以放在 [DataHub](https://datahub.io). 您可以发布数据集，[搜索相关数据](https://datahub.io/search), [浏览主题数据集合](https://datahub.io/collections) 和[请求帮助](https://gitter.im/datahubio/chat)
 
 ---
-resources_ideas_theme_1: Environmental data
+resources_ideas_theme_1: 环境数据
 ---
 resources_ideas_theme_1_text:
 
-To discover environmental or climate data to use or get inspiration from for your Open Data Day event: visit the [ResourceWatch.org site](https://resourcewatch.org/), a [World Resources Institute](https://www.wri.org/) data portal; explore [NASA's open data website](https://open.nasa.gov/open-data/); head to [geoportal.org](https://www.geoportal.org) for earth observation data; or discover forest cover/loss data with [Global Forest Watch](https://www.globalforestwatch.org/).
+要发现可用于您的开放数据日活动的环境或气候数据或从中获取灵感，请访问：[ResourceWatch.org site]（https://resourcewatch.org/），[世界资源研究所]（https：// www .wri.org /）数据门户；浏览[NASA's open data website]（https://open.nasa.gov/open-data/）；前往[geoportal.org]（https://www.geoportal.org）获取地球观测数据；或使用[Global Forest Watch]（https://www.globalforestwatch.org/）发现森林覆盖/损失数据。
 
-[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) and the [Open Data Charter's OpenUp guide to climate data](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) may also provide useful guidance and advice.
+[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) 以及 [Open Data Charter's OpenUp guide to climate data](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) 也可能提供有用的指导和意见。
 
 ---
 [//]: # (resources_ideas_theme_2: 
@@ -115,40 +115,40 @@ To discover environmental or climate data to use or get inspiration from for you
 resources_ideas_theme_2_text:
 
 ---
-resources_ideas_theme_3: Tracking public money flows
+resources_ideas_theme_3: 追踪公共资金流
 ---
 resources_ideas_theme_3_text:
 
-The [Open Contracting Partnership](https://www.open-contracting.org) and Hivos' [Open Up Contracting](https://www.openupcontracting.org/) websites provide lots of guidance and examples for people looking to do Open Data Day events focused on public procurement and spending. See also: the [Open Data Charter guide to using open data to combat corruption](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/).
+[Open Contracting Partnership](https://www.open-contracting.org) 和 Hivos 的 [Open Up Contracting](https://www.openupcontracting.org/) 网站为有志于此的人们提供了许多指导和示例开展针对公共采购和支出的开放数据日活动。另请参阅：[《使用开放数据打击腐败的开放数据宪章指南》（https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/ ）。
 ---
-resources_ideas_theme_4: Open mapping
+resources_ideas_theme_4: 开放地图
 ---
 resources_ideas_theme_4_text:
 
-Find out more about open mapping via the [Mapbox](https://www.mapbox.com), [OpenStreetMap](https://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](https://www.hotosm.org/) websites.
+通过[Mapbox]（https://www.mapbox.com），[OpenStreetMap]（https://www.openstreetmap.org/）和[Humanitarian OpenStreetMap](https://www.hotosm.org/) 了解更多有关开放地图的信息。
 
 ---
-resources_ideas_theme_5: Data for equal development
+resources_ideas_theme_5: 平等发展数据
 ---
 resources_ideas_theme_5_text:
 
-The [Centre for Humanitarian Data](https://data.humdata.org) has over 17,000 humanitarian open datasets available via the CKAN-powered portal at [data.humdata.org](https://data.humdata.org/) which may help to highlight key issues about equal development. You can also visit the [United Nations' Open SDG Data Hub](https://unstats-undesa.opendata.arcgis.com), the [World Bank Open Data portal](https://data.worldbank.org) or the large data harvesting portals like the [European Data Portal](https://www.europeandataportal.eu/).
+[人道主义数据中心]（https://data.humdata.org）通过CKAN支持的门户网站[data.humdata.org]（https://data.humdata.org/）拥有超过17,000个人道主义开放数据集。 ），这可能有助于强调有关平等发展的关键问题。您也可以访问[联合国开放式SDG数据中心]（https://unstats-undesa.opendata.arcgis.com），[世界银行开放数据门户]（https://data.worldbank.org）或大型数据收集门户，例如[欧洲数据门户]（https://www.europeandataportal.eu/）。
 
 ---
-resources_ideas_theme_6: Human Rights theme
+resources_ideas_theme_6: 人权主题
 ---
 resources_ideas_theme_6_text:
 
 ---
-support_scheme_heading: Support Scheme
+support_scheme_heading: 支持方案
 ---
 support_scheme_body:
 
-Receive $300 USD to help support your Open Data Day 2021 event. Apply to the mini-grant scheme by midday GMT on Friday 5th February 2021.
+于 2021 年 2 月 5 日格林尼治标准时间中午之前申请小额赠款计划，将获得 300 美元，以支持您的 2021 年开放数据日活动。
 
 ---
-support_scheme_button: Learn more
+support_scheme_button: 了解更多
 ---
 support_scheme_logos:
-The Open Data Day 2021 mini-grants scheme is kindly supported by:
+2021 年开放数据日小额赠款计划得到以下机构的大力支持：
 ---
