@@ -65,10 +65,10 @@ name = Russian
 url_prefix = /ru/
 locale = ru
 
-[alternatives.zh_Hans]
+[alternatives.zh_hans]
 name = 简体中文
-url_prefix = /zh_Hans/
-locale = zh_Hans
+url_prefix = /zh_hans/
+locale = zh_hans
 
 [alternatives.zh_tw]
 name = 正體中文
