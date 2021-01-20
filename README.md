@@ -12,3 +12,5 @@ Esse site é feito com o [Lektor](https://www.getlektor.com/).
 
 Para executá-lo, você precisará do node e do grunt instalados na sua máquina. Tendo-os instalado,
 execute na pasta do projeto `npm install` e `npm run build`.
+
+Depois basta rodar `lektor server` e acessar [localhost:5000](http://localhost:5000/).
