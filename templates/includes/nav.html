@@ -9,26 +9,6 @@
           %}><a href="{{ path }}">{{ label }}</a>
       {% endfor %}
       </ul>
-
-      <div class="language">
-        <div>
-          {% if this.language %}
-          {% set current_language = this.language %}
-          {% else %}
-          {% set current_language = "en" %}
-          {% endif %}
-          <a class="current" href="#lang">{{ current_language |replace("_", " ") }}</a>
-
-          <ul id="lang">
-          {% for lang in bag('languages.all') %}
-            <li{% if current_language == lang %} class="active"{% endif %}>
-              <a href="{{ '.'|url(alt=lang) }}">{{ lang |upper |replace("_", " ")}}</a>
-            </li>
-          {% endfor %}
-          </ul>
-        </div>
-      </div>
-
     </div>
   </div>
 </nav>
