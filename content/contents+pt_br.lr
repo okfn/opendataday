@@ -16,17 +16,11 @@ banner_content_2: Sábado, 6 de março
 ---
 intro_heading: O que é o Dia dos Dados Abertos?
 ---
-intro_body:
-
-O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Em Feira de Santana não será diferente.
+intro_body: O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Em Feira de Santana não será diferente.
 ---
-intro_body_2:
-
-Vamos mostrar os benefícios da transparência e encorajar a adoção de políticas de dados abertos no governo, empresas e na sociedade civil.
+intro_body_2: Vamos mostrar os benefícios da transparência e encorajar a adoção de políticas de dados abertos no governo, empresas e na sociedade civil.
 ---
-year_intro:
-
-Nesse ano, além de um hackathon, vamos ter mesas redondas para discutir:
+year_intro: Nesse ano, além de um hackathon, vamos ter mesas redondas para discutir:
 ---
 year_label_1: Transparência como política pública
 ---
@@ -38,123 +32,103 @@ events_registered: Eventos registrados até agora
 ---
 who_heading: Isso é para quem? Para todo mundo!
 ---
-who_body:
-
-Se você tem uma ideia para usar dados abertos, quer encontrar um projeto interessante para o qual contribuir, aprender como visualizar ou analisar dados ou simplesmente quer ver o que está acontecendo, então venha participar! A participação é um valor essencial do Dia dos Dados Abertos. Todo mundo é livre para dar suas opiniões de uma maneira construtiva. Não importa quais são as suas habilidades ou interesses, nós estamos encorajando os organizadores a propiciar oportunidades para você aprender e ajudar a comunidade global de dados abertos a crescer.
+who_body: Se você tem uma ideia para usar dados abertos, quer encontrar um projeto interessante para o qual contribuir, aprender como visualizar ou analisar dados ou simplesmente quer ver o que está acontecendo, então venha participar! A participação é um valor essencial do Dia dos Dados Abertos. Todo mundo é livre para dar suas opiniões de uma maneira construtiva. Não importa quais são as suas habilidades ou interesses, nós estamos encorajando os organizadores a propiciar oportunidades para você aprender e ajudar a comunidade global de dados abertos a crescer.
 ---
 who_title_1: Pessoas
 ---
-who_description_1:
-
-Precisamos de você ao máximo. Se não fosse por você, essa coisa toda não estaria acontecendo. De onde quer que você venha e qualquer que seja a sua formação, precisamos de você.
+who_description_1: Se não fosse por você, essa coisa toda não estaria acontecendo. De onde quer que você venha e qualquer que seja a sua formação, precisamos de você.
 ---
 who_title_2: Servidores públicos
 ---
-who_description_2:
-
-Suas contribuições e contexto podem nos ajudar a tornar os dados de governo melhores. Venha conversar e aprender.
+who_description_2: Suas contribuições e contexto podem nos ajudar a tornar os dados de governo melhores. Venha conversar e aprender.
 ---
 who_title_3: Designers
 ---
-who_description_3:
-
-Ajude-nos a tornar os dados abertos acessíveis, para que mais pessoas os usem e os entendam.
+who_description_3: Ajude-nos a tornar os dados abertos acessíveis, para que mais pessoas os usem e os entendam.
 ---
 who_title_4: Desenvolvedores
 ---
-who_description_4:
-
-Use suas habilidades para desenvolver soluções que podem ajudar a resolver questões sociais importantes.
+who_description_4: Use suas habilidades para desenvolver soluções que podem ajudar a resolver questões sociais importantes.
 ---
 who_title_5: Estatísticos
 ---
-who_description_5:
-
-Use suas habilidades para ajudar a entender os dados e obter revelações importantes a partir deles.
+who_description_5: Use suas habilidades para ajudar a entender os dados e obter revelações importantes a partir deles.
 ---
-resources_heading: Recursos para Eventos
+resources_heading: Programação
 ---
-resources_intro:
-
-Precisa de inspiração para um evento do Dia dos Dados Abertos, ou não sabe onde encontrar os dados que precisa? Confira os nossos recursos para eventos de 2020.
+resources_intro: Trouxemos pessoas da academia, do governo e da sociedade civil para discutir transparência e dados abertos no nosso primeiro Open Data Day. Para um debate ser bom ele precisa ser plural!
 ---
-resources_button: Recursos
+resources_button: Confira nossa programação
 ---
-resources_materials_heading: Materiais
+resources_materials_heading: Veja o que preparamos para o dia 06 de Março de 2021
 ---
 resources_materials_text:
 
-Crie uma logomarca para o seu evento com [este gerador de logomarcas](http://odd.structure-and-representation.com/)!
+Não precisa de inscrição. Acompanhe a programação toda pelo [nosso canal no YouTube](https://www.youtube.com/channel/UCOFY6QiCjJp-_p_FjWeAIqg).
+
+A programação está sujeita a mudanças.
 ---
-resources_ideas_heading: Ideias e fontes de dados
+resources_ideas_heading: Agenda de Atividades
 ---
 resources_ideas_intro:
 
-Ei, entusiasta dos Dados Abertos! Você acabou de ver que o Dia Internacional dos Dados Abertos será no sábado, 6 de março de 2021 e estará interessado em hospedar um evento na sua localidade. Seu único desafio agora é encontrar a ideia certa para acertar o ponto ideal. Nossos amigos da comunidade dos Dados Abertos têm algumas ideias e fontes de dados que valem a pena conferir.
+09:00 Abertura do hackathon
+
+14:00 Abertura das mesas
+
+14:30 Mesa Redonda I - Transparência como política pública
+
+16:00 Intervalo
+
+16:15 Mesa Redonda II - Ciência aberta
+
+17:45 Encerramento
+
 ---
-resources_ideas_theme_1: Fontes de dados
+resources_ideas_theme_1: Abertura
 ---
 resources_ideas_theme_1_text:
 
-Use [data.world](https://data.world) para enviar ou encontrar dados de muitas fontes e organizar todos os aspectos de um projeto - incluindo dados, cadernos, análises e discussões - de uma única área de trabalho.
+Vamos ouvir de nomes como Fernanda Campagnucci, diretora-executiva da Open Knowledge Brasil, o que significa transparência e dados abertos nos dias de hoje.
 
-Você pode acessar o [Intercâmbio de Dados Humanitário](https://data.humdata.org/) para encontrar dados relacionados a ações humanitárias de diferentes fontes.
-
-Se você tem dados mas não sabe onde colocá-los, você pude usar o [DataHub do CKAN](https://datahub.ckan.io/). Você pode publicar ou registrar conjuntos de dados, criar e gerenciar grupos e comunidades.
 ---
-resources_ideas_theme_2: Ciência aberta
+resources_ideas_theme_2: Mesa Redonda I - Transparência como política pública
 ---
 resources_ideas_theme_2_text:
 
-[Frictionless Data para Pesquisas Reproduzíveis](https://frictionlessdata.io/reproducible-research/) está entusiasmado por oferecer minibolsas
-para a trilha Ciência Aberta! Você está procurando por ideias para o seu evento? O Frictionless Data tem uma coleção de recursos para ajudá-lo a se inspirar.
-Confira o nosso [Guia de Campo](http://frictionlessdata.io/field-guide/) para aprender como usar as nossas ferramentas, como o [Criador de Data Packages](http://create.frictionlessdata.io/),  [ferramenta de validação de dados](http://try.goodtables.io/), e os nossos [softwares](http://frictionlessdata.io/software/), incluindo bibliotecas em R, Python, e Julia. Nós também temos [slides de oficinas](https://docs.google.com/presentation/d/14dyORE_Ftvd30nEf1-rhspDSsVptGIINeRagmCm3f94/edit?usp=sharing) que você pode reutilizar (CC-BY) e
-[tutoriais em vídeo](https://www.youtube.com/channel/UCQe-pXn0XZzmRzvyOMZpfEg) para inspirá-lo.
+Acreditamos que para ter uma cidade mais transparente ela precisa ter o envolvimento de todos. Nessa mesa redonda vamos discutir a transparência como uma política
+pública, ouvindo pessoas do governo, da imprensa e da sociedade civil organizada.
 
-- Por via das dúvidas, aqui está uma [lista completa de integrações](http://frictionlessdata.io/software/) do Frictionless Data em ferramentas e plataformas para trabalhar com dados, incluindo o Kaggle, Open Refine, SPSS, R, Julia, etc.
-- Você também pode se juntar à comunidade Frictionless Data no [Gitter](https://gitter.im/frictionlessdata/chat) e [Discuss](https://discuss.okfn.org/c/frictionless-data)
-- Recursos do Frictionless Data são de código aberto e podem ser encontrados aqui no [GitHub](https://github.com/frictionlessdata/)
 ---
-resources_ideas_theme_3: Raestreando os fluxos do dinheiro público
+resources_ideas_theme_3: Mesa Redonda II - Ciência aberta
 ---
 resources_ideas_theme_3_text:
 
-Se você está planejando ou organizando uma trilha para seguir o dinheiro, aqui estão algumas ideias e projetos interessantes que você pode
-usar para executar o seu evento:
-
-[Manifestação Internacional #DataOnTheStreets](http://www.fiscaltransparency.net/blog_open_public.php?IdToOpen=6323). Uma grande oportunidade para convidar o público para usar os dados gerados por governos, sair para as ruas e ver como os dados se refletem em sua vida real. É um processo de participação pública na fase de implementação do orçamento através de dados abertos e ferramentas digitais, tais como mapas e visualizações.
-
-[Dataquest do Melhor Orçamento para o desenvolvimento sustentável](http://www.fiscaltransparency.net/blog_open_public.php?IdToOpen=6309). O Dataquest é uma oportunidade para encontrar novas reflexões sobre certos tópicos e inovar ideias para melhorar as alocações e execuções de orçamentos.
-
-Esstas são duas maneiras de engajar as pessoas usando dados de orçamento e despesas.
+Falar em dados abertos e transparência também envolve falar sobre ciência aberta. Como tornar o conhecimento desenvolvimento na academia acessível a todos?
+Venha discutir nessa mesa com a gente.
 
 ---
-resources_ideas_theme_4: Desenvolvimento Igualitário
+resources_ideas_theme_4: Hackathon
 ---
 resources_ideas_theme_4_text:
 
-Direitos LGBT - http://www.lgbtdata.com/ (nota: Esse site não afirma que os dados são abertos, mas fornece links para conjuntos de dados)
-Crimes de guerra  - veja, por exemplo, como o BVT datalab mostrou a história do bombardeio em Barcelona durante a guerra civil
-Imigração - veja o trabalho atual de arquivos de migração, openmigration + dados da ACNUR sobre a situação de refugiados
-Desligamentos da Internet - formas de combinar informações da AccessNow, Dyn Research, Akamai (SOTI) com outras fontes de dados
-Impostos - poderia compartilhar algumas coisas interessantes dos Dados Abertos para o projeto Tax Justice sobre a superposição entre impostos e direitos humanos
-Tracking poverty in cities (Rastrear pobreza nas cidades) - não usa dados abertos, mas é um exemplo interessante de como histórias alternativas sobre a pobreza são contadas.
-A cidade de Indianápolis desenvolveu um portal de dados abertos para mostrar informações sobre o uso da força, policiais envolvidos em tiroteios e reclamações contra policiais.
+Dados são apenas dados sem as análises. Você está convidada(o) a explorar os dados coletados pelo Dados Abertos de Feira e bases de dados do governo
+nesse hackathon. Mais informações em breve.
+
 ---
-resources_ideas_theme_6: Tema Direitos Humanos
+resources_ideas_theme_5:
+---
+resources_ideas_theme_5_text:
+
+---
+resources_ideas_theme_6:
 ---
 resources_ideas_theme_6_text:
-
-
 ---
-support_scheme_heading: Plano de Apoio
+support_scheme_heading: Hackathon
 ---
-support_scheme_body:
-
-Fique ligado para notícias sobre o esquema de minibolsas do Dia dos Dados Abertos 2021...
+support_scheme_body: Temos diversas bases de dados abertas sobre a cidade mas esses dados sem análises não fazem sentido algum! Participe do nosso hackathon de dados abertos.
 ---
-support_scheme_button: Saiba mais
+support_scheme_button: Mais informações em breve!
 ---
 support_scheme_logos:
-As minibolsas do Dia dos Dados Abertos 2020 foram gentilmente sustentadas por:
----
