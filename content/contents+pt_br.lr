@@ -4,15 +4,15 @@ _model: home
 ---
 next_date: 2021-03-06
 ---
-title: Você está convidada(o)
+title: Dia dos Dados Abertos Feira de Santana 2021
 ---
-banner_heading_1: Você está convidada(o).
+banner_heading_1: Dia dos Dados Abertos Feira de Santana 2021
 ---
-banner_heading_2:
+banner_heading_2: Sábado, 06 de março
 ---
-banner_content_1: O Dia dos Dados Abertos 2021 será no
+banner_content_1: Evento organizado por Dados Abertos de Feira e Programa da Pós-Graduação em Ciência da Computação PGCC/UEFS.
 ---
-banner_content_2: Sábado, 6 de março
+banner_content_2: Você está convidada(o)!
 ---
 intro_heading: O que é o Dia dos Dados Abertos?
 ---
@@ -58,7 +58,7 @@ resources_heading: Programação
 ---
 resources_intro: Trouxemos pessoas da academia, do governo e da sociedade civil para discutir transparência e dados abertos no nosso primeiro Open Data Day. Para um debate ser bom ele precisa ser plural!
 ---
-resources_button: Confira nossa programação
+resources_button: Confira nossa programação 
 ---
 resources_materials_heading: Veja o que preparamos para o dia 06 de Março de 2021
 ---
@@ -104,7 +104,8 @@ resources_ideas_theme_3: Mesa Redonda II - Ciência aberta
 ---
 resources_ideas_theme_3_text:
 
-Falar em dados abertos e transparência também envolve falar sobre ciência aberta. Como tornar o conhecimento desenvolvimento na academia acessível a todos?
+Falar em dados abertos e transparência também envolve falar sobre ciência aberta. Como os dados de pesquisa pode ser disponibilizado de forma aberta para o avanço da ciência? 
+Como tornar o conhecimento científico acessível a todos?
 Venha discutir nessa mesa com a gente.
 
 ---
