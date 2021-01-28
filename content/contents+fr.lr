@@ -1,78 +1,78 @@
 _model: home
 ---
-next_date: 2020-03-06
+next_date: 2021-03-06
 ---
-title: Vous etes invite
+title: Vous êtes invité
 ---
-banner_heading_1: Vous etes invite.
+banner_heading_1: Vous êtes invité.
 ---
-banner_heading_2: Encore!
+banner_heading_2: Encore !
 ---
 banner_content_1: La Journée des Données Ouvertes 2021 a lieu le
 ---
 banner_content_2: Samedi 6 Mars
 ---
-intro_heading: Qu'est-ce que la Journée des Données Ouvertes?
+intro_heading: Qu'est-ce c'est ?
 ---
 intro_body:
 
-La Journée des Données Ouvertes est une célébration annuelle des données ouvertes dans le monde entier. Pour la dixième fois, des groupes du monde entier créeront des événements locaux et utiliseront des données ouvertes dans leurs communautés ce jour-là. C'est une occasion de montrer les avantages des données ouvertes et d'encourager l'adoption de politiques de données ouvertes au sein des gouvernements et administrations, des entreprises et de la société civile.
+C'est la manifestation annuelle qui célèbre l'ouverture des données dans le monde. Des groupes du monde entier créent des événements dans leurs quartiers pour utiliser les données ouvertes. C'est une opportunité de montrer les avantages des données ouvertes et d'encourager l'adoption de politiques de données ouvertes au sein des administrations, des entreprises et de la société civile.
 ---
 intro_body_2:
 
-Toutes les productions de cette journée sont ouvertes à tous pour être utilisées et réutilisées.
+Tous les résultats sont ouverts, afin que chacun puisse les utiliser et les réutiliser.
 ---
 year_intro:
 
-Pour la Journée des Données Ouvertes 2021, nous voulons que la communauté continue de croître. Nous accorderons des mini-subventions sur certains domaines clés pour les données ouvertes. Voici les pistes proposées pour cette année 2020.
+Pour cette édition, nous donnerons des mini-subventions consacrées aux problèmes pour lesquels nous pensons que les données ouvertes peuvent aider à les résoudre :
 ---
-year_label_1: Données **environnementales**
+year_label_1: **Données** environnementales
 ---
-year_label_2: Suivi des **financements** publics
+year_label_2: **Financements** publics
 ---
 year_label_3: **Cartographies** ouvertes
 ---
-year_label_4: Données pour un **développement équitable**
+year_label_4: **Développement équitable**
 ---
-register_text: Enregistrez votre évènement ici
+register_text: Ajoutez votre évènement
 ---
-events_registered: Evénements enregistrés jusqu'à présent
+events_registered: événements ajoutés
 ---
-who_heading: Pour qui ? Pour tout le monde!
+who_heading: Pour qui ? Pour tout le monde !
 ---
 who_body:
 
-Si vous avez une idée d'utilisation de données ouvertes, si vous souhaitez trouver un projet intéressant auquel contribuer, apprendre à visualiser ou à analyser des données - ou si vous voulez simplement voir ce qui se passe, venez participer à la Journée ! La participation est une valeur fondamentale de la Journée des Données Ouvertes, chacun est libre d'y exprimer ses opinions de manière constructive. Quels que soient vos compétences ou vos centres d'intérêt, nous encourageons les organisateurs à favoriser les opportunités pour apprendre et à aider la communauté de la Journée des Données Ouvertes à se développer.
+Vous avez une idée pour utiliser des données ouvertes, trouver un projet intéressant auquel contribuer, apprendre à visualiser ou à analyser des données ou simplement en savoir plus, alors participez !<br/><br/>La participation est une valeur fondamentale de journée, chacun est libre d'exprimer ses opinions de manière constructive. Quels que soient vos compétences ou vos centres d'intérêt, nous encourageons les organisateurs à vous offrir des occasions d'apprendre et de contribuer à la construction de la communauté mondiale des données ouvertes.
 ---
-who_title_1: Individus
+who_title_1: Citoyen
 ---
 who_description_1:
 
 C'est de vous dont nous avons le plus besoin. Sans vous, rien n'arriverait. D'où que vous veniez et quel que soit votre parcours, nous avons besoin de vous.
 ---
-who_title_2: Agents publics
+who_title_2: Agent public
 ---
 who_description_2:
 
-Votre contribution et votre situation peuvent nous aider à améliorer les données publiques. Venez échanger et apprendre.
+Votre participation et votre expérience peuvent aider à améliorer les données publiques. Venez échanger et apprendre.
 ---
-who_title_3: Concepteurs
+who_title_3: Designer
 ---
 who_description_3:
 
-Aidez-nous à rendre les données ouvertes "racontables", afin que beaucoup plus de personnes les utilisent et les comprennent.
+Aidez-nous à rendre les données ouvertes compréhensibles, pour qu'un plus grand nombre de personnes les utilisent et les comprennent.
 ---
-who_title_4: Développeurs
+who_title_4: Développeur
 ---
 who_description_4:
 
 Utilisez vos compétences pour élaborer des solutions qui peuvent aider à résoudre d'importants problèmes de société.
 ---
-who_title_5: Statisticiens
+who_title_5: Statisticien
 ---
 who_description_5:
 
-Utilisez vos compétences pour aider à comprendre les données et à en tirer des enseignements importants.
+Utilisez vos compétences pour aider à comprendre les données et à recueillir les informations significatives.
 ---
 resources_heading: Ressources pour l'évènement
 ---
@@ -152,11 +152,10 @@ support_scheme_heading: Programme de soutien
 ---
 support_scheme_body:
 
-Cette année, nous soutiendrons certains événements à travers le monde grâce à des mini-subventions de 200 $ à 300 $. Attention à l'appel à candidatures qui devrait être lancé en janvier 2020.
-
+Recevez 300$ USD pour vous soutenir votre événement Open Data Day 2021. Déposez votre candidature avant le vendredi 5&nbsp;février&nbsp;2021 à 12h GMT.
 ---
 support_scheme_button: Plus d'infos
 ---
 support_scheme_logos:
-Les mini-subventions de la Journée des Données Ouvertes 2020 sont aimablement soutenues par:
+Le programme de mini-subventions Open Data Day 2021 est soutenu par :
 ---
