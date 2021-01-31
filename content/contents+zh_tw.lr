@@ -4,19 +4,19 @@ next_date: 2021-03-06
 ---
 title: Open Data Day
 ---
-banner_heading_1: 2021
+banner_heading_1: 再一次
 ---
-banner_heading_2: 國際開放資料日
+banner_heading_2: 你被邀請參與！
 ---
-banner_content_1: 邀請您撥出這一天來加入我們活動：
+banner_content_1: Open Data Day 2021 將在這一天
 ---
-banner_content_2: 2021 年 3 月 6 日 星期六
+banner_content_2: 3 月 6 日 星期六舉行
 ---
 intro_heading: 什麼是 Open Data Day?
 ---
 intro_body:
 
-Open Data Day 是一年一度的全球性慶典，今年是第五次舉辦。在這天全球的各個社群將會在當地舉辦活動，並在活動中利用各式各樣的開放資料。這是一個機會展示開放資料帶來的各種好處，進而鼓勵政府、企業及公民社會接受並採納開放資料的想法。
+Open Data Day 是一年一度的全球性慶典，在這天全球的各個社群將會在當地舉辦活動，並在活動中利用各式各樣的開放資料。這是一個機會展示開放資料帶來的各種好處，進而鼓勵政府、企業及公民社會接受並採納開放資料的想法。
 ---
 intro_body_2:
 
@@ -24,16 +24,17 @@ intro_body_2:
 ---
 year_intro:
 
-在Open Data Day 2021，我們希望能將社群再往上一個檔次。今年的活動將給針對以下我們認為開放資料能夠協助我們解決的主題，給予小型獎助金。你可以看下面的領域。
+在 Open Data Day 2021，我們希望能將社群再往上一個檔次。今年的活動將給針對以下我們認為開放資料能夠協助我們解決的主題，給予微型獎助金。你可以看下面的領域：
+
 
 ---
-year_label_1: 環境資料
+year_label_1: 環境**資料**
 ---
-year_label_2: 追蹤公共資金動向
+year_label_2: 追蹤公共**資金**動向
 ---
-year_label_3: 開放繪製地圖
+year_label_3: 開放**繪製地圖**
 ---
-year_label_4: 資料為了平等發展
+year_label_4: 資料為了**平等發展**
 ---
 register_text: 在此註冊你的活動
 ---
@@ -51,7 +52,7 @@ who_title_1: 公民
 ---
 who_description_1:
 
-公民們是我們最需要的成員! 如果不是為了你們，這個活動不可能會發生! 不論來自何方或是什麼背景，我們需要各種想法、啦啦隊/應援團，及各位幫我們向全世界宣傳。
+公民是我們最需要的成員! 如果不是為了你們，這個活動不可能會發生! 不論來自何方或是什麼背景，我們需要各種想法、啦啦隊/應援團，及各位幫我們向全世界宣傳。
 ---
 who_title_2: 公務人員
 ---
@@ -70,7 +71,7 @@ who_title_4: 開發者
 ---
 who_description_4:
 
-用你的洪荒之力開發重大社會議題的解決方案。
+用你的開發技能找出重大社會議題的解決方案。
 
 ---
 who_title_5: 統計學家
@@ -84,22 +85,28 @@ resources_heading: 活動資源
 ---
 resources_intro:
 
-需要一些靈感嗎？或是不知道如何找到你所需要的資料？來看一下我們的活動資源。
+需要一些 Open Data Day 靈感嗎？或是不知道如何找到你所需要的資料？來看一下我們的活動資源。
 
 ---
-resources_button: 點我找資源
+resources_button: 資源
 ---
 resources_materials_heading: 材料
 ---
 resources_materials_text:
 
-[點我](http://odd.structure-and-representation.com/)產生你的活動的專用 LOGO !
+使用 [logo 產生器](http://odd.structure-and-representation.com/)來產生你的活動的專用 LOGO !
 ---
 resources_ideas_heading: 點子和資料來源
 ---
 resources_ideas_intro:
 
-嘿，各位開放資料愛好者你們好！你現在知道國際 Open Data Day 會在 2021 年 3 月 6 日星期六舉行，而且有興趣在當地舉辦開放資料的活動。你只剩下要找到那個可以一擊中的的點子。這邊有一些開放資料社群提供的點子和資料源，你可以參考。
+嘿，各位開放資料愛好者你們好！你現在知道國際 Open Data Day 會在 2021 年 3 月 6 日星期六舉行，而且有興趣在當地舉辦開放資料的活動。你只剩下要找到那個可以一擊中的的點子。這邊有一些開放資料社群提供的點子和資料來源，你可以參考。
+
+瀏覽 [CKAN 網站](https://ckan.org/about/instances/)來探索全世界所有組織採用 CKAN 發佈資料的平台 。
+
+使用 [data.world](https://data.world) 來上傳或是找尋多個來源資料，以及整理整個專案各方面的資料，包括資料、筆記本、分析與討論，全部在一個工作環境。
+
+如果你擁有資料但不知道要放那邊，你可以使用 [DataHub](https://datahub.io)，在這裡你能發佈資料集，[搜尋相關資料](https://datahub.io/search)，[瀏覽主題資料集合](https://datahub.io/collections)，以及在發佈開放資料集時[尋求協助](https://gitter.im/datahubio/chat)。
 
 ---
 resources_ideas_theme_1: 環境資料
