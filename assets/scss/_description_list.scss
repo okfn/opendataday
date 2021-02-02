@@ -1,0 +1,19 @@
+dt {
+    font-weight: bold;
+    float: left;
+}
+
+dt::after{
+    content: ": ";
+    white-space: pre;
+}
+
+dd {
+    margin-left: 20%;
+}
+
+dd::after {
+    content: " ";
+    display: block;
+    clear: left;
+}

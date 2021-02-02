@@ -1,0 +1,36 @@
+.events_list {
+    #events {
+        #preamble {
+            margin-top: $gutter;
+            padding-left: $gutter;
+            padding-right: $gutter;
+        }
+
+        #postamble {
+            margin-top: $gutter;
+            margin-bottom: $gutter/2;
+            padding-left: $gutter;
+            padding-right: $gutter;
+        }
+
+        #search-wrapper {
+            margin: auto;
+            width: 80%;
+        }
+
+        #search-input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: $base-spacing/2;
+        }
+
+        ul.list {
+            list-style-type: none;
+        }
+
+        .event-detail {
+            margin-top: $gutter/2;
+            margin-bottom: $gutter*2;
+        }
+    }
+}
