@@ -5,8 +5,15 @@
 
       <ul class="menu" id="nav">
         {% for label, path in bag('main-nav', this.alt).items() %}
-        <li{% if this.is_child_of(path) %} class="active"{% endif
-          %}><a href="{{ path }}">{{ label }}</a>
+        <li
+          {% if this.is_child_of(path) %} class="active"{% endif %}
+        >
+          {% if this._model == 'home' or not(path.startswith('#')) %}
+            <a href="{{ path }}">{{ label }}</a>
+          {% else %}
+            <a href="/{{ path }}">{{ label }}</a>
+          {% endif %}
+        </li>
       {% endfor %}
       </ul>
 
