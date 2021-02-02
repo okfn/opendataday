@@ -1,0 +1,13 @@
+<header class="banner">
+  <a href="#{{ this.banner_link }}">
+    {% set banner_heading_1_words = this.banner_heading_1.split(' ') %}
+    {% set banner_heading_2_words = this.banner_heading_2.split(' ') %}
+    {% set banner_content_1_words = this.banner_content_1.split(' ') %}
+    {% set banner_content_2_words = this.banner_content_2.split(' ') %}
+    <h1>{% for w in banner_heading_1_words %}<span class="l1">&nbsp;{{ w }}</span>{% endfor %}{% if this.banner_heading_2 %}<br />{% for w in banner_heading_2_words %}<span class="l2">&nbsp;{{ w }}</span>{% endfor %}{% endif %}</h1>
+    <p>
+      {% for w in banner_content_1_words %}<span class="l1">&nbsp;{{ w }}</span>{% endfor %}{% if this.banner_content_2 %}<br />{% for w in banner_content_2_words %}<span class="l2">&nbsp;{{ w }}</span>{% endfor %}{% endif %}
+    </p>
+    <span class="down animated bounce"><svg><use xlink:href="#icon-down" /></svg></span>
+  </a>
+</header>
