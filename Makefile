@@ -13,4 +13,5 @@ install:
 	npm install
 
 serve:
+	npm run build
 	lektor serve
