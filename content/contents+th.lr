@@ -8,7 +8,7 @@ banner_heading_1: คุณได้รับเชิญ
 ---
 banner_heading_2: อีกครั้ง!
 ---
-banner_content_1: วันข้อมูลเปิด 2564 จะมีขึ้นใน
+banner_content_1: Open Data Day 2021 จะมีขึ้นใน
 ---
 banner_content_2: เสาร์ที่ 6 มีนาคม
 ---
@@ -92,24 +92,24 @@ resources_ideas_heading: แหล่งความคิดและข้อ�
 ---
 resources_ideas_intro:
 
-Hey there open data enthusiast! You just saw that Open Data Day will be on Saturday 6th March 2021 and you're interested in hosting an event in your locality? Your only challenge now is finding the idea that will hit the right spot. Our friends from the open data community have some ideas and data sources worth checking out.
+สวัสดีบรรดาผู้สนับสนุนข้อมูลเปิด! คุณเพิ่งเห็นว่าวันข้อมูลเปิดจะมีขึ้นในวันเสาร์ที่ 6 มีนาคม 2564 และคุณสนใจที่จะจัดกิจกรรมในย่านที่คุณอยู่ใช่ไหม? สิ่งท้าทายเดียวของคุณตอนนี้คือหาความคิดที่จะทำให้คนหันมามอง เพื่อนๆ ของเราจากชุมชนข้อมูลเปิดมีแหล่งความคิดและข้อมูลที่น่าสนใจ
 
-Visit the [CKAN website](https://ckan.org/about/instances/) to discover all the organisations around the world using CKAN to publish their data.
+ไปที่[เว็บไซต์ CKAN](https://ckan.org/about/instances/) เพื่อสำรวจหน่วยงานจากทั่วโลกที่ใช้ CKAN เผยแพร่ข้อมูลของพวกเขา
 
-Use [data.world](https://data.world) to upload or find data from many sources and organise all aspects of a project - including data, notebooks, analysis and discussions - in a single workspace.
+ใช้ [data.world](https://data.world) เพื่ออัปโหลดหรือค้นข้อมูลจากหลากหลายแหล่งและจัดระเบียบทุกแง่มุมของโครงการ - ทั้งข้อมูล โน๊ตบุ๊ก การวิเคราะห์ และการสนทนา - ในพื้นที่ทำงานเดียว
 
-If you have data but don't know where to put it, you can use [DataHub](https://datahub.io). You can publish datasets, [search for relevant data](https://datahub.io/search), [browse thematic data collections](https://datahub.io/collections) and [request help](https://gitter.im/datahubio/chat) with your open data publishing.
+ถ้าคุณมีข้อมูล แต่ไม่รู้ว่าจะใส่มันไว้ที่ไหน คุณสามารถใช้ [DataHub](https://datahub.io) คุณสามารถตีพิมพ์เผยแพร่ชุดข้อมูล [ค้นหาข้อมูลที่เกี่ยวข้อง](https://datahub.io/search) [ไล่ดูกลุ่มข้อมูลตามหมวด](https://datahub.io/collections) และ[ขอความช่วยเหลือ](https://gitter.im/datahubio/chat)เรื่องเกี่ยวกับการเผยแพร่ข้อมูลเปิดของคุณ
 
 ---
 resources_ideas_theme_1: ข้อมูลสิ่งแวดล้อม
 ---
 resources_ideas_theme_1_text:
 
-To discover environmental or climate data to use or get inspiration from for your Open Data Day event: visit the [ResourceWatch.org site](https://resourcewatch.org/), a [World Resources Institute](https://www.wri.org/) data portal; explore [NASA's open data website](https://open.nasa.gov/open-data/); head to [geoportal.org](https://www.geoportal.org) for earth observation data; or discover forest cover/loss data with [Global Forest Watch](https://www.globalforestwatch.org/).
+ค้นหาข้อมูลสิ่งแวดล้อมและสภาพอากาศเพื่อใช้หรือสร้างแรงบันดาลใจในกิจกรรมวันข้อมูลเปิดของคุณ: ไปที่[เว็บไซต์ ResourceWatch.org](https://resourcewatch.org/), เว็บท่าข้อมูล [World Resources Institute](https://www.wri.org/); สำรวจ[เว็บไซต์ข้อมูลเปิดของ NASA](https://open.nasa.gov/open-data/); ไปที่ [geoportal.org](https://www.geoportal.org) สำหรับข้อมูลเฝ้าสำรวจโลก; หรือดูข้อมูลการขยายและหดตัวของป่าด้วย [Global Forest Watch](https://www.globalforestwatch.org/)
 
-If you want information on disaster risk management or resilience to natural hazards for your event, visit the [Global Facility for Disaster Reduction and Recovery Labs](https://www.gfdrr.org/en/gfdrr-labs) or [Open Data for Resilience Initiative](https://opendri.org/) websites to discover tools and projects or find open data and resources to use via the [Open Cities Africa project](https://opencitiesproject.org/), [Think Hazard](https://thinkhazard.org/en/), [OpenDRI Index](https://index.opendri.org/) and [Risk Data Library](http://riskdatalibrary.org/).
+ถ้าคุณต้องการข้อมูลเกี่ยวกับการบริหารจัดการความเสี่ยงของพิบัติภัยหรือการทนทานต่อภัยธรรมชาติสำหรับกิจกรรมของคุณ ดูเว็บไซต์ [Global Facility for Disaster Reduction and Recovery Labs](https://www.gfdrr.org/en/gfdrr-labs) หรือ [Open Data for Resilience Initiative](https://opendri.org/) เพื่อดูเครื่องมือและโครงการต่างๆ หรือหาข้อมูลเปิดและทรัพยากรที่ใช้ได้ผ่าน[โครงการ Open Cities Africa](https://opencitiesproject.org/), [Think Hazard](https://thinkhazard.org/en/), [OpenDRI Index](https://index.opendri.org/) และ [Risk Data Library](http://riskdatalibrary.org/)
 
-[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) and the [Open Data Charter's OpenUp guide to climate data](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) may also provide useful guidance and advice.
+[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) และ[แนวทางเปิดข้อมูลสภาพอากาศของ Open Data Charter](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) อาจจะมีคำแนะนำที่มีประโยชน์
 
 ---
 [//]: # (resources_ideas_theme_2: 
