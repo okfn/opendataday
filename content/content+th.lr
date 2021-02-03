@@ -2,93 +2,93 @@ _model: home
 ---
 next_date: 2021-03-06
 ---
-title: You are invited
+title: คุณได้รับเชิญ
 ---
-banner_heading_1: You are invited.
+banner_heading_1: คุณได้รับเชิญ
 ---
-banner_heading_2: Again!
+banner_heading_2: อีกครั้ง!
 ---
-banner_content_1: Open Data Day 2021 will take place on
+banner_content_1: วันข้อมูลเปิด 2564 จะมีขึ้นใน
 ---
-banner_content_2: Saturday 6th March
+banner_content_2: เสาร์ที่ 6 มีนาคม
 ---
-intro_heading: What is Open Data Day?
+intro_heading: อะไรคือวันข้อมูลเปิด?
 ---
 intro_body:
 
-Open Data Day is an annual celebration of open data all over the world. Groups from around the world create local events on the day where they will use open data in their communities. It is an opportunity to show the benefits of open data and encourage the adoption of open data policies in government, business and civil society.
+Open Data Day หรือวันข้อมูลเปิด เป็นการฉลองข้อมูลเปิดซึ่งมีขึ้นทุกปีทั่วโลก กลุ่มต่างๆ จากทั่วโลกสร้างกิจกรรมที่พวกเขาจะใช้ข้อมูลเปิดในชุมชนของเขา มันเป็นโอกาสที่จะแสดงให้เห็นถึงประโยชน์ของข้อมูลเปิดและส่งเสริมให้เกิดการรับนโยบายข้อมูลเปิดไปใช้ทั้งในภาครัฐ ภาคธุรกิจ และภาคประชาสังคม
 ---
 intro_body_2:
 
-All outputs are open for everyone to use and re-use.
+ผลลัพธ์ที่ได้ทั้งหมดจะเปิดให้ทุกคนนำไปใช้และต่อยอดได้
 ---
 year_intro:
 
-For Open Data Day 2021, we will give mini-grants focused on the key areas below that we believe open data can help solve:
+สำหรับวันข้อมูลเปิด 2564 เราจะมอบทุนขนาดเล็กให้กับโครงการในประเด็นหลักดังต่อไปนี้ ซึ่งเราเชื่อว่าข้อมูลเปิดสามารถช่วยแก้ปัญหาได้:
 ---
-year_label_1: Environmental **data**
+year_label_1: **ข้อมูล**สิ่งแวดล้อม
 ---
-year_label_2: Tracking public **money** flows
+year_label_2: ติดตามการเดินทางของ**เงิน**สาธารณะ
 ---
-year_label_3: Open **mapping**
+year_label_3: **แผนที่**แบบเปิด
 ---
-year_label_4: Data for **equal development**
+year_label_4: ข้อมูลสำหรับ**การพัฒนาที่เท่าเทียม**
 ---
-register_text: Register your event
+register_text: ลงทะเบียนกิจกรรมของคุณ
 ---
-events_registered: events registered so far
+events_registered: งานที่ลงทะเบียนถึงขณะนี้
 ---
-who_heading: Who is this for? Everyone!
+who_heading: สิ่งนี้มีเพื่อใคร? ทุกคน!
 ---
 who_body:
 
-If you have an idea for using open data, want to find an interesting project to contribute towards, learn about how to visualise or analyse data or simply want to see what's happening, then come participate! Participation is a core value of Open Data Day, everyone is free to voice their opinions in a constructive manner. No matter your skill-set or interests, we are encouraging organisers to foster opportunities for you to learn and help the global open data community grow.
+ถ้าคุณมีความคิดว่าจะใช้ข้อมูลเปิดอย่างไร ต้องการหาว่ามีโครงการอะไรที่จะช่วยได้บ้าง เรียนรู้ว่าจะวาดภาพจากข้อมูลหรือวิเคราะห์ข้อมูลอย่างไร หรือเพียงต้องการรู้ว่ากำลังมีอะไรเกิดขึ้น ก็ขอให้มาร่วมกิจกรรมกับเรา การมีส่วนร่วมเป็นเรื่องหลักของวันข้อมูลเปิด ทุกคนมีอิสระที่จะส่งเสียงความคิดของตัวเองในวิถีที่จะพาไปสู่การพัฒนาต่อ ไม่ว่าคุณจะมีทักษะหรือความสนใจอะไร เราสนับสนุนให้ผู้จัดกิจกรรมส่งเสริมโอกาสให้คุณได้เรียนรู้และช่วยให้ชุมชนข้อมูลเปิดทั่วโลกเติบโตขึ้น
 ---
-who_title_1: People
+who_title_1: ผู้คน
 ---
 who_description_1:
 
-We need you the most. If it wasn’t for you, this whole thing wouldn’t be happening. Wherever you come from and whatever your background, we need you.
+เราต้องการคุณที่สุด ถ้ามันไม่ได้ทำเพื่อคุณ ทั้งหมดนี้ก็จะไม่เกิดขึ้น ไม่ว่าคุณจะมาจากไหน มีพื้นเพอะไร เราต้องการคุณ
 ---
-who_title_2: Public servants
+who_title_2: พนักงานของรัฐ
 ---
 who_description_2:
 
-Your input and context can help us to make government data better. Come converse and learn.
+ข้อคิดเห็นและบริบทที่คุณมอบให้จะช่วยให้ข้อมูลภาครัฐดีขึ้น มาแลกเปลี่ยนและเรียนรู้กัน
 ---
-who_title_3: Designers
+who_title_3: นักออกแบบ
 ---
 who_description_3:
 
-Help us make open data relatable, so more people will use it and understand it.
+ช่วยเราทำให้ข้อมูลใกล้ชิดกับคนมากขึ้น เพื่อให้คนมากขึ้นใช้มันและเข้าใจมัน
 ---
-who_title_4: Developers
+who_title_4: นักพัฒนา
 ---
 who_description_4:
 
-Use your skills to develop solutions that can help solve important societal issues.
+ใช้ทักษะของคุณพัฒนาระบบที่ช่วยแก้ปัญหาสังคมที่สำคัญ
 ---
-who_title_5: Statisticians
+who_title_5: นักสถิติ
 ---
 who_description_5:
 
-Use your skills to help understand the data and get important insights from it.
+ใช้ทักษะของคุณให้คนเข้าใจข้อมูลและเห็นประเด็นแหลมคมที่สำคัญ
 ---
-resources_heading: Event Resources
+resources_heading: ทรัพยากรสำหรับกิจกรรม
 ---
 resources_intro:
 
-Need some inspiration for an Open Data Day event, or don't know where to find the data you need? Check out our event resources.
+ต้องการแรงบันดาลใจสำหรับกิจกรรมวันข้อมูลเปิด หรือไม่รู้ว่าจะหาข้อมูลที่ต้องการได้จากไหน? ลองดูทรัพยากรสำหรับกิจกรรมของเรา
 ---
-resources_button: Resources
+resources_button: ทรัพยากร
 ---
-resources_materials_heading: Materials
+resources_materials_heading: วัสดุ
 ---
 resources_materials_text:
 
-Create a logo for the event in your city using the [logo generator](http://odd.structure-and-representation.com/)!
+การโลโก้สำหรับกิจกรรมในเมืองของคุณด้วย[เครื่องมือสร้างโลโก้](http://odd.structure-and-representation.com/)!
 ---
-resources_ideas_heading: Ideas and data sources
+resources_ideas_heading: แหล่งความคิดและข้อมูล
 ---
 resources_ideas_intro:
 
@@ -101,7 +101,7 @@ Use [data.world](https://data.world) to upload or find data from many sources an
 If you have data but don't know where to put it, you can use [DataHub](https://datahub.io). You can publish datasets, [search for relevant data](https://datahub.io/search), [browse thematic data collections](https://datahub.io/collections) and [request help](https://gitter.im/datahubio/chat) with your open data publishing.
 
 ---
-resources_ideas_theme_1: Environmental data
+resources_ideas_theme_1: ข้อมูลสิ่งแวดล้อม
 ---
 resources_ideas_theme_1_text:
 
@@ -117,40 +117,40 @@ If you want information on disaster risk management or resilience to natural haz
 resources_ideas_theme_2_text:
 
 ---
-resources_ideas_theme_3: Tracking public money flows
+resources_ideas_theme_3: ติดตามการเดินทางของเงินสาธารณะ
 ---
 resources_ideas_theme_3_text:
 
-The [Open Contracting Partnership](https://www.open-contracting.org) and Hivos' [Open Up Contracting](https://www.openupcontracting.org/) websites provide lots of guidance and examples for people looking to do Open Data Day events focused on public procurement and spending. See also: the [Open Data Charter guide to using open data to combat corruption](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/).
+เว็บไซต์ [Open Contracting Partnership](https://www.open-contracting.org) และ [Open Up Contracting](https://www.openupcontracting.org/) ของ Hivos มีแนวทางและตัวอย่างมากมายสำหรับผู้คนที่จะจัดกิจกรรมวันข้อมูลเปิดที่เน้นเรื่องการจัดซื้อจัดจ้างและการใช้จ่ายของภาคสาธารณะ ดู[แนวทางการใช้ข้อมูลเปิดเพื่อต่อสู้กับการทุจริตคอร์รัปชัน](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/) ของ Open Data Charter
 ---
-resources_ideas_theme_4: Open mapping
+resources_ideas_theme_4: แผนที่แบบเปิด
 ---
 resources_ideas_theme_4_text:
 
-Find out more about open mapping via the [Mapbox](https://www.mapbox.com), [OpenStreetMap](https://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](https://www.hotosm.org/) websites.
+เรียนรู้เพิ่มเติมเกี่ยวกับการทำแผนที่แบบเปิดได้ที่เว็บไซต์ [Mapbox](https://www.mapbox.com), [OpenStreetMap](https://www.openstreetmap.org/) และ [Humanitarian OpenStreetMap](https://www.hotosm.org/)
 
 ---
-resources_ideas_theme_5: Data for equal development
+resources_ideas_theme_5: ข้อมูลสำหรับการพัฒนาที่เท่าเทียม
 ---
 resources_ideas_theme_5_text:
 
-The [Centre for Humanitarian Data](https://data.humdata.org) has over 17,000 humanitarian open datasets available via the CKAN-powered portal at [data.humdata.org](https://data.humdata.org/) which may help to highlight key issues about equal development. You can also visit the [United Nations' Open SDG Data Hub](https://unstats-undesa.opendata.arcgis.com), the [World Bank Open Data portal](https://data.worldbank.org) or the large data harvesting portals like the [European Data Portal](https://www.europeandataportal.eu/).
+[Centre for Humanitarian Data](https://data.humdata.org) มีข้อมูลเปิดเพื่อการช่วยเหลือทางมนุษยธรรมมากกว่า 17,000 ชุด เข้าถึงได้ทางเว็บท่าซึ่งใช้ระบบ CKAN ที่ [data.humdata.org](https://data.humdata.org/) ข้อมูลเหล่านี้อาจช่วยให้เห็นประเด็นสำคัญเกี่ยวกับการพัฒนาที่เท่าเทียม คุณยังสามารถเข้าชมเว็บไซต์ [Open SDG Data Hub](https://unstats-undesa.opendata.arcgis.com) ขององค์การสหประชาชาติ [World Bank Open Data](https://data.worldbank.org) ของธนาคารโลก หรือเว็บท่าที่ดึงข้อมูลมาจากหลายแหล่งอย่าง [European Data Portal](https://www.europeandataportal.eu/)
 
 ---
-resources_ideas_theme_6: Human Rights theme
+resources_ideas_theme_6: สิทธิมนุษยชน
 ---
 resources_ideas_theme_6_text:
 
 ---
-support_scheme_heading: Support Scheme
+support_scheme_heading: การสนับสนุน
 ---
 support_scheme_body:
 
-Receive $300 USD to help support your Open Data Day 2021 event. Apply to the mini-grant scheme by midday GMT on Friday 5th February 2021.
+รับการสนับสนุน 300 เหรียญสหรัฐเพื่อช่วยจัดกิจกรรมวันข้อมูลเปิด 2564 สมัครขอรับทุนขนาดเล็กดังกล่าวภายในเวลาเที่ยง (เขตเวลา GMT) วันศุกร์ที่ 5 กุมภาพันธ์ 2564
 
 ---
-support_scheme_button: Learn more
+support_scheme_button: เรียนรู้เพิ่มเติม
 ---
 support_scheme_logos:
-The Open Data Day 2021 mini-grants scheme is kindly supported by:
+โครงการทุนขนาดเล็ก Open Data Day 2021 สนับสนุนโดย:
 ---
