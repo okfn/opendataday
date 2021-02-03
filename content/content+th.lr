@@ -48,37 +48,37 @@ who_title_1: ผู้คน
 ---
 who_description_1:
 
-We need you the most. If it wasn’t for you, this whole thing wouldn’t be happening. Wherever you come from and whatever your background, we need you.
+เราต้องการคุณที่สุด ถ้ามันไม่ได้ทำเพื่อคุณ ทั้งหมดนี้ก็จะไม่เกิดขึ้น ไม่ว่าคุณจะมาจากไหน มีพื้นเพอะไร เราต้องการคุณ
 ---
 who_title_2: พนักงานของรัฐ
 ---
 who_description_2:
 
-Your input and context can help us to make government data better. Come converse and learn.
+ข้อคิดเห็นและบริบทที่คุณมอบให้จะช่วยให้ข้อมูลภาครัฐดีขึ้น มาแลกเปลี่ยนและเรียนรู้กัน
 ---
 who_title_3: นักออกแบบ
 ---
 who_description_3:
 
-Help us make open data relatable, so more people will use it and understand it.
+ช่วยเราทำให้ข้อมูลใกล้ชิดกับคนมากขึ้น เพื่อให้คนมากขึ้นใช้มันและเข้าใจมัน
 ---
 who_title_4: นักพัฒนา
 ---
 who_description_4:
 
-Use your skills to develop solutions that can help solve important societal issues.
+ใช้ทักษะของคุณพัฒนาระบบที่ช่วยแก้ปัญหาสังคมที่สำคัญ
 ---
 who_title_5: นักสถิติ
 ---
 who_description_5:
 
-Use your skills to help understand the data and get important insights from it.
+ใช้ทักษะของคุณให้คนเข้าใจข้อมูลและเห็นประเด็นแหลมคมที่สำคัญ
 ---
 resources_heading: ทรัพยากรสำหรับกิจกรรม
 ---
 resources_intro:
 
-Need some inspiration for an Open Data Day event, or don't know where to find the data you need? Check out our event resources.
+ต้องการแรงบันดาลใจสำหรับกิจกรรมวันข้อมูลเปิด หรือไม่รู้ว่าจะหาข้อมูลที่ต้องการได้จากไหน? ลองดูทรัพยากรสำหรับกิจกรรมของเรา
 ---
 resources_button: ทรัพยากร
 ---
@@ -86,7 +86,7 @@ resources_materials_heading: วัสดุ
 ---
 resources_materials_text:
 
-Create a logo for the event in your city using the [logo generator](http://odd.structure-and-representation.com/)!
+การโลโก้สำหรับกิจกรรมในเมืองของคุณด้วย[เครื่องมือสร้างโลโก้](http://odd.structure-and-representation.com/)!
 ---
 resources_ideas_heading: แหล่งความคิดและข้อมูล
 ---
@@ -127,14 +127,14 @@ resources_ideas_theme_4: แผนที่แบบเปิด
 ---
 resources_ideas_theme_4_text:
 
-Find out more about open mapping via the [Mapbox](https://www.mapbox.com), [OpenStreetMap](https://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](https://www.hotosm.org/) websites.
+เรียนรู้เพิ่มเติมเกี่ยวกับการทำแผนที่แบบเปิดได้ที่เว็บไซต์ [Mapbox](https://www.mapbox.com), [OpenStreetMap](https://www.openstreetmap.org/) และ [Humanitarian OpenStreetMap](https://www.hotosm.org/)
 
 ---
 resources_ideas_theme_5: ข้อมูลสำหรับการพัฒนาที่เท่าเทียม
 ---
 resources_ideas_theme_5_text:
 
-The [Centre for Humanitarian Data](https://data.humdata.org) has over 17,000 humanitarian open datasets available via the CKAN-powered portal at [data.humdata.org](https://data.humdata.org/) which may help to highlight key issues about equal development. You can also visit the [United Nations' Open SDG Data Hub](https://unstats-undesa.opendata.arcgis.com), the [World Bank Open Data portal](https://data.worldbank.org) or the large data harvesting portals like the [European Data Portal](https://www.europeandataportal.eu/).
+[Centre for Humanitarian Data](https://data.humdata.org) มีข้อมูลเปิดเพื่อการช่วยเหลือทางมนุษยธรรมมากกว่า 17,000 ชุด เข้าถึงได้ทางเว็บท่าซึ่งใช้ระบบ CKAN ที่ [data.humdata.org](https://data.humdata.org/) ข้อมูลเหล่านี้อาจช่วยให้เห็นประเด็นสำคัญเกี่ยวกับการพัฒนาที่เท่าเทียม คุณยังสามารถเข้าชมเว็บไซต์ [Open SDG Data Hub](https://unstats-undesa.opendata.arcgis.com) ขององค์การสหประชาชาติ [World Bank Open Data](https://data.worldbank.org) ของธนาคารโลก หรือเว็บท่าที่ดึงข้อมูลมาจากหลายแหล่งอย่าง [European Data Portal](https://www.europeandataportal.eu/)
 
 ---
 resources_ideas_theme_6: สิทธิมนุษยชน
