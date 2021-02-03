@@ -52,20 +52,20 @@ module.exports = function(grunt) {
       },
     },
 
-		watch: {
-			css: {
-				files: '**/*.scss',
-				tasks: ['sass']
-			},
+    watch: {
+      css: {
+       files: '**/*.scss',
+        tasks: ['sass']
+      },
       cssmin: {
-				files: 'assets/css/main.css',
-				tasks: ['cssmin']
-			},
+        files: 'assets/css/main.css',
+        tasks: ['cssmin']
+      },
       icons: {
-				files: 'assets/icons/*.svg',
-				tasks: ['svgstore']
-			}
-		}
+        files: 'assets/icons/*.svg',
+        tasks: ['svgstore']
+      }
+    }
   });
 
   // Load the plugins
