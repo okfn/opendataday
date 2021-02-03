@@ -65,6 +65,11 @@ name = Russian
 url_prefix = /ru/
 locale = ru
 
+[alternatives.th]
+name = Thai
+url_prefix = /th/
+locale = th
+
 [alternatives.zh_hans]
 name = 简体中文
 url_prefix = /zh_hans/
