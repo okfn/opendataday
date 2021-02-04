@@ -20,3 +20,12 @@ preamble:
 
 ---
 postamble:
+
+---
+website: Website
+---
+location: Location
+---
+organisers: Organisers
+---
+participants: Participants

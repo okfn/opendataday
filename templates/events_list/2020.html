@@ -28,12 +28,12 @@
           <div class="event-detail">
             <dl>
               {% if event['URL'].startswith('http') %}
-                <dt>Website</dt>
+                <dt>{{ this.website }}</dt>
                 <dd><a href="{{ event['URL'] }}">{{ event['URL'] }}</a><br/></dd>
               {% endif %}
 
               {% if event['Place'] %}
-                <dt>Location</dt>
+                <dt>{{ this.location }}</dt>
                 <dd>
                   {% if event['Latitude'] and event['Longitude'] %}
                     <a
@@ -48,12 +48,12 @@
               {% endif %}
 
               {% if event['Organisers'] %}
-                <dt>Organisers</dt>
+                <dt>{{ this.organisers }}</dt>
                 <dd>{{ event['Organisers'] }}</dd>
               {% endif %}
 
               {% if event['Number of participants'] %}
-                <dt>Participants</dt>
+                <dt>{{ this.participants }}</dt>
                 <dd>{{ event['Number of participants'] }}</dd>
               {% endif %}
 
