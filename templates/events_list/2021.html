@@ -1,0 +1,95 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block body %}
+
+{% include 'includes/header.html' %}
+{% include 'includes/nav.html' %}
+
+<section id="events">
+
+  <div id="preamble">
+  {{ this.preamble }}
+  </div>
+
+  {% block list %}
+
+  <div id="events-list">
+
+    <div id="search-wrapper">
+      <input id="search-input" class="search" placeholder="Search" />
+    </div>
+
+    <ul class=list>
+      {% set events = bag(this.data_file).events %}
+      {% for event in events %}
+        <li>
+          <h3 class="event-title">{{ event['Event name'] }}</h3>
+          <div class="event-detail">
+            <dl>
+              {% if event['URL'].startswith('http') %}
+                <dt>Website</dt>
+                <dd><a href="{{ event['URL'] }}">{{ event['URL'] }}</a><br/></dd>
+              {% endif %}
+
+              {% if event['Place'] %}
+                <dt>Location</dt>
+                <dd>
+                  {% if event['Latitude'] and event['Longitude'] %}
+                    <a
+                      href="http://www.openstreetmap.org/?mlat={{ event['Latitude'] }}&mlon={{ event['Longitude'] }}&zoom=12"
+                    >
+                      {{ event['Place'] }}
+                    </a>
+                  {% else %}
+                    {{ event['Place'] }}
+                  {% endif %}
+                </dd>
+              {% endif %}
+
+              {% if event['Organisers'] %}
+                <dt>Organisers</dt>
+                <dd>{{ event['Organisers'] }}</dd>
+              {% endif %}
+
+              {% if event['Number of participants'] %}
+                <dt>Participants</dt>
+                <dd>{{ event['Number of participants'] }}</dd>
+              {% endif %}
+
+              <!-- hidden element to make the location search work -->
+              {% if event['Place'] %}
+                <dt style="display:none" aria-hidden="true" >Location</dt>
+                <dd style="display:none" aria-hidden="true" class="event-location">{{event['Place']}}</dd>
+              {% endif %}
+            </dl>
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+
+  {% endblock %}
+
+  <div id="postamble">
+  {{ this.postamble }}
+  </div>
+
+</section>
+
+{% include 'includes/logos.html' %}
+{% endblock %}
+
+{% block extra_js %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+<script>
+  var options = {
+      valueNames: [
+        'event-title',
+        'event-location'
+      ]
+  };
+  var list = new List('events-list', options);
+</script>
+{% endblock %}
