@@ -3,7 +3,7 @@ on: [push, pull_request]
 
 jobs:
   build:
-    name: Build
+    name: Build & Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -32,11 +32,6 @@ jobs:
           npm run build
           lektor build
 
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-    steps:
       - name: Deploy
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         run: lektor deploy ci --username ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }}
