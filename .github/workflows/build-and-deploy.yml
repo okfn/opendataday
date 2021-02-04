@@ -1,0 +1,42 @@
+name: Build & Deploy to GH Pages
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Set up Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Install python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install JS dependencies
+        run: npm install
+
+      - name: Build
+        run: |
+          npm run build
+          lektor build
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    steps:
+      - name: Deploy
+        run: lektor deploy ci --username ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }}
