@@ -29,7 +29,7 @@
             <dl>
               {% if event['URL'].startswith('http') %}
                 <dt>{{ this.website }}</dt>
-                <dd><a href="{{ event['URL'] }}">{{ event['URL'] }}</a><br/></dd>
+                <dd><a href="{{ event['URL'] }}">{{ event['URL'] }}</a></dd>
               {% endif %}
 
               {% if event['Place'] %}
@@ -63,7 +63,7 @@
                 <dd style="display:none" aria-hidden="true" class="event-location">{{event['Place']}}</dd>
               {% endif %}
             </dl>
-          </p>
+          </div>
         </li>
       {% endfor %}
     </ul>
