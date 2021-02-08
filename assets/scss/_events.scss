@@ -22,6 +22,14 @@
             width: 100%;
             box-sizing: border-box;
             padding: $base-spacing/2;
+            margin-bottom: $gutter/8;
+        }
+
+        #filter-list {
+            margin-top: $gutter/8;
+            box-sizing: border-box;
+            padding: $base-spacing/2;
+            margin-bottom: $gutter/8;
         }
 
         ul.list {
@@ -31,6 +39,26 @@
         .event-detail {
             margin-top: $gutter/2;
             margin-bottom: $gutter*2;
+        }
+
+        a[id]::before {
+            content: '';
+            display: block;
+            height: 120px;
+            margin-top: -120px;
+        }
+        .leading-icon {
+            width: 1rem;
+            height: 1rem;
+            text-decoration: none;
+            border: 0;
+        }
+        .event-detail p {
+            margin-top: $gutter/2;
+        }
+        .event-detail p .social-link {
+            padding-right: $gutter/2;
+            white-space: nowrap;
         }
     }
 }
