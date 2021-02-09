@@ -1,0 +1,211 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block body %}
+
+{% include 'includes/header.html' %}
+{% include 'includes/nav.html' %}
+
+<section id="events">
+
+  <div id="preamble">
+  {{ this.preamble }}
+  </div>
+
+  {% block list %}
+
+  <div id="events-list">
+
+    <div id="search-wrapper" style="display:none">
+      <input id="search-input" class="search" placeholder="Search" />
+
+      {{ this.filter_label }}:
+      <select id="filter-list">
+        <option value="#filter:All">{{ this.filter_all_events }}</option>
+        <option value="#filter:world-region-code=AMER">{{ this.filter_amer }}</option>
+        <option value="#filter:world-region-code=EMEA">{{ this.filter_emea }}</option>
+        <option value="#filter:world-region-code=APAC">{{ this.filter_apac }}</option>
+        <option value="#filter:event-location=Online">{{ this.filter_online }}</option>
+        <option value="#filter:event-location=Offline">{{ this.filter_offline }}</option>
+      </select>
+    </div>
+
+
+    <ul class=list>
+      {% set events = bag(this.data_file).events %}
+      {% for event in events %}
+        <li>
+
+          <h3 class="event-title">
+            <a id="{{ event['slug'] }}" aria-hidden="true"></a>
+            <a href="#{{ event['slug'] }}">
+              <svg class="leading-icon"><use xlink:href="#icon-link" />
+              </svg></a>
+            {{ event['event_name'] }}
+          </h3>
+
+          <div class="event-detail">
+            <p>{{ event['event_purpose'] }}</p>
+
+            <dl>
+              {% if event['event_date'] %}
+                <dt>{{ this.date }}</dt>
+                <dd>{{ event['event_date'] }}</dd>
+              {% endif %}
+
+              {% if event['event_time'] %}
+                <dt>{{ this.time }}</dt>
+                <dd>
+                  {{ event['event_time'] }}
+                  {% if event['event_timezone'] %}
+                    ({{ event['event_timezone'] }})
+                  {% endif %}
+                </dd>
+              {% endif %}
+
+              {% if event['online'] %}
+                <dt>{{ this.location }}</dt>
+                <dd>
+                  Online
+                  {% if event['world_region_text'] %}
+                    ({{ event['world_region_text'] }})
+                  {% endif %}
+                </dd>
+              {% else %}
+                {% if event['place'] %}
+                  <dt>{{ this.location }}</dt>
+                  <dd>
+                    {% if event['latitude'] and event['longitude'] %}
+                      <a
+                        href="http://www.openstreetmap.org/?mlat={{ event['latitude'] }}&mlon={{ event['longitude'] }}&zoom=12"
+                      >
+                        {{ event['place'] }}</a>
+                    {% else %}
+                      {{ event['place'] }}
+                    {% endif %}
+                    {% if event['world_region_text'] %}
+                      ({{ event['world_region_text'] }})
+                    {% endif %}
+                  </dd>
+                {% endif %}
+              {% endif %}
+
+              {% if event['organisers'] %}
+                <dt>{{ this.organisers }}</dt>
+                <dd>{{ event['organisers'] }}</dd>
+              {% endif %}
+
+              <!-- hidden elements to make the search work -->
+              {% if event['online'] %}
+                <dt style="display:none" aria-hidden="true" >Location</dt>
+                <dd style="display:none" aria-hidden="true" class="event-location">Online</dd>
+              {% else %}
+                {% if event['place'] %}
+                  <dt style="display:none" aria-hidden="true" >Location</dt>
+                  <dd style="display:none" aria-hidden="true" class="event-location">{{event['place']}}</dd>
+                {% endif %}
+              {% endif %}
+              {% if event['world_region_text'] %}
+                <dt style="display:none" aria-hidden="true" >World Region Text</dt>
+                <dd style="display:none" aria-hidden="true" class="world-region-text">{{event['world_region_text']}}</dd>
+              {% endif %}
+              {% if event['world_region_code'] %}
+                <dt style="display:none" aria-hidden="true" >World Region Code</dt>
+                <dd style="display:none" aria-hidden="true" class="world-region-code">{{event['world_region_code']}}</dd>
+              {% endif %}
+            </dl>
+
+            <p>
+              {% if event['url'] %}
+                <span class="social-link">
+                  <svg class="leading-icon"><use xlink:href="#icon-sphere" /></svg>
+                  <a href="{{ event['url'] }}">{{ this.website }}</a>
+                </span>
+              {% endif %}
+
+              {% if event['online_event_url'] %}
+                <span class="social-link">
+                  <svg class="leading-icon"><use xlink:href="#icon-users" /></svg>
+                  <a href="{{ event['online_event_url'] }}">{{ this.online_event }}</a>
+                </span>
+              {% endif %}
+
+              {% if event['event_tweet_url'] %}
+                <span class="social-link">
+                  <svg class="leading-icon"><use xlink:href="#icon-twitter" /></svg>
+                  <a href="{{ event['event_tweet_url'] }}">{{ this.twitter }}</a>
+                </span>
+              {% endif %}
+
+              {% if event['event_video_url'] %}
+                <span class="social-link">
+                  <svg class="leading-icon"><use xlink:href="#icon-youtube" /></svg>
+                  <a href="{{ event['event_video_url'] }}">{{ this.youtube }}</a>
+                </span>
+              {% endif %}
+            </p>
+          </div>
+
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+
+  {% endblock %}
+
+  <div id="postamble">
+  {{ this.postamble }}
+  </div>
+
+</section>
+
+{% include 'includes/logos.html' %}
+{% endblock %}
+
+{% block extra_js %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+<script>
+  var options = {
+      valueNames: [
+        'event-title',
+        'event-location',
+        'world-region-text',
+        'world-region-code',
+      ]
+  };
+  var list = new List('events-list', options);
+
+  function getFilter(hash) {
+    var filters = {
+      '#filter:All': function(item) {return true;},
+      '#filter:world-region-code=EMEA': function(item) {return item.values()['world-region-code'] === 'EMEA';},
+      '#filter:world-region-code=APAC': function(item) {return item.values()['world-region-code'] === 'APAC';},
+      '#filter:world-region-code=AMER': function(item) {return item.values()['world-region-code'] === 'AMER';},
+      '#filter:event-location=Online': function(item) {return item.values()['event-location'] === 'Online';},
+      '#filter:event-location=Offline': function(item) {return item.values()['event-location'] !== 'Online';},
+    };
+    return filters[hash];
+  }
+
+  function applyFilter() {
+    var filter = getFilter(window.location.hash);
+    if (getFilter(window.location.hash) !== undefined) {
+      list.filter(filter);
+      $('#filter-list').val(window.location.hash);
+    }
+  }
+
+  $('#filter-list').on('change', function() {
+    window.location.hash = this.value;
+  });
+
+  window.addEventListener('hashchange', function() {
+    applyFilter();
+  });
+
+  applyFilter();
+
+  $('#search-wrapper').show();
+</script>
+{% endblock %}

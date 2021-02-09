@@ -1,0 +1,31 @@
+_model: events_list
+---
+_template: events_list/2020.html
+---
+title: Events 2020
+---
+data_file: events-2020
+---
+banner_heading_1: Open Data Day
+---
+banner_heading_2: 2020 Events
+---
+banner_content_1: Open Data Day 2020 Took place on
+---
+banner_content_2: Saturday 7th March 2020
+---
+banner_link: events
+---
+preamble:
+
+---
+postamble:
+
+---
+website: Website
+---
+location: Location
+---
+organisers: Organisers
+---
+participants: Participants

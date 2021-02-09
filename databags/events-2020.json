@@ -1,0 +1,2468 @@
+{
+  "events": [
+    {
+      "Place": "Tashkent",
+      "URL": "data.gov.uz",
+      "Latitude": "41.311081",
+      "Longitude": "69.240562",
+      "Event name": "Open Data Day Uzbekistan",
+      "Number of participants": "200"
+    },
+    {
+      "Place": "Tashkent",
+      "URL": "stat.uz",
+      "Latitude": "41.311081",
+      "Longitude": "69.240562",
+      "Event name": "Open Data Day Tashkent",
+      "Number of participants": "150"
+    },
+    {
+      "Place": "León, Gto.",
+      "URL": "",
+      "Latitude": "21.1210678",
+      "Longitude": "-101.6793015",
+      "Event name": "Open Data Day  @LAB León",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Kimberley",
+      "URL": "data.ncdev.co.za",
+      "Latitude": "28.7282",
+      "Longitude": "24.7499",
+      "Event name": "International Open Data Day - Kimberley",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Cancun",
+      "URL": "http://tqvcancun.org/",
+      "Latitude": "21.200475",
+      "Longitude": "-86.821893",
+      "Event name": "Cancun Open Data Day 2020",
+      "Number of participants": "40"
+    },
+    {
+      "Place": "Mogadishu ",
+      "URL": "http://oksomalia.org/",
+      "Latitude": "2.046934",
+      "Longitude": "45.318161",
+      "Event name": "Open Data Day Mogadishu ",
+      "Number of participants": "200"
+    },
+    {
+      "Place": "Navorongo ",
+      "URL": "https://docs.google.com/forms/d/1y3nImjafGJ_GMwz7cEIRmIyN-XWvcx4sdRx4TLlvvhA/edit",
+      "Latitude": "10.88778",
+      "Longitude": "-1.08651",
+      "Event name": "IndieWeb and OER Ghana launch",
+      "Number of participants": "40"
+    },
+    {
+      "Place": "Rio de Janeiro",
+      "URL": "http://www.arquivonacional.gov.br/br/",
+      "Latitude": "-22.906216",
+      "Longitude": "-43.190695",
+      "Event name": "Dia dos Dados Abertos no Arquivo Nacional - Open Data Day 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Addis Ababa",
+      "URL": "www.eiar.gov.et",
+      "Latitude": "9.014463",
+      "Longitude": "38.812196",
+      "Event name": "Open Data in Agriculture -- Awareness creation ",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Vienna",
+      "URL": "https://digitales.wien.gv.at/site/open-data-days-2020-wien-ist-dabei/",
+      "Latitude": "16.37984",
+      "Longitude": "16.35934",
+      "Event name": "Open Data Business MeetUp ",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Vienna",
+      "URL": "https://www.technikum-wien.at/newsroom/veranstaltungen/open-data-expo---daten-erleben-und-begreifen/",
+      "Latitude": "48.23917",
+      "Longitude": "16.37743",
+      "Event name": "Open Data Expo „Daten erleben und begreifen“",
+      "Number of participants": "200"
+    },
+    {
+      "Place": "Izumiotsu-city,Osaka,Japan",
+      "URL": "https://www.facebook.com/events/398856691020433/",
+      "Latitude": "34.51173",
+      "Longitude": "135.42163",
+      "Event name": "泉大津の地図を作ろう！",
+      "Number of participants": ""
+    },
+    {
+      "Place": "St Petersbourg",
+      "URL": "https://github.com/Liyubov/healthycityhack.github.io",
+      "Latitude": "59.916367",
+      "Longitude": "30.305901",
+      "Event name": "Open data days Snt.Petersburg",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Catania",
+      "URL": "https://ods2020.opendatasicilia.it/",
+      "Latitude": "37.52542208",
+      "Longitude": "15.0729847",
+      "Event name": "ODS2020",
+      "Number of participants": "80"
+    },
+    {
+      "Place": "Mar del Plata",
+      "URL": "http://escueladefiscales.com/index.php/odd2020/",
+      "Latitude": "-38.0022812",
+      "Longitude": "-57.5575409",
+      "Event name": "Open Data & Medio Ambiente",
+      "Number of participants": "70"
+    },
+    {
+      "Place": "Zaragoza",
+      "URL": "https://opendata.aragon.es/",
+      "Latitude": "41.65306",
+      "Longitude": "-0.891643",
+      "Event name": "Día de los datos abiertos en Aragón Open Data ",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Winnipeg",
+      "URL": "https://www.meetup.com/Winnipeg-Open-Data-Meet-Up-Group/events/267721737/",
+      "Latitude": "49.8844",
+      "Longitude": "-97.14704",
+      "Event name": "Winnipeg Open Data Hackathon 2020",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Moscow, Russia",
+      "URL": "http://opendataday.ru/msk",
+      "Latitude": "55.755825",
+      "Longitude": "37.617298",
+      "Event name": "IODD 2020 in Moscow",
+      "Number of participants": "500"
+    },
+    {
+      "Place": "Wellington, New Zealand",
+      "URL": "https://www.eventbrite.co.nz/e/open-data-open-potential-tickets-86763523033",
+      "Latitude": "-41.289109",
+      "Longitude": "174.779637",
+      "Event name": "Open Data, Open Potential",
+      "Number of participants": "280"
+    },
+    {
+      "Place": "Bangkok",
+      "URL": "https://www.dga.or.th/th/index.php",
+      "Latitude": "13.758727",
+      "Longitude": "100.540573",
+      "Event name": "\"วันข้อมูลเปิดสาธารณะ (International Open Data Day 2020)",
+      "Number of participants": "200"
+    },
+    {
+      "Place": "Memphis, TN - USA",
+      "URL": "https://memphisdatahack.com/",
+      "Latitude": "35.14953",
+      "Longitude": "-90.04898",
+      "Event name": "Memphis Civic Data Hackathon",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Brugg, Aargau, Switzerland",
+      "URL": "https://opendata.ch/projects/energy-data-hackdays-2020/",
+      "Latitude": "47.4829077",
+      "Longitude": "8.2101032",
+      "Event name": "Energy Hackdays",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Kampala",
+      "URL": "",
+      "Latitude": "22",
+      "Longitude": "32",
+      "Event name": "Open Data for Civic Participation, Accountability and  Governace for the Global Financing Facility funding in Uganda",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Hasselt",
+      "URL": "https://2020.openbelgium.be/",
+      "Latitude": "50.93353",
+      "Longitude": "5.34236",
+      "Event name": "Open Belgium conference",
+      "Number of participants": "300"
+    },
+    {
+      "Place": "Torino",
+      "URL": "https://www.eventbrite.it/e/biglietti-open-data-day-2020-come-vengono-spesi-i-soldi-dei-cittadini-89742090007",
+      "Latitude": "45.065195",
+      "Longitude": "7.6917905",
+      "Event name": "Come vengono spesi i soldi dei cittadini? Dati a disposizione, monitoraggio e civic hacking",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Amagasaki city",
+      "URL": "https://www.facebook.com/events/807494389674039/",
+      "Latitude": "34.72201",
+      "Longitude": "135.38876",
+      "Event name": "GPSで絵を描いてみようじゃあ～りませんか",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Shanghai",
+      "URL": "https://yoopay.cn/event/54274906",
+      "Latitude": "31.1931064",
+      "Longitude": "121.4213905",
+      "Event name": "Open Data Day Shanghai",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Phnom Penh",
+      "URL": "https://opendevelopmentcambodia.net/open-data-day-2020-you-are-invited/",
+      "Latitude": "11.554112",
+      "Longitude": "104.9272158",
+      "Event name": "Open Data Day 2020",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Asuncion",
+      "URL": "",
+      "Latitude": "-25.2838166",
+      "Longitude": "-57.6129687",
+      "Event name": "Open Data Day Asunción 2020",
+      "Number of participants": "70"
+    },
+    {
+      "Place": "Tribe.Space | Kandlgasse 19-21, 1070 Vienna, Austria",
+      "URL": "https://www.derbrutkasten.com/events/der-brutkasten-meetup-opendata2020/",
+      "Latitude": "48.20265",
+      "Longitude": "16.34209",
+      "Event name": "der brutkasten Meetup #opendata2020",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Helsinki",
+      "URL": "https://www.okf.fi/2020/01/16/open-data-day-2020-with-okfi/",
+      "Latitude": "60.1737",
+      "Longitude": "24.938",
+      "Event name": "Open Data Day 2020 with OKFI",
+      "Number of participants": "40"
+    },
+    {
+      "Place": "Mexico City",
+      "URL": "www.sociatlic.org",
+      "Latitude": "19.4120848",
+      "Longitude": "-99.1828464",
+      "Event name": "Open Data Day CDMX 2020",
+      "Number of participants": "200"
+    },
+    {
+      "Place": "Denton, Texas",
+      "URL": "https://www.dfwopendataday.com",
+      "Latitude": "33.214065",
+      "Longitude": "-97.124675",
+      "Event name": "DFW Open Data Day 2020",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Kimberley",
+      "URL": "",
+      "Latitude": "-28.748671",
+      "Longitude": "24.765009",
+      "Event name": "Learning Analytics Workshop",
+      "Number of participants": "60"
+    },
+    {
+      "Place": "Khovd",
+      "URL": "www.opendatalab.mn",
+      "Latitude": "5207105.327",
+      "Longitude": "347950.9631",
+      "Event name": "Opendata hackathon",
+      "Number of participants": "120"
+    },
+    {
+      "Place": "Ulaanbaatar",
+      "URL": "www.opendatalab.mn",
+      "Latitude": "5205649.347",
+      "Longitude": "576025.3121",
+      "Event name": "Opendatalab for budget ",
+      "Number of participants": "150"
+    },
+    {
+      "Place": "Caracas",
+      "URL": "https://ve.creativecommons.net/noticias",
+      "Latitude": "10.492439",
+      "Longitude": "-66.866744",
+      "Event name": "Open Data Day for Journalists",
+      "Number of participants": "25"
+    },
+    {
+      "Place": "Curitiba",
+      "URL": "https://www.codeforcuritiba.org/",
+      "Latitude": "-25.4284",
+      "Longitude": "-49.2733",
+      "Event name": "Code for Curitiba Open Data Day 2020",
+      "Number of participants": "60"
+    },
+    {
+      "Place": "San José, Costa Rica",
+      "URL": "https://sites.google.com/abriendodatos.cr/opendatadaycr/",
+      "Latitude": "9.9378605",
+      "Longitude": "-84.06326",
+      "Event name": "Data Party CR",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Natal, Rio Grande do Norte, Brasil",
+      "URL": "https://www.facebook.com/ODDNatal/",
+      "Latitude": "-5.832366",
+      "Longitude": "-35.205434",
+      "Event name": "Open Data Day Natal",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Kampala",
+      "URL": "",
+      "Latitude": "0.3489",
+      "Longitude": "32.628",
+      "Event name": "Kyambogo University Open Data Day 2020",
+      "Number of participants": "60"
+    },
+    {
+      "Place": "Kathmandu",
+      "URL": "TBD",
+      "Latitude": "27.7032021",
+      "Longitude": "85.3204706",
+      "Event name": "Open Data Day",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Badagry, Lagos State",
+      "URL": "https://saeioglobal.com/event/",
+      "Latitude": "6245407",
+      "Longitude": "2525275",
+      "Event name": "COLAB 4 ALL",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Mérida, Yucatán, México",
+      "URL": "",
+      "Latitude": "20.9753704",
+      "Longitude": "-89.6169586",
+      "Event name": "Open Data Day Mérida",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Arlington, Texas",
+      "URL": "http://opendatahackathon.uta.cloud/",
+      "Latitude": "32.729653",
+      "Longitude": "-97.112905",
+      "Event name": "Open Data Day Hackathon",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Butwal, Nepal",
+      "URL": "http://oknp.org/",
+      "Latitude": "27.694098",
+      "Longitude": "83.465116",
+      "Event name": "Data Expedition in Butwal",
+      "Number of participants": "25"
+    },
+    {
+      "Place": "Santos, São Paulo - Brasil",
+      "URL": "",
+      "Latitude": "-23.949302",
+      "Longitude": "-46.324161",
+      "Event name": "OpenDataDay 2020 Py013",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Frankfurt am Main, Germany",
+      "URL": "http://hackfrankfurt.de",
+      "Latitude": "50.125334",
+      "Longitude": "8.706033",
+      "Event name": "#HackFrankfurt 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Pasto ",
+      "URL": "",
+      "Latitude": "1.231777",
+      "Longitude": "-77.29349",
+      "Event name": "Sin Talla, datos de violencia de género Universidad de Nariño",
+      "Number of participants": "40"
+    },
+    {
+      "Place": "Nagoya, Aichi, Japan",
+      "URL": "https://www.facebook.com/events/1052352621786992/",
+      "Latitude": "35.178435",
+      "Longitude": "136.895103",
+      "Event name": "ぷらんと！なごやめしデータソン",
+      "Number of participants": "15"
+    },
+    {
+      "Place": "Maseru, Lesotho",
+      "URL": "",
+      "Latitude": "-29.315077",
+      "Longitude": "27.486923",
+      "Event name": "Opening Humanitarian and Aid Data",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Yangon",
+      "URL": "phandeeyar.org",
+      "Latitude": "16.772071",
+      "Longitude": "96.156579",
+      "Event name": "Open Data Day 2020",
+      "Number of participants": "300"
+    },
+    {
+      "Place": "Egypt,China, United States and philippines",
+      "URL": "Yes,every one who is interestly and purposely",
+      "Latitude": "26.820553",
+      "Longitude": "30.802498",
+      "Event name": "Open data day",
+      "Number of participants": "56"
+    },
+    {
+      "Place": "Dar es Salaam, Tanzania",
+      "URL": "https://open-data-day.eventbrite.com",
+      "Latitude": "-6.771459",
+      "Longitude": "39.240269",
+      "Event name": "How Open Data can Help Tanzania",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Paris",
+      "URL": "https://fr.okfn.org/2020/01/30/open-data-day-7-mars-2020",
+      "Latitude": "48.856613",
+      "Longitude": "2.352222",
+      "Event name": "Journée des données environnementales ouvertes",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Rosario",
+      "URL": "",
+      "Latitude": "-32.95924",
+      "Longitude": "-60.683479",
+      "Event name": "Datos Abiertos para la acción legislativa",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Karlsruhe",
+      "URL": "https://codefor.de/karlsruhe/",
+      "Latitude": "49.002567",
+      "Longitude": "8.383672",
+      "Event name": "Open Data Day 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Kabul Afghanistan",
+      "URL": "www.cheragh-medical.tv",
+      "Latitude": "34.555347",
+      "Longitude": "69.207489",
+      "Event name": "Kabul is Talking (open data & environment)",
+      "Number of participants": "10"
+    },
+    {
+      "Place": "Buenos Aires",
+      "URL": "https://www.eventbrite.com.ar/e/datacamp-genero-y-diversidad-tickets-92347853917",
+      "Latitude": "-34.603683",
+      "Longitude": "-58.381557",
+      "Event name": "DataCamp Género y Diversidad",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Papeete",
+      "URL": "https://www.meetup.com/fr-FR/Tahiti-Developpeurs/events/268380278/",
+      "Latitude": "-17.539818",
+      "Longitude": "-149.5662",
+      "Event name": "Open Data Day 2020 in Tahiti (Hackathon / Cartopartie)",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Algiers",
+      "URL": "",
+      "Latitude": "36.7159962",
+      "Longitude": "3.1831532",
+      "Event name": "OpenMinds Data Day",
+      "Number of participants": "60"
+    },
+    {
+      "Place": "Utrecht",
+      "URL": "https://nl.wikipedia.org/wiki/Wikipedia:Wikiproject/Gendergap/InternationaleVrouwendag2020#Gendergap_WikiZaterdag_in_het_kader_van_Internationale_Vrouwendag_-_7_maart_2020",
+      "Latitude": "52.090736",
+      "Longitude": "5.12142",
+      "Event name": "WikiSaturday: (learn to) edit Wikidata, Wikimedia Commons, Wikipedia - Theme: International Womens Day",
+      "Number of participants": "40"
+    },
+    {
+      "Place": "Schenectady",
+      "URL": "https://muse.union.edu/cda/2020/01/13/open-data-day-2020-hackathon/",
+      "Latitude": "42.8142",
+      "Longitude": "-73.9396",
+      "Event name": "Open Data Day 2020 Hackathon",
+      "Number of participants": "25"
+    },
+    {
+      "Place": "Rio de Janeiro",
+      "URL": "https://www.meetup.com/pt-BR/Cerveja-com-Dados/events/268359136/",
+      "Latitude": "-22.906847",
+      "Longitude": "-43.172897",
+      "Event name": "Cerveja com Dados #08 - Edição Open Data Day",
+      "Number of participants": "60"
+    },
+    {
+      "Place": "Costa Rica",
+      "URL": "https://gobiernoabierto.go.cr/odd2020",
+      "Latitude": "9.936117",
+      "Longitude": "-84.072993",
+      "Event name": "Open Data Day , Costa Rica 2020",
+      "Number of participants": "200"
+    },
+    {
+      "Place": "Taipei, Taiwan",
+      "URL": "https://opendata.tca.org.tw/asia/about.php",
+      "Latitude": "25.047955",
+      "Longitude": "121.54957",
+      "Event name": "Open Data Day Taipei",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Bandung, Indonesia",
+      "URL": "https://forms.gle/imX5RtdyNup3C5VNA",
+      "Latitude": "-6.8874113",
+      "Longitude": "107.6283645",
+      "Event name": "Budget Literacy for Bigger Participation\n",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Haymarket, Sydney, Australia",
+      "URL": "https://bit.ly/OpenDataDay2020",
+      "Latitude": "-33.880525",
+      "Longitude": "151.206456",
+      "Event name": "Open Data Day 2020 - Pitch Competition",
+      "Number of participants": "130"
+    },
+    {
+      "Place": "Munich",
+      "URL": "https://muenchen.digital/blog/dabei-sein-beim-open-data-hackathon-2020/",
+      "Latitude": "48.12511",
+      "Longitude": "11.60598",
+      "Event name": "Open Data Hackathon: Practice the Theory",
+      "Number of participants": "120"
+    },
+    {
+      "Place": "Manchester, UK",
+      "URL": "",
+      "Latitude": "53.480759",
+      "Longitude": "-2.242631",
+      "Event name": "Open Data Day 2020 with Open Data Manchester",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Ile Ife",
+      "URL": "www.copine.org.ng",
+      "Latitude": "7.20139",
+      "Longitude": "4.20416",
+      "Event name": " Application of Land use Land cover Open Data mapping for sustainable development of Southwest, Nigeria. ",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Nova Scotia",
+      "URL": "",
+      "Latitude": "44.63704",
+      "Longitude": "-63.58834",
+      "Event name": "Nova Scotia Open Data Contest",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Abuja Nigeria",
+      "URL": "not yet available",
+      "Latitude": "9.076479",
+      "Longitude": "7.398574",
+      "Event name": "Open Data Day celebration",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "IGBOROSUN TOWN HALL, BADAGRY, LAGOS STATE, NIIGERIA",
+      "URL": "https://saeioglobal.com/event/",
+      "Latitude": "6.416901",
+      "Longitude": "2.886313",
+      "Event name": "CO-DATA 4 ALL",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Barcelona",
+      "URL": "http://governobert.gencat.cat/ca/dades_obertes/cafe-amb-dades/",
+      "Latitude": "41.385063",
+      "Longitude": "2.173404",
+      "Event name": "6a Sessió Cafè amb dades: Dades liles per a la igualtat ",
+      "Number of participants": "120"
+    },
+    {
+      "Place": "Pokhara",
+      "URL": "",
+      "Latitude": "28.25463",
+      "Longitude": "83.976463",
+      "Event name": "Open Data Day ",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Porto",
+      "URL": "http://datewithdata.pt/",
+      "Latitude": "41.151351",
+      "Longitude": "-8.616243",
+      "Event name": "Open Data Day 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Rimouski, Québec, Canada",
+      "URL": "www.hackqc.ca",
+      "Latitude": "48.448891",
+      "Longitude": "-68.524033",
+      "Event name": "HackQC",
+      "Number of participants": "150"
+    },
+    {
+      "Place": "Tuxtla Gutiérrez, Chiapas",
+      "URL": "https://datosypox-desarrollo.eventbrite.es",
+      "Latitude": "16.754568",
+      "Longitude": "-93.116148",
+      "Event name": "Datos & Pox | Equidad y Desarrollo",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Osaka. pref. kishiwada city ,JAPAN",
+      "URL": "",
+      "Latitude": "34.425784",
+      "Longitude": "135.439149",
+      "Event name": "岸和田おーぷんでーたそん2020",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Sacramento, CA ",
+      "URL": "https://www.eventbrite.com/e/ypt-stop-human-trafficking-hackathon-tickets-85426056635?aff=ebdssbeac",
+      "Latitude": "38.57705",
+      "Longitude": "-121.46979",
+      "Event name": "YPT Stop Human Trafficking Hackathon ",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Colombo",
+      "URL": "https://www.veriteresearch.org/",
+      "Latitude": "6.93197",
+      "Longitude": "79.85775",
+      "Event name": "Pre-Budget Forum",
+      "Number of participants": "65"
+    },
+    {
+      "Place": "Pretoria",
+      "URL": "https://www.up.ac.za/geography-geoinformatics-and-meteorology/calendar/event-info/2871367/mapping-mamelodi-open-data-day-2020",
+      "Latitude": "-25.747868",
+      "Longitude": "28.229271",
+      "Event name": "Mapping Mamelodi: Open Data Day 2020",
+      "Number of participants": "40"
+    },
+    {
+      "Place": "istanbul",
+      "URL": "https://forms.gle/NazEPreaHVKqw6Mt8",
+      "Latitude": "41.00824",
+      "Longitude": "28.978359",
+      "Event name": "Open Data Day 2020 Meet Up",
+      "Number of participants": "15"
+    },
+    {
+      "Place": "Kyiv, Ukraine",
+      "URL": "https://www.facebook.com/events/583823012467875",
+      "Latitude": "50.447181",
+      "Longitude": "30.514426",
+      "Event name": "International Open Data Day 2020 (Ukraine)",
+      "Number of participants": "200"
+    },
+    {
+      "Place": "Tunja, Colombia ",
+      "URL": ".",
+      "Latitude": "-73.36638",
+      "Longitude": "5.53859",
+      "Event name": "dd",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Port Harcourt  & other Locations in Nigeria",
+      "URL": "https://www.eventbrite.com/e/open-data-mapping-for-women-empowerment-lets-be-eachforequal-tickets-93609770343",
+      "Latitude": "4.90031",
+      "Longitude": "6.9211",
+      "Event name": "Open Data Mapping For Women Empowerment:Let's be #EachforEqual",
+      "Number of participants": "500"
+    },
+    {
+      "Place": "Kasangulu, Democratic republic of Congo",
+      "URL": "TBD",
+      "Latitude": "-4.631778",
+      "Longitude": "15.181222",
+      "Event name": "DRCongo  Open  Data Day 2020",
+      "Number of participants": "150"
+    },
+    {
+      "Place": "Bohicon",
+      "URL": "",
+      "Latitude": "7.18043",
+      "Longitude": "2.0671",
+      "Event name": "OPEN BOHICON",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Federal school of Surveying Oyo Nigeria  at the cartography laboratory.  9th of February Sunday 2020 ",
+      "URL": "<a href=\"https://www.latlong.net/c/?lat=7.403290&long=3.904650\" target=\"_blank\">(7.403290, 3.904650)</a>",
+      "Latitude": "3.90465",
+      "Longitude": "7.40329",
+      "Event name": "Mapathon",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Kumasi, Ghana",
+      "URL": "",
+      "Latitude": "6.67257",
+      "Longitude": "-1.57365",
+      "Event name": "GIS data acquisition for women businesses ",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Havana, Cuba",
+      "URL": "",
+      "Latitude": "23.1165",
+      "Longitude": "-82.3882",
+      "Event name": "Open Data Jornalism: Shared experiences from Cuba",
+      "Number of participants": "35"
+    },
+    {
+      "Place": "San José",
+      "URL": "https://www.eventbrite.com/e/dia-internacional-de-los-datos-abiertos-tickets-93582011315",
+      "Latitude": "9.94008",
+      "Longitude": "-84.120881",
+      "Event name": "Día de los Datos Abiertos en ULEAD",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Yala, Thailand",
+      "URL": "",
+      "Latitude": "6.550543",
+      "Longitude": "101.2818",
+      "Event name": "Open Data Day 2020 هاري داتا تربوکا انتارا بڠسا\n",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Abomey Calavi",
+      "URL": "https://www.openstreetmap.bj/events/opendataday-2020/  Contacts: osmbenin@gmail.com; contact@openstreetmap.bj Tel: + 229 94 318633 Inscription: https://framaforms.org/inscription-a-lopen-data-day-2020-1581213488",
+      "Latitude": "6.414455",
+      "Longitude": "2.343109",
+      "Event name": "Open Data Day Celebration 2020 Abomey-Calavi",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Salvador",
+      "URL": "https://sites.google.com/view/openstreetmapdatadayufba/capa",
+      "Latitude": "-12.999679",
+      "Longitude": "-38.510434",
+      "Event name": "Open Street Map Data Day - UFBA: Communities Mapping Communities",
+      "Number of participants": "120"
+    },
+    {
+      "Place": " https://www.openstreetmap.org/way/545122836#map=19/6.42468/7.50552 :  University of Nigeria Enugu Campus, Enugu state Nigeria",
+      "URL": "https://www.eventbrite.com/e/open-data-mapping-for-women-empowerment-lets-be-eachforequal-tickets-93609770343",
+      "Latitude": "7.45078",
+      "Longitude": "3.89971",
+      "Event name": "Open Data Mapping for Women Empowerment : Let's be #EachforEqual",
+      "Number of participants": "153"
+    },
+    {
+      "Place": "Tartu",
+      "URL": "",
+      "Latitude": "58.377983",
+      "Longitude": "26.729038",
+      "Event name": "Estonian Environmental Data Meetup (celebrating World Open Data Day 2020)",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Valencia  - Venezuela",
+      "URL": "https://clisi.org/valores/",
+      "Latitude": "10.273793",
+      "Longitude": "-68.000028",
+      "Event name": "Bibliotecas, Datos Abiertos y Digitalización",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Lomé",
+      "URL": "",
+      "Latitude": "6.184682",
+      "Longitude": "1.178371",
+      "Event name": "Mapathon",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Yola, Nigeria ",
+      "URL": "",
+      "Latitude": "9.259568",
+      "Longitude": "12.444873",
+      "Event name": "Application of Open Data Mapping for humanitarian response to flood disaster in Adamawa state, Nigeria. (Mapathon)",
+      "Number of participants": "35"
+    },
+    {
+      "Place": "Lomé",
+      "URL": "",
+      "Latitude": "6.162625",
+      "Longitude": "1.202778",
+      "Event name": "Countribution of open data in environment protection ",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "costa rica ",
+      "URL": "",
+      "Latitude": "9.928069",
+      "Longitude": "-84.090729",
+      "Event name": "Conversatorio sin Fronteras: Datos Abiertos y Migración",
+      "Number of participants": "35"
+    },
+    {
+      "Place": "Columbus Ohio",
+      "URL": "https://www.meetup.com/OpenColumbus/events/268591690/",
+      "Latitude": "39.961178",
+      "Longitude": "-82.998795",
+      "Event name": "International Open Data Day 2020 hackathon",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Durban",
+      "URL": "",
+      "Latitude": "-29.858681",
+      "Longitude": "31.021839",
+      "Event name": "Open Data Day: Community Science ",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Recife",
+      "URL": "https://www.instagram.com/dadosabertospernambuco/",
+      "Latitude": "-8.06449",
+      "Longitude": "-34.87427",
+      "Event name": "Open Data Day Recife: Dados Abertos para um Futuro Melhor",
+      "Number of participants": "110"
+    },
+    {
+      "Place": "Morelia, Michoacán",
+      "URL": "https://www.facebook.com/events/187974652445062/",
+      "Latitude": "19.70187",
+      "Longitude": "-101.192337",
+      "Event name": "Open Data Day 2020 - Morelia, Michoacán",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Porto Alegre, RS, Brazil",
+      "URL": "https://docs.google.com/forms/d/e/1FAIpQLScg-SI6aGpAyPhorEskGTuP2u74ZuGtIGuzSlha3tgfxSczLA/viewform",
+      "Latitude": "-30.034647",
+      "Longitude": "-51.217659",
+      "Event name": "Dia dos Dados Abertos POA 2020",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Santiago de Cali",
+      "URL": "https://www.facebook.com/events/693320431072481/",
+      "Latitude": "3.41564",
+      "Longitude": "-76.546143",
+      "Event name": "Datos y Birras Cali",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Perth, Western Australia",
+      "URL": "https://data.wa.gov.au/",
+      "Latitude": "-31.95285",
+      "Longitude": "115.857307",
+      "Event name": "WA Open Data Day",
+      "Number of participants": "120"
+    },
+    {
+      "Place": "Chattanooga, TN",
+      "URL": "https://connect.chattanooga.gov/events/international-open-data-day-celebration/",
+      "Latitude": "35.052456",
+      "Longitude": "-85.261378",
+      "Event name": "Chattanooga's Open Data Day ",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Cagliari",
+      "URL": "http://www.cagliariopendataday.eu/",
+      "Latitude": "39.221728",
+      "Longitude": "9.104607",
+      "Event name": "Cagliari Open Data Day 2020",
+      "Number of participants": "70"
+    },
+    {
+      "Place": "Ciudad Obregón",
+      "URL": "https://www.eventbrite.com.mx/e/94451863065",
+      "Latitude": "27.508089",
+      "Longitude": "-109.9745163",
+      "Event name": "Open Data Day Cajeme",
+      "Number of participants": "80"
+    },
+    {
+      "Place": "Xalapa, Veracruz",
+      "URL": "",
+      "Latitude": "19.527269",
+      "Longitude": "-96.9235",
+      "Event name": "Open Data Day Xalapa 2020",
+      "Number of participants": "150"
+    },
+    {
+      "Place": "Louisville, KY",
+      "URL": "https://www.eventbrite.com/e/open-data-day-2020-louisville-tickets-92773326517",
+      "Latitude": "38.252666",
+      "Longitude": "-85.758453",
+      "Event name": "Louisville Open Data Day",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Münster",
+      "URL": "https://codeformuenster.org/opendataday/",
+      "Latitude": "51.96471",
+      "Longitude": "7.6285",
+      "Event name": "Open Data Day Münster 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Palermo, Italy",
+      "URL": "https://www.eventbrite.it/e/biglietti-1-datathon-di-muv-per-la-valorizzazione-dei-dati-sulla-mobilita-di-palermo-93055482453",
+      "Latitude": "38.119149",
+      "Longitude": "13.337738",
+      "Event name": "1° Datathon di MUV per la valorizzazione dei dati sulla mobilità di Palermo",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Durban",
+      "URL": "bit.ly/KZN2020",
+      "Latitude": "-29.86033",
+      "Longitude": "30.95869",
+      "Event name": "Open Data Day 2020: Women and Health in KwaZulu-Natal",
+      "Number of participants": "40"
+    },
+    {
+      "Place": "Mexico City",
+      "URL": "i2ds.org",
+      "Latitude": "19.432608",
+      "Longitude": "-99.133209",
+      "Event name": "Cuidemos la integridad de nuestros niños en las vialidades",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Buenos Aires",
+      "URL": "datacamp.eventbrite.com.ar",
+      "Latitude": "-34.603683",
+      "Longitude": "-58.381557",
+      "Event name": "Data Camp Género y Diversidad",
+      "Number of participants": "150"
+    },
+    {
+      "Place": "Sacramento, CA",
+      "URL": "https://www.meetup.com/Code4Sac/events/268675615/",
+      "Latitude": "38.581573",
+      "Longitude": "-121.4944",
+      "Event name": "Exploring Sacramento Homelessness Data and California Expenditure Data",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Nagano, Japan",
+      "URL": "https://glnagano.connpass.com/event/167423/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom",
+      "Latitude": "36.649212",
+      "Longitude": "138.182273",
+      "Event name": "Open Data Day 2020 in GEEKLAB.NAGANO",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Quito",
+      "URL": "Www.datalat.org/opendataday",
+      "Latitude": "-0.21495",
+      "Longitude": "-78.513199",
+      "Event name": "Open Data Day UIO 2020",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Virtual event - but focussed on the heritage of the UK",
+      "URL": "https://www.freeukgenealogy.org.uk/news/2020/02/14/brick-wall-challenge-open-data-day-2020/",
+      "Latitude": "54.28013",
+      "Longitude": "-0.4024",
+      "Event name": "Brick Wall  UK Ancestors Challenge",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Puebla",
+      "URL": "geamatica.me",
+      "Latitude": "19.041439",
+      "Longitude": "-98.206276",
+      "Event name": "Ambiente y Datos Abiertos: ¿Qué nos dicen de los Informes Preventivos?",
+      "Number of participants": "25"
+    },
+    {
+      "Place": "Tunis",
+      "URL": "http://geodatahackathon.egovsociety.tn/",
+      "Latitude": "36.830966",
+      "Longitude": "10.225459",
+      "Event name": "2020 Tunisia Open GeoData Hack",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Zagreb",
+      "URL": "https://odd.codeforcroatia.org/",
+      "Latitude": "45.7848386",
+      "Longitude": "15.9471443",
+      "Event name": "Dani otvorenih podataka Hrvatska 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Mérida, Venezuela",
+      "URL": "https://qu4nt.com/opendataday/",
+      "Latitude": "8.607535",
+      "Longitude": "-71.137998",
+      "Event name": "Open Data Day 2020: Abrir datos es un juego",
+      "Number of participants": "75"
+    },
+    {
+      "Place": "Nairobi",
+      "URL": "https://opendatadaynairobi.splashthat.com/",
+      "Latitude": "-1.280374",
+      "Longitude": "36.816216",
+      "Event name": "Open Data Day Nairobi",
+      "Number of participants": "60"
+    },
+    {
+      "Place": "Concepción del Uruguay",
+      "URL": "www.datosriouruguay.org",
+      "Latitude": "-32.48465",
+      "Longitude": "-58.232929",
+      "Event name": "Día de los Datos Abiertos del Río Uruguay",
+      "Number of participants": "40"
+    },
+    {
+      "Place": "Berlin",
+      "URL": "https://www.meetup.com/OK-Lab-Berlin/events/268782634/",
+      "Latitude": "52.49845",
+      "Longitude": "13.38116",
+      "Event name": "Open Data Day 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Paris",
+      "URL": "https://katjaq.github.io/open-data-day/",
+      "Latitude": "48.8376011",
+      "Longitude": "2.335307",
+      "Event name": "Open Data Day Paris",
+      "Number of participants": "15"
+    },
+    {
+      "Place": "Marseille ",
+      "URL": "https://datactivist.coop/opendatadays/",
+      "Latitude": "43.298149",
+      "Longitude": "5.37477",
+      "Event name": "Open Data Days",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Brazzaville (République du Congo)",
+      "URL": "",
+      "Latitude": "-4.26336",
+      "Longitude": "15.242885",
+      "Event name": "Mapathon du Congo",
+      "Number of participants": "25"
+    },
+    {
+      "Place": "Santos, SP - Brasil",
+      "URL": "https://www.meetup.com/pt-BR/BxPy013/events/rxqjprybcdbmc/",
+      "Latitude": "-23.956289",
+      "Longitude": "-46.326462",
+      "Event name": "OpenDataDay Santos 2020",
+      "Number of participants": "35"
+    },
+    {
+      "Place": "Sapporo",
+      "URL": "",
+      "Latitude": "43.062096",
+      "Longitude": "141.35437",
+      "Event name": "IODD 2020 Sapporo",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "University of Nigeria Nsukka",
+      "URL": "https://www.latlong.net/c/?lat=6.858130&long=7.396800",
+      "Latitude": "6.85813",
+      "Longitude": "7.3968",
+      "Event name": "UNIQUE MAPPERS NSUKKA CELEBRATES OPEN DATA DAY 2020 ",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Barcelona",
+      "URL": "https://www.aoc.cat/consorci-aoc/opendataday2020/",
+      "Latitude": "41.38081",
+      "Longitude": "2.15639",
+      "Event name": "Obre les teves dades",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "San Salvador",
+      "URL": "https://www.facebook.com/events/471731973711741/",
+      "Latitude": "13.69294",
+      "Longitude": "-89.218193",
+      "Event name": "Open Data Fest 2020",
+      "Number of participants": "80"
+    },
+    {
+      "Place": "Veracruz, Veracruz",
+      "URL": "",
+      "Latitude": "19.173773",
+      "Longitude": "-96.134224",
+      "Event name": "Open Data Day Veracruz ",
+      "Number of participants": "80"
+    },
+    {
+      "Place": "Alcobendas (Comunidad de Madrid)",
+      "URL": "http://eventos.upm.es/go/ODD2020",
+      "Latitude": "40.55147",
+      "Longitude": "-3.65015",
+      "Event name": "Día de los Datos Abiertos 2020 (Alcobendas, Comunidad de Madrid)",
+      "Number of participants": ""
+    },
+    {
+      "Place": "New York, NY",
+      "URL": "https://schoolofdata.nyc/",
+      "Latitude": "40.746429",
+      "Longitude": "-73.944069",
+      "Event name": "NYC School of Data 2020",
+      "Number of participants": "600"
+    },
+    {
+      "Place": "Taipei",
+      "URL": "https://wikidatatw.kktix.cc/events/oddtw2020",
+      "Latitude": "25.04406",
+      "Longitude": "121.53218",
+      "Event name": "Open Data Day Taiwan 2020",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "福岡県久留米市",
+      "URL": "https://www.facebook.com/kurume.opendata/",
+      "Latitude": "33.313509",
+      "Longitude": "130.511769",
+      "Event name": "「RESAS×我が街くるめ」～ハンズオン　地域経済分析システム～",
+      "Number of participants": "24"
+    },
+    {
+      "Place": "Kotamobagu",
+      "URL": "",
+      "Latitude": "0.7354",
+      "Longitude": "124.30757",
+      "Event name": "Pelatihan Open Data Bagi Jurnalis di Bolaang Mongondow Raya",
+      "Number of participants": "10"
+    },
+    {
+      "Place": "Dodoma Secondary School, Dodoma, Tanzania",
+      "URL": "https://forms.gle/EXsf2hZn6tfh7PTB6",
+      "Latitude": "-6.17462",
+      "Longitude": "35.74248",
+      "Event name": "Awareness Creation: Open Data, Open Knowledge and Development Impacts",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Girei Nigeria",
+      "URL": "",
+      "Latitude": "9.36352",
+      "Longitude": "12.54622",
+      "Event name": "Fisheries Stakeholders",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Belo Horizonte",
+      "URL": "https://www.sympla.com.br/open-data-day---belo-horizonte__796449",
+      "Latitude": "-19.94525",
+      "Longitude": "-43.94145",
+      "Event name": "Open Data Day - Belo Horizonte",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Campinas",
+      "URL": "https://www.sympla.com.br/open-data-dextra-day__776884",
+      "Latitude": "-22.816729",
+      "Longitude": "-47.045005",
+      "Event name": "Open Data Dextra Day",
+      "Number of participants": "120"
+    },
+    {
+      "Place": "Garowe",
+      "URL": "http://bareedo.org/open-data-day-event-registration-form/",
+      "Latitude": "8.408416",
+      "Longitude": "48.483723",
+      "Event name": "Open Data Day 2020",
+      "Number of participants": "40"
+    },
+    {
+      "Place": "Recife",
+      "URL": "http://bit.ly/oddrecife",
+      "Latitude": "-8.06449",
+      "Longitude": "-34.87427",
+      "Event name": "Open Data Day Recife",
+      "Number of participants": "40"
+    },
+    {
+      "Place": "The event will take place in Ibadan, Oyo State, which is the largest city in West Africa.",
+      "URL": "",
+      "Latitude": "7.36197",
+      "Longitude": "3.86679",
+      "Event name": "Data For Equal Development In Nigeria",
+      "Number of participants": "200"
+    },
+    {
+      "Place": "Hamilton, ON Canada",
+      "URL": "https://events.hpl.ca/event/4113556",
+      "Latitude": "43.256531",
+      "Longitude": "-79.87442",
+      "Event name": "City of Hamilton Open Data Day Coference",
+      "Number of participants": "140"
+    },
+    {
+      "Place": "Pasig, Philippines",
+      "URL": "https://www.facebook.com/events/2439505106154288/?notif_t=plan_user_associated&notif_id=1582267990175227",
+      "Latitude": "14.5723792",
+      "Longitude": "14.5723792",
+      "Event name": "OpenStreetMap Philippines Open Data Day",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Baguio City, Philippines",
+      "URL": "https://ti.to/mapatime/slu-osmapaaralan",
+      "Latitude": "16.41828",
+      "Longitude": "120.59737",
+      "Event name": "MapaTime! celebrates Open Data Day in Baguio @ SLU",
+      "Number of participants": "25"
+    },
+    {
+      "Place": "Pasig, Philippines",
+      "URL": "https://www.facebook.com/events/2439505106154288/",
+      "Latitude": "14.57232",
+      "Longitude": "121.05769",
+      "Event name": "OpenStreetMap Philippines Open Data Day 2020",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Johannesburg",
+      "URL": "https://joburg2020.satrdays.org/",
+      "Latitude": "-26.11319",
+      "Longitude": "28.05326",
+      "Event name": "satRday South Africa 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Santiago",
+      "URL": "https://events.redhat.com/profile/137238",
+      "Latitude": "-33.391283",
+      "Longitude": "-70.54488",
+      "Event name": "Starting Small: Open Data in Chile (Short Documentary Premiere)",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Stockholm",
+      "URL": "https://www.meetup.com/Data-Visualization-Stockholm/events/268908429/",
+      "Latitude": "59.303728",
+      "Longitude": "18.083807",
+      "Event name": "Open Data Day Stockholm",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Kharkiv",
+      "URL": "https://www.facebook.com/events/1027774037599057/",
+      "Latitude": "49.9935",
+      "Longitude": "36.230385",
+      "Event name": "Kharkiv Open Data Day 2020",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Lima",
+      "URL": "https://bit.ly/2wF3YZ0",
+      "Latitude": "-12.046373",
+      "Longitude": "-77.042755",
+      "Event name": "Datatón para prevenir la violencia contra la mujer, niños e integrantes del grupo familiar",
+      "Number of participants": "150"
+    },
+    {
+      "Place": "Tunja, Colombia",
+      "URL": "https://www.eduna.org/eduna-open-data-day/",
+      "Latitude": "5.532697",
+      "Longitude": "-73.360468",
+      "Event name": "EDUNA OPEN DATA DAY",
+      "Number of participants": "70"
+    },
+    {
+      "Place": "Belgrade",
+      "URL": "https://ohsa.netlify.com",
+      "Latitude": "44.82359",
+      "Longitude": "20.45575",
+      "Event name": "open data challenge workshop",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Akwettemen ,Accra",
+      "URL": "www.fbridgeinternational.org ",
+      "Latitude": "37.47237",
+      "Longitude": "-4.42875",
+      "Event name": "Measuring Impacts for jobs and wealth creation ",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Bogotá, Colombia",
+      "URL": "https://www.youtube.com/channel/UCpPbIrWk1JHL9aZO7SO8hKA",
+      "Latitude": "4.710989",
+      "Longitude": "-74.07209",
+      "Event name": "Calidaton de Datos Abiertos",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Takasago",
+      "URL": "https://www.facebook.com/events/496047381101990/",
+      "Latitude": "34.747403",
+      "Longitude": "134.80215",
+      "Event name": "OpenDatathon at Takasago 2",
+      "Number of participants": ""
+    },
+    {
+      "Place": "HYderabad",
+      "URL": "",
+      "Latitude": "17.52073",
+      "Longitude": "78.25714",
+      "Event name": "Open Data Day",
+      "Number of participants": "1"
+    },
+    {
+      "Place": "Leipzig",
+      "URL": "https://www.meetup.com/de-DE/OK-Lab-Leipzig/events/268832194/",
+      "Latitude": "51.3320818",
+      "Longitude": "12.37346868",
+      "Event name": "OpenDataDay 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Thessaloniki, Greece ",
+      "URL": "https://www.lib.auth.gr/el/odd2020",
+      "Latitude": "40.629638",
+      "Longitude": "22.958064",
+      "Event name": "Open or fake science predatory journals and plagiarism (3rd March 2020)",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Chiclayo, Perú",
+      "URL": "https://docs.google.com/forms/d/e/1FAIpQLSc1Pj8AKiO5LLOs02LWvVdomXoYruj2d8rk2p9q9MRQDOmhhg/viewform",
+      "Latitude": "-6.771081",
+      "Longitude": "-79.839085",
+      "Event name": "Comunidata 2020: Datos abiertos para la Transformación Digital",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Brisbane, Queensland, Australia",
+      "URL": "https://www.slq.qld.gov.au/makingmeaning",
+      "Latitude": "-27.471187",
+      "Longitude": "153.018062",
+      "Event name": "Making Meaning: Collections as Data Symposium",
+      "Number of participants": "200"
+    },
+    {
+      "Place": "Leeds, West Yorkshire, UK",
+      "URL": "https://attending.io/events/there-s-a-map-for-that",
+      "Latitude": "53.79969",
+      "Longitude": "-1.5491",
+      "Event name": "There's a Map For That",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Kanazawa, Ishikawa, Japan",
+      "URL": "https://www.facebook.com/events/2646025215620887/",
+      "Latitude": "36.561031",
+      "Longitude": "136.656647",
+      "Event name": "今年は金沢カレーだ！：インターナショナル・オープンデータ・デイ 2020 in ISHIKAWA",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Lilongwe",
+      "URL": "",
+      "Latitude": "-14.1821",
+      "Longitude": "33.77787",
+      "Event name": "Open Data and its Benefits: Raising awareness to Librarians",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Vinnitsa",
+      "URL": "",
+      "Latitude": "49.232091",
+      "Longitude": "28.468425",
+      "Event name": "Круглий стіл розпорядників відкритих даних ВМР",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "São Paulo",
+      "URL": "https://br.okfn.org/2020/02/21/open-data-day-em-sao-paulo-explorando-dados-do-legislativo-local/",
+      "Latitude": "-23.55621",
+      "Longitude": "-46.682",
+      "Event name": "Open Data Day São Paulo - Explorando dados do Legislativo local ",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Online",
+      "URL": "https://www.eventbrite.com.au/o/australian-smart-communities-association-7668668527",
+      "Latitude": "-27.46977",
+      "Longitude": "153.025131",
+      "Event name": "Open Data Webinar",
+      "Number of participants": "250"
+    },
+    {
+      "Place": "AITI-KACE, Accra",
+      "URL": "https://docs.google.com/forms/d/e/1FAIpQLSd088eM4F_PRrcFRjS1692v00kvC_BRoiZ9d7kn7PLjB7XXSg/viewform",
+      "Latitude": "5.5804",
+      "Longitude": "-0.19479",
+      "Event name": "Open Data Day 2020 Celebration in Ghana ",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Aizu,Japan",
+      "URL": "https://www.facebook.com/events/200630197853194/",
+      "Latitude": "37.492264",
+      "Longitude": "139.930238",
+      "Event name": "オープンデータについて語ろう",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Kathmandu",
+      "URL": "",
+      "Latitude": "27.734017",
+      "Longitude": "85.336859",
+      "Event name": "Mapping the Unmapped: ODD 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Nagoya, Aichi, Japan",
+      "URL": "https://www.facebook.com/events/2346062398826570/",
+      "Latitude": "35.159399",
+      "Longitude": "136.987255",
+      "Event name": "Nagoya-shi Open Data Borderless Roundtable (名古屋市オープンデータ ボーダレスラウンドテーブル)",
+      "Number of participants": "15"
+    },
+    {
+      "Place": "Accra",
+      "URL": "http://iwatchafrica.org/2020/02/27/call-for-participants-iwatch-africas-2020-open-data-day-forum/",
+      "Latitude": "5.559428",
+      "Longitude": "-0.191968",
+      "Event name": "Leveraging the power of public domain satellite and drone imagery to track deforestation and water pollution in West Africa.",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Berlin",
+      "URL": "https://www.eventbrite.com/e/climate-data-sprint-tickets-96432623573",
+      "Latitude": "52.54426",
+      "Longitude": "13.3724",
+      "Event name": "Climate Data Sprint",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Manaus",
+      "URL": "http://oceanbrasil.com/agenda/detalhes/?event_code=17825e4738300cbce",
+      "Latitude": "-3.119028",
+      "Longitude": "-60.021732",
+      "Event name": "OpenDataDay Manaus 2020",
+      "Number of participants": "150"
+    },
+    {
+      "Place": "Rome - Virtual event",
+      "URL": "https://zoom.us/j/944409995",
+      "Latitude": "41.86783",
+      "Longitude": "12.47917",
+      "Event name": "A colazione con... Open Data Strategy",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Yusufari, yobe state, Nigeria",
+      "URL": "",
+      "Latitude": "3811",
+      "Longitude": "1138",
+      "Event name": "Yusufari open data day",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Atimpoku is the capital of Asuogyaman District of the Eastern Region of Ghana. Atimpoku is near Akosombo (noted for Hydro-Electricity Generation and Dam and tourist hub of Ghana) and has monumental Landmarks like the Volta Lake and Adomi Bridge.",
+      "URL": "",
+      "Latitude": "6.23561",
+      "Longitude": "0.07707",
+      "Event name": "Celebrating Open Data 2020 in Atimpoku, Asuogyaman. Environmental Data: Illustrating Climate Change and Need for Urgent Action by Use of Rainfall Data",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "University of Cape Town",
+      "URL": "https://uct.ac.za.libcal.com/event/6548704",
+      "Latitude": "-33.9586111",
+      "Longitude": "18.4591892",
+      "Event name": "Open Data Day @ UCT",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Mazatlán, Sinaloa.",
+      "URL": "https://www.facebook.com/sheila.arias.54",
+      "Latitude": "23.249414",
+      "Longitude": "106.41114",
+      "Event name": "Conversatorio \"Datos abiertos, herramienta pública en el combate a la corrupción\". ",
+      "Number of participants": "15"
+    },
+    {
+      "Place": "Valencia",
+      "URL": "https://catgo.webs.upv.es/la-catedra-govern-obert-conmemora-el-dia-mundial-de-los-datos-abiertos-con-una-jornada-tecnica-dirigida-a-centros-educativos/",
+      "Latitude": "39.482778",
+      "Longitude": "-0.347711",
+      "Event name": "II Jornada +Dades Obertes en Centres Educatius",
+      "Number of participants": "125"
+    },
+    {
+      "Place": "Aomori-city,Japan",
+      "URL": "https://www.cordeforaomori.org/",
+      "Latitude": "40.826815",
+      "Longitude": "140.73484",
+      "Event name": "International OpenData Day 2020 in Aomori",
+      "Number of participants": "10"
+    },
+    {
+      "Place": "Armação dos Búzios",
+      "URL": "",
+      "Latitude": "-22.758909",
+      "Longitude": "-41.9562",
+      "Event name": "Dados Abertos e suas trilhas - Divulgação através de QR Codes",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Bucharest",
+      "URL": "http://ogp.gov.ro/nou/2020/02/28/open-data-day-2020/",
+      "Latitude": "44.426765",
+      "Longitude": "26.102537",
+      "Event name": "Open Data Day Bucharest 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Quito",
+      "URL": "https://www.datalat.org/opendataday",
+      "Latitude": "-0.206615",
+      "Longitude": "-78.48558",
+      "Event name": "Open Data Day Quito 2020 ",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Colombia",
+      "URL": "https://forms.gle/tDDTFsLHQTnWNRc89",
+      "Latitude": "4.6560086",
+      "Longitude": "-74.0610831",
+      "Event name": "Datos & Guaros Open Data Day",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Sacaba",
+      "URL": "https://opendaysacaba.blogspot.com/",
+      "Latitude": "-17.403908",
+      "Longitude": "-66.040184",
+      "Event name": "Open Day",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "London / Online ",
+      "URL": "https://ti.to/the-restart-project/open-repair-data-on-open-data-day-2020",
+      "Latitude": "51.507691",
+      "Longitude": "-0.118836",
+      "Event name": "What did we fix? Fun with open repair data on Open Data Day 2020",
+      "Number of participants": "25"
+    },
+    {
+      "Place": "Granada",
+      "URL": "https://facebook.com/events/613483626104136",
+      "Latitude": "37.176479",
+      "Longitude": "-3.59794",
+      "Event name": "Mujeres migrantes y vivienda: sentires y datos",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "St.Louis, MO, USA",
+      "URL": "https://www.meetup.com/Openstl/events/268639692/",
+      "Latitude": "38.63028",
+      "Longitude": "-90.20031",
+      "Event name": "OpenDataDay 2020",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Quezon City, Philippines",
+      "URL": "tinyurl.com/Individual2020DataxArt",
+      "Latitude": "14.657496",
+      "Longitude": "121.060436",
+      "Event name": "2020 Data x Art Philippine Youth Ideathon Challenge",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Khartoum",
+      "URL": "",
+      "Latitude": "15.579701",
+      "Longitude": "32.567752",
+      "Event name": "Open Data Vs. Data Security",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Jakarta",
+      "URL": "https://forms.gle/PnuzUNgcKW9X7zp2A",
+      "Latitude": "-6.191822",
+      "Longitude": "106.793971",
+      "Event name": "Duck, Cover and Hack Episode 2",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "New Bussa, Niger State, Nigeria",
+      "URL": "",
+      "Latitude": "9.8829",
+      "Longitude": "4.5109",
+      "Event name": "Open Data Day on \"Sensitization of Agricultural Stakeholders on the Need and Benefits of Data for Equal Development\"",
+      "Number of participants": "150"
+    },
+    {
+      "Place": "Yamate/山手",
+      "URL": "https://yamate.yokohama/",
+      "Latitude": "35.4317814",
+      "Longitude": "139.6475533",
+      "Event name": "YAMATE OPEN TOWN DAY 2020",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "istanbul",
+      "URL": "http://www.verigazeteciligi.com/",
+      "Latitude": "41.05462",
+      "Longitude": "28.36682",
+      "Event name": "Open Data for Data Journalism",
+      "Number of participants": "10"
+    },
+    {
+      "Place": "A Coruña",
+      "URL": "https://odd2020acoruna.gitlab.io/",
+      "Latitude": "43.377401",
+      "Longitude": "-8.406252",
+      "Event name": "Día dos datos abertos 2020 A Coruña",
+      "Number of participants": "15"
+    },
+    {
+      "Place": "YOKOHAMA",
+      "URL": "https://www.facebook.com/events/2671726056264740/",
+      "Latitude": "35.546831",
+      "Longitude": "139.573753",
+      "Event name": "YOKOHAMA International Open Data Day 2020",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "EldoHub, Kiptagich Plaza, 6th Floor",
+      "URL": "https://www.eventbrite.com/e/open-data-day-2020-celebration-tickets-97720595933",
+      "Latitude": "0.5204",
+      "Longitude": "35.2683",
+      "Event name": "Open Data Day 2020 Celebration, Eldoret-Kenya",
+      "Number of participants": "40"
+    },
+    {
+      "Place": "Barcelona",
+      "URL": "http://iniciativabarcelonaopendata.cat/ca/2020/02/9-de-marc-celebracio-open-data-day-2020/",
+      "Latitude": "41.386976",
+      "Longitude": "2.171657",
+      "Event name": "Open Data Day BCN 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Lviv, Ukraine",
+      "URL": "https://www.facebook.com/events/201141844322149/",
+      "Latitude": "49.839684",
+      "Longitude": "24.029716",
+      "Event name": "Міжнародний захід OPEN DATA DAY у Львові",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "WINDHOEK",
+      "URL": "https://docs.google.com/forms/d/e/1FAIpQLSeczjh0qVlLbVv4E25T12i1jsuB2jqO2-bE2sqBVtPDOBAJrQ/viewform?vc=0&c=0&w=1",
+      "Latitude": "22.565541",
+      "Longitude": "17.0750056",
+      "Event name": "Windhoek Open Data Day",
+      "Number of participants": "70"
+    },
+    {
+      "Place": "Accra ",
+      "URL": "www.fbridgeinternational.org",
+      "Latitude": "37472370",
+      "Longitude": "-4428750",
+      "Event name": "Measuring Impacts for Jobs and wealth creation",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Mariupol",
+      "URL": "https://www.facebook.com/events/508609043406541/",
+      "Latitude": "47.098036",
+      "Longitude": "37.534661",
+      "Event name": "Open Data Day Mariupol",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Nicosia",
+      "URL": "https://bit.ly/3aoV7sO",
+      "Latitude": "35.14653",
+      "Longitude": "33.412412",
+      "Event name": "Open Data Day Cyprus: Διαφάνεια, Καινοτομία, Ανάπτυξη",
+      "Number of participants": ""
+    },
+    {
+      "Place": "N'Djamena Tchad",
+      "URL": "https://framaforms.org/incription-open-data-day-ndjamena-7-avril-2020-1583234948",
+      "Latitude": "12.134846",
+      "Longitude": "15.055741",
+      "Event name": "Open Data Day - N'Djamena",
+      "Number of participants": "75"
+    },
+    {
+      "Place": "Pergamino",
+      "URL": "",
+      "Latitude": "-33.891979",
+      "Longitude": "-60.575069",
+      "Event name": "Presentación de Datos Abiertos Pergamino 2020",
+      "Number of participants": "70"
+    },
+    {
+      "Place": "Valencia",
+      "URL": "http://datasea.es/es/eventos/calendario/51-cfp-special-issue-on-data-reuse",
+      "Latitude": "39.470242",
+      "Longitude": "-0.3768",
+      "Event name": "DATA journal (MDPI) APC Offer for Special Issue on DATA REUSE ",
+      "Number of participants": ""
+    },
+    {
+      "Place": "University of Liberal Arts Bangladesh ",
+      "URL": "",
+      "Latitude": "23.684994",
+      "Longitude": "90.356331",
+      "Event name": "Open Data Day 2020: Towards Data Literacy in Bangladesh ",
+      "Number of participants": "80"
+    },
+    {
+      "Place": "м.Луцьк, Україна",
+      "URL": "https://www.facebook.com/events/556889231591543/",
+      "Latitude": "50.755791",
+      "Longitude": "25.353069",
+      "Event name": "Міжнародний захід OPEN DATA DAY у Луцьку",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Riyadh, Saudi Arabia ",
+      "URL": "",
+      "Latitude": "244419.3",
+      "Longitude": "463823.1",
+      "Event name": "Open data for the better of us",
+      "Number of participants": "80"
+    },
+    {
+      "Place": "Riyadh, Saudi Arabia ",
+      "URL": "",
+      "Latitude": "24.738646",
+      "Longitude": "46.639413",
+      "Event name": "Open data for the better of us",
+      "Number of participants": "80"
+    },
+    {
+      "Place": "Edmonton",
+      "URL": "https://www.epl.ca/open-data/?_ga=2.41037154.1129196031.1583165295-1167831170.1523479779",
+      "Latitude": "53.544388",
+      "Longitude": "-113.490929",
+      "Event name": "Open Data Day 2020",
+      "Number of participants": "120"
+    },
+    {
+      "Place": "Copenhagen",
+      "URL": "https://labitat.dk/wiki/Opendataday",
+      "Latitude": "55.67576",
+      "Longitude": "12.56902",
+      "Event name": "Open Data Day at labitat",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Christchurch",
+      "URL": "",
+      "Latitude": "-43.53441",
+      "Longitude": "172.640531",
+      "Event name": "Maptime Mapathon",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Dakar",
+      "URL": "https://framaforms.org/open-data-day-dakar-bonnes-pratiques-pour-le-journalisme-de-donnees-1583282064",
+      "Latitude": "14.74036",
+      "Longitude": "-17.472221",
+      "Event name": "Open Data Day Dakar, Les bonnes pratiques pour le journalisme de données",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "San José, Costa Rica",
+      "URL": "https://gobiernoabierto.go.cr/odd2020/",
+      "Latitude": "9.9067034",
+      "Longitude": "-84.0738059",
+      "Event name": "Data Expedition: Climate Change and Decarbonization",
+      "Number of participants": "15"
+    },
+    {
+      "Place": "Dhulikhel",
+      "URL": "",
+      "Latitude": "27.619891",
+      "Longitude": "85.538944",
+      "Event name": "GeoNode Nepal: Open Data Portal Information Sharing Session",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Nairobi",
+      "URL": "https://www.devinit.org/",
+      "Latitude": "-1.292066",
+      "Longitude": "36.821945",
+      "Event name": "Towards sustainable data access in Kenya",
+      "Number of participants": "150"
+    },
+    {
+      "Place": "Kathmandu",
+      "URL": "https://www.facebook.com/events/1019655221753749",
+      "Latitude": "27.70886",
+      "Longitude": "85.34397",
+      "Event name": "Heritage Mapping",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Dakar, Cité Keur Gorgui",
+      "URL": "https://web.facebook.com/events/1057825607948506/",
+      "Latitude": "14.72208",
+      "Longitude": "-17.46742",
+      "Event name": "Meet-up sur l'open Data et les civic tech ",
+      "Number of participants": "60"
+    },
+    {
+      "Place": "Montevideo, Uruguay",
+      "URL": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/dateidea-cambio-climatico-datos-abiertos",
+      "Latitude": "-34.90556",
+      "Longitude": "-56.185249",
+      "Event name": "Dateidea: Cambio Climático y Datos Abiertos",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Kaduna, Nigeria",
+      "URL": "bit.ly/opendata2020kaduna",
+      "Latitude": "10.609319",
+      "Longitude": "7.429504",
+      "Event name": "FollowTheMoney Kaduna 2020 Open Data Day",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Abuja",
+      "URL": "bit.ly/AbujaODD",
+      "Latitude": "9.06175",
+      "Longitude": "7.48149",
+      "Event name": "Abuja Open Data Day",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Belgrade, Serbia",
+      "URL": "https://www.rs.undp.org/content/serbia/en/home/presscenter/articles/2020/podaci-i-euprava--iskra-za-budunost.html",
+      "Latitude": "44.819955",
+      "Longitude": "20.427813",
+      "Event name": "Data and eGovernance: the spark for the future",
+      "Number of participants": "350"
+    },
+    {
+      "Place": "Ciudad de Guatemala",
+      "URL": "TBD",
+      "Latitude": "14.634915",
+      "Longitude": "-90.506882",
+      "Event name": "Contrataciones Públicas: Visualización y Datos ",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "La Habana",
+      "URL": "",
+      "Latitude": "23.118168",
+      "Longitude": "-82.387258",
+      "Event name": "BachilleR: Cartografía abierta de los documentos de Antonio Bachiller y Morales.",
+      "Number of participants": "15"
+    },
+    {
+      "Place": "La Paz - Bolivia",
+      "URL": "https://www.fundacionconstruir.org/contenido/diadelosdatosabiertobolivia/",
+      "Latitude": "-16.505834",
+      "Longitude": "-68.12703",
+      "Event name": "Campamento de datos: abriendo las contrataciones públicas ",
+      "Number of participants": "50"
+    },
+    {
+      "Place": "Sacramento",
+      "URL": "https://www.meetup.com/Code4Sac/events/268675615/",
+      "Latitude": "38.575677",
+      "Longitude": "-121.474221",
+      "Event name": "Open Data Day - Open FI$Cal, Homeless Data, and CDTFA Power BI",
+      "Number of participants": "35"
+    },
+    {
+      "Place": "ASABA",
+      "URL": "www.cafsed.org",
+      "Latitude": "6.175189",
+      "Longitude": "6.73473",
+      "Event name": "OPEN DATA DAY ASABA 2020",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "ASABA",
+      "URL": "www.cafsed.org",
+      "Latitude": "6.175189",
+      "Longitude": "6.73473",
+      "Event name": "OPEN DATA DAY ASABA 2020",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Kirov",
+      "URL": "https://vk.com/open_data_day_kirov",
+      "Latitude": "58.59784",
+      "Longitude": "49.655561",
+      "Event name": "День открытых данных 2020 Киров",
+      "Number of participants": "10"
+    },
+    {
+      "Place": "Lilongwe",
+      "URL": "https://www.facebook.com/events/518525809070144/",
+      "Latitude": "-14.180376",
+      "Longitude": "33.775985",
+      "Event name": "University Open Data Day",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Abuja ",
+      "URL": "https://goo.gl/maps/TJXCiELqYEZPJ4jE8",
+      "Latitude": "9.0644",
+      "Longitude": "7.4832",
+      "Event name": "Abuja Open Data Day",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Ouagadougou",
+      "URL": "",
+      "Latitude": "12.37153",
+      "Longitude": "-1.51992",
+      "Event name": "Fireside Chat ",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Online",
+      "URL": "https://ti.to/the-restart-project/open-repair-data-on-open-data-day-2020",
+      "Latitude": "51.507351",
+      "Longitude": "-0.127758",
+      "Event name": "What did we fix? Investigating open repair data on Open Data Day 2020",
+      "Number of participants": "10"
+    },
+    {
+      "Place": "São Roque - SP - Brasil",
+      "URL": "http://www.arquivosaoroque.com.br/",
+      "Latitude": "-23.530899",
+      "Longitude": "-47.135269",
+      "Event name": "Open Data Day - Arquivo Histórico Digital de São Roque",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Ibadan ",
+      "URL": "https://forms.gle/5bcWB2seS9Jby6W6A",
+      "Latitude": "7.84482",
+      "Longitude": "3.93033",
+      "Event name": "Open Data Bash",
+      "Number of participants": "25"
+    },
+    {
+      "Place": "Montevideo",
+      "URL": "http://bit.ly/datosycogollosODD20",
+      "Latitude": "-34.905484",
+      "Longitude": "-56.205958",
+      "Event name": "Datos y Cogollos",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Salzburg",
+      "URL": "http://maptime.io/salzburg/2020/03/18/OpenData/",
+      "Latitude": "47.8236171",
+      "Longitude": "13.0393487",
+      "Event name": "Maptime Meetup - Open Data",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Benin City",
+      "URL": "",
+      "Latitude": "6.44726",
+      "Longitude": "5.79758",
+      "Event name": "Open Data Day 2020",
+      "Number of participants": "25"
+    },
+    {
+      "Place": "Yaounde",
+      "URL": "",
+      "Latitude": "3.834765",
+      "Longitude": "11.485856",
+      "Event name": "Cameroon Open Data Day",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Guatemala",
+      "URL": "shorturl.at/cjpQ1",
+      "Latitude": "14.63777",
+      "Longitude": "-90.547112",
+      "Event name": "Tarde de #DatosBajoLaLupa",
+      "Number of participants": "25"
+    },
+    {
+      "Place": "Xalapa, Veracruz, México",
+      "URL": "https://seaveracruz.org/datos-abiertos-2020/",
+      "Latitude": "19.527269",
+      "Longitude": "-96.9235",
+      "Event name": "Día de los Datos Abiertos para fortalecer la transparencia y disponer de información concreta para potenciar los esfuerzos anticorrupción",
+      "Number of participants": "130"
+    },
+    {
+      "Place": "Damaturu",
+      "URL": "Bit.ly/opendata2020yobe",
+      "Latitude": "11.747",
+      "Longitude": "11.9662",
+      "Event name": "Increasing understanding of and access to Yobe state budget data",
+      "Number of participants": "60"
+    },
+    {
+      "Place": "Sabae, Fukui, Japan",
+      "URL": "https://www.facebook.com/events/511359816192317/",
+      "Latitude": "35.947141",
+      "Longitude": "136.183462",
+      "Event name": "Open Data Day Sabae, Fukui",
+      "Number of participants": "15"
+    },
+    {
+      "Place": "Bamako",
+      "URL": "https://twitter.com/youthmappersfhg",
+      "Latitude": "12.631586",
+      "Longitude": "-8.000874",
+      "Event name": "Open Data Day Bamako Youthmappers Labo_HoPE au service des Femmes",
+      "Number of participants": "25"
+    },
+    {
+      "Place": "Kabul",
+      "URL": "https://www.facebook.com/Porsesh.af.org/photos/a.264143380615602/1041146899581909/?type=3&notif_id=1583406601892104&notif_t=page_post_reaction&ref=notif",
+      "Latitude": "34.504316",
+      "Longitude": "69.132397",
+      "Event name": "Open Data Day 2020 in Kabul by Porsesh Research & Studies Organization",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Oita,Japan",
+      "URL": "https://www.facebook.com/events/493608498241937/",
+      "Latitude": "33.232712",
+      "Longitude": "131.606117",
+      "Event name": "Online Open Data Day : CODE for OITA",
+      "Number of participants": ""
+    },
+    {
+      "Place": "長野県下諏訪町",
+      "URL": "http://www.town.shimosuwa.lg.jp/www/contents/1582159705105/index.html",
+      "Latitude": "36.069929",
+      "Longitude": "138.078385",
+      "Event name": "下諏訪町デジタルアルバム講習会",
+      "Number of participants": "15"
+    },
+    {
+      "Place": "Kabul, Afghanistan",
+      "URL": "https://www.facebook.com/Porsesh.af.org/photos/a.264143380615602/1041146899581909/?type=3&theater",
+      "Latitude": "34.504439",
+      "Longitude": "69.133809",
+      "Event name": "Open Data Day 2020",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Chirichoga High School, Masvingo",
+      "URL": "http://www.zimla.org.zw/",
+      "Latitude": "-20.278111",
+      "Longitude": "30.90403",
+      "Event name": "Open Data for Equal Development",
+      "Number of participants": "80"
+    },
+    {
+      "Place": "Ulaanbaatar",
+      "URL": "https://storymaps.arcgis.com/stories/9f60422a8c174c15a9053ddd16e965f7",
+      "Latitude": "47.918662",
+      "Longitude": "106.926391",
+      "Event name": "Ulaanbaatar Open Data Day 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Online(Japan)",
+      "URL": "https://hackmd.io/W5sF3fV0QDq4ZAkZaVP8Dg?sync=&type=",
+      "Latitude": "35.689487",
+      "Longitude": "139.691711",
+      "Event name": "COVID-19 Response Hackathon",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Dar es Salaam",
+      "URL": "https://issamichuzi.blogspot.com/2020/03/kituo-cha-habari-amani-na-usalama.html",
+      "Latitude": "6.7924",
+      "Longitude": "39.2083",
+      "Event name": "Open Data on Public expenditures",
+      "Number of participants": "10"
+    },
+    {
+      "Place": "Accra,Ghana",
+      "URL": "https://facebook.com/events/s/measuring-impacts-for-jobs-and/3823305147694577/",
+      "Latitude": "5.603717",
+      "Longitude": "-0.186964",
+      "Event name": "Measuring Impact for jobs and wealth creation ",
+      "Number of participants": "100"
+    },
+    {
+      "Place": "Mishima City, Shizuoka Pref. ,Japan",
+      "URL": "https://codeforfujinokuni.doorkeeper.jp/events/103671",
+      "Latitude": "35.1206094",
+      "Longitude": "138.916144",
+      "Event name": "IODD * Yonnanakai Mishima",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "kakegawa",
+      "URL": "https://code4kakegawa.org/736/",
+      "Latitude": "34.768726",
+      "Longitude": "137.998271",
+      "Event name": "オープンデータデイ2020 in 掛川",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Saga , japan",
+      "URL": "https://code4saga.org/archives/1017",
+      "Latitude": "33.2685516",
+      "Longitude": "130.2988223",
+      "Event name": "Making Saga dialect open data！",
+      "Number of participants": "10"
+    },
+    {
+      "Place": "新潟市",
+      "URL": "https://c4ngt.connpass.com/event/168957/",
+      "Latitude": "37.919998",
+      "Longitude": "139.040024",
+      "Event name": "【C4N-2020-IODD】「バッドデータハンドブック」読書会 ",
+      "Number of participants": ""
+    },
+    {
+      "Place": "八王子",
+      "URL": "https://facebook.com/events/s/%E4%B8%96%E7%95%8C%E3%82%AA%E3%83%BC%E3%83%95%E3%83%B3%E3%83%86%E3%83%BC%E3%82%BF%E3%83%86%E3%83%BC%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%90-in-%E5%85%AB%E7%8E%8B%E5%AD%90/1388622037984527/?ti=icl",
+      "Latitude": "35.657524",
+      "Longitude": "139.33716",
+      "Event name": "世界オープンデータデー2020 in 八王子",
+      "Number of participants": "20"
+    },
+    {
+      "Place": "Kawasaki, Japan",
+      "URL": "https://openkawasaki.connpass.com/event/170078/",
+      "Latitude": "35.529991",
+      "Longitude": "139.705002",
+      "Event name": "Kawasaki Tech Meetup",
+      "Number of participants": "2"
+    },
+    {
+      "Place": "Chiba/千葉",
+      "URL": "https://sites.google.com/view/civictechzenchiba/%E3%83%9B%E3%83%BC%E3%83%A0/%E5%91%8A%E7%9F%A5?authuser=0",
+      "Latitude": "35.604979",
+      "Longitude": "140.123392",
+      "Event name": "Civic Tech meet up Chiba2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Gifu, Japan",
+      "URL": "https://www.facebook.com/events/786001965245122/",
+      "Latitude": "35.427351",
+      "Longitude": "136.759915",
+      "Event name": "ROJI TO NECO （Alley and Cat）",
+      "Number of participants": "7"
+    },
+    {
+      "Place": "Seoul",
+      "URL": "https://www.facebook.com/events/126584362042258/",
+      "Latitude": "37.6087038",
+      "Longitude": "126.9319627",
+      "Event name": "널채움 오픈데이터데이 모임",
+      "Number of participants": "10"
+    },
+    {
+      "Place": "Sanfebagar-04, Achham",
+      "URL": "",
+      "Latitude": "29.235022",
+      "Longitude": "81.2170029",
+      "Event name": "Infrastructure Management System(IMS) Launch Event",
+      "Number of participants": "65"
+    },
+    {
+      "Place": "京都",
+      "URL": "https://opendatakyoto.connpass.com/event/169872/",
+      "Latitude": "34.996199",
+      "Longitude": "135.744239",
+      "Event name": "インターナショナルオープンデータディ2020 in 京都\n京都オープンデータソン2020 （酒ペディア＆酒マップ）",
+      "Number of participants": ""
+    },
+    {
+      "Place": "北九州",
+      "URL": "https://code4kitakyushu.connpass.com/event/167682/",
+      "Latitude": "33.886095",
+      "Longitude": "130.883148",
+      "Event name": "\"【オンライン開催】「触ってみよう、RPA！見てみよう、気象データ！」\n～オープンデータデイ2020 in 北九州～RPA活用オープンデータハンズオンセミナー\"",
+      "Number of participants": ""
+    },
+    {
+      "Place": "霞ヶ関",
+      "URL": "https://www.facebook.com/photo.php?fbid=10158210405141823&set=a.10150320280641823&type=3&theater",
+      "Latitude": "35.672413",
+      "Longitude": "139.747207",
+      "Event name": "IODD2020メディアセンター",
+      "Number of participants": "6"
+    },
+    {
+      "Place": "Saitama",
+      "URL": "https://www.facebook.com/events/486213945394491/",
+      "Latitude": "35.856998",
+      "Longitude": "139.648849",
+      "Event name": "International Open Data Day 2020 in SAITAMA",
+      "Number of participants": "10"
+    },
+    {
+      "Place": "駒場",
+      "URL": "https://geomedia2020.peatix.com/",
+      "Latitude": "35.660986",
+      "Longitude": "139.677576",
+      "Event name": "ライブ放送「公共交通オープンデータ最前線2020」",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Tucson AZ",
+      "URL": "https://www.meetup.com/Code-for-Tucson/events/269251665/",
+      "Latitude": "32.1561827",
+      "Longitude": "-111.1640126",
+      "Event name": "Tucson Virtual Open Data Day 2020",
+      "Number of participants": "10"
+    },
+    {
+      "Place": "Kathmandu",
+      "URL": "",
+      "Latitude": "10.72962",
+      "Longitude": "106.73514",
+      "Event name": "Media Monitoring of COVID-19 Reporting in Nepali Media",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Lagos",
+      "URL": "",
+      "Latitude": "6.553486",
+      "Longitude": "3.365903",
+      "Event name": "Open Data Lagos",
+      "Number of participants": ""
+    },
+    {
+      "Place": "品川/渋谷",
+      "URL": "",
+      "Latitude": "35.60552",
+      "Longitude": "139.713219",
+      "Event name": "障害や困難を持つ人向け 3dプリンタ イベント",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Uyo, Nigeria",
+      "URL": "www.policyalert/opendataday",
+      "Latitude": "5.02873",
+      "Longitude": "7.92771",
+      "Event name": "Fireside chat: Open for equal - Citizens running with budget and extractives data for equal development",
+      "Number of participants": "55"
+    },
+    {
+      "Place": "kyoto,Japaan",
+      "URL": "https://opendatakyoto.connpass.com/event/169872/",
+      "Latitude": "35.011635",
+      "Longitude": "135.768036",
+      "Event name": "InternationalOpenDataDay in Kyoto(KyotoOpenDatason2020 Sakepedia&Sakemap)",
+      "Number of participants": "7"
+    },
+    {
+      "Place": "Bandung, Indonesia",
+      "URL": "https://twitter.com/inisiatif_org/status/1235486017617944577/photo/1",
+      "Latitude": "-6.932562",
+      "Longitude": "107.605934",
+      "Event name": "BUDGET CREDIBILITY TRAIL / TELUSUR KREDIBILITAS ANGGARAN",
+      "Number of participants": "25"
+    },
+    {
+      "Place": "Shibuya, Tokyo",
+      "URL": "https://peatix.com/event/1435084/view",
+      "Latitude": "35.655994",
+      "Longitude": "139.695465",
+      "Event name": "“できる”をカタチに「3Dプリンタでつくる リ・デザインカフェ」",
+      "Number of participants": "16"
+    },
+    {
+      "Place": "Tokyo ota-city",
+      "URL": "https://cca-labo.com",
+      "Latitude": "35.584547",
+      "Longitude": "139.728158",
+      "Event name": "City Farming Shiitake Mushroom growing condition",
+      "Number of participants": "1"
+    },
+    {
+      "Place": "Online",
+      "URL": "https://www.wikidata.org/wiki/Wikidata:WikiProject_Kerala/Events/ODD_2020",
+      "Latitude": "0",
+      "Longitude": "0",
+      "Event name": "Open Data Day 2020 edit-a-thon",
+      "Number of participants": "10"
+    },
+    {
+      "Place": "Bratislava",
+      "URL": "https://utopia.sk/wiki/x/awAXBg",
+      "Latitude": "48.14475",
+      "Longitude": "17.10125",
+      "Event name": "Open Data Day Pivo",
+      "Number of participants": ""
+    },
+    {
+      "Place": "a",
+      "URL": "",
+      "Latitude": "9",
+      "Longitude": "9",
+      "Event name": "a",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Kathmandu, Nepal",
+      "URL": "https://www.facebook.com/events/507562543285489/",
+      "Latitude": "27.717245",
+      "Longitude": "85.323959",
+      "Event name": "LightsON: Open Dialogue for Policy",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Dubai",
+      "URL": "https://www.wikidata.org/wiki/Wikidata:Events/Dubai/Open_data_edit-a-thon",
+      "Latitude": "25.204849",
+      "Longitude": "55.270782",
+      "Event name": "Open data edit-a-thon",
+      "Number of participants": "5"
+    },
+    {
+      "Place": "Burkina Faso",
+      "URL": "",
+      "Latitude": "12.371428",
+      "Longitude": "-1.51966",
+      "Event name": "Fireside Chat on Open Data ",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Patos, Fier, Albania",
+      "URL": "",
+      "Latitude": "40.684759",
+      "Longitude": "19.616025",
+      "Event name": "STEM and SDG for healthy food.",
+      "Number of participants": "150"
+    },
+    {
+      "Place": "Windhoek ",
+      "URL": "",
+      "Latitude": "-22.586118",
+      "Longitude": "17.068634",
+      "Event name": "OpenData Day 2020 , Windhoek",
+      "Number of participants": "75"
+    },
+    {
+      "Place": "NEW BUSSA NIGER STATE",
+      "URL": "",
+      "Latitude": "9.8877",
+      "Longitude": "4.51078",
+      "Event name": "SENSITISATION  OF AGRICULTURAL STALKHOLDERS ON NEED  AND BENEFITS OF DATA FOR EQUAL DEVELOPMENT",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Kangema Town, Muran'ga",
+      "URL": "",
+      "Latitude": "-0.68595",
+      "Longitude": "36.97563",
+      "Event name": "P4CDA Open Mapping",
+      "Number of participants": "35"
+    },
+    {
+      "Place": "Zagreb",
+      "URL": "https://odd.codeforcroatia.org/",
+      "Latitude": "45.81501",
+      "Longitude": "15.981919",
+      "Event name": "Open Data Day 2020",
+      "Number of participants": "40"
+    },
+    {
+      "Place": "Verín",
+      "URL": "http://www.novhis.bibliotecadeverin.es/",
+      "Latitude": "41.939089",
+      "Longitude": "-7.437438",
+      "Event name": "III Jornadas de Novela Histórica: \"Mujeres en la historia\".",
+      "Number of participants": "8"
+    },
+    {
+      "Place": "Canberra",
+      "URL": "",
+      "Latitude": "-35.280937",
+      "Longitude": "149.130005",
+      "Event name": "ACT Government Open Data day",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Verín (Ourense)",
+      "URL": "http://educacion.bibliotecadeverin.es/",
+      "Latitude": "41.940449",
+      "Longitude": "-7.43912",
+      "Event name": "Jornadas de Educación: 24 y 25 de abril de 2020",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Uyo",
+      "URL": "https://www.facebook.com/PolicyAlertNG/photos/a.1795861327370973/2373685619588538/?type=3&theater",
+      "Latitude": "5.02873",
+      "Longitude": "7.92771",
+      "Event name": "Fireside chat: Open for equal - Citizens running with budget and extractive sector data for equal development",
+      "Number of participants": "55"
+    },
+    {
+      "Place": "Dhaka,Bangladesh",
+      "URL": "",
+      "Latitude": "23.73616",
+      "Longitude": "90.382543",
+      "Event name": "Open Data Day Bangladesh",
+      "Number of participants": ""
+    },
+    {
+      "Place": "Mazatlán",
+      "URL": "www.facebook.com/SustentaMX",
+      "Latitude": "23.249414",
+      "Longitude": "-106.41114",
+      "Event name": "Sustenta Open Data Day 2020",
+      "Number of participants": "6"
+    },
+    {
+      "Place": "FCT Abuja",
+      "URL": " https://global.gotomeeting.com/join/741050637 ",
+      "Latitude": "9.06146",
+      "Longitude": "7.50064",
+      "Event name": "CS-SUNN Open Data Day Event Commemoration",
+      "Number of participants": "30"
+    },
+    {
+      "Place": "Abuja, Nigeria",
+      "URL": "",
+      "Latitude": "9.0765",
+      "Longitude": "7.3986",
+      "Event name": "CS-SUNN Open Data Day Commemoration",
+      "Number of participants": ""
+    }
+  ]
+}

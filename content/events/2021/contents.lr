@@ -1,0 +1,55 @@
+_model: events_list
+---
+_template: events_list/2021.html
+---
+title: Events 2021
+---
+data_file: events-2021
+---
+banner_heading_1: Open Data Day
+---
+banner_heading_2: 2021 Events
+---
+banner_content_1: Open Data Day 2021 will take place on
+---
+banner_content_2: Saturday 6th March 2021
+---
+banner_link: events
+---
+preamble:
+
+---
+postamble:
+
+---
+date: Date
+---
+time: Time
+---
+location: Location
+---
+website: Website
+---
+online_event: Join Online Event
+---
+twitter: Twitter
+---
+youtube: Youtube
+---
+organisers: Organisers
+---
+participants: Participants
+---
+filter_label: Filter
+---
+filter_all_events: All Events
+---
+filter_amer: Events in The Americas
+---
+filter_emea: Events in Europe, Middle East & Africa
+---
+filter_apac: Events in Asia & The Pacific
+---
+filter_online: Online Events
+---
+filter_offline: Offline Events
