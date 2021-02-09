@@ -32,6 +32,22 @@ a {
   a:hover, a:active {
     color: #FF6200; }
 
+dt {
+  font-weight: bold;
+  float: left; }
+
+dt::after {
+  content: ": ";
+  white-space: pre; }
+
+dd {
+  margin-left: 20%; }
+
+dd::after {
+  content: " ";
+  display: block;
+  clear: left; }
+
 .slicknav_btn {
   position: relative;
   display: block;
@@ -554,7 +570,7 @@ html {
 /**
  * Apply the desired modal behavior to your container selector
  */
-.home .banner {
+body .banner {
   background-color: #FFB900;
   height: 100vh;
   width: 100%;
@@ -563,20 +579,20 @@ html {
   background-size: cover;
   background-position: center; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3) and (min-width: 720px), only screen and (min--moz-device-pixel-ratio: 1.3) and (min-width: 720px), only screen and (-o-min-device-pixel-ratio: 1.3 / 1) and (min-width: 720px), only screen and (min-resolution: 125dpi) and (min-width: 720px), only screen and (min-resolution: 1.3dppx) and (min-width: 720px) {
-    .home .banner {
+    body .banner {
       background-image: url("../images/banner_2x.png"); } }
-  .home .banner > a {
+  body .banner > a {
     display: table-cell;
     vertical-align: middle;
     padding: 30px;
     text-align: center;
     color: #1A1A1A; }
-    .home .banner > a h1 {
+    body .banner > a h1 {
       text-transform: capitalize;
       font-size: 9vmin;
       margin-bottom: 1vh;
       line-height: 1.5; }
-      .home .banner > a h1 span {
+      body .banner > a h1 span {
         background-color: #1A1A1A;
         color: #fff;
         -webkit-font-smoothing: antialiased;
@@ -584,9 +600,9 @@ html {
         position: relative;
         z-index: 1;
         display: inline-block; }
-        .home .banner > a h1 span a {
+        body .banner > a h1 span a {
           color: inherit; }
-        .home .banner > a h1 span:after {
+        body .banner > a h1 span:after {
           content: '\00a0';
           display: block;
           background-color: #1A1A1A;
@@ -595,23 +611,23 @@ html {
           top: 0;
           bottom: 0;
           z-index: -1; }
-        .home .banner > a h1 span.l1 {
+        body .banner > a h1 span.l1 {
           z-index: 2; }
-        .home .banner > a h1 span.l2 {
+        body .banner > a h1 span.l2 {
           top: -0.3em; }
-    .home .banner > a p {
+    body .banner > a p {
       font-weight: bold;
       font-size: 4vmin;
       display: inline-block;
       max-width: 50%;
       mix-blend-mode: lighten;
       line-height: 1.3; }
-      .home .banner > a p span {
+      body .banner > a p span {
         background-color: #fff;
         position: relative;
         z-index: 1;
         display: inline-block; }
-        .home .banner > a p span:after {
+        body .banner > a p span:after {
           content: '\00a0';
           display: block;
           background-color: #fff;
@@ -621,47 +637,47 @@ html {
           bottom: 0;
           z-index: -1; }
       @media (max-width: 900px) {
-        .home .banner > a p br {
+        body .banner > a p br {
           display: none; } }
-    .home .banner > a .down {
+    body .banner > a .down {
       display: block;
       opacity: 0.5;
       position: relative;
       bottom: -2vh; }
-      .home .banner > a .down svg {
+      body .banner > a .down svg {
         height: 64px;
         fill: #fff; }
       @media (min-width: 600px) {
-        .home .banner > a .down + .main-nav,
-        .home .banner > a .down + .sticky-wrapper .main-nav {
+        body .banner > a .down + .main-nav,
+        body .banner > a .down + .sticky-wrapper .main-nav {
           margin-top: -97px; }
-          .home .banner > a .down + .main-nav.stuck,
-          .home .banner > a .down + .sticky-wrapper .main-nav.stuck {
+          body .banner > a .down + .main-nav.stuck,
+          body .banner > a .down + .sticky-wrapper .main-nav.stuck {
             margin-top: 0; } }
 
-.home > section {
+body > section {
   clear: both; }
-  .home > section > div {
+  body > section > div {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto; }
-  .home > section header {
+  body > section header {
     font-size: 1.2em; }
   @media (min-width: 1260px) {
-    .home > section .about header,
-    .home > section .this-year header {
+    body > section .about header,
+    body > section .this-year header {
       max-width: 450px; }
-      .home > section .about header p + p,
-      .home > section .this-year header p + p {
+      body > section .about header p + p,
+      body > section .this-year header p + p {
         max-width: 350px; } }
-  .home > section .about header {
+  body > section .about header {
     padding: 30px 30px 15px 30px; }
-    .home > section .about header h2 {
+    body > section .about header h2 {
       color: #0086FF; }
     @media (min-width: 1260px) {
-      .home > section .about header {
+      body > section .about header {
         padding-left: 0; } }
-    .home > section .about header + a {
+    body > section .about header + a {
       background-color: #0086FF;
       color: #fff;
       font-weight: bold;
@@ -672,17 +688,17 @@ html {
       margin-left: 30px;
       margin-bottom: 30px; }
       @media (min-width: 1260px) {
-        .home > section .about header + a {
+        body > section .about header + a {
           margin-left: 0; } }
   @media (min-width: 900px) {
-    .home > section .about {
+    body > section .about {
       float: left;
       width: 50%; } }
   @media (min-width: 1260px) {
-    .home > section .about {
+    body > section .about {
       position: relative;
       height: 540px; }
-      .home > section .about:after {
+      body > section .about:after {
         content: '';
         position: absolute;
         width: 0;
@@ -693,19 +709,19 @@ html {
         top: 0;
         left: 100%;
         z-index: 1; } }
-  .home > section .this-year {
+  body > section .this-year {
     background-color: #9B20DC;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: relative; }
-    .home > section .this-year a {
+    body > section .this-year a {
       color: inherit; }
     @media (min-width: 900px) {
-      .home > section .this-year {
+      body > section .this-year {
         float: right;
         width: 50%; }
-        .home > section .this-year:after {
+        body > section .this-year:after {
           content: '';
           position: absolute;
           top: 0;
@@ -714,9 +730,9 @@ html {
           width: 50vw;
           background-color: #9B20DC; } }
     @media (min-width: 1260px) {
-      .home > section .this-year {
+      body > section .this-year {
         height: 540px; }
-        .home > section .this-year:before {
+        body > section .this-year:before {
           content: '';
           position: absolute;
           width: 0;
@@ -727,25 +743,25 @@ html {
           bottom: 0;
           right: 100%;
           z-index: 1; } }
-    .home > section .this-year header {
+    body > section .this-year header {
       padding: 30px 30px 0 30px; }
       @media (min-width: 1260px) {
-        .home > section .this-year header {
+        body > section .this-year header {
           padding-right: 0;
           text-align: right;
           float: right; } }
-    .home > section .this-year ul {
+    body > section .this-year ul {
       padding: 0;
       margin: 0 0 0 15px;
       clear: right; }
-      .home > section .this-year ul::after {
+      body > section .this-year ul::after {
         clear: both;
         content: "";
         display: table; }
       @media (min-width: 1260px) {
-        .home > section .this-year ul {
+        body > section .this-year ul {
           margin-right: 15px; } }
-      .home > section .this-year ul li {
+      body > section .this-year ul li {
         text-align: center;
         display: block;
         padding-left: 15px;
@@ -753,42 +769,42 @@ html {
         box-sizing: border-box;
         margin-top: 30px; }
         @media (min-width: 600px) {
-          .home > section .this-year ul li {
+          body > section .this-year ul li {
             float: left;
             width: 25%; } }
-        .home > section .this-year ul li svg {
+        body > section .this-year ul li svg {
           width: 100px;
           height: 100px;
           fill: currentColor; }
-        .home > section .this-year ul li p {
+        body > section .this-year ul li p {
           margin-top: 0; }
-  .home > section#map {
+  body > section#map {
     position: relative;
     height: 620px;
     max-height: 100vh; }
-    .home > section#map #map-container {
+    body > section#map #map-container {
       max-width: none; }
-    .home > section#map header {
+    body > section#map header {
       position: absolute;
       width: 100%;
       top: 30px;
       pointer-events: none;
       font-size: 0.8em;
       text-align: center; }
-      .home > section#map header > div {
+      body > section#map header > div {
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto; }
-        .home > section#map header > div > div {
+        body > section#map header > div > div {
           float: right;
           pointer-events: all;
           background-color: rgba(255, 255, 255, 0.8);
           padding: 9px; }
-          .home > section#map header > div > div .count {
+          body > section#map header > div > div .count {
             display: block;
             font-weight: 700;
             padding-top: 0.5em; }
-          .home > section#map header > div > div a {
+          body > section#map header > div > div a {
             background-color: #0086FF;
             color: #fff;
             font-weight: bold;
@@ -797,18 +813,18 @@ html {
             display: inline-block;
             text-align: center;
             display: block; }
-  .home > section#who {
+  body > section#who {
     background-color: #0086FF;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-    .home > section#who a {
+    body > section#who a {
       color: inherit; }
     @media (min-width: 1260px) {
-      .home > section#who {
+      body > section#who {
         position: relative;
         padding-bottom: 50px; }
-        .home > section#who:after {
+        body > section#who:after {
           content: '';
           position: absolute;
           width: 0;
@@ -819,72 +835,72 @@ html {
           bottom: 0;
           left: 0;
           z-index: 1; } }
-    .home > section#who > div {
+    body > section#who > div {
       padding: 30px 0; }
-      .home > section#who > div header {
+      body > section#who > div header {
         padding-left: 30px;
         padding-right: 30px;
         padding-bottom: 1.5em; }
         @media (min-width: 1260px) {
-          .home > section#who > div header {
+          body > section#who > div header {
             margin-left: -30px;
             margin-right: -30px; } }
-      .home > section#who > div ul {
+      body > section#who > div ul {
         padding: 0;
         margin: 0;
         text-align: center; }
-        .home > section#who > div ul::after {
+        body > section#who > div ul::after {
           clear: both;
           content: "";
           display: table; }
         @media (min-width: 1260px) {
-          .home > section#who > div ul {
+          body > section#who > div ul {
             margin-left: -30px;
             margin-right: -30px; } }
-        .home > section#who > div ul li {
+        body > section#who > div ul li {
           display: block;
           padding: 1.5em 30px 0;
           box-sizing: border-box;
           font-size: 0.9em; }
           @media (min-width: 900px) {
-            .home > section#who > div ul li {
+            body > section#who > div ul li {
               float: left;
               width: 20%; } }
-          .home > section#who > div ul li span {
+          body > section#who > div ul li span {
             display: inline-block;
             background-color: #fff;
             padding: 1.2em;
             border-radius: 50%; }
-            .home > section#who > div ul li span svg {
+            body > section#who > div ul li span svg {
               fill: #0086FF;
               display: block;
               width: 100px;
               height: 100px; }
-  .home > section#resources {
+  body > section#resources {
     text-align: center; }
-    .home > section#resources > div > header {
+    body > section#resources > div > header {
       padding-left: 30px;
       padding-right: 30px; }
-      .home > section#resources > div > header h2 {
+      body > section#resources > div > header h2 {
         color: #0086FF; }
-      .home > section#resources > div > header svg {
+      body > section#resources > div > header svg {
         width: 120px;
         height: 120px;
         margin: 30px 15px 15px; }
-        .home > section#resources > div > header svg.research {
+        body > section#resources > div > header svg.research {
           fill: #FFB900; }
-        .home > section#resources > div > header svg.money {
+        body > section#resources > div > header svg.money {
           fill: #FF4900; }
-        .home > section#resources > div > header svg.mapping {
+        body > section#resources > div > header svg.mapping {
           fill: #48C0AC; }
-        .home > section#resources > div > header svg.equality {
+        body > section#resources > div > header svg.equality {
           fill: #9B20DC; }
-      .home > section#resources > div > header p {
+      body > section#resources > div > header p {
         max-width: 770px;
         display: block;
         margin-left: auto;
         margin-right: auto; }
-      .home > section#resources > div > header + a {
+      body > section#resources > div > header + a {
         background-color: #0086FF;
         color: #fff;
         font-weight: bold;
@@ -893,50 +909,50 @@ html {
         display: inline-block;
         text-align: center;
         margin-bottom: 30px; }
-    .home > section#resources > div article {
+    body > section#resources > div article {
       display: none; }
-    .home > section#resources:target > div > header + a {
+    body > section#resources:target > div > header + a {
       display: none; }
-    .home > section#resources:target article {
+    body > section#resources:target article {
       display: block;
       text-align: left;
       padding: 30px; }
-      .home > section#resources:target article > div {
+      body > section#resources:target article > div {
         -webkit-columns: 300px 3;
         -moz-columns: 300px 3;
         columns: 300px 3;
         -webkit-column-gap: 60px;
         -moz-column-gap: 60px;
         column-gap: 60px; }
-        .home > section#resources:target article > div .theme {
+        body > section#resources:target article > div .theme {
           break-inside: avoid;
           display: block; }
-          .home > section#resources:target article > div .theme:nth-of-type(1) h4 {
+          body > section#resources:target article > div .theme:nth-of-type(1) h4 {
             color: #FFB900; }
-          .home > section#resources:target article > div .theme:nth-of-type(2) h4 {
+          body > section#resources:target article > div .theme:nth-of-type(2) h4 {
             color: #FF4900; }
-          .home > section#resources:target article > div .theme:nth-of-type(3) h4 {
+          body > section#resources:target article > div .theme:nth-of-type(3) h4 {
             color: #48C0AC; }
-          .home > section#resources:target article > div .theme:nth-of-type(4) h4 {
+          body > section#resources:target article > div .theme:nth-of-type(4) h4 {
             color: #9B20DC; }
-        .home > section#resources:target article > div h4 {
+        body > section#resources:target article > div h4 {
           margin-top: 0; }
-        .home > section#resources:target article > div h4,
-        .home > section#resources:target article > div h5 {
+        body > section#resources:target article > div h4,
+        body > section#resources:target article > div h5 {
           break-after: avoid;
           break-inside: avoid; }
-  .home > section#support {
+  body > section#support {
     background-color: #9B20DC;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-    .home > section#support a {
+    body > section#support a {
       color: inherit; }
-    .home > section#support > div {
+    body > section#support > div {
       padding-bottom: 30px; }
-      .home > section#support > div > header {
+      body > section#support > div > header {
         padding: 30px 30px 0; }
-        .home > section#support > div > header + a {
+        body > section#support > div > header + a {
           background-color: #fff;
           color: #9B20DC;
           font-weight: bold;
@@ -946,10 +962,10 @@ html {
           text-align: center;
           margin: 30px; }
     @media (min-width: 1260px) {
-      .home > section#support {
+      body > section#support {
         position: relative;
         padding-top: 75px; }
-        .home > section#support:before {
+        body > section#support:before {
           content: '';
           position: absolute;
           width: 0;
@@ -960,42 +976,42 @@ html {
           top: 0;
           left: 0;
           z-index: 1; } }
-  .home > section#logos {
+  body > section#logos {
     background-color: #1A1A1A;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-    .home > section#logos a {
+    body > section#logos a {
       color: inherit; }
-    .home > section#logos > div {
+    body > section#logos > div {
       padding-bottom: 6px; }
-      .home > section#logos > div header {
+      body > section#logos > div header {
         padding: 30px 30px 0; }
         @media (min-width: 1260px) {
-          .home > section#logos > div header {
+          body > section#logos > div header {
             margin-left: -30px;
             margin-right: -30px; } }
-      .home > section#logos > div ul {
+      body > section#logos > div ul {
         padding: 0;
         margin-left: 15px; }
-        .home > section#logos > div ul::after {
+        body > section#logos > div ul::after {
           clear: both;
           content: "";
           display: table; }
         @media (min-width: 1260px) {
-          .home > section#logos > div ul {
+          body > section#logos > div ul {
             margin-left: 1%; } }
-        .home > section#logos > div ul li {
+        body > section#logos > div ul li {
           display: block;
           padding: 30px 0;
           box-sizing: border-box; }
           @media (min-width: 900px) {
-            .home > section#logos > div ul li {
+            body > section#logos > div ul li {
               float: left;
               width: 30%; } }
-          .home > section#logos > div ul li span {
+          body > section#logos > div ul li span {
             display: inline-block; }
-            .home > section#logos > div ul li span svg {
+            body > section#logos > div ul li span svg {
               display: block;
               width: 35%;
               margin-bottom: -100px;
@@ -1038,6 +1054,59 @@ html {
     .modal--fade .modal-close:after,
     .modal--show .modal-close:after {
       z-index: 19; } }
+
+.events_list #events #preamble {
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.events_list #events #postamble {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.events_list #events #search-wrapper {
+  margin: auto;
+  width: 80%; }
+
+.events_list #events #search-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75em;
+  margin-bottom: 3.75px; }
+
+.events_list #events #filter-list {
+  margin-top: 3.75px;
+  box-sizing: border-box;
+  padding: 0.75em;
+  margin-bottom: 3.75px; }
+
+.events_list #events ul.list {
+  list-style-type: none; }
+
+.events_list #events .event-detail {
+  margin-top: 15px;
+  margin-bottom: 60px; }
+
+.events_list #events a[id]::before {
+  content: '';
+  display: block;
+  height: 120px;
+  margin-top: -120px; }
+
+.events_list #events .leading-icon {
+  width: 1rem;
+  height: 1rem;
+  text-decoration: none;
+  border: 0; }
+
+.events_list #events .event-detail p {
+  margin-top: 15px; }
+
+.events_list #events .event-detail p .social-link {
+  padding-right: 15px;
+  white-space: nowrap; }
 
 .site-footer {
   background-color: #1A1A1A;
