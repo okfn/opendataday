@@ -90,6 +90,11 @@
                 {% endif %}
               {% endif %}
 
+              {% if event['organisers'] %}
+                <dt>{{ this.organisers }}</dt>
+                <dd>{{ event['organisers'] }}</dd>
+              {% endif %}
+
               <!-- hidden elements to make the search work -->
               {% if event['online'] %}
                 <dt style="display:none" aria-hidden="true" >Location</dt>
