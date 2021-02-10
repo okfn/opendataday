@@ -57,8 +57,8 @@
                 <dt>{{ this.time }}</dt>
                 <dd>
                   {{ event['event_time'] }}
-                  {% if event['event_timezone'] %}
-                    ({{ event['event_timezone'] }})
+                  {% if event['timezone'] %}
+                    ({{ event['timezone'] }})
                   {% endif %}
                 </dd>
               {% endif %}
