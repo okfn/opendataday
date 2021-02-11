@@ -1,5 +1,0 @@
-name: 'Update Data'
-description: 'Update Data'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'

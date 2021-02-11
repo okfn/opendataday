@@ -11,5 +11,38 @@ jobs:
         with:
           ref: 'master'
 
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Set up Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Install python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
       - name: Update Data
-        uses: ./.github/actions/update-data
+        run: |
+          python ./etl/etl.py
+          git config user.name "opendataday[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Update at ${timestamp}" || exit 0
+          git push
+
+      - name: Install JS dependencies
+        run: npm install
+
+      - name: Build
+        run: |
+          npm run build
+          lektor build
+
+      - name: Deploy
+        run: lektor deploy ci --username ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }}
