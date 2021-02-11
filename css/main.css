@@ -572,7 +572,6 @@ html {
  */
 body .banner {
   background-color: #FFB900;
-  height: 100vh;
   width: 100%;
   display: table;
   background-image: url("../images/banner.png");
@@ -1076,7 +1075,7 @@ body > section {
   padding: 0.75em;
   margin-bottom: 3.75px; }
 
-.events_list #events #filter-list {
+.events_list #events #filter-input {
   margin-top: 3.75px;
   box-sizing: border-box;
   padding: 0.75em;
