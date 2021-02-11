@@ -28,6 +28,8 @@ time: Time
 ---
 location: Location
 ---
+funded: Funded by mini grant
+---
 website: Website
 ---
 online_event: Join Online Event

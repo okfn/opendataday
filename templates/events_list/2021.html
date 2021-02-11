@@ -125,6 +125,15 @@
             </dl>
 
             <p>
+              {% if event['mini_grant_winner'] %}
+                <span>
+                  <svg class="leading-icon"><use xlink:href="#icon-coin-dollar" /></svg>
+                  {{ this.funded }}
+                </span>
+              {% endif %}
+            </p>
+
+            <p>
               {% if event['url'] %}
                 <span class="social-link">
                   <svg class="leading-icon"><use xlink:href="#icon-sphere" /></svg>
