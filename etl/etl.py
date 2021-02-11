@@ -163,7 +163,7 @@ def main():
     data = pre_process(data)
     schema = EventSchema()
     for i, row in enumerate(data):
-        print(f'Processing line {i+1} ', end='')
+        print(f'Processing line {i+2} ', end='')
         data[i] = schema.load(row)
         print('✔️')
     data = filter_current_year(data)
