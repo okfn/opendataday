@@ -17,10 +17,10 @@
   <div id="events-list">
 
     <div id="search-wrapper" style="display:none">
-      <input id="search-input" class="search" placeholder="Search" />
+      <input id="search-input" placeholder="Search" />
 
       {{ this.filter_label }}:
-      <select id="filter-list">
+      <select id="filter-input">
         <option value="#filter:All">{{ this.filter_all_events }}</option>
         <option value="#filter:world-region-code=AMER">{{ this.filter_amer }}</option>
         <option value="#filter:world-region-code=EMEA">{{ this.filter_emea }}</option>
@@ -182,39 +182,68 @@
         'event-country',
         'world-region-text',
         'world-region-code',
-      ]
+      ],
+      searchDelay: 500
   };
   var list = new List('events-list', options);
+  var filters = {
+    '#filter:All': function(item) {return true;},
+    '#filter:world-region-code=EMEA': function(item) {return item.values()['world-region-code'] === 'EMEA';},
+    '#filter:world-region-code=APAC': function(item) {return item.values()['world-region-code'] === 'APAC';},
+    '#filter:world-region-code=AMER': function(item) {return item.values()['world-region-code'] === 'AMER';},
+    '#filter:event-location=Online': function(item) {return item.values()['event-location'] === 'Online';},
+    '#filter:event-location=Offline': function(item) {return item.values()['event-location'] !== 'Online';},
+  };
 
   function getFilter(hash) {
-    var filters = {
-      '#filter:All': function(item) {return true;},
-      '#filter:world-region-code=EMEA': function(item) {return item.values()['world-region-code'] === 'EMEA';},
-      '#filter:world-region-code=APAC': function(item) {return item.values()['world-region-code'] === 'APAC';},
-      '#filter:world-region-code=AMER': function(item) {return item.values()['world-region-code'] === 'AMER';},
-      '#filter:event-location=Online': function(item) {return item.values()['event-location'] === 'Online';},
-      '#filter:event-location=Offline': function(item) {return item.values()['event-location'] !== 'Online';},
-    };
     return filters[hash];
   }
 
-  function applyFilter() {
-    var filter = getFilter(window.location.hash);
-    if (getFilter(window.location.hash) !== undefined) {
+  function applyFilter(value) {
+    var filter = getFilter(value);
+    if (filter !== undefined) {
       list.filter(filter);
-      $('#filter-list').val(window.location.hash);
     }
   }
 
-  $('#filter-list').on('change', function() {
-    window.location.hash = this.value;
+  function applySearch(value) {
+    list.search(value);
+  }
+
+  function hash2Dom() {
+    var hash = window.location.hash;
+    if (!hash.startsWith('#filter:')) {
+      return;
+    }
+    var parts = hash.split(',search:', 2);
+    if (parts[0] in filters) {
+      $('#filter-input').val(parts[0]);
+    }
+    if (parts.length === 2) {
+      $('#search-input').val(parts[1]);
+    }
+  }
+
+  function dom2Hash() {
+    var hash = $('#filter-input').val() + ',search:' + $('#search-input').val();
+    window.location.hash = hash;
+  }
+
+  $('#filter-input').on('change', function() {
+    applyFilter(this.value);
+    dom2Hash();
   });
 
-  window.addEventListener('hashchange', function() {
-    applyFilter();
+  $('#search-input').on('input', function() {
+    applySearch(this.value);
+    dom2Hash();
   });
 
-  applyFilter();
+  if (window.location.hash.startsWith('#filter:')) {
+    hash2Dom();
+    $('#filter-input').trigger('change');
+    $('#search-input').trigger('input');
+  }
 
   $('#search-wrapper').show();
 </script>
