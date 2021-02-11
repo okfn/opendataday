@@ -85,6 +85,9 @@
                     {% else %}
                       {{ event['place'] }}
                     {% endif %}
+                    {% if event['country'] %}
+                      {{ event['country'] }}
+                    {% endif %}
                     {% if event['world_region_text'] %}
                       ({{ event['world_region_text'] }})
                     {% endif %}
@@ -105,6 +108,10 @@
                 {% if event['place'] %}
                   <dt style="display:none" aria-hidden="true" >Location</dt>
                   <dd style="display:none" aria-hidden="true" class="event-location">{{event['place']}}</dd>
+                {% endif %}
+                {% if event['country'] %}
+                  <dt style="display:none" aria-hidden="true" >Country</dt>
+                  <dd style="display:none" aria-hidden="true" class="event-country">{{event['country']}}</dd>
                 {% endif %}
               {% endif %}
               {% if event['world_region_text'] %}
@@ -172,6 +179,7 @@
       valueNames: [
         'event-title',
         'event-location',
+        'event-country',
         'world-region-text',
         'world-region-code',
       ]
