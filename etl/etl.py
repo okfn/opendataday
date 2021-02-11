@@ -92,7 +92,7 @@ def write_json(filename, data):
 
 def write_csv(filename, data):
     with open(filename, 'w') as f:
-        writer = csv.DictWriter(f, fieldnames=data[0].keys())
+        writer = csv.DictWriter(f, fieldnames=sorted(data[0].keys()))
         writer.writeheader()
         for row in data:
             writer.writerow(row)
