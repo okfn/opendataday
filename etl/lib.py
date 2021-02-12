@@ -2,7 +2,6 @@ import csv
 import json
 from collections import Counter
 from io import StringIO
-from pathlib import Path
 
 import requests
 from marshmallow import (
@@ -12,12 +11,6 @@ from marshmallow import (
     validate,
 )
 from slugify import slugify
-
-
-IN_URL = 'https://docs.google.com/spreadsheets/d/17MemnXoshf1cd6_S4l23uyOQxfEI6m-sXZNrDnNhFc8/export?format=csv&id=17MemnXoshf1cd6_S4l23uyOQxfEI6m-sXZNrDnNhFc8&gid=1679616011'
-JSON_OUT_FILE = Path(__file__).absolute().parent.parent / 'databags' / 'events-2021.json'
-CSV_OUT_FILE = Path(__file__).absolute().parent.parent / 'Datasets' / 'Events 2021.csv'
-THIS_YEAR = 2021
 
 
 validate_not_empty = validate.Length(min=1)
@@ -68,8 +61,8 @@ class EventSchema(Schema):
     report_question_3 = fields.Str(required=True, data_key="Why do you love Open Data Day?")
 
 
-def get_data():
-    r = requests.get(IN_URL)
+def get_data(in_url):
+    r = requests.get(in_url)
     r.raise_for_status()
     r.encoding = 'utf-8'
     stream = StringIO(r.text)
@@ -98,11 +91,11 @@ def write_csv(filename, data):
             writer.writerow(row)
 
 
-def filter_current_year(data):
+def filter_current_year(data, this_year):
     out = [
         row for row in data
         if row['event_date'] is None
-        or row['event_date'].year == THIS_YEAR
+        or row['event_date'].year == this_year
     ]
     print(f'Discarding {len(data)-len(out)} events..')
     return out
@@ -158,28 +151,19 @@ def code_world_regions(data):
     return data
 
 
-def main():
-    data = get_data()
+def main(in_url, json_out_file, csv_out_file, this_year):
+    data = get_data(in_url)
     data = pre_process(data)
     schema = EventSchema()
     for i, row in enumerate(data):
         print(f'Processing line {i+2} ', end='')
         data[i] = schema.load(row)
         print('✔️')
-    data = filter_current_year(data)
+    data = filter_current_year(data, this_year)
     data = format_dates(data)
     data = generate_slugs(data)
     data = cleanup_urls(data)
     data = code_world_regions(data)
 
-    write_csv(CSV_OUT_FILE, data)
-    write_json(JSON_OUT_FILE, data)
-
-
-if __name__ == '__main__':
-    try:
-        main()
-    except Exception as e:
-        print('❌')
-        print(str(e))
-        raise e
+    write_csv(csv_out_file, data)
+    write_json(json_out_file, data)

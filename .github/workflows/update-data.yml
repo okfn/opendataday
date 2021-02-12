@@ -28,7 +28,7 @@ jobs:
 
       - name: Update Data
         run: |
-          python ./etl/etl.py
+          python ./etl/2021.py
           git config user.name "opendataday[bot]"
           git config user.email "actions@users.noreply.github.com"
           git add -A
