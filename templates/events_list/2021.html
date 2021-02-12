@@ -39,10 +39,12 @@
         <li>
 
           <h3 class="event-title">
-            <a id="{{ event['slug'] }}" aria-hidden="true"></a>
-            <a href="#{{ event['slug'] }}">
-              <svg class="leading-icon"><use xlink:href="#icon-link" />
-              </svg></a>
+            {% if event['slug'] %}
+              <a id="{{ event['slug'] }}" aria-hidden="true"></a>
+              <a href="#{{ event['slug'] }}">
+                <svg class="leading-icon"><use xlink:href="#icon-link" />
+                </svg></a>
+            {% endif %}
             {{ event['event_name'] }}
           </h3>
 
