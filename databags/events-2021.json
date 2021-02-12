@@ -2687,6 +2687,34 @@
       "url": "https://bit.ly/3jyw9gu",
       "world_region_code": "EMEA",
       "world_region_text": "Europe, Middle East & Africa"
+    },
+    {
+      "country": "South Africa",
+      "event_date": "2021-03-06",
+      "event_name": "Civic data hackathon - for techies and not so techies",
+      "event_photo_url": "",
+      "event_purpose": "We're going to try and create an online space where techies and non techies can meet each other, look at the problems we're facing, and see what we can do about it.",
+      "event_report_url": "",
+      "event_time": "10:00",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": -33.918861,
+      "longitude": 18.4233,
+      "mini_grant_winner": false,
+      "num_participants": "30",
+      "online": true,
+      "online_event_url": "https://www.meetup.com/Codebridge/events/276287010",
+      "organisers": "Codebridge",
+      "place": "Cape Town",
+      "report_question_1": "",
+      "report_question_2": "",
+      "report_question_3": "",
+      "slug": "civic-data-hackathon-for-techies-and-not-so-techies",
+      "timezone": "SAST",
+      "url": "https://www.meetup.com/Codebridge/events/276287010",
+      "world_region_code": "EMEA",
+      "world_region_text": "Europe, Middle East & Africa"
     }
   ]
 }
