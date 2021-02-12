@@ -29,10 +29,11 @@
         <option value="#filter:event-location=Online">{{ this.filter_online }}</option>
         <option value="#filter:event-location=Offline">{{ this.filter_offline }}</option>
       </select>
+
+      <p><strong>Found <span id="num-results"></span> events</strong></p>
     </div>
 
-
-    <ul class=list>
+    <ul class="list">
       {% set events = bag(this.data_file).events %}
       {% for event in events %}
         <li>
@@ -242,11 +243,13 @@
   $('#filter-input').on('change', function() {
     applyFilter(this.value);
     dom2Hash();
+    $('#num-results').text(list.matchingItems.length);
   });
 
   $('#search-input').on('input', function() {
     applySearch(this.value);
     dom2Hash();
+    $('#num-results').text(list.matchingItems.length);
   });
 
   if (window.location.hash.startsWith('#filter:')) {
@@ -254,6 +257,7 @@
     $('#filter-input').trigger('change');
     $('#search-input').trigger('input');
   }
+  $('#num-results').text(list.matchingItems.length);
 
   $('#search-wrapper').show();
 </script>
