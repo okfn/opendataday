@@ -1,7 +1,6 @@
-_model: home
+language: fr
 ---
-next_date: 2021-03-06
----
+
 title: Vous êtes invité
 ---
 banner_heading_1: Vous êtes invité.

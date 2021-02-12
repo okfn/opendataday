@@ -1,9 +1,6 @@
 language: ru
 ---
-_model: home
----
-next_date: 2021-03-06
----
+
 title: Вы приглашены!
 ---
 banner_heading_1: Вы приглашены!
