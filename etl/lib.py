@@ -46,7 +46,7 @@ class EventSchema(Schema):
     timezone = fields.Str(required=True, data_key="Timezone")
     country = fields.Str(required=True, data_key="Country")
     world_region_code = fields.Str(required=True, data_key="World region AMER/EMEA/APAC",
-        validate=validate.OneOf(['AMER', 'EMEA', 'APAC'])
+        validate=validate.OneOf(['AMER', 'EMEA', 'APAC', ''])
     )
     online = fields.Boolean(required=True, data_key="Online event?")
     online_event_url = fields.Str(required=True, data_key="Online event URL")
@@ -145,6 +145,7 @@ def code_world_regions(data):
         'AMER': 'The Americas',
         'EMEA': 'Europe, Middle East & Africa',
         'APAC': 'Asia & The Pacific',
+        '': '',
     }
     for row in data:
         row['world_region_text'] = map_[row['world_region_code']]
