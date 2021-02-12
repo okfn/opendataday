@@ -16,18 +16,17 @@
   {% block list %}
 
   <div id="events-list">
-
     <div id="search-wrapper" style="display:none">
       <input id="search-input" placeholder="Search" />
 
-      {{ this.filter_label }}:
+      {{ bag('events-content', this.alt).filter_label }}:
       <select id="filter-input">
-        <option value="#filter:All">{{ this.filter_all_events }}</option>
-        <option value="#filter:world-region-code=AMER">{{ this.filter_amer }}</option>
-        <option value="#filter:world-region-code=EMEA">{{ this.filter_emea }}</option>
-        <option value="#filter:world-region-code=APAC">{{ this.filter_apac }}</option>
-        <option value="#filter:event-location=Online">{{ this.filter_online }}</option>
-        <option value="#filter:event-location=Offline">{{ this.filter_offline }}</option>
+        <option value="#filter:All">{{ bag('events-content', this.alt).filter_all_events }}</option>
+        <option value="#filter:world-region-code=AMER">{{ bag('events-content', this.alt).filter_amer }}</option>
+        <option value="#filter:world-region-code=EMEA">{{ bag('events-content', this.alt).filter_emea }}</option>
+        <option value="#filter:world-region-code=APAC">{{ bag('events-content', this.alt).filter_apac }}</option>
+        <option value="#filter:event-location=Online">{{ bag('events-content', this.alt).filter_online }}</option>
+        <option value="#filter:event-location=Offline">{{ bag('events-content', this.alt).filter_offline }}</option>
       </select>
 
       <p><strong>Found <span id="num-results"></span> events</strong></p>
@@ -53,14 +52,14 @@
 
             <dl>
               {% if event['event_date'] %}
-                <dt>{{ this.date }}</dt>
+                <dt>{{ bag('events-content', this.alt).date }}</dt>
                 <dd>
                   {{ parse_date(event['event_date'], '%Y-%m-%d').strftime('%A %e %B %Y') }}
                 </dd>
               {% endif %}
 
               {% if event['event_time'] %}
-                <dt>{{ this.time }}</dt>
+                <dt>{{ bag('events-content', this.alt).time }}</dt>
                 <dd>
                   {{ event['event_time'] }}
                   {% if event['timezone'] %}
@@ -70,7 +69,7 @@
               {% endif %}
 
               {% if event['online'] %}
-                <dt>{{ this.location }}</dt>
+                <dt>{{ bag('events-content', this.alt).location }}</dt>
                 <dd>
                   Online
                   {% if event['world_region_text'] %}
@@ -79,7 +78,7 @@
                 </dd>
               {% else %}
                 {% if event['place'] %}
-                  <dt>{{ this.location }}</dt>
+                  <dt>{{ bag('events-content', this.alt).location }}</dt>
                   <dd>
                     {% if event['latitude'] and event['longitude'] %}
                       <a
@@ -100,7 +99,7 @@
               {% endif %}
 
               {% if event['organisers'] %}
-                <dt>{{ this.organisers }}</dt>
+                <dt>{{ bag('events-content', this.alt).organisers }}</dt>
                 <dd>{{ event['organisers'] }}</dd>
               {% endif %}
 
@@ -132,7 +131,7 @@
               {% if event['mini_grant_winner'] %}
                 <span>
                   <svg class="leading-icon"><use xlink:href="#icon-coin-dollar" /></svg>
-                  {{ this.funded }}
+                  {{ bag('events-content', this.alt).funded }}
                 </span>
               {% endif %}
             </p>
@@ -141,28 +140,28 @@
               {% if event['url'] %}
                 <span class="social-link">
                   <svg class="leading-icon"><use xlink:href="#icon-sphere" /></svg>
-                  <a href="{{ event['url'] }}">{{ this.website }}</a>
+                  <a href="{{ event['url'] }}">{{ bag('events-content', this.alt).website }}</a>
                 </span>
               {% endif %}
 
               {% if event['online_event_url'] %}
                 <span class="social-link">
                   <svg class="leading-icon"><use xlink:href="#icon-users" /></svg>
-                  <a href="{{ event['online_event_url'] }}">{{ this.online_event }}</a>
+                  <a href="{{ event['online_event_url'] }}">{{ bag('events-content', this.alt).online_event }}</a>
                 </span>
               {% endif %}
 
               {% if event['event_tweet_url'] %}
                 <span class="social-link">
                   <svg class="leading-icon"><use xlink:href="#icon-twitter" /></svg>
-                  <a href="{{ event['event_tweet_url'] }}">{{ this.twitter }}</a>
+                  <a href="{{ event['event_tweet_url'] }}">{{ bag('events-content', this.alt).twitter }}</a>
                 </span>
               {% endif %}
 
               {% if event['event_video_url'] %}
                 <span class="social-link">
                   <svg class="leading-icon"><use xlink:href="#icon-youtube" /></svg>
-                  <a href="{{ event['event_video_url'] }}">{{ this.youtube }}</a>
+                  <a href="{{ event['event_video_url'] }}">{{ bag('events-content', this.alt).youtube }}</a>
                 </span>
               {% endif %}
             </p>
