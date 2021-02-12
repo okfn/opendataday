@@ -137,6 +137,13 @@
             </p>
 
             <p>
+              {% if event['event_report_url'] %}
+                <span class="social-link">
+                  <svg class="leading-icon"><use xlink:href="#icon-book" /></svg>
+                  <a href="{{ event['event_report_url'] }}">{{ bag('events-content', this.alt).report }}</a>
+                </span>
+              {% endif %}
+
               {% if event['url'] %}
                 <span class="social-link">
                   <svg class="leading-icon"><use xlink:href="#icon-sphere" /></svg>
