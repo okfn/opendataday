@@ -79,3 +79,8 @@ locale = zh_hans
 name = 正體中文
 url_prefix = /zh_tw/
 locale = zh_tw
+
+[alternatives.zh_tw]
+name = 한국어
+url_prefix = /kr/
+locale = kr
