@@ -1,0 +1,149 @@
+_model: home
+---
+next_date: 2021-03-06
+---
+title: 당신은 초대되었습니다.
+---
+banner_heading_1: 당신은 초대되었습니다.
+---
+banner_heading_2: 이번에도요!
+---
+banner_content_1: 2021년 오픈 데이터 데이가 열립니다. 
+---
+banner_content_2: 2021년 3월 6일 토요일
+---
+intro_heading: 오픈 데이터 데이가 무엇인가요? 
+---
+intro_body:
+
+오픈 데이터 데이는 전 세계의 오픈 데이터를 기념하는 연례 행사입니다. 이 날에 전 세계의 그룹들이 각 지역에서 이벤트를 개최합니다. 각 지역의 오픈 데이터를 활용하는 날인 것이죠. 오픈 데이터의 이점을 보여주고, 정부와 기업 및 시민사회에서 오픈 데이터 정책의 적용을 채택할 수 있는 기회가 됩니다. 
+---
+intro_body_2:
+
+모든 결과물은 모두가 사용할 수 있고, 재사용할 수 있도록 오픈됩니다.
+---
+year_intro:
+
+2021년 오픈 데이터 데이를 위해 우리는 오픈 데이터가 해결에 도움을 줄 수 있다고 생각하는 아래의 주요한 영역들에 초점을 두어 작은 보조금을 제공할 것입니다.:
+---
+year_label_1: 환경 **데이터**
+---
+year_label_2: 공공 **자금**의 유통 추적
+---
+year_label_3: 공공 **지도**
+---
+year_label_4: **평등한 개발**을 위한 데이터
+---
+register_text: 당신의 이벤트를 등록하세요. 
+---
+events_registered: 이벤트가 지금까지 등록되었습니다.
+---
+who_heading: 누구를 위한 것일까요? 모두를 위한 것입니다!
+---
+who_body:
+
+오픈 데이터 사용에 대한 아이디어가 있거나, 기여할 흥미로운 프로젝트를 찾고 있나요? 뿐만 아니라 데이터 시각화 혹은 분석 방법을 배우고 싶거나 단순히 무슨 일이 일어나고 있는지보고 싶다면 참여하세요! 참여는 오픈 데이터 데이의 핵심 가치이며, 누구나 건설적인 방식으로 의견을 자유롭게 표현할 수 있습니다. 당신의 기술이나 관심 분야에 상관없이, 우리는 글로벌 오픈 데이터 커뮤니티의 성장에 당신이 배우고 도움줄 수 있는 기회를 조성하도록 주최자를 장려하고 있습니다. 
+---
+who_title_1: 시민들
+---
+who_description_1:
+
+우리는 당신이 가장 필요합니다. 당신이 아니라면, 이 모든 것들은 일어나지 못했을 겁니다. 당신이 어떤 나라 사람이든, 당신의 배경이 무엇이든 우리는 당신을 필요로 합니다. 
+---
+who_title_2: 공무원
+---
+who_description_2:
+
+당신의 노력과 배경은 정부 데이터가 더 나아질 수 있도록 도울 수 있습니다. 함께 대화하고 배우러 오세요. 
+---
+who_title_3: 디자이너
+---
+who_description_3:
+
+오픈 데이터가 연결될 수 있도록 도와주세요, 그래서 더 많은 사람들이 사용하고 이해할 수 있도록 말이에요. 
+---
+who_title_4: 개발자
+---
+who_description_4:
+
+당신의 기술을 사용해주세요. 중요한 사회적 이슈를 해결하는데 도움을 주는 해결책을 발전시킬 수 있도록요.
+---
+who_title_5: 통계학자
+---
+who_description_5:
+
+데이터를 이해할 수 있도록 돕고, 데이터로부터 중요한 인사이트를 얻을 수 있도록 당신의 기술을 사용해주세요.
+---
+resources_heading: 이벤트 자원
+---
+resources_intro:
+
+오픈 데이터 데이 이벤트를 위한 영감이 필요하세요, 아니면 당신이 필요한 데이터를 어디서 찾아야 할지 모르시겠나요? 우리의 이벤트 자원을 확인해보세요. 
+---
+resources_button: 자원
+---
+resources_materials_heading: 자원들
+---
+resources_materials_text:
+
+[로고 생성기](http://odd.structure-and-representation.com/)를 사용하여 당신의 도시의 이벤트 로고를 만드세요!
+---
+resources_ideas_heading: 아이디어와 데이터 소스
+---
+resources_ideas_intro:
+
+오픈 데이터에 열정적이신 분들! 당신은 방금 2021년 3월 6일 토요일에 오픈 데이터 데이가 열릴 것이란 것을 봤어요. 당신의 지역에서 이벤트를 개최하는데 관심이 있으신거죠? 지금 당신의 유일한 고민은 적절한 장소를 물색하는 것이에요. 오픈 데이터 커뮤니티의 많은 친구들은 확인해 볼만한 아이디어와 데이터 소스를 가지고 있습니다. 
+
+[CKAN 웹사이트](https://ckan.org/about/instances/)를 방문해주세요. CKAN을 사용하여 데이터를 공개한 전 세계의 조직들을 찾을 수 있을 거에요. 
+
+[data.world](https://data.world)를 사용하세요. 여러 소스에서 데이터를 찾거나 업로드하고, 하나의 워크 스페이스에서 다양한 종류의 - 데이터, 노트북, 분석과 토론을 포함한 - 프로젝트를 조직할 수 있습니다. 
+
+데이터가 있지만 어디에 두어야할지 모르겠다면, [DataHub](https://datahub.io)를 사용할 수 있습니다. 또한 데이터셋을 공개할 수 있고, [관련된 데이터를 검색할 수 있으며](https://datahub.io/search), [주제별 데이터 콜렉션을 찾아볼 수 있고](https://datahub.io/collections), 당신의 오픈 데이터를 공개하는데 [도움을 요청할 수 있습니다](https://gitter.im/datahubio/chat).
+
+---
+resources_ideas_theme_1: 환경 데이터
+---
+resources_ideas_theme_1_text:
+
+오픈 데이터 데이 이벤트에 사용할 환경 또는 기후 데이터를 검색하거나 영감을 얻으려면, [ResourceWatch.org 사이트](https://resourcewatch.org/), [World Resources Institute] (https://www.wri.org/)의 데이터 포털을 방문하세요. [NASA의 오픈 데이터 웹 사이트](https://open.nasa.gov/open-data/)를 탐색할 수도 있습니다. 지구 관측 데이터는 [geoportal.org] (https://www.geoportal.org)로 이동하세요. 또는 [Global Forest Watch](https://www.globalforestwatch.org/)에서 산림 회복/손실 데이터를 검색 할 수 있습니다.
+
+당신의 이벤트를 위해 재해 위험 관리 또는 자연 재해의 복원력에 대한 정보를 원하시면 [재해 감소와 회복을 위한 글로벌 기구 연구실](https://www.gfdrr.org/en/gfdrr-labs) 또는 [Resilience Initiative를 위한 오픈 데이터] (https://opendri.org/)를 방문하면 도구와 프로젝트를 찾을 수 있습니다. 또는 [공공 도시 아프리카 프로젝트](https://opencitiesproject.org/), [Think Hazard](https://thinkhazard.org/en/), [OpenDRI Index](https://index.opendri.org/)와 [리스크 데이터 라이브러리](http://riskdatalibrary.org/)에서 오픈 데이터와 소스를 찾을 수 있습니다.
+
+[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/)와 [Open Data Charter의 기후 데이터를 위한 오픈업 가이드](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/)에서 또한 유용한 가이드와 조언을 찾을 수 있을 겁니다.
+---
+[//]: # (resources_ideas_theme_2: 
+---
+resources_ideas_theme_2_text:
+
+---
+resources_ideas_theme_3: 공공 자금의 유통 추적
+---
+resources_ideas_theme_3_text:
+
+[Open Contracting Partnership](https://www.open-contracting.org)과 Hivos의 Open Up Contracting](https://www.openupcontracting.org/) 웹사이트에서 공공 자금 조달과 지출에 집중한 오픈 데이터 데이 이벤트를 열고 싶은 사람들을 위해 다양한 가이드와 예를 제공하고 있습니다. [오픈 데이터를 사용해 부패를 방지하기 위한 Open Data Charter 가이드](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/)도 확인해보세요.
+---
+resources_ideas_theme_4: 공공 지도
+---
+resources_ideas_theme_4_text:
+
+[Mapbox](https://www.mapbox.com), [OpenStreetMap](https://www.openstreetmap.org/)와 [Humanitarian OpenStreetMap](https://www.hotosm.org/) 웹사이트에서 공공 지도에 대한 더 많은 정보를 찾아보세요.
+---
+resources_ideas_theme_5: 평등한 개발을 위한 데이터
+---
+resources_ideas_theme_5_text:
+
+[인도주의적 데이터 센터](https://data.humdata.org)에서는 [data.humdata.org](https://data.humdata.org/)의 CKAN 기반 포털을 통해 사용할 수 있는 17,000개 이상의 인도주의적 개방형 데이터 세트가 있습니다. 이는 평등한 개발을 위한 핵심 의제를 강조하는 데 도움이 될 수 있습니다. 당신은 또한 [UN의 Open SDG Data Hub](https://unstats-undesa.opendata.arcgis.com), [월드뱅크 데이터 포털](https://data.worldbank.org) 또는 [유러피안 데이터 포털](https://www.europeandataportal.eu/)과 같은 대규모 데이터 수집 포털을 이용할 수 있습니다.
+---
+resources_ideas_theme_6: 인권 테마
+---
+resources_ideas_theme_6_text:
+
+---
+support_scheme_heading: 지원 계획
+---
+support_scheme_body:
+
+2021년의 보조금 지원 계획은 현재 종료되었습니다. 올해 보조금을 받은 조직들에 대해 찾고 싶다면 우리의 블로그 글을 읽어주세요. 
+---
+support_scheme_button: 더 알아보기
+---
