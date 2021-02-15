@@ -8,10 +8,12 @@
         <li
           {% if this.is_child_of(path) %} class="active"{% endif %}
         >
-          {% if this._model == 'home' or not(path.startswith('#')) %}
-            <a href="{{ path|url }}">{{ label }}</a>
-          {% else %}
+          {% if this._model == 'home' and path.startswith('#') %}
+            <a href="{{ path }}">{{ label }}</a>
+          {% elif this._model != 'home' and path.startswith('#') %}
             <a href="{{ '/'|url }}{{ path }}">{{ label }}</a>
+          {% else %}
+            <a href="{{ path|url }}">{{ label }}</a>
           {% endif %}
         </li>
       {% endfor %}
