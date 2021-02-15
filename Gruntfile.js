@@ -37,7 +37,11 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'assets/css/style.css': ['node_modules/normalize.css/normalize.css', 'node_modules/animate.css/animate.css', 'assets/css/main.css']
+          'assets/css/style.css': [
+            'node_modules/normalize.css/normalize.css',
+            'node_modules/animate.css/animate.css',
+            'assets/css/main.css'
+          ]
         }
       }
     },
@@ -47,7 +51,13 @@ module.exports = function(grunt) {
         separator: '\n',
       },
       dist: {
-        src: ['node_modules/waypoints/lib/jquery.waypoints.min.js', 'node_modules/waypoints/lib/shortcuts/sticky.min.js', 'node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js', 'node_modules/slicknav/dist/jquery.slicknav.min.js'],
+        src: [
+          'node_modules/waypoints/lib/jquery.waypoints.min.js',
+          'node_modules/waypoints/lib/shortcuts/sticky.min.js',
+          'node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js',
+          'node_modules/slicknav/dist/jquery.slicknav.min.js',
+          'node_modules/list.js/dist/list.min.js',
+        ],
         dest: 'assets/js/plugins.js',
       },
     },
