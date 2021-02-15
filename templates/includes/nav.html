@@ -22,9 +22,11 @@
       <div class="language">
         <div>
           {% if this.language %}
-          {% set current_language = this.language %}
+            {% set current_language = this.language %}
+          {% elif this.alt %}
+            {% set current_language = this.alt %}
           {% else %}
-          {% set current_language = "en" %}
+            {% set current_language = "en" %}
           {% endif %}
           <a class="current" href="#lang">{{ current_language |replace("_", " ") }}</a>
 
