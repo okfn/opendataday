@@ -1,0 +1,11 @@
+<li>
+  {%  if not item.link %}
+    {{ item.title }}
+  {% elif this._model == 'home' and item.link.startswith('#') %}
+    <a href="{{ item.link }}">{{ item.title }}</a>
+  {% elif this._model != 'home' and item.link.startswith('#') %}
+    <a href="{{ '/'|url }}{{ item.link }}">{{ item.title }}</a>
+  {% else %}
+    <a href="{{ item.link|url }}">{{ item.title }}</a>
+  {% endif %}
+</li>

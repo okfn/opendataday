@@ -1,1 +1,19 @@
-{ "all": [ "de_at", "de", "en", "es_es", "fr", "ja", "kr", "ne", "nl", "it", "pt_br", "ru", "th", "zh_hans", "zh_tw" ] }
+{
+  "all": {
+    "de_at": "Austrian Deutsch",
+    "de": "Deutsch",
+    "en": "English",
+    "es_es": "Castellano",
+    "fr": "Français",
+    "ja": "日本語",
+    "kr": "한국어",
+    "ne": "Nepali",
+    "nl": "Nederlands",
+    "it": "Italiano",
+    "pt_br": "Português Brasileiro",
+    "ru": "Русский",
+    "th": "Thai",
+    "zh_hans": "简体中文",
+    "zh_tw": "正體中文"
+  }
+}

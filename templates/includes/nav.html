@@ -4,19 +4,16 @@
       <a class="logo" href="{{ '/'|url }}">{% include 'includes/logo.svg' %}</a>
 
       <ul class="menu" id="nav">
-        {% for label, path in bag('main-nav', this.alt).items() %}
-        <li
-          {% if this.is_child_of(path) %} class="active"{% endif %}
-        >
-          {% if this._model == 'home' and path.startswith('#') %}
-            <a href="{{ path }}">{{ label }}</a>
-          {% elif this._model != 'home' and path.startswith('#') %}
-            <a href="{{ '/'|url }}{{ path }}">{{ label }}</a>
-          {% else %}
-            <a href="{{ path|url }}">{{ label }}</a>
+        {% for item in bag('main-nav', this.alt) %}
+          {% include 'includes/menu_item.html' %}
+          {% if item.children %}
+          <ul>
+            {% for item in item.children %}
+              {% include 'includes/menu_item.html' %}
+            {% endfor %}
+          </ul>
           {% endif %}
-        </li>
-      {% endfor %}
+        {% endfor %}
       </ul>
 
       <div class="language">
@@ -29,10 +26,11 @@
             {% set current_language = "en" %}
           {% endif %}
 
-          <ul id="lang">
-          {% for lang in bag('languages.all') %}
-            <li{% if current_language == lang %} class="active"{% endif %}>
-              <a href="{{ '.'|url(alt=lang) }}">{{ lang |upper |replace("_", " ")}}</a>
+          <ul class="menu" id="lang">
+            
+          {% for code, title in bag('languages.all').items() %}
+            <li{% if current_language == code %} class="active"{% endif %}>
+              <a href="{{ '.'|url(alt=code) }}">{{ title }}</a>
             </li>
           {% endfor %}
           </ul>

@@ -1,0 +1,660 @@
+{
+  "en": [
+    {
+      "title": "Open Data Day",
+      "link": "",
+      "children": [
+        {
+          "title": "What is this?",
+          "link": "#what"
+        },
+        {
+          "title": "Map of events",
+          "link": "#map"
+        },
+        {
+          "title": "Who is this for?",
+          "link": "#who"
+        },
+        {
+          "title": "Events resources",
+          "link": "#resources"
+        },
+        {
+          "title": "Support scheme",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "de":[
+    {
+      "title": "Open Data Day",
+      "link": "",
+      "children": [
+        {
+          "title": "Was ist das?",
+          "link": "#what"
+        },
+        {
+          "title": "Veranstaltungskalender",
+          "link": "#map"
+        },
+        {
+          "title": "Für wen ist das?",
+          "link": "#who"
+        },
+        {
+          "title": "Ressourcen",
+          "link": "#resources"
+        },
+        {
+          "title": "Unterstützung",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "de_at":[
+    {
+      "title": "Open Data Day",
+      "link": "",
+      "children": [
+        {
+          "title": "Was ist das?",
+          "link": "#what"
+        },
+        {
+          "title": "Veranstaltungskalender",
+          "link": "#map"
+        },
+        {
+          "title": "Für wen ist das?",
+          "link": "#who"
+        },
+        {
+          "title": "Ressourcen",
+          "link": "#resources"
+        },
+        {
+          "title": "Unterstützung",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "es_es":[
+    {
+      "title": "El Día de los Datos Abiertos",
+      "link": "",
+      "children": [
+        {
+          "title": "¿Qué es?",
+          "link": "#what"
+        },
+        {
+          "title": "Mapa de eventos",
+          "link": "#map"
+        },
+        {
+          "title": "¿Para quién es?",
+          "link": "#who"
+        },
+        {
+          "title": "Recursos para eventos",
+          "link": "#resources"
+        },
+        {
+          "title": "Mini becas",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "fr":[
+    {
+      "title": "La Journée des Données Ouvertes",
+      "link": "",
+      "children": [
+        {
+          "title": "De quoi s'agit-il ?",
+          "link": "#what"
+        },
+        {
+          "title": "Carte des événements",
+          "link": "#map"
+        },
+        {
+          "title": "Pour qui est-ce ?",
+          "link": "#who"
+        },
+        {
+          "title": "Ressources",
+          "link": "#resources"
+        },
+        {
+          "title": "Programme de soutien",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "it":[
+    {
+      "title": "Open Data Day",
+      "link": "",
+      "children": [
+        {
+          "title": "Di che si tratta?",
+          "link": "#what"
+        },
+        {
+          "title": "Mappa degli eventi",
+          "link": "#map"
+        },
+        {
+          "title": "Per chi è?",
+          "link": "#who"
+        },
+        {
+          "title": "Risorse",
+          "link": "#resources"
+        },
+        {
+          "title": "Sostegno finanziario",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "ja":[
+    {
+      "title": "オープンデータ・デイ",
+      "link": "",
+      "children": [
+        {
+          "title": "What is this?",
+          "link": "#what"
+        },
+        {
+          "title": "Map of events",
+          "link": "#map"
+        },
+        {
+          "title": "Who is this for?",
+          "link": "#who"
+        },
+        {
+          "title": "Events resources",
+          "link": "#resources"
+        },
+        {
+          "title": "Support scheme",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "kr":[
+    {
+      "title": "Open Data Day",
+      "link": "",
+      "children": [
+        {
+          "title": "오픈 데이터 데이란?",
+          "link": "#what"
+        },
+        {
+          "title": "이벤트 지도",
+          "link": "#map"
+        },
+        {
+          "title": "누구를 위한 것인가요?",
+          "link": "#who"
+        },
+        {
+          "title": "이벤트 자원",
+          "link": "#resources"
+        },
+        {
+          "title": "지원 계획",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "이벤트 검색",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "ne":[
+    {
+      "title": "खुल्ला डाटा दिवस",
+      "link": "",
+      "children": [
+        {
+          "title": "यो भनेको के हो?",
+          "link": "#what"
+        },
+        {
+          "title": "कार्यक्रमको नक्सा",
+          "link": "#map"
+        },
+        {
+          "title": "यो कसको लागि हो?",
+          "link": "#who"
+        },
+        {
+          "title": "कार्यक्रमको स्रोतहरु",
+          "link": "#resources"
+        },
+        {
+          "title": "समर्थन योजना",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "nl":[
+    {
+      "title": "Open Data Day",
+      "link": "",
+      "children": [
+        {
+          "title": "Wat?",
+          "link": "#what"
+        },
+        {
+          "title": "Evenementen",
+          "link": "#map"
+        },
+        {
+          "title": "Voor wie?",
+          "link": "#who"
+        },
+        {
+          "title": "Middelen",
+          "link": "#resources"
+        },
+        {
+          "title": "Ondersteuning",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "pt_br":[
+    {
+      "title": "O Dia dos Dados Abertos",
+      "link": "",
+      "children": [
+        {
+          "title": "O que é?",
+          "link": "#what"
+        },
+        {
+          "title": "Mapa de eventos",
+          "link": "#map"
+        },
+        {
+          "title": "Para quem é?",
+          "link": "#who"
+        },
+        {
+          "title": "Recursos para eventos",
+          "link": "#resources"
+        },
+        {
+          "title": "Plano de apoio",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "ru":[
+    {
+      "title": "День открытых данных",
+      "link": "",
+      "children": [
+        {
+          "title": "Что это?",
+          "link": "#what"
+        },
+        {
+          "title": "Карта мероприятий",
+          "link": "#map"
+        },
+        {
+          "title": "Для кого это?",
+          "link": "#who"
+        },
+        {
+          "title": "Материалы",
+          "link": "#resources"
+        },
+        {
+          "title": "Возможность поддержки",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "th":[
+    {
+      "title": "Open Data Day",
+      "link": "",
+      "children": [
+        {
+          "title": "นี่คืออะไร?",
+          "link": "#what"
+        },
+        {
+          "title": "แผนที่กิจกรรม",
+          "link": "#map"
+        },
+        {
+          "title": "งานนี้สำหรับใคร?",
+          "link": "#who"
+        },
+        {
+          "title": "ทรัพยากรสำหรับกิจกรรม",
+          "link": "#resources"
+        },
+        {
+          "title": "แผนงานสนับสนุน",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "zh_hans":[
+    {
+      "title": "Open Data Day",
+      "link": "",
+      "children": [
+        {
+          "title": "What is this?",
+          "link": "#what"
+        },
+        {
+          "title": "Map of events",
+          "link": "#map"
+        },
+        {
+          "title": "Who is this for?",
+          "link": "#who"
+        },
+        {
+          "title": "Events resources",
+          "link": "#resources"
+        },
+        {
+          "title": "Support scheme",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ],
+
+
+  "zh_tw":[
+    {
+      "title": "Open Data Day",
+      "link": "",
+      "children": [
+        {
+          "title": "這是什麼？",
+          "link": "#what"
+        },
+        {
+          "title": "活動地圖",
+          "link": "#map"
+        },
+        {
+          "title": "這是給誰參加的？",
+          "link": "#who"
+        },
+        {
+          "title": "活動資源",
+          "link": "#resources"
+        },
+        {
+          "title": "支援方案",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Search events",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        }
+      ]
+    }
+  ]
+}
