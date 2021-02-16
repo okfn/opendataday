@@ -99,7 +99,6 @@
           
             
           
-          <a class="current" href="#lang">es es</a>
 
           <ul id="lang">
           
@@ -26267,20 +26266,25 @@ dFNvZnR3YXJlAE1pY3Jvc29mdCBPZmZpY2V/7TVxAAAAAElFTkSuQmCC"/> </symbol><symbol vie
 
 
   
-  
+    
   
   <script type="text/javascript">
-    // menus used on small screens
     $(function(){
       $('#nav').slicknav({
         'prependTo': '.main-nav > div > div',
-        'label' : 'Menú'
+        'label' : 'Menú',
+        'duplicate': false,
+
+        'allowParentLinks': true,
+        'showChildren': true,
+        'closeOnClick': true
       });
     });
     $(function(){
       $('#lang').slicknav({
         'prependTo': '.main-nav > div > div',
-        'label' : 'en',
+        'label' : 'es es',
+        'duplicate': false
       });
     });
   </script>

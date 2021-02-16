@@ -98,7 +98,6 @@
           
             
           
-          <a class="current" href="#lang">nl</a>
 
           <ul id="lang">
           
@@ -966,20 +965,25 @@ dFNvZnR3YXJlAE1pY3Jvc29mdCBPZmZpY2V/7TVxAAAAAElFTkSuQmCC"/> </symbol><symbol vie
 
 
   
-  
+    
   
   <script type="text/javascript">
-    // menus used on small screens
     $(function(){
       $('#nav').slicknav({
         'prependTo': '.main-nav > div > div',
-        'label' : 'Menu'
+        'label' : 'Menu',
+        'duplicate': false,
+
+        'allowParentLinks': true,
+        'showChildren': true,
+        'closeOnClick': true
       });
     });
     $(function(){
       $('#lang').slicknav({
         'prependTo': '.main-nav > div > div',
         'label' : 'nl',
+        'duplicate': false
       });
     });
   </script>

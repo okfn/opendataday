@@ -131,9 +131,6 @@ html {
   color: #fff;
   text-align: right;
   min-height: 62px; }
-  @media (min-width: 600px) {
-    .main-nav {
-      min-height: 98px; } }
   .main-nav a {
     color: inherit;
     text-decoration: none; }
@@ -142,26 +139,15 @@ html {
     margin-left: auto;
     margin-right: auto;
     padding: 1.125em 0; }
-    @media (min-width: 600px) {
-      .main-nav > div {
-        padding: 1.5em 30px; } }
     .main-nav > div > div {
       margin-left: 30px;
       margin-right: 30px;
       position: relative; }
-      @media (min-width: 600px) {
-        .main-nav > div > div {
-          margin: 0;
-          display: table;
-          width: 100%; } }
   .main-nav .logo {
     display: inline-block;
     width: 80px;
     float: left;
     line-height: 1; }
-    @media (min-width: 600px) {
-      .main-nav .logo {
-        width: 146px; } }
   .main-nav .menu {
     margin: 0;
     padding: 0;
@@ -172,18 +158,8 @@ html {
       display: table; }
     .main-nav .menu:target {
       display: block; }
-    @media (min-width: 600px) {
-      .main-nav .menu {
-        display: table-cell;
-        margin-right: 4.5em;
-        vertical-align: middle; } }
     .main-nav .menu li {
-      display: block;
-      text-align: center; }
-      @media (min-width: 600px) {
-        .main-nav .menu li {
-          display: inline-block;
-          padding-left: 30px; } }
+      display: block; }
   .main-nav .slicknav_menu > a,
   .main-nav .language > div > a {
     border: solid 1px #fff;
@@ -206,7 +182,7 @@ html {
     .main-nav .slicknav_menu .slicknav_nav {
       background-color: #1A1A1A;
       position: absolute;
-      z-index: 1;
+      z-index: 99;
       top: 40px;
       right: -30px;
       left: -30px;
@@ -215,68 +191,11 @@ html {
       .main-nav .slicknav_menu .slicknav_nav a {
         padding-top: 0.2em;
         padding-bottom: 0.2em; }
-    @media (min-width: 600px) {
-      .main-nav .slicknav_menu {
-        display: none; } }
-  .main-nav .language {
-    display: none; }
-    @media (min-width: 600px) {
-      .main-nav .language {
-        display: table-cell;
-        vertical-align: middle;
-        float: none; } }
-    .main-nav .language > div {
-      position: relative;
-      text-transform: uppercase;
-      margin-left: 15px;
-      display: inline-block;
-      white-space: nowrap; }
-      .main-nav .language > div > a {
-        padding: 3px 6px;
-        font-weight: bold;
-        display: block;
-        text-align: left; }
-        .main-nav .language > div > a:after {
-          content: ' \25BE';
-          font-size: 13px;
-          position: relative;
-          top: -1px; }
-      .main-nav .language > div:hover > a {
-        background-color: #1A1A1A; }
-      .main-nav .language > div:hover #lang {
-        display: block;
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-        background-color: #1A1A1A;
-        padding: 3px 6px;
-        border: solid 1px #fff;
-        border-radius: 4px;
-        position: absolute;
-        min-width: 100%;
-        box-sizing: border-box;
-        text-align: left;
-        bottom: 0; }
-        .main-nav .language > div:hover #lang li {
-          display: block; }
-          .main-nav .language > div:hover #lang li a {
-            color: #fff;
-            text-decoration: none;
-            display: block; }
-          .main-nav .language > div:hover #lang li.active {
-            font-weight: bold; }
-  .main-nav #lang {
-    display: none; }
-    .main-nav #lang:target {
-      display: block; }
   .main-nav.stuck {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 99; }
-    .main-nav.stuck .language > div #lang {
-      bottom: auto;
-      top: 0; }
 
 /**
  * CSS Modal Configuration
