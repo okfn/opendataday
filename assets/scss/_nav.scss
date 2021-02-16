@@ -64,16 +64,16 @@
     }
 
     .slicknav_icon-bar {
-  		background-color: #fff;
+      background-color: #fff;
       height: 1px;
 
       & + .slicknav_icon-bar {
-    		margin-top: 3px;
-    	}
-  	}
+        margin-top: 3px;
+      }
+    }
 
     .slicknav_nav{
-  		background-color: $black;
+      background-color: $black;
       position: absolute;
       z-index: 99;
       top: 40px;
@@ -86,7 +86,7 @@
         padding-top: 0.2em;
         padding-bottom: 0.2em;
       }
-  	}
+    }
 
   }
 
