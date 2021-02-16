@@ -87,50 +87,6 @@
   ],
 
 
-  "de_at":[
-    {
-      "title": "Open Data Day",
-      "link": "",
-      "children": [
-        {
-          "title": "Was ist das?",
-          "link": "#what"
-        },
-        {
-          "title": "Veranstaltungskalender",
-          "link": "#map"
-        },
-        {
-          "title": "Für wen ist das?",
-          "link": "#who"
-        },
-        {
-          "title": "Ressourcen",
-          "link": "#resources"
-        },
-        {
-          "title": "Unterstützung",
-          "link": "#support"
-        }
-      ]
-    },
-    {
-      "title": "Search events",
-      "link": "/events/2021/",
-      "children": [
-        {
-          "title": "2021",
-          "link": "/events/2021/"
-        },
-        {
-          "title": "2020",
-          "link": "/events/2020/"
-        }
-      ]
-    }
-  ],
-
-
   "es_es":[
     {
       "title": "El Día de los Datos Abiertos",
