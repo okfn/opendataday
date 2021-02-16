@@ -506,7 +506,6 @@ body .banner {
     text-align: center;
     color: #1A1A1A; }
     body .banner > a h1 {
-      text-transform: capitalize;
       font-size: 9vmin;
       margin-bottom: 1vh;
       line-height: 1.5; }
@@ -615,14 +614,14 @@ body > section {
   @media (min-width: 1260px) {
     body > section .about {
       position: relative;
-      height: 540px; }
+      height: 700px; }
       body > section .about:after {
         content: '';
         position: absolute;
         width: 0;
         height: 0;
         border-style: solid;
-        border-width: 270px 270px 0 0;
+        border-width: 350px 270px 0 0;
         border-color: #fff transparent transparent transparent;
         top: 0;
         left: 100%;
@@ -649,14 +648,14 @@ body > section {
           background-color: #9B20DC; } }
     @media (min-width: 1260px) {
       body > section .this-year {
-        height: 540px; }
+        height: 700px; }
         body > section .this-year:before {
           content: '';
           position: absolute;
           width: 0;
           height: 0;
           border-style: solid;
-          border-width: 0 0 270px 270px;
+          border-width: 0 0 350px 270px;
           border-color: transparent transparent #9B20DC transparent;
           bottom: 0;
           right: 100%;
