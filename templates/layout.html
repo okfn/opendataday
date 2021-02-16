@@ -35,22 +35,29 @@
   {% endblock %}
 
   {% if this.language %}
-  {% set current_language = this.language %}
+    {% set current_language = this.language %}
+  {% elif this.alt %}
+    {% set current_language = this.alt %}
   {% else %}
-  {% set current_language = "en" %}
+    {% set current_language = "en" %}
   {% endif %}
   <script type="text/javascript">
-    // menus used on small screens
     $(function(){
       $('#nav').slicknav({
         'prependTo': '.main-nav > div > div',
-        'label' : '{{ bag('global-content', this.alt).menu_label }}'
+        'label' : '{{ bag('global-content', this.alt).menu_label }}',
+        'duplicate': false,
+
+        'allowParentLinks': true,
+        'showChildren': true,
+        'closeOnClick': true
       });
     });
     $(function(){
       $('#lang').slicknav({
         'prependTo': '.main-nav > div > div',
         'label' : '{{ current_language |replace("_", " ") }}',
+        'duplicate': false
       });
     });
   </script>
