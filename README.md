@@ -22,7 +22,7 @@ Check <http://opendataday.org> for public website.
 
 To translate the site we need to duplicate the [contents.lr](https://github.com/okfn/opendataday/blob/master/content/contents.lr) file, and save with the language code in the file name, like [contents+de.lr](https://github.com/okfn/opendataday/blob/master/content/contents%2Bde.lr).
 
-We also need to add translations to [global-content.ini](https://github.com/okfn/opendataday/blob/master/databags/global-content.ini) and [main-nav.json
+We also need to add translations to [global-content.ini](https://github.com/okfn/opendataday/blob/master/databags/global-content.ini), [events-content.ini](https://github.com/okfn/opendataday/blob/master/databags/events-content.ini) and [main-nav.json
 ](https://github.com/okfn/opendataday/blob/master/databags/main-nav.json).
 
 If we are adding new language to the site we also need to:
