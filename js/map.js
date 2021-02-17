@@ -1,4 +1,4 @@
-var url = 'https://spreadsheets.google.com/feeds/list/1cV43fuzwy2q2ZKDWrHVS6XR4O8B01eLevh4PD6nCENE/1/public/full?alt=json';
+var url = 'https://raw.githubusercontent.com/okfn/opendataday/master/databags/events-2021.json';
 mapboxgl.accessToken = 'pk.eyJ1Ijoib2tmbiIsImEiOiJjaXlrOW5yczgwMDEzMnlwaWd2ZzF6MDQ3In0.2UJlkR69zbu4-3YRJJgN5w';
 
 var clusterRadius = 50,
@@ -12,36 +12,90 @@ var map = new mapboxgl.Map({
   scrollZoom: false
 });
 
+function truncate(str, n){
+  return (str.length > n) ? str.substr(0, n-1) + '…' : str;
+}
+
+function isWorkingUrl(url) {
+  return new RegExp('^' + 'http').test(url);
+}
+
+function getLink(url) {
+  return '<a href="' + url + '">' + url + '</a>';
+}
+
+function getDescription(event) {
+  var htmlStr = '<strong>Event:</strong> ' + event.event_name;
+
+  if (isWorkingUrl(event.url)) {
+    htmlStr += '<br><strong>URL:</strong> ' + getLink(event.url);
+  }
+
+  var date = event.event_date ? new Date(event.event_date).toDateString() : '';
+  if (date) {
+    htmlStr += '<br><strong>Date:</strong> ' + date;
+  }
+
+  if (event.event_time) {
+    htmlStr += '<br><strong>Time:</strong> ' + event.event_time;
+    if (event.timezone) {
+      htmlStr += ' (' + event.timezone + ')';
+    }
+  }
+
+  if (event.online) {
+
+    htmlStr += '<br><strong>Location:</strong> Online';
+    if (event.world_region_text) {
+      htmlStr += ' (' + event.world_region_text + ')';
+    }
+
+    if (isWorkingUrl(event.online_event_url)) {
+      htmlStr += '<br><strong>Online Event:</strong> ' + getLink(event.online_event_url);
+    }
+
+  } else {
+    if (event.place) {
+      htmlStr += '<br><strong>Location:</strong> ' + event.place;
+      if (event.country) {
+        htmlStr += ', ' + event.country;
+      }
+      if (event.world_region_text) {
+        htmlStr += ' (' + event.world_region_text + ')';
+      }
+    }
+  }
+
+  return htmlStr;
+}
+
 map.addControl(new mapboxgl.NavigationControl(), 'top-left');
 
 map.on('load', function() {
   $.getJSON(url).done(function(data) {
-    var entry = data.feed.entry || [];
+    var events = data.events || [];
     var geojson = {
       type: 'FeatureCollection',
       features: []
     };
 
-    entry.forEach(function(d) {
+    events.forEach(function(event) {
       try {
-        var lat = Number(d.gsx$latitude.$t)
-        var lng = Number(d.gsx$longitude.$t)
-        var title = d.title.$t.split(",")[0]
-        var event = d.gsx$eventname.$t
-        var organisers = d.gsx$organisers.$t
-        var isworkingurl = new RegExp('^' + 'http').test(d.gsx$url.$t)
-        var url = isworkingurl ? '<a href="' + d.gsx$url.$t + '">' + d.gsx$url.$t + '</a>' : 'TBD'
+        var lat = Number(event.latitude)
+        var lng = Number(event.longitude)
+        var title = truncate(event.event_name, 20)
       } catch (error) {
         console.error(error)
-        console.log('Error processing event submitted at "' + d.title.$t + '"')
+        console.log('Error processing event "' + event.event_name + '"')
       }
-      if (lng && lat && title && event && organisers) {
+
+      if (lng && lat && title) {
         geojson.features.push({
           type: 'Feature',
           properties: {
             title: title,
-            icon: "circle",
-            description: '<strong>Event:</strong> ' + event + '<br><strong>URL:</strong> ' + url + '<br><strong>Organisers:</strong> ' + organisers
+            icon: "marker",  // https://labs.mapbox.com/maki-icons/
+            description: getDescription(event)
           },
           geometry: {
             type: 'Point',
@@ -51,7 +105,7 @@ map.on('load', function() {
       }
     });
 
-    $("#event-number").text(entry.length);
+    $("#event-number").text(events.length);
 
 
     map.addSource("events", {
@@ -72,16 +126,14 @@ map.on('load', function() {
         "icon-allow-overlap": true,
         "text-allow-overlap": true,
         "icon-image": "{icon}-15",
-        "text-size": 12,
+        "text-size": 15,
         "text-field": "{title}",
         "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
         "text-offset": [0, 0.6],
         "text-anchor": "top"
       },
       "paint": {
-        "text-color": "#fff",
-        "text-halo-color": "#000",
-        "text-halo-width": 1
+        "text-color": "#333"
       }
     });
 
