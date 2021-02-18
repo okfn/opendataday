@@ -1,0 +1,109 @@
+{% extends "layout.html" %}
+
+{% set events = bag(this.data_file).events %}
+{% set ns = namespace(event=None) %}
+{% for e in events %}
+  {% if e['slug'] == this.slug %}
+    {% set ns.event = e %}
+  {% endif %}
+{% endfor %}
+{% set event = ns.event %}
+
+
+{% block title %}{{ event['event_name'] }}{% endblock %}
+
+{% block body %}
+{% include 'includes/nav.html' %}
+
+<section id="report">
+
+  <div id="report-wrapper">
+    <h1>{{ event['event_name'] }} - {{ bag('reports-content', this.alt).event_report }}</h1>
+
+    <dl>
+      {% include 'includes/event_date.html' %}
+      {% include 'includes/event_time.html' %}
+      {% include 'includes/event_location.html' %}
+      {% include 'includes/event_organisers.html' %}
+    </dl>
+    {% include 'includes/event_mini_grant.html' %}
+
+    {% if event['report_question_1'] %}
+      <h3>{{ bag('reports-content', this.alt).report_question_1 }}</h3>
+      <p>{{ event['report_question_1'] }}</p>
+    {% endif %}
+
+    {% if event['event_tweet_url'] %}
+      <div id="twitter-container" data-url="{{ event['event_tweet_url'] }}">
+        <span class="social-link">
+          <svg class="leading-icon"><use xlink:href="#icon-twitter" /></svg>
+          <a href="{{ event['event_tweet_url'] }}">{{ bag('events-content', this.alt).twitter }}</a>
+        </span>
+      </div>
+    {% endif %}
+    
+    {% if event['report_question_2'] %}
+      <h3>{{ bag('reports-content', this.alt).report_question_2 }}</h3>
+      <p>{{ event['report_question_2'] }}</p>
+    {% endif %}
+
+    {% if event['event_video_url'] %}
+      <div id="youtube-container">
+        <div id="youtube-outer" style="display:none">
+          <div id="youtube-inner">
+            <iframe
+              src="https://www.youtube.com/embed/wS-dTTNaKE8"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              id="youtube-video"
+            ></iframe>
+          </div>
+        </div>
+
+        <span class="social-link">
+          <svg class="leading-icon"><use xlink:href="#icon-youtube" /></svg>
+          <a href="{{ event['event_video_url'] }}">{{ bag('events-content', this.alt).youtube }}</a>
+        </span>
+      </div>
+    {% endif %}
+
+    {% if event['report_question_3'] %}
+      <h3>{{ bag('reports-content', this.alt).report_question_3 }}</h3>
+      <p>{{ event['report_question_3'] }}</p>
+    {% endif %}
+  </div>
+
+</section>
+
+{% include 'includes/logos.html' %}
+{% endblock %}
+
+{% block extra_js %}
+{% if event['event_tweet_url'] %}
+  <script>
+    // progressively enhance twitter
+    var tweet_url = $('#twitter-container').attr("data-url");
+    var qs = 'url=' + encodeURIComponent(tweet_url);
+    qs = qs + '&dnt=true';
+    qs = qs + '&hide_thread=true';
+    qs = qs + '&align=center';
+    $.ajax({
+      type: 'GET',
+      url: 'https://publish.twitter.com/oembed?' + qs,
+      dataType: 'jsonp',
+      success: function(data){
+        $('#twitter-container').html(data.html);
+      }
+    });
+  </script>
+{% endif %}
+
+{% if event['event_video_url'] %}
+  <script>
+    // progressively enchance youtube
+    $('#youtube-container > #youtube-outer').show();
+    $('#youtube-container > .social-link').hide();
+  </script>
+{% endif %}
+{% endblock %}
