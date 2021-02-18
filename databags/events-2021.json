@@ -2258,7 +2258,7 @@
       "online": false,
       "online_event_url": "",
       "organisers": "Sistema Bibliotecario del Comune di Fano",
-      "place": "Fano ",
+      "place": "Fano",
       "report_question_1": "",
       "report_question_2": "",
       "report_question_3": "",
@@ -2883,6 +2883,34 @@
       "url": "https://www.waterpointdata.org/open-data-day-2021/",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
+    },
+    {
+      "country": "Greece",
+      "event_date": "2021-02-21",
+      "event_name": "Konstantinos Stampoulis",
+      "event_photo_url": "",
+      "event_purpose": "Awareness on the importance of open data, how we can use open data to enhance Wikipedia, Wikidata, or even more.",
+      "event_report_url": "",
+      "event_time": "11:30",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 37.97147,
+      "longitude": 23.726517,
+      "mini_grant_winner": false,
+      "num_participants": "25",
+      "online": true,
+      "online_event_url": "",
+      "organisers": "Wikimedia CUG Greece",
+      "place": "Athens",
+      "report_question_1": "",
+      "report_question_2": "",
+      "report_question_3": "",
+      "slug": "konstantinos-stampoulis",
+      "timezone": "EET",
+      "url": "https://w.wiki/$8t",
+      "world_region_code": "EMEA",
+      "world_region_text": "Europe, Middle East & Africa"
     }
   ]
 }
