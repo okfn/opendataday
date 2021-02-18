@@ -51,57 +51,10 @@
             <p>{{ event['event_purpose'] }}</p>
 
             <dl>
-              {% if event['event_date'] %}
-                <dt>{{ bag('events-content', this.alt).date }}</dt>
-                <dd>
-                  {{ parse_date(event['event_date'], '%Y-%m-%d').strftime('%A %e %B %Y') }}
-                </dd>
-              {% endif %}
-
-              {% if event['event_time'] %}
-                <dt>{{ bag('events-content', this.alt).time }}</dt>
-                <dd>
-                  {{ event['event_time'] }}
-                  {% if event['timezone'] %}
-                    ({{ event['timezone'] }})
-                  {% endif %}
-                </dd>
-              {% endif %}
-
-              {% if event['online'] %}
-                <dt>{{ bag('events-content', this.alt).location }}</dt>
-                <dd>
-                  Online
-                  {% if event['world_region_text'] %}
-                    ({{ event['world_region_text'] }})
-                  {% endif %}
-                </dd>
-              {% else %}
-                {% if event['place'] %}
-                  <dt>{{ bag('events-content', this.alt).location }}</dt>
-                  <dd>
-                    {% if event['latitude'] and event['longitude'] %}
-                      <a
-                        href="http://www.openstreetmap.org/?mlat={{ event['latitude'] }}&mlon={{ event['longitude'] }}&zoom=12"
-                      >
-                        {{ event['place'] }}</a>{% if event['country'] %},{% endif %}
-                    {% else %}
-                      {{ event['place'] }}{% if event['country'] %},{% endif %}
-                    {% endif %}
-                    {% if event['country'] %}
-                      {{ event['country'] }}
-                    {% endif %}
-                    {% if event['world_region_text'] %}
-                      ({{ event['world_region_text'] }})
-                    {% endif %}
-                  </dd>
-                {% endif %}
-              {% endif %}
-
-              {% if event['organisers'] %}
-                <dt>{{ bag('events-content', this.alt).organisers }}</dt>
-                <dd>{{ event['organisers'] }}</dd>
-              {% endif %}
+              {% include 'includes/event_date.html' %}
+              {% include 'includes/event_time.html' %}
+              {% include 'includes/event_location.html' %}
+              {% include 'includes/event_organisers.html' %}
 
               <!-- hidden elements to make the search work -->
               {% if event['online'] %}
@@ -127,14 +80,7 @@
               {% endif %}
             </dl>
 
-            <p>
-              {% if event['mini_grant_winner'] %}
-                <span>
-                  <svg class="leading-icon"><use xlink:href="#icon-coin-dollar" /></svg>
-                  {{ bag('events-content', this.alt).funded }}
-                </span>
-              {% endif %}
-            </p>
+            {% include 'includes/event_mini_grant.html' %}
 
             <p>
               {% if event['event_report_url'] %}
