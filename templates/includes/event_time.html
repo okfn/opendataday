@@ -1,0 +1,9 @@
+{% if event['event_time'] %}
+  <dt>{{ bag('events-content', this.alt).time }}</dt>
+  <dd>
+    {{ event['event_time'] }}
+    {% if event['timezone'] %}
+      ({{ event['timezone'] }})
+    {% endif %}
+  </dd>
+{% endif %}

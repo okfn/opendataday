@@ -1,0 +1,8 @@
+<p>
+  {% if event['mini_grant_winner'] %}
+    <span>
+      <svg class="leading-icon"><use xlink:href="#icon-coin-dollar" /></svg>
+      {{ bag('events-content', this.alt).funded }}
+    </span>
+  {% endif %}
+</p>

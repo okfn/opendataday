@@ -1,0 +1,6 @@
+{% if event['event_date'] %}
+  <dt>{{ bag('events-content', this.alt).date }}</dt>
+  <dd>
+    {{ parse_date(event['event_date'], '%Y-%m-%d').strftime('%A %e %B %Y') }}
+  </dd>
+{% endif %}
