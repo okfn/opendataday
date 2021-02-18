@@ -12,6 +12,8 @@ from marshmallow import (
 )
 from slugify import slugify
 
+from reports import create_reports
+
 
 validate_not_empty = validate.Length(min=1)
 URL_FIELDS = [
@@ -152,7 +154,7 @@ def code_world_regions(data):
     return data
 
 
-def main(in_url, json_out_file, csv_out_file, this_year):
+def main(in_url, this_year, json_out_file, csv_out_file, reports_dir):
     data = get_data(in_url)
     data = pre_process(data)
     schema = EventSchema()
@@ -166,5 +168,6 @@ def main(in_url, json_out_file, csv_out_file, this_year):
     data = cleanup_urls(data)
     data = code_world_regions(data)
 
-    write_csv(csv_out_file, data)
     write_json(json_out_file, data)
+    write_csv(csv_out_file, data)
+    create_reports(data, this_year, json_out_file, reports_dir)
