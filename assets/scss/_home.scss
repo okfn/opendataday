@@ -121,11 +121,7 @@ body {
     .this-year {
       header {
         @media (min-width:$max-screen) {
-          max-width: 450px;
-
-          p + p {
-            max-width: 350px;
-          }
+          max-width: 500px;
         }
       }
     }
@@ -158,23 +154,6 @@ body {
         width: 50%;
       }
 
-      @media (min-width:$max-screen) {
-        position: relative;
-        height: 700px;
-
-        &:after {
-          content: '';
-          position: absolute;
-          width: 0;
-          height: 0;
-          border-style: solid;
-          border-width: 350px 270px 0 0;
-          border-color: #fff transparent transparent transparent;
-          top: 0;
-          left: 100%;
-          z-index: 1;
-        }
-      }
     }
     .this-year {
       background-color: $purple;
@@ -196,23 +175,6 @@ body {
         }
       }
 
-      @media (min-width:$max-screen) {
-        height: 700px;
-
-        &:before {
-          content: '';
-          position: absolute;
-          width: 0;
-          height: 0;
-          border-style: solid;
-          border-width: 0 0 350px 270px;
-          border-color: transparent transparent $purple transparent;
-          bottom: 0;
-          right: 100%;
-          z-index: 1;
-        }
-      }
-
       header {
         padding: $gutter $gutter 0 $gutter;
 
@@ -225,7 +187,7 @@ body {
 
       ul {
         padding: 0;
-        margin: 0 0 0 $gutter/2;
+        margin: 0 0 $gutter/2 $gutter/2;
         clear: right;
         @include clearafter;
 
