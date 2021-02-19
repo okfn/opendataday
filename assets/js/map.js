@@ -21,7 +21,7 @@ function isWorkingUrl(url) {
 }
 
 function getLink(url) {
-  return '<a href="' + url + '">' + url + '</a>';
+  return '<a href="' + url + '" target="_blank">' + url + '</a>';
 }
 
 function getDescription(event) {
