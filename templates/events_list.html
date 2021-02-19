@@ -48,7 +48,7 @@
           </h3>
 
           <div class="event-detail">
-            <p>{{ event['event_purpose'] }}</p>
+            <p>{{ event['event_purpose'] | markdown }}</p>
 
             <dl>
               {% include 'includes/event_date.html' %}
