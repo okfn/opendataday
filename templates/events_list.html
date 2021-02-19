@@ -9,10 +9,6 @@
 
 <section id="events">
 
-  <div id="preamble">
-  {{ this.preamble }}
-  </div>
-
   {% block list %}
 
   <div id="events-list">
@@ -30,6 +26,15 @@
       </select>
 
       <p><strong>Found <span id="num-results"></span> events</strong></p>
+    </div>
+
+    <div id="get-the-data">
+      <p>
+        <svg class="leading-icon"><use xlink:href="#icon-cloud-download" /></svg>
+        {{ bag('events-content', this.alt).data_available }}
+        <a href="{{ this.csv_link }}">{{ bag('events-content', this.alt).download_csv }}</a>.
+      </p>
+      <small>{{ bag('events-content', this.alt).odbl_licence | markdown }}</small>
     </div>
 
     <ul class="list">
@@ -125,12 +130,7 @@
     </ul>
   </div>
 
-
   {% endblock %}
-
-  <div id="postamble">
-  {{ this.postamble }}
-  </div>
 
 </section>
 

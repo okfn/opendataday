@@ -22,6 +22,12 @@
     <div>
       <span>
         {{ bag('global-content', this.alt).footer | markdown }}
+        {{ bag('global-content', this.alt).licences }}:
+        <ul>
+          <li>{{ bag('global-content', this.alt).code_licence | markdown }}</li>
+          <li>{{ bag('global-content', this.alt).data_licence | markdown }}</li>
+          <li>{{ bag('global-content', this.alt).icon_licence | markdown }}</li>
+        </ul>
       </span>
 
     </div>

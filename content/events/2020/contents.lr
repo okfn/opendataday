@@ -6,6 +6,8 @@ data_file: events-2020
 ---
 banner_link: main
 ---
+csv_link: https://raw.githubusercontent.com/okfn/opendataday/master/Datasets/Events%202020.csv
+---
 
 
 
@@ -18,8 +20,4 @@ banner_heading_2: 2020 Events
 banner_content_1: Open Data Day 2020 took place on
 ---
 banner_content_2: Saturday 7th March 2020
----
-preamble:
----
-postamble:
 ---

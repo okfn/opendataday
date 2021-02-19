@@ -1,19 +1,17 @@
 .events_list {
     #events {
-        #preamble {
+        #get-the-data {
             margin-top: $gutter;
-            padding-left: $gutter;
+            padding-left: ($gutter + $gutter/2);
             padding-right: $gutter;
-        }
 
-        #postamble {
-            margin-top: $gutter;
-            margin-bottom: $gutter/2;
-            padding-left: $gutter;
-            padding-right: $gutter;
+            p {
+                margin-bottom: 0.1em;
+            }
         }
 
         #search-wrapper {
+            padding-top: $gutter;
             margin: auto;
             width: 80%;
         }

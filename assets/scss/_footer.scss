@@ -10,5 +10,12 @@
       display: block;
       padding: $gutter $gutter $gutter/2 $gutter;
     }
+    ul {
+        list-style-type: none;
+        padding-left: 0.6em;
+    }
+    ul > li > p {
+        display: inline;
+    }
   }
 }
