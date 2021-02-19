@@ -1,29 +1,22 @@
-{% if event['online'] %}
-  <dt>{{ bag('events-content', this.alt).location }}</dt>
-  <dd>
-    Online
-    {% if event['world_region_text'] %}
-      ({{ event['world_region_text'] }})
+<dt>{{ bag('events-content', this.alt).location }}</dt>
+<dd>
+  {% if event['online'] %}
+    Online{% if event['country'] %},{% endif %}
+  {% elif event['place'] %}
+    {% if event['latitude'] and event['longitude'] %}
+      <a
+        href="http://www.openstreetmap.org/?mlat={{ event['latitude'] }}&mlon={{ event['longitude'] }}&zoom=12"
+      >
+        {{ event['place'] }}</a>{% if event['country'] %},{% endif %}
+    {% else %}
+      {{ event['place'] }}{% if event['country'] %},{% endif %}
     {% endif %}
-  </dd>
-{% else %}
-  {% if event['place'] %}
-    <dt>{{ bag('events-content', this.alt).location }}</dt>
-    <dd>
-      {% if event['latitude'] and event['longitude'] %}
-        <a
-          href="http://www.openstreetmap.org/?mlat={{ event['latitude'] }}&mlon={{ event['longitude'] }}&zoom=12"
-        >
-          {{ event['place'] }}</a>{% if event['country'] %},{% endif %}
-      {% else %}
-        {{ event['place'] }}{% if event['country'] %},{% endif %}
-      {% endif %}
-      {% if event['country'] %}
-        {{ event['country'] }}
-      {% endif %}
-      {% if event['world_region_text'] %}
-        ({{ event['world_region_text'] }})
-      {% endif %}
-    </dd>
   {% endif %}
-{% endif %}
+
+  {% if event['country'] %}
+    {{ event['country'] }}
+  {% endif %}
+  {% if event['world_region_text'] %}
+    ({{ event['world_region_text'] }})
+  {% endif %}
+</dd>

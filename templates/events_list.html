@@ -65,10 +65,10 @@
                   <dt style="display:none" aria-hidden="true" >Location</dt>
                   <dd style="display:none" aria-hidden="true" class="event-location">{{event['place']}}</dd>
                 {% endif %}
-                {% if event['country'] %}
-                  <dt style="display:none" aria-hidden="true" >Country</dt>
-                  <dd style="display:none" aria-hidden="true" class="event-country">{{event['country']}}</dd>
-                {% endif %}
+              {% endif %}
+              {% if event['country'] %}
+                <dt style="display:none" aria-hidden="true" >Country</dt>
+                <dd style="display:none" aria-hidden="true" class="event-country">{{event['country']}}</dd>
               {% endif %}
               {% if event['world_region_text'] %}
                 <dt style="display:none" aria-hidden="true" >World Region Text</dt>

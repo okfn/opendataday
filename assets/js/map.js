@@ -46,6 +46,9 @@ function getDescription(event) {
   if (event.online) {
 
     htmlStr += '<br><strong>Location:</strong> Online';
+    if (event.country) {
+      htmlStr += ', ' + event.country;
+    }
     if (event.world_region_text) {
       htmlStr += ' (' + event.world_region_text + ')';
     }
