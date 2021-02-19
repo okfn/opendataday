@@ -3247,6 +3247,34 @@
       "url": "https://www.nepalcomms.org/announcements/",
       "world_region_code": "APAC",
       "world_region_text": "Asia & The Pacific"
+    },
+    {
+      "country": "Ghana",
+      "event_date": "2021-03-06",
+      "event_name": "Leveraging data on abuse of female journalists to promote equal development within the digital ecosystem in Africa.",
+      "event_photo_url": "",
+      "event_purpose": "Demonstrate how equal development within the digital ecosystem in Africa can be improved by leveraging data on online abuse and harassment of female journalists \n\nTopic: iWatch Africa's Open Data Day Time: Mar 6, 2021 01:30 PM Africa/Accra Join Zoom Meeting https://us02web.zoom.us/j/84690135074?pwd=aG9nWS9qY0tTb2RURVhGeTQ3V3N3Zz09 Meeting ID: 846 9013 5074 Passcode: 360327",
+      "event_report_url": "",
+      "event_time": "",
+      "event_tweet_url": "https://twitter.com/iwatchafrica/status/1362713159627395073",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 5.6037,
+      "longitude": 0.187,
+      "mini_grant_winner": true,
+      "num_participants": "200",
+      "online": true,
+      "online_event_url": "https://us02web.zoom.us/j/84690135074?pwd=aG9nWS9qY0tTb2RURVhGeTQ3V3N3Zz09",
+      "organisers": "iWatch Africa",
+      "place": "Accra (Virtual)",
+      "report_question_1": "",
+      "report_question_2": "",
+      "report_question_3": "",
+      "slug": "leveraging-data-on-abuse-of-female-journalists-to-promote-equal-development-with",
+      "timezone": "GMT",
+      "url": "https://iwatchafrica.org/",
+      "world_region_code": "EMEA",
+      "world_region_text": "Europe, Middle East & Africa"
     }
   ]
 }
