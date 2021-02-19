@@ -21,7 +21,7 @@ function isWorkingUrl(url) {
 }
 
 function getLink(url) {
-  return '<a href="' + url + '">' + url + '</a>';
+  return '<a href="' + url + '" target="_blank">' + url + '</a>';
 }
 
 function getDescription(event) {
@@ -46,6 +46,9 @@ function getDescription(event) {
   if (event.online) {
 
     htmlStr += '<br><strong>Location:</strong> Online';
+    if (event.country) {
+      htmlStr += ', ' + event.country;
+    }
     if (event.world_region_text) {
       htmlStr += ' (' + event.world_region_text + ')';
     }
