@@ -3415,6 +3415,34 @@
       "url": "https://codeforgifu.jp/",
       "world_region_code": "APAC",
       "world_region_text": "Asia & The Pacific"
+    },
+    {
+      "country": "Japan",
+      "event_date": "2021-02-28",
+      "event_name": "\u30aa\u30fc\u30d7\u30f3\u30c7\u30fc\u30bf\u3067\u904a\u307c\u3046 in \u95a2\u897f\u3000\uff5e\u30aa\u30fc\u30d7\u30f3\u30c7\u30fc\u30bf\u305b\u3093\u306e\u304b\u3044\uff01\uff5e",
+      "event_photo_url": "",
+      "event_purpose": "\u30aa\u30fc\u30d7\u30f3\u30c7\u30fc\u30bf\u3092\u307f\u3093\u306a\u3067\u697d\u3057\u3080\u3053\u3068\u3002",
+      "event_report_url": "",
+      "event_time": "13:00",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 34.90171,
+      "longitude": 135.67667,
+      "mini_grant_winner": false,
+      "num_participants": "30",
+      "online": true,
+      "online_event_url": "https://www.facebook.com/events/1340566846319783/",
+      "organisers": "\u30aa\u30fc\u30d7\u30f3\u30c7\u30fc\u30bf\u305b\u3093\u306e\u304b\u3044\uff01\u5b9f\u884c\u59d4\u54e1\u4f1a",
+      "place": "Kansai",
+      "report_question_1": "",
+      "report_question_2": "",
+      "report_question_3": "",
+      "slug": "opundetadeyou-bou-in-guan-xi-opundetasennokai",
+      "timezone": "JST",
+      "url": "https://www.facebook.com/events/1340566846319783/",
+      "world_region_code": "APAC",
+      "world_region_text": "Asia & The Pacific"
     }
   ]
 }
