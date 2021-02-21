@@ -1795,7 +1795,7 @@
     {
       "country": "United States",
       "event_date": null,
-      "event_name": "\"The Covid-19 Open-Data Project\"",
+      "event_name": "The Covid-19 Open-Data Project",
       "event_photo_url": "",
       "event_purpose": "",
       "event_report_url": "",
@@ -3499,6 +3499,34 @@
       "url": "https://thedatacademy.com/",
       "world_region_code": "EMEA",
       "world_region_text": "Europe, Middle East & Africa"
+    },
+    {
+      "country": "Japan",
+      "event_date": "2021-03-06",
+      "event_name": "International Open Data Day 2021 in Kawasaki",
+      "event_photo_url": "",
+      "event_purpose": "Creating open data created by citizens",
+      "event_report_url": "",
+      "event_time": "10:00",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 35.530889,
+      "longitude": 139.703,
+      "mini_grant_winner": false,
+      "num_participants": "5",
+      "online": true,
+      "online_event_url": "https://openkawasaki.connpass.com/event/205369/",
+      "organisers": "Open Kawasaki / Code for Kawasaki",
+      "place": "Kawasaki City, Kanagawa pref",
+      "report_question_1": "",
+      "report_question_2": "",
+      "report_question_3": "",
+      "slug": "international-open-data-day-2021-in-kawasaki",
+      "timezone": "JST",
+      "url": "http://www.openkawasaki.org/",
+      "world_region_code": "APAC",
+      "world_region_text": "Asia & The Pacific"
     }
   ]
 }
