@@ -3639,6 +3639,34 @@
       "url": "https://wadsih.org.au/",
       "world_region_code": "APAC",
       "world_region_text": "Asia & The Pacific"
+    },
+    {
+      "country": "Austria",
+      "event_date": "2021-03-04",
+      "event_name": "Open Data Meetup: Basics & Best Practices",
+      "event_photo_url": "",
+      "event_purpose": "Wie k\u00f6nnen Startups und KMU hierzulande Open Data nutzen, um ihre bestehenden Produkte und Dienstleistungen zu erweitern? Dieser Frage geht das butkasten Open Data Meetup nach, das am 4 M\u00e4rz als digitales Event stattfinden wird. Dabei werden Best-Practice-Beispiele vor den Vorhang geholt, um von bereits erfolgreich umgesetzten Projekten zu lernen",
+      "event_report_url": "",
+      "event_time": "17:00",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 48.2082,
+      "longitude": 16.3738,
+      "mini_grant_winner": false,
+      "num_participants": "20",
+      "online": true,
+      "online_event_url": "https://www.derbrutkasten.com/events/open-data-meetup-basics-best-practices/",
+      "organisers": "Der Brutkasten",
+      "place": "Vienna",
+      "report_question_1": "",
+      "report_question_2": "",
+      "report_question_3": "",
+      "slug": "open-data-meetup-basics-best-practices",
+      "timezone": "CEST",
+      "url": "",
+      "world_region_code": "EMEA",
+      "world_region_text": "Europe, Middle East & Africa"
     }
   ]
 }
