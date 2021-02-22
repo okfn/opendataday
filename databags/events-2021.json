@@ -3667,6 +3667,34 @@
       "url": "",
       "world_region_code": "EMEA",
       "world_region_text": "Europe, Middle East & Africa"
+    },
+    {
+      "country": "Spain",
+      "event_date": "2021-03-04",
+      "event_name": "Periodismo y Visualizaci\u00f3n de Datos Abiertos",
+      "event_photo_url": "",
+      "event_purpose": "As part of the open data, data journalism and datavisualisation community our aim is to strength our community with open sessions called \"\u00c1gora MPVD\"",
+      "event_report_url": "",
+      "event_time": "15:00",
+      "event_tweet_url": "",
+      "event_video_url": "https://www.youtube.com/watch?v=WKzfrBXyI9g&feature=youtu.be",
+      "has_event_report": false,
+      "latitude": 40.43428,
+      "longitude": -3.73375,
+      "mini_grant_winner": false,
+      "num_participants": "50",
+      "online": true,
+      "online_event_url": "https://www.youtube.com/watch?v=WKzfrBXyI9g&feature=youtu.be",
+      "organisers": "Adolfo, Ant\u00f3n Bravo, MPVD.es",
+      "place": "Madrid",
+      "report_question_1": "",
+      "report_question_2": "",
+      "report_question_3": "",
+      "slug": "periodismo-y-visualizacion-de-datos-abiertos",
+      "timezone": "CEST",
+      "url": "https://mpvd.es/articulo/periodismo-y-visualizacion-de-datos-abiertos/",
+      "world_region_code": "EMEA",
+      "world_region_text": "Europe, Middle East & Africa"
     }
   ]
 }
