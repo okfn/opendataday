@@ -193,7 +193,7 @@
       $('#filter-input').val(parts[0]);
     }
     if (parts.length === 2) {
-      $('#search-input').val(parts[1]);
+      $('#search-input').val(decodeURIComponent(parts[1]));
     }
   }
 
