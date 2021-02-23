@@ -3727,7 +3727,7 @@
     {
       "country": "Ecuador",
       "event_date": null,
-      "event_name": "Open Dat Day EC 2021",
+      "event_name": "Open Data Day EC 2021",
       "event_photo_url": "",
       "event_purpose": "We expect to motivate and promote the use of open data. We recently launched the first open government data policy and we need to promote it widely",
       "event_report_url": "",
@@ -3746,7 +3746,7 @@
       "report_question_1": "",
       "report_question_2": "",
       "report_question_3": "",
-      "slug": "open-dat-day-ec-2021",
+      "slug": "open-data-day-ec-2021",
       "timezone": "",
       "url": "http://www.datalat.org/opendataday",
       "world_region_code": "AMER",
