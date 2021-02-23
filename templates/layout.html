@@ -56,14 +56,20 @@
 
         'allowParentLinks': true,
         'showChildren': true,
-        'closeOnClick': true
+        'closeOnClick': true,
+        'beforeOpen': function() {
+          $('#lang').slicknav('close');
+        }
       });
     });
     $(function(){
       $('#lang').slicknav({
         'prependTo': '.main-nav > div > div',
         'label' : '{{ current_language |replace("_", " ") }}',
-        'duplicate': false
+        'duplicate': false,
+        'beforeOpen': function() {
+          $('#nav').slicknav('close');
+        }
       });
     });
   </script>
