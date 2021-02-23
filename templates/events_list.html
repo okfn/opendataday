@@ -23,6 +23,7 @@
         <option value="#filter:world-region-code=APAC">{{ bag('events-content', this.alt).filter_apac }}</option>
         <option value="#filter:event-location=Online">{{ bag('events-content', this.alt).filter_online }}</option>
         <option value="#filter:event-location=Offline">{{ bag('events-content', this.alt).filter_offline }}</option>
+        <option value="#filter:event-report=true">{{ bag('events-content', this.alt).filter_report }}</option>
       </select>
 
       <p><strong>Found <span id="num-results"></span> events</strong></p>
@@ -83,6 +84,12 @@
                 <dt style="display:none" aria-hidden="true" >World Region Code</dt>
                 <dd style="display:none" aria-hidden="true" class="world-region-code">{{event['world_region_code']}}</dd>
               {% endif %}
+              <dt style="display:none" aria-hidden="true" >Event Report</dt>
+              <dd
+                style="display:none"
+                aria-hidden="true"
+                class="event-report"
+              >{% if event['event_report_url'] or event['has_event_report'] %}true{% else %}false{% endif %}</dd>
             </dl>
 
             {% include 'includes/event_mini_grant.html' %}
@@ -146,6 +153,7 @@
         'event-country',
         'world-region-text',
         'world-region-code',
+        'event-report',
       ],
       searchDelay: 500
   };
@@ -157,6 +165,7 @@
     '#filter:world-region-code=AMER': function(item) {return item.values()['world-region-code'] === 'AMER';},
     '#filter:event-location=Online': function(item) {return item.values()['event-location'] === 'Online';},
     '#filter:event-location=Offline': function(item) {return item.values()['event-location'] !== 'Online';},
+    '#filter:event-report=true': function(item) {return item.values()['event-report'] === 'true';},
   };
 
   function getFilter(hash) {
