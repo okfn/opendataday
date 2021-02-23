@@ -3,6 +3,12 @@
     <div>
       <a class="logo" href="{{ '/'|url }}">{% include 'includes/logo.svg' %}</a>
 
+      <ul class="short-menu" id="short-nav">
+        {% for item in bag('main-nav', this.alt) %}
+          {% include 'includes/menu_item.html' %}
+        {% endfor %}
+      </ul>
+
       <ul class="menu" id="nav">
         {% for item in bag('main-nav', this.alt) %}
           {% include 'includes/menu_item.html' %}

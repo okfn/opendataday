@@ -27,19 +27,32 @@
     line-height: 1;
   }
 
-  .menu {
+  .short-menu {
     margin: 0;
     padding: 0;
     @include clearafter;
     display: none;
+    margin-right: 4.5em;
+    vertical-align: middle;
 
     &:target{
       display: block;
     }
 
+    @media (min-width: $medium-screen) {
+      display: table-cell;
+    }
+
     li {
       display: block;
+      text-align: center;
+      padding-left: $gutter;
+      display: inline-block;
     }
+  }
+
+  .menu {
+    display: none;
   }
 
   .slicknav_menu > a,
