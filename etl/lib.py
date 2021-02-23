@@ -154,6 +154,16 @@ def code_world_regions(data):
     return data
 
 
+def sort(data):
+    return sorted(
+        data,
+        key=lambda row: (
+            (0 if row['event_report_url'] or row['has_event_report'] else 1),
+            row['event_name'].lower(),
+        )
+    )
+
+
 def main(in_url, this_year, json_out_file, csv_out_file, reports_dir):
     data = get_data(in_url)
     data = pre_process(data)
@@ -167,6 +177,7 @@ def main(in_url, this_year, json_out_file, csv_out_file, reports_dir):
     data = generate_slugs(data)
     data = cleanup_urls(data)
     data = code_world_regions(data)
+    data = sort(data)
 
     write_json(json_out_file, data)
     write_csv(csv_out_file, data)
