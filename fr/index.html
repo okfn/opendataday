@@ -45,7 +45,7 @@
         
           <li>
   
-    La Journée des Données Ouvertes
+    <a href="./">La Journée des Données Ouvertes</a>
   
 </li>
           
@@ -921,14 +921,20 @@ dFNvZnR3YXJlAE1pY3Jvc29mdCBPZmZpY2V/7TVxAAAAAElFTkSuQmCC"/> </symbol><symbol vie
 
         'allowParentLinks': true,
         'showChildren': true,
-        'closeOnClick': true
+        'closeOnClick': true,
+        'beforeOpen': function() {
+          $('#lang').slicknav('close');
+        }
       });
     });
     $(function(){
       $('#lang').slicknav({
         'prependTo': '.main-nav > div > div',
         'label' : 'fr',
-        'duplicate': false
+        'duplicate': false,
+        'beforeOpen': function() {
+          $('#nav').slicknav('close');
+        }
       });
     });
   </script>

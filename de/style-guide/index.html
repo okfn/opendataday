@@ -511,14 +511,20 @@ dFNvZnR3YXJlAE1pY3Jvc29mdCBPZmZpY2V/7TVxAAAAAElFTkSuQmCC"/> </symbol><symbol vie
 
         'allowParentLinks': true,
         'showChildren': true,
-        'closeOnClick': true
+        'closeOnClick': true,
+        'beforeOpen': function() {
+          $('#lang').slicknav('close');
+        }
       });
     });
     $(function(){
       $('#lang').slicknav({
         'prependTo': '.main-nav > div > div',
         'label' : 'de',
-        'duplicate': false
+        'duplicate': false,
+        'beforeOpen': function() {
+          $('#nav').slicknav('close');
+        }
       });
     });
   </script>
