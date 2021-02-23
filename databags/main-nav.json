@@ -2,7 +2,7 @@
   "en": [
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "What is this?",
@@ -46,7 +46,7 @@
   "de":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "Was ist das?",
@@ -90,7 +90,7 @@
   "es_es":[
     {
       "title": "El Día de los Datos Abiertos",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "¿Qué es?",
@@ -134,7 +134,7 @@
   "fr":[
     {
       "title": "La Journée des Données Ouvertes",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "De quoi s'agit-il ?",
@@ -178,7 +178,7 @@
   "it":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "Di che si tratta?",
@@ -222,7 +222,7 @@
   "ja":[
     {
       "title": "オープンデータ・デイ",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "What is this?",
@@ -266,7 +266,7 @@
   "kr":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "오픈 데이터 데이란?",
@@ -310,7 +310,7 @@
   "ne":[
     {
       "title": "खुल्ला डाटा दिवस",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "यो भनेको के हो?",
@@ -354,7 +354,7 @@
   "nl":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "Wat?",
@@ -398,7 +398,7 @@
   "pt_br":[
     {
       "title": "O Dia dos Dados Abertos",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "O que é?",
@@ -442,7 +442,7 @@
   "ru":[
     {
       "title": "День открытых данных",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "Что это?",
@@ -486,7 +486,7 @@
   "th":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "นี่คืออะไร?",
@@ -530,7 +530,7 @@
   "zh_hans":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "What is this?",
@@ -574,7 +574,7 @@
   "zh_tw":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "這是什麼？",
