@@ -1,3 +1,5 @@
-lektor
+lektor>=3
+lektor-nl2br==0.1.1
+lektor-youtube-embed==0.1.1
 marshmallow==3.10.0
 python-slugify==4.0.1
