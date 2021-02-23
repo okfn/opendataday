@@ -154,18 +154,28 @@ html {
     width: 80px;
     float: left;
     line-height: 1; }
-  .main-nav .menu {
+  .main-nav .short-menu {
     margin: 0;
     padding: 0;
-    display: none; }
-    .main-nav .menu::after {
+    display: none;
+    margin-right: 4.5em;
+    vertical-align: middle; }
+    .main-nav .short-menu::after {
       clear: both;
       content: "";
       display: table; }
-    .main-nav .menu:target {
+    .main-nav .short-menu:target {
       display: block; }
-    .main-nav .menu li {
-      display: block; }
+    @media (min-width: 600px) {
+      .main-nav .short-menu {
+        display: table-cell; } }
+    .main-nav .short-menu li {
+      display: block;
+      text-align: center;
+      padding-left: 30px;
+      display: inline-block; }
+  .main-nav .menu {
+    display: none; }
   .main-nav .slicknav_menu > a,
   .main-nav .language > div > a {
     border: solid 1px #fff;
