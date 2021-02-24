@@ -83,13 +83,14 @@ map.on('load', function() {
     };
 
     events.forEach(function(event) {
+      var lat, lng, title;
       try {
-        var lat = Number(event.latitude)
-        var lng = Number(event.longitude)
-        var title = truncate(event.event_name, 20)
+        lat = Number(event.latitude);
+        lng = Number(event.longitude);
+        title = truncate(event.event_name, 20);
       } catch (error) {
-        console.error(error)
-        console.log('Error processing event "' + event.event_name + '"')
+        console.error(error);
+        console.log('Error processing event "' + event.event_name + '"');
       }
 
       if (lng && lat && title) {

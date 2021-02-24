@@ -208,10 +208,11 @@ html {
         padding-top: 0.2em;
         padding-bottom: 0.2em; }
   .main-nav.stuck {
-    position: fixed;
     width: 100%;
     top: 0;
-    z-index: 99; }
+    z-index: 99;
+    position: -webkit-sticky;
+    position: sticky; }
 
 body .banner {
   background-color: #FFB900;
