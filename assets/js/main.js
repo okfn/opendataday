@@ -22,12 +22,4 @@ jQuery(document).ready(function($){
     }
 
   }
-
-
-  //external links
-  $('a[rel*=external]').click( function() {
-    window.open(this.href);
-    return false;
-  });
-
 });
