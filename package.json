@@ -11,7 +11,7 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^3.0.2",
     "grunt-svgstore": "^2.0.0",
-    "jquery-smooth-scroll": "^2.1.2",
+    "jquery-smooth-scroll": "^2.2.0",
     "list.js": "^2.3.1",
     "node-sass": "^4.14.1",
     "normalize.css": "^5.0.0",
