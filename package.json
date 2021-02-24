@@ -18,10 +18,8 @@
     "slicknav": "^1.0.8"
   },
   "author": "Sam Smith",
-  "dependencies": {
-    "npm": "^6.14.6"
-  },
   "engines": {
-    "node": ">=8"
+    "node": ">=8",
+    "npm": ">=6.14.6"
   }
 }
