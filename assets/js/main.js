@@ -1,10 +1,5 @@
 jQuery(document).ready(function($){
 
-  // add stuck class to nav
-  var sticky = new Waypoint.Sticky({
-    element: $('.main-nav')[0]
-  })
-
   // run test on initial page load
   checkSize();
   // run test on resize of the window

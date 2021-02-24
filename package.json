@@ -15,8 +15,7 @@
     "list.js": "^2.3.1",
     "node-sass": "^4.13.1",
     "normalize.css": "^5.0.0",
-    "slicknav": "^1.0.8",
-    "waypoints": "^4.0.1"
+    "slicknav": "^1.0.8"
   },
   "author": "Sam Smith",
   "dependencies": {

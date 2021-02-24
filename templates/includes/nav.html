@@ -1,4 +1,4 @@
-<nav class="main-nav">
+<nav class="main-nav stuck">
   <div>
     <div>
       <a class="logo" href="{{ '/'|url }}">{% include 'includes/logo.svg' %}</a>
@@ -55,6 +55,9 @@
       display: block;
       text-align: left;
       list-style-type: none;
+    }
+    nav.main-nav.stuck {
+      position:unset;
     }
   </style>
 </noscript>
