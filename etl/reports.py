@@ -42,7 +42,7 @@ def has_report_fields(row):
 def init_reports_dir(this_year, reports_dir):
     if reports_dir.exists() and reports_dir.is_dir():
         shutil.rmtree(reports_dir)
-    reports_dir.mkdir()
+    reports_dir.mkdir(parents=True)
     filename = reports_dir / 'contents.lr'
     with open(filename, 'w') as f:
         f.write(redirect_template.format(year=this_year))
