@@ -4286,12 +4286,12 @@
     },
     {
       "country": "Poland",
-      "event_date": null,
+      "event_date": "2021-03-06",
       "event_name": "Open.Data HowFaster.NET: Open Internet network measurement datasets / Otwarte zbiory danych pomiar\u00f3w w sieci Internet",
       "event_photo_url": "",
       "event_purpose": "The event refers to the problem area of the structure of the global Internet. This structure may look different in different regions of the world. The event will include both theoretical introduction and more practical elements. We will answer many questions and problems concerning network access and data transmission. The event will be located in the areas of data aggregation / processing / analysis, computer networks and security. Topics will be based on two projects implemented by the Cyber-Complex Foundation: iThena and HowFaster.NET. The main aspect of the problems concerns data made available under open licenses.",
       "event_report_url": "",
-      "event_time": "",
+      "event_time": "17:00",
       "event_tweet_url": "",
       "event_video_url": "",
       "has_event_report": false,
@@ -4307,7 +4307,7 @@
       "report_question_2": "",
       "report_question_3": "",
       "slug": "open-data-howfaster-net-open-internet-network-measurement-datasets-otwarte-zb",
-      "timezone": "",
+      "timezone": "CET",
       "url": "https://odd.howfaster.net/",
       "world_region_code": "EMEA",
       "world_region_text": "Europe, Middle East & Africa"
