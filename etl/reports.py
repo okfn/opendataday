@@ -101,4 +101,5 @@ def create_reports(data, this_year, json_out_file, reports_dir, images_dir):
         if has_report_fields(row):
             row['event_photo_url'] = save_image(row, images_dir)
             create_report(row, json_out_file, reports_dir)
+            row['event_report_url'] = f"/events/{this_year}/reports/{row['slug']}/"
     return data

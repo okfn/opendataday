@@ -98,7 +98,11 @@
               {% if event['event_report_url'] %}
                 <span class="social-link">
                   <svg class="leading-icon"><use xlink:href="#icon-book" /></svg>
-                  <a href="{{ event['event_report_url'] }}">{{ bag('events-content', this.alt).report }}</a>
+                  {% if event['event_report_url'].startswith('http') %}
+                    <a href="{{ event['event_report_url'] }}">{{ bag('events-content', this.alt).report }}</a>
+                  {% else %}
+                    <a href="{{ event['event_report_url'] | url }}">{{ bag('events-content', this.alt).report }}</a>
+                  {% endif %}
                 </span>
               {% endif %}
 
