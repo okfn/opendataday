@@ -34,12 +34,7 @@
     {% endif %}
 
     {% if event['event_tweet_url'] %}
-      <div id="twitter-container" data-url="{{ event['event_tweet_url'] }}">
-        <span class="social-link">
-          <svg class="leading-icon"><use xlink:href="#icon-twitter" /></svg>
-          <a href="{{ event['event_tweet_url'] }}">{{ bag('events-content', this.alt).twitter }}</a>
-        </span>
-      </div>
+      {{ event['event_tweet_url'] | tweet(params={'align': 'center', 'hide_thread': 'true'}) }}
     {% endif %}
     
     {% if event['report_question_2'] %}
@@ -74,25 +69,6 @@
 {% endblock %}
 
 {% block extra_js %}
-{% if event['event_tweet_url'] %}
-  <script>
-    // progressively enhance twitter
-    var tweet_url = $('#twitter-container').attr("data-url");
-    var qs = 'url=' + encodeURIComponent(tweet_url);
-    qs = qs + '&dnt=true';
-    qs = qs + '&hide_thread=true';
-    qs = qs + '&align=center';
-    $.ajax({
-      type: 'GET',
-      url: 'https://publish.twitter.com/oembed?' + qs,
-      dataType: 'jsonp',
-      success: function(data){
-        $('#twitter-container').html(data.html);
-      }
-    });
-  </script>
-{% endif %}
-
 {% if event['event_video_url'] %}
   <script>
     // progressively enchance youtube
