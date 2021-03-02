@@ -28,6 +28,16 @@
     </dl>
     {% include 'includes/event_mini_grant.html' %}
 
+    {% if event['event_photo_url'] %}
+      <div class="hero-wrapper">
+        <img
+          src="{{ event['event_photo_url'] }}"
+          alt="Photo of {{ event['event_name'] }}"
+          class="hero-image"
+        />
+      </div>
+    {% endif %}
+
     {% if event['report_question_1'] %}
       <h3>{{ bag('reports-content', this.alt).report_question_1 }}</h3>
       <p>{{ event['report_question_1'] }}</p>

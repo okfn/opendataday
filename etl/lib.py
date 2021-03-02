@@ -164,7 +164,7 @@ def sort(data):
     )
 
 
-def main(in_url, this_year, json_out_file, csv_out_file, reports_dir):
+def main(in_url, this_year, json_out_file, csv_out_file, reports_dir, images_dir):
     data = get_data(in_url)
     data = pre_process(data)
     schema = EventSchema()
@@ -179,6 +179,6 @@ def main(in_url, this_year, json_out_file, csv_out_file, reports_dir):
     data = code_world_regions(data)
     data = sort(data)
 
+    data = create_reports(data, this_year, json_out_file, reports_dir, images_dir)
     write_json(json_out_file, data)
     write_csv(csv_out_file, data)
-    create_reports(data, this_year, json_out_file, reports_dir)
