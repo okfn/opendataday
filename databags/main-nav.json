@@ -668,5 +668,53 @@
         }
       ]
     }
+  ],
+
+  "ca": [
+    {
+      "title": "Dia de les Dades Obertes",
+      "link": "/",
+      "children": [
+        {
+          "title": "Què és?",
+          "link": "#what"
+        },
+        {
+          "title": "Mapa d'actes",
+          "link": "#map"
+        },
+        {
+          "title": "Per a qui és?",
+          "link": "#who"
+        },
+        {
+          "title": "Recursos per a actes",
+          "link": "#resources"
+        },
+        {
+          "title": "Programa d'ajuts",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Cerca actes",
+      "link": "/events/2021/",
+      "children": [
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
+        }
+      ]
+    }
   ]
+
 }
