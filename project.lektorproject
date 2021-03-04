@@ -79,3 +79,8 @@ locale = zh_hans
 name = 正體中文
 url_prefix = /zh_tw/
 locale = zh_tw
+
+[alternatives.ca]
+name = Català
+url_prefix = /ca/
+locale = ca

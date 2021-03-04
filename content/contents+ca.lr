@@ -1,0 +1,152 @@
+language: ca
+---
+
+
+
+title: Esteu convidats
+---
+banner_heading_1: Esteu convidats.
+---
+banner_heading_2: De nou!
+
+---
+intro_heading: Què és el Dia de les Dades Obertes?
+---
+intro_body:
+
+El Dia de les Dades Obertes és una celebració anual de les dades obertes a tot el món. Durant aquell dia, grups d'arreu del món creen actes locals per a utilitzar les dades obertes en la seva comunitat. És una oportunitat de mostrar els beneficis de les dades obertes i promoure l'adopció de polítiques de dades obertes en l'àmbit de govern, empresa i societat.
+---
+intro_body_2:
+
+Tots els treballs realitzats són oberts a tothom per utilitzar i re-utilitzar.
+---
+year_intro:
+
+
+Per a Open Data Day 2021, oferirem mini-ajuts centrats en les següents àrees claus on creiem que les dades obertes poden ajudar:
+---
+year_label_1: Dades **ambientals**
+---
+year_label_2: Seguiment de fluxes de **diner** públic
+---
+year_label_3: **Mapeig** obert
+---
+year_label_4: Dades per a **desenvolupament equitatiu**
+---
+register_text: Registra el teu acte
+---
+events_registered: actes registrats fins ara
+---
+who_heading: Per a qui és això? Per a tothom!
+---
+who_body:
+
+Si tens una idea sobre com usar dades obertes, vols trobar un project interesant per a contribuir-hi, apendre com visualitzar o analitzar dades o simplement vols estar al corrent del que passa, vine i participa! La participació és un dels aspectes clau del Dia de les Dades Obertes, tothom pot expresar les seves opinions de manera constructiva. Independentment de les teves habilitats o interesos animem als organitzadors a promoure oportunitats perque aprenguis a ajudis a créixer la comunitat de les dades obertes arreu del món.
+---
+who_title_1: Persones
+---
+who_description_1:
+
+Us necessitem a vosaltres més que a ningú. Si no fós per vosaltres tot això no existiria. Vingueu d'on vingueu i sigui quina sigui la vostra experiència, us necessitem.
+---
+who_title_2: Treballadors públics
+---
+who_description_2:
+
+La vostra experiència i context ens pot ajudar a millorar les dades governamentals. Veniu a conversar i apendre.
+---
+who_title_3: Disenyadors
+---
+who_description_3:
+
+Ajudeu-nos a fer les dades obertes properes, per a que les persones les usin i entenguin.
+---
+who_title_4: Desenvolupadors
+---
+who_description_4:
+
+Useu les vostres habilitats per a construir solucions que ajudin a resoldre qüestions socials importants.
+---
+who_title_5: Estadistes
+---
+who_description_5:
+
+Useu les vostres habilitats per a ajudar a entendre les dades i extreure'n coneixement.
+---
+resources_heading: Recursos per a actes
+---
+resources_intro:
+
+Necesiteu inspiració per a un acte del Dia de les Dades Obertes, o no sabeu on trobar les dades que necessiteu? Doneu un cop d'ull als nostres recursos.
+---
+resources_button: Recursos
+---
+resources_materials_heading: Materials
+---
+resources_materials_text:
+
+Creeu un logo personalitzat per al vostre acte usant el [generador de logos](http://odd.structure-and-representation.com/)!
+---
+resources_ideas_heading: Idees i fonts de dades
+---
+resources_ideas_intro:
+
+Benvinguts entusiastes de les dades obertes! Heu descobert que el Dia de les Dades obertes serà el proper 6 de Març del 2021 i esteu interesats en organitzar un acte aprop vostre? Només cal trobar un idea que tingui èxit. Els nostres amics de la comunitat de les dades obertes tenen algunes idees i fonts de dades que poden ajudar.
+
+Visiteu el lloc de [CKAN](https://ckan.org/about/instances/) per descobrir totes les organitzacions arreu del món que usen CKAN per a publicar les seves dades.
+
+Useu [data.world](https://data.world) per a publicar o trobar dades de fonts diverses i organitzar tot els aspectes del vostre projecte, incloent dades, notes, anàlisi i discusions en un sol lloc.
+
+Si teniu dades però no sabeu on publicar-les, podeu usar [DataHub](https://datahub.io). Podeu publicar dades, [buscar conjunts de dades](https://datahub.io/search), [explorar col·leccions](https://datahub.io/collections) i [demanar ajuda](https://gitter.im/datahubio/chat).
+
+---
+resources_ideas_theme_1: Dades ambientals
+---
+resources_ideas_theme_1_text:
+
+Per a descobrir dades ambientals o climàtiques, o inspirar-vos per al vostre acte, visiteu [ResourceWatch.org](https://resourcewatch.org/), un portal de dades del [World Resources Institute](https://www.wri.org/); exploreu [el portal de dades de la NASA](https://open.nasa.gov/open-data/); visiteu [geoportal.org](https://www.geoportal.org) o descobriu dades sobre cobertura forestal amb [Global Forest Watch](https://www.globalforestwatch.org/).
+
+Si voleu informació sobre gestió de riscos de desastres o resistència a desastres naturals. visiteu [Global Facility for Disaster Reduction and Recovery Labs](https://www.gfdrr.org/en/gfdrr-labs) o la iniciativa [Open Data for Resilience](https://opendri.org/)  per descobrir eines i projectes. Altres recursos inclouen [Open Cities Africa project](https://opencitiesproject.org/), [Think Hazard](https://thinkhazard.org/en/), [OpenDRI Index](https://index.opendri.org/) i [Risk Data Library](http://riskdatalibrary.org/).
+
+[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) i [la guia OpenUp sobe dades climàtiques de Open Data Charter](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) també poden proporcionar informació d'interès.
+
+---
+[//]: # (resources_ideas_theme_2:
+---
+resources_ideas_theme_2_text:
+
+---
+resources_ideas_theme_3: Seguiment de fluxes de diner públic
+---
+resources_ideas_theme_3_text:
+
+Els llocs web de [Open Contracting Partnership](https://www.open-contracting.org) i Hivos [Open Up Contracting](https://www.openupcontracting.org/) proporcionen un munt d'informació i exemples per a persones que desitjin organizatar actes enfocats a procesos de contractació pública i pressupostos. Vegeu també la [guia de Open Data Charter sobre com usar dades obertes per combatre la corrupció](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/).
+---
+resources_ideas_theme_4: Mapeig obert
+---
+resources_ideas_theme_4_text:
+
+Descobriu més informació sobre mapeig obert a través dels llocs web de [OpenStreetMap](https://www.openstreetmap.org/), [Humanitarian OpenStreetMap](https://www.hotosm.org/) i [Mapbox](https://labs.mapbox.com/mapping/).
+
+---
+resources_ideas_theme_5: Dades per a desenvolupament equitatiu
+---
+resources_ideas_theme_5_text:
+
+El [Centre per a les Dades Humanitàries](https://data.humdata.org) conté més de 17,000 conjunts de dades oberts disponibles a través d'un portal CKAN disponible a [data.humdata.org](https://data.humdata.org/), que pot ajudar a destacar qüestions claus sobre desenvolupament equitatiu. També podeu visitar el portal dels [SDG de les Nacions Unides](https://unstats-undesa.opendata.arcgis.com), el [portal de dades del World Bank](https://data.worldbank.org) o portals de dades com el [European Data Portal](https://www.europeandataportal.eu/).
+
+---
+resources_ideas_theme_6: Drets Humans
+---
+resources_ideas_theme_6_text:
+
+---
+support_scheme_heading: Programa de Suport
+---
+support_scheme_body:
+
+El programa de mini-ajusts per a l'any 2021 ha finalitzat. Llegiu els nostre article al blog per a més informació sobre les organitzacions que han rebut ajuts aquest any.
+
+---
+support_scheme_button: Més informació
+---
