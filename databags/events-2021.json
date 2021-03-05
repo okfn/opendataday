@@ -6475,7 +6475,7 @@
       "event_photo_url": "",
       "event_purpose": "The Covid-19 Open-Data project would like to showcase the largest Covid-19 epidemiological database available in addition to a powerful set of expansive covariates. It includes open sourced data with a permissive license (enabling commercial use) relating to vaccinations, epidemiology, hospitalizations, demographics, economy, geography, health, mobility, government response, weather, and more. Moreover, the data merges daily time-series from hundreds of data sources at a fine spatial resolution, containing over 20,000 locations and using a consistent set of region keys",
       "event_report_url": "",
-      "event_time": "10:30:00 AM",
+      "event_time": "",
       "event_tweet_url": "",
       "event_video_url": "https://www.youtube.com/watch?v=jiQAvsbaYNI",
       "has_event_report": false,
