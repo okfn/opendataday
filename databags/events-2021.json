@@ -2599,7 +2599,7 @@
       "report_question_2": "",
       "report_question_3": "",
       "slug": "lab-mg-no-open-data-day-bate-papo-sobre-dados-abertos-no-governo",
-      "timezone": "BST",
+      "timezone": "BRT",
       "url": "https://www.instagram.com/gov.labmg/",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
@@ -4223,7 +4223,7 @@
       "report_question_2": "",
       "report_question_3": "",
       "slug": "open-data-day-bd",
-      "timezone": "BST",
+      "timezone": "BRT",
       "url": "https://basedosdados.github.io/mais/",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
@@ -4279,7 +4279,7 @@
       "report_question_2": "",
       "report_question_3": "",
       "slug": "open-data-day-brasilia",
-      "timezone": "BST",
+      "timezone": "BRT",
       "url": "",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
@@ -4447,7 +4447,7 @@
       "report_question_2": "",
       "report_question_3": "",
       "slug": "open-data-day-curitiba-2021",
-      "timezone": "BST",
+      "timezone": "BRT",
       "url": "https://odd.dadosabertos.curitiba.br/",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
@@ -4811,7 +4811,7 @@
       "report_question_2": "",
       "report_question_3": "",
       "slug": "open-data-day-no-arquivo-nacional-2021",
-      "timezone": "BST",
+      "timezone": "BRT",
       "url": "https://www.gov.br/arquivonacional/pt-br",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
@@ -5608,7 +5608,7 @@
       "event_purpose": "Encourage the use of open data for the preservation and care of the environment and the creation of public policies with citizen participation",
       "event_report_url": "",
       "event_time": "16:30",
-      "event_tweet_url": "",
+      "event_tweet_url": "https://twitter.com/escuelafiscales",
       "event_video_url": "",
       "has_event_report": false,
       "latitude": -37.996971,
@@ -5931,7 +5931,7 @@
       "report_question_2": "",
       "report_question_3": "",
       "slug": "open-mapping-and-successful-bsss",
-      "timezone": "BST",
+      "timezone": "BRT",
       "url": "https://labiks.org/en/2021/02/25/open-mapping-and-successful-bsss/",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
