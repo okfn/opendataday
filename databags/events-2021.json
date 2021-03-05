@@ -331,7 +331,7 @@
       "report_question_2": "",
       "report_question_3": "",
       "slug": "cajica-ciudadanias-y-digitales-gobierno-abierto",
-      "timezone": "CST",
+      "timezone": "COT",
       "url": "https://mutabit.com/repos.fossil/indieweb/uv/docs/es/miniwiki/indieweb-brea.html#Data%20Roda%2057",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
@@ -1212,7 +1212,7 @@
       "event_purpose": "La esencia del datathon: Es una competici\u00f3n que durar\u00e1 3 meses en la que todos los participantes tienen como desaf\u00edo participar en alguno de los retos propuestos sobre turismo, agricultura o sanidad",
       "event_report_url": "",
       "event_time": "17:00",
-      "event_tweet_url": "",
+      "event_tweet_url": "https://twitter.com/CtranspaUPV/status/1367746403871715336",
       "event_video_url": "",
       "has_event_report": false,
       "latitude": 40.4573,
@@ -1339,7 +1339,7 @@
       "report_question_2": "",
       "report_question_3": "",
       "slug": "datos-abiertos-para-luchar-contra-la-corrupcion",
-      "timezone": "CST",
+      "timezone": "COT",
       "url": "https://www.facebook.com/STransparencia",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
@@ -1367,7 +1367,7 @@
       "report_question_2": "",
       "report_question_3": "",
       "slug": "datos-abiertos-y-la-toma-de-decisiones-en-tiempos-de-pandemia",
-      "timezone": "CST",
+      "timezone": "COT",
       "url": "https://herramientas.datos.gov.co/es/blog/panel-datos-abiertos-y-la-toma-de-decisiones-en-tiempos-de-pandemia-odd2021",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
@@ -1619,7 +1619,7 @@
       "report_question_2": "",
       "report_question_3": "",
       "slug": "ecoin-y-open-data-day-bucaramanga",
-      "timezone": "",
+      "timezone": "COT",
       "url": "",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
@@ -1838,7 +1838,7 @@
       "online": true,
       "online_event_url": "https://www.eventbrite.com/e/open-data-day-global-cybercrime-under-covid-19--tickets-144350481175",
       "organisers": "Natsumi Irimura",
-      "place": "Global",
+      "place": "",
       "report_question_1": "",
       "report_question_2": "",
       "report_question_3": "",
@@ -6463,7 +6463,7 @@
       "report_question_2": "",
       "report_question_3": "",
       "slug": "taller-de-visualizacion-de-datos-ambientales",
-      "timezone": "CST",
+      "timezone": "COT",
       "url": "http://teusaquillorespira.com/opendataday/",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
