@@ -26,7 +26,19 @@
       {% include 'includes/event_location.html' %}
       {% include 'includes/event_organisers.html' %}
     </dl>
-    {% include 'includes/event_mini_grant.html' %}
+
+    {% if event.mini_grant_funder %}
+      {% set preamble_md = bag('reports-content', this.alt)['preamble_' + this.year] %}
+      {% if preamble_md %}
+        {{ preamble_md | markdown }}
+      {% endif %}
+      {% set
+        funder_md = bag('reports-content', this.alt).mini_grant +
+        ' ' +
+        bag('mini-grant-funders')[event.mini_grant_funder]
+      %}
+      {{ funder_md | markdown }}
+    {% endif %}
 
     {% if event['event_photo_url'] %}
       <div class="hero-wrapper">
@@ -70,6 +82,11 @@
     {% if event['report_question_3'] %}
       <h3>{{ bag('reports-content', this.alt).report_question_3 }}</h3>
       <p>{{ event['report_question_3'] | nl2br | markdown }}</p>
+    {% endif %}
+
+    {% if event['report_question_4'] %}
+      <h3>{{ bag('reports-content', this.alt).report_question_4 }}</h3>
+      <p>{{ event['report_question_4'] | nl2br | markdown }}</p>
     {% endif %}
   </div>
 

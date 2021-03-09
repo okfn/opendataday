@@ -2,6 +2,7 @@ import csv
 import json
 from collections import Counter
 from io import StringIO
+from pathlib import Path
 
 import requests
 from marshmallow import (
@@ -16,6 +17,7 @@ from reports import create_reports
 
 
 validate_not_empty = validate.Length(min=1)
+
 URL_FIELDS = [
     'url',
     'online_event_url',
@@ -24,6 +26,10 @@ URL_FIELDS = [
     'event_video_url',
     'event_tweet_url',
 ]
+
+with open(Path(__file__).absolute().parent.parent / 'databags' / 'mini-grant-funders.json') as f:
+    funders_json = json.load(f)
+    VALID_FUNDERS = list(funders_json.keys()) + ['']
 
 
 class EventSchema(Schema):
@@ -61,6 +67,10 @@ class EventSchema(Schema):
     report_question_1 = fields.Str(required=True, data_key="How did your event celebrate open data?")
     report_question_2 = fields.Str(required=True, data_key="Lessons learned from your event")
     report_question_3 = fields.Str(required=True, data_key="Why do you love Open Data Day?")
+    report_question_4 = fields.Str(required=True, data_key="Any resources produced during event which can be shared?")
+    mini_grant_funder = fields.Str(required=True, data_key="Name of mini-grant funder",
+        validate=validate.OneOf(VALID_FUNDERS)
+    )
 
 
 def get_data(in_url):

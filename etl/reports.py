@@ -12,6 +12,8 @@ _template: report.html
 slug: {slug}
 ---
 data_file: {data_file}
+---
+year: {year}
 """
 
 
@@ -24,7 +26,7 @@ _discoverable: no
 """
 
 
-def create_report(row, json_out_file, reports_dir):
+def create_report(row, this_year, json_out_file, reports_dir):
     report_dir = reports_dir / row['slug']
     report_dir.mkdir()
     filename = reports_dir / row['slug'] / 'contents.lr'
@@ -34,6 +36,7 @@ def create_report(row, json_out_file, reports_dir):
             report_template.format(
                 slug=row['slug'],
                 data_file=json_out_file.stem,
+                year=this_year,
             )
         )
     print('✔️')
@@ -100,6 +103,6 @@ def create_reports(data, this_year, json_out_file, reports_dir, images_dir):
     for row in data:
         if has_report_fields(row):
             row['event_photo_url'] = save_image(row, images_dir)
-            create_report(row, json_out_file, reports_dir)
+            create_report(row, this_year, json_out_file, reports_dir)
             row['event_report_url'] = f"/events/{this_year}/reports/{row['slug']}/"
     return data
