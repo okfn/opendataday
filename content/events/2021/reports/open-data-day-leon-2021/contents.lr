@@ -1,0 +1,8 @@
+
+_model: report
+---
+_template: report.html
+---
+slug: open-data-day-leon-2021
+---
+data_file: events-2021
