@@ -52,7 +52,7 @@
 
     {% if event['report_question_1'] %}
       <h3>{{ bag('reports-content', this.alt).report_question_1 }}</h3>
-      <p>{{ event['report_question_1'] | nl2br | markdown }}</p>
+      {{ event['report_question_1'] | nl2br | markdown }}
     {% endif %}
 
     {% if event['event_tweet_url'] %}
@@ -61,7 +61,7 @@
     
     {% if event['report_question_2'] %}
       <h3>{{ bag('reports-content', this.alt).report_question_2 }}</h3>
-      <p>{{ event['report_question_2'] | nl2br | markdown }}</p>
+      {{ event['report_question_2'] | nl2br | markdown }}
     {% endif %}
 
     {% if event['event_video_url'] %}
@@ -81,12 +81,12 @@
 
     {% if event['report_question_3'] %}
       <h3>{{ bag('reports-content', this.alt).report_question_3 }}</h3>
-      <p>{{ event['report_question_3'] | nl2br | markdown }}</p>
+      {{ event['report_question_3'] | nl2br | markdown }}
     {% endif %}
 
     {% if event['report_question_4'] %}
       <h3>{{ bag('reports-content', this.alt).report_question_4 }}</h3>
-      <p>{{ event['report_question_4'] | nl2br | markdown }}</p>
+      {{ event['report_question_4'] | nl2br | markdown }}
     {% endif %}
   </div>
 
