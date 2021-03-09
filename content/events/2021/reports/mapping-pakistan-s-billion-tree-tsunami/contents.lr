@@ -6,3 +6,5 @@ _template: report.html
 slug: mapping-pakistan-s-billion-tree-tsunami
 ---
 data_file: events-2021
+---
+year: 2021
