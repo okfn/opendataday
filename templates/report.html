@@ -65,17 +65,20 @@
     {% endif %}
 
     {% if event['event_video_url'] %}
+      {% set ns.youtube_embed = event['event_video_url'] | youtube(attrs={'id': 'youtube-video'}) %}
       <div id="youtube-container">
         <div id="youtube-outer" style="display:none">
           <div id="youtube-inner">
-            {{ event['event_video_url'] | youtube(attrs={'id': 'youtube-video'}) }}
+            {{ ns.youtube_embed }}
           </div>
         </div>
 
-        <span class="social-link">
-          <svg class="leading-icon"><use xlink:href="#icon-video" /></svg>
-          <a href="{{ event['event_video_url'] }}">{{ bag('events-content', this.alt).video }}</a>
-        </span>
+        <div class="social-link-container" style="text-align: center;padding:30px;">
+          <span class="social-link">
+            <svg class="leading-icon"><use xlink:href="#icon-video" /></svg>
+            <a href="{{ event['event_video_url'] }}">{{ bag('events-content', this.alt).video }}</a>
+          </span>
+        </div>
       </div>
     {% endif %}
 
@@ -96,11 +99,11 @@
 {% endblock %}
 
 {% block extra_js %}
-{% if event['event_video_url'] %}
+{% if event['event_video_url'] and ns.youtube_embed.startswith('<iframe') %}
   <script>
     // progressively enchance youtube
     $('#youtube-container > #youtube-outer').show();
-    $('#youtube-container > .social-link').hide();
+    $('#youtube-container > .social-link-container').hide();
   </script>
 {% endif %}
 {% endblock %}
