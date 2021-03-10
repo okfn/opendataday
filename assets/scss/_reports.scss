@@ -24,6 +24,11 @@ div#youtube-inner {
     padding-bottom: 56.25%;
 }
 
+div#facebook-container {
+    max-width: 650px;
+    margin:auto;
+}
+
 iframe#youtube-video {
     position: absolute;
     top: 0;
@@ -39,4 +44,13 @@ div.hero-wrapper {
 img.hero-image {
     max-width: 100%;
     max-height: 400px;
+}
+
+a.button {
+    @include button;
+}
+
+.button-container {
+    text-align: center;
+    padding: 15px;
 }
