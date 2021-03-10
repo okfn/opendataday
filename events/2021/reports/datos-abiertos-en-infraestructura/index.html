@@ -294,6 +294,9 @@ The next part of the event was a more interactive session where the participants
 
     
       
+  <div id="video-container">
+
+    
       <div id="youtube-container">
         <div id="youtube-outer" style="display:none">
           <div id="youtube-inner">
@@ -303,14 +306,16 @@ The next part of the event was a more interactive session where the participants
 
           </div>
         </div>
-
-        <div class="social-link-container" style="text-align: center;padding:30px;">
-          <span class="social-link">
-            <svg class="leading-icon"><use xlink:href="#icon-video" /></svg>
-            <a href="https://www.youtube.com/watch?v=o1trW3qj3IU">Video</a>
-          </span>
-        </div>
+        <div class="button-container">
+  <a class="button" href="https://www.youtube.com/watch?v=o1trW3qj3IU">
+    Video
+  </a>
+</div>
       </div>
+    
+
+  </div>
+
     
 
     
@@ -863,13 +868,13 @@ dFNvZnR3YXJlAE1pY3Jvc29mdCBPZmZpY2V/7TVxAAAAAElFTkSuQmCC"/> </symbol><symbol vie
   <script src="../../../../js/plugins.js"></script>
   <script src="../../../../js/main.js"></script>
   
-
-  <script>
-    // progressively enchance youtube
-    $('#youtube-container > #youtube-outer').show();
-    $('#youtube-container > .social-link-container').hide();
-  </script>
-
+  
+    <script>
+      // progressively enchance youtube
+      $('#youtube-container > #youtube-outer').show();
+      $('#youtube-container > .button-container').hide();
+    </script>
+  
 
 
   

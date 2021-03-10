@@ -692,6 +692,10 @@ div#youtube-inner {
   height: 0;
   padding-bottom: 56.25%; }
 
+div#facebook-container {
+  max-width: 650px;
+  margin: auto; }
+
 iframe#youtube-video {
   position: absolute;
   top: 0;
@@ -705,6 +709,19 @@ div.hero-wrapper {
 img.hero-image {
   max-width: 100%;
   max-height: 400px; }
+
+a.button {
+  background-color: #0086FF;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.8em 1.8em;
+  display: inline-block;
+  text-align: center; }
+
+.button-container {
+  text-align: center;
+  padding: 15px; }
 
 .site-footer {
   background-color: #1A1A1A;
