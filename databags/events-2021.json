@@ -4869,7 +4869,7 @@
       "event_report_url": "",
       "event_time": "",
       "event_tweet_url": "",
-      "event_video_url": "",
+      "event_video_url": "https://www.youtube.com/watch?v=NLtmDsvRp8A&t=6s",
       "has_event_report": false,
       "latitude": -23.9508218,
       "longitude": -46.3252551,
@@ -4886,7 +4886,7 @@
       "report_question_4": "",
       "slug": "open-data-day-2021-py013",
       "timezone": "",
-      "url": "https://www.youtube.com/channel/UCFLOcbLeYaE1eYuyjnwf9iQ",
+      "url": "https://github.com/Py013/Open-Data-Day-2021/",
       "world_region_code": "AMER",
       "world_region_text": "The Americas"
     },
