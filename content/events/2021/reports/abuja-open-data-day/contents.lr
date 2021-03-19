@@ -1,0 +1,10 @@
+
+_model: report
+---
+_template: report.html
+---
+slug: abuja-open-data-day
+---
+data_file: events-2021
+---
+year: 2021
