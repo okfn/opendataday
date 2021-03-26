@@ -1,0 +1,10 @@
+
+_model: report
+---
+_template: report.html
+---
+slug: the-role-of-women-in-opening-data
+---
+data_file: events-2021
+---
+year: 2021
