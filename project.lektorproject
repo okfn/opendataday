@@ -66,7 +66,7 @@ url_prefix = /ru/
 locale = ru
 
 [alternatives.th]
-name = Thai
+name = ไทย
 url_prefix = /th/
 locale = th
 
