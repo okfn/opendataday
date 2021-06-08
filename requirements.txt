@@ -4,4 +4,4 @@ lektor-twitter-embed==0.1.0
 lektor-youtube-embed==0.1.1
 marshmallow==3.10.0
 python-slugify==4.0.1
-Pillow==8.1.1
+Pillow==8.2.0
