@@ -32,6 +32,20 @@ If we are adding new language to the site we also need to:
 * Add the new language to [languages.json](https://github.com/okfn/opendataday/blob/master/databags/languages.json)
 * Add the language to [project.lektorproject](https://github.com/okfn/opendataday/blob/master/project.lektorproject)
 
+## Running the site locally
+
+Requirements:
+- Python >= 3.6
+- Node JS >= 10
+- NPM >= 7
+
+Setup:
+- Create a python >=3.6 virtual environment
+- `pip install -r requirements.txt`
+- `npm ci`
+- `lektor server`
+- http://127.0.0.1:5000/
+
 ## Updating the Site
 
 Events are populated using a very lightweight import script which:
@@ -39,12 +53,23 @@ Events are populated using a very lightweight import script which:
 - Imports data from a google sheet
 - Does some cleaning and checks on it
 - Writes it out to a JSON file
-- Commits it to the repo
+- Generates .lr files for any event report
+- Harvests any images we want to use on the site
+- Commits the JSON file, event reports and images back to the repo (remember to `git pull`)
 - Builds and deploys the site
 
 This is run in a github action with a workflow_dispatch trigger, which allows our content manager to maintain the events in a spreadsheet update the site via a button in github.
 
 ![screenshot](update-data.png)
+
+In general, the import process is designed to be lax about missing fields and unexpected values. Some minimal validation is performed on the fields we require for the site to build correctly. Any errors will fail the action and be displayed in the GitHub actions log. e.g:
+
+```
+marshmallow.exceptions.ValidationError: {'Latitude': ['Not a valid number.'], 'Longitude': ['Not a valid number.']}
+```
+
+These will need to be resolved by editing the input spreadsheet.
+
 
 There are three bits of setup we need to do each year:
 
@@ -52,8 +77,9 @@ There are three bits of setup we need to do each year:
     - Create `./etl/202x.py` based on a previous year's file
     - Fill in `IN_URL` and `THIS_YEAR`
     - Update schema as applicable if the spreadsheet has changed, but we want to keep the JSON output the same if possible as every year's events page uses the same template to render the JSON to HTML
-    - Update https://github.com/okfn/opendataday/blob/d51d490fe15c9b02e33f0e8460cadadb636f83f6/.github/workflows/update-data.yml#L31 to run the new job
+    - Replace https://github.com/okfn/opendataday/blob/d51d490fe15c9b02e33f0e8460cadadb636f83f6/.github/workflows/update-data.yml#L31 with the new job. We don't need to keep running last year's script.
     - Once we've run the job for the first time it will create a `/databags/202x.json` file. This is consumed by the events list page and the events map
+    - We can run `python ./etl/202x.py` locally as well as triggering it with GitHub actions
 - **2. Update the map:**
     - Update https://github.com/okfn/opendataday/blob/d51d490fe15c9b02e33f0e8460cadadb636f83f6/assets/js/map.js#L1 to consume the new JSON file
 - **3. Create a new events page:**
