@@ -6,6 +6,7 @@ list:
 	@grep '^\.PHONY' Makefile | cut -d' ' -f2- | tr ' ' '\n'
 
 build:
+	lektor build
 	npm run build
 
 install:
