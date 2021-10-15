@@ -141,9 +141,11 @@ resources_ideas_theme_5_text:
 The [Centre for Humanitarian Data](https://data.humdata.org) has over 17,000 humanitarian open datasets available via the CKAN-powered portal at [data.humdata.org](https://data.humdata.org/) which may help to highlight key issues about equal development. You can also visit the [United Nations' Open SDG Data Hub](https://unstats-undesa.opendata.arcgis.com), the [World Bank Open Data portal](https://data.worldbank.org) or the large data harvesting portals like the [European Data Portal](https://www.europeandataportal.eu/).
 
 ---
-resources_ideas_theme_6: Human Rights theme
+resources_ideas_theme_6: Ocean data for a thriving planet
 ---
 resources_ideas_theme_6_text:
+
+General ocean data portals include [EMODNet](https://emodnet.ec.europa.eu/en) and the [Pacific Data Hub](https://pacificdata.org/) and [WRI's Ocean Watch](https://www.wri.org/initiatives/ocean-watch) (launches Nov 23). For oceanographic data - seafloor maps, temperatures, currents - try the [International Oceanographic Data Exchange](https://uk-ioc.org/IODE) and [Schmidt Ocean Institute](https://schmidtocean.org/data/). For data on ocean wildlife try the [Ocean Biological Information System](https://obis.org/) the [Global Biological Information System](https://www.gbif.org/) and the [Ocean Tracking Network]( https://members.oceantrack.org/OTN/projects). [Global Fishing Watch](https://globalfishingwatch.org/datasets-and-code/) focuses on fishing, especially on the high seas and [Marine Traffic](https://www.marinetraffic.com/) shows all kinds of vessels.
 
 ---
 support_scheme_heading: Support Scheme
