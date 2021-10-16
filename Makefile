@@ -7,6 +7,7 @@ list:
 
 build:
 	npm run build
+	lektor build
 
 install:
 	pip install -r requirements.txt
