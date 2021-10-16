@@ -381,10 +381,10 @@ body > section {
         @media (min-width: 600px) {
           body > section .this-year ul li {
             float: left;
-            width: 25%; } }
+            width: 20%; } }
         body > section .this-year ul li svg {
-          width: 100px;
-          height: 100px;
+          width: 80px;
+          height: 80px;
           fill: currentColor; }
         body > section .this-year ul li p {
           margin-top: 0; }
@@ -497,7 +497,7 @@ body > section {
         width: 120px;
         height: 120px;
         margin: 30px 15px 15px; }
-        body > section#resources > div > header svg.research {
+        body > section#resources > div > header svg.environment {
           fill: #FFB900; }
         body > section#resources > div > header svg.money {
           fill: #FF4900; }
@@ -505,6 +505,8 @@ body > section {
           fill: #48C0AC; }
         body > section#resources > div > header svg.equality {
           fill: #9B20DC; }
+        body > section#resources > div > header svg.ocean {
+          fill: #0086FF !important; }
       body > section#resources > div > header p {
         max-width: 770px;
         display: block;
