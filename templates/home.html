@@ -21,7 +21,12 @@
     </div>
     <div class="this-year">
       <header>
-        <h2>Open Data Day<br /> mini-grants</h2>
+	      <h2>{% if this.mini_grants_title %}
+		      {{ this.mini_grants_title }}
+		  {% else %}
+		      Open Data Day<br /> mini-grants
+		  {% endif %}
+	      </h2>
         {{ this.year_intro }}
       </header>
       <ul>
