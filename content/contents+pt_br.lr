@@ -1,6 +1,9 @@
 language: pt_br
 ---
-
+banner_link: what
+---
+next_date: 2022-03-05
+---
 
 
 
@@ -13,7 +16,7 @@ banner_heading_1: Você está convidada(o).
 ---
 banner_heading_2: De novo!
 ---
-mini_grants_title: Dia dos dados abertos<br/>Mini-grants
+mini_grants_title: Mini-bolsas para o Dia dos Dados Abertos 
 ---
 intro_heading: O que é o Dia dos Dados Abertos?
 ---
@@ -27,7 +30,7 @@ Todos os resultados são abertos para que todos usem e reusem.
 ---
 year_intro:
 
-Para o Dia dos Dados Abertos 2021, nós daremos minibolsas focadas em áreas chave que acreditamos que os dados abertos podem ajudar a resolver:
+Para o Dia dos Dados Abertos 2022, nós daremos minibolsas focadas em áreas chave que acreditamos que os dados abertos podem ajudar a resolver:
 ---
 year_label_1: **Dados** do meio ambiente
 ---
@@ -36,6 +39,8 @@ year_label_2: Rastrear fluxos de **dinheiro** público
 year_label_3: **Mapas** abertos
 ---
 year_label_4: Dados para o **desenvolvimento igualitário**
+---
+year_label_5: **Dados** oceânicos para a prosperidade planetária
 ---
 register_text: Registre o seu evento
 ---
@@ -95,7 +100,7 @@ resources_ideas_heading: Ideias e fontes de dados
 ---
 resources_ideas_intro:
 
-Ei, entusiasta dos Dados Abertos! Você acabou de ver que o Dia Internacional dos Dados Abertos será no sábado, 6 de março de 2021 e está interessado em hospedar um evento na sua localidade? Seu único desafio agora é encontrar a ideia certa para acertar o ponto ideal. Nossos amigos da comunidade dos Dados Abertos têm algumas ideias e fontes de dados que valem a pena conferir.
+Ei, entusiasta dos Dados Abertos! Você acabou de ver que o Dia Internacional dos Dados Abertos será no sábado, 5 de março de 2022 e está interessado em hospedar um evento na sua localidade? Seu único desafio agora é encontrar a ideia certa para acertar o ponto ideal. Nossos amigos da comunidade dos Dados Abertos têm algumas ideias e fontes de dados que valem a pena conferir.
 
 Visite o [site do CKAN](https://ckan.org/about/instances/) para descobrir todas as organizações ao redor do mundo que usam o CKAN para publicar os seus dados.
 
@@ -115,12 +120,11 @@ Se você quiser informações sobre a gestão de riscos de desastres ou a resili
 
 *[OpenOil](http://openoil.net)*, *[Extract-a-Fact](http://www.extractafact.org/)* e o [guia OpenUp de dados climáticos do *Open Data Charter*](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) também podem ter orientações úteis e conselhos.
 ---
-[//]: # (resources_ideas_theme_2: 
+[//]: # (resources_ideas_theme_2:
 ---
 resources_ideas_theme_2_text:
-
 ---
-resources_ideas_theme_3: Rastreando os fluxos do dinheiro público
+resources_ideas_theme_3: Rastrear fluxos do dinheiro público
 ---
 resources_ideas_theme_3_text:
 
@@ -139,17 +143,17 @@ resources_ideas_theme_5_text:
 
 O [Centro para Dados Humanitários](https://data.humdata.org) tem mais de 17.000 conjuntos de dados abertos humanitários acessíveis por meio do portal que usa CKAN em [data.humdata.org](https://data.humdata.org/) que pode ajudar a salientar questões chave sobre desenvolvimento igualitário. Você também pode visitar o [Hub de Dados dos ODS da ONU](https://unstats-undesa.opendata.arcgis.com), o [Portal de Dados Abertos do Banco Mundial](https://data.worldbank.org) ou os grandes portais de coleta de dados como o [Portal de Dados Europeu](https://www.europeandataportal.eu/).
 ---
-resources_ideas_theme_6: Tema Direitos Humanos
+resources_ideas_theme_6: Dados oceânicos para a prosperidade planetária
 ---
 resources_ideas_theme_6_text:
-
+Portais sobre dados dos oceanos incluem [EMODNet](https://emodnet.ec.europa.eu/en) e o [Pacific Data Hub](https://pacificdata.org/). Para dados oceanográficos - mapas do fundo do mar, temperaturas, correntes - tente o [International Oceanographic Data Exchange](https://uk-ioc.org/IODE) ou o [Schmidt Ocean Institute](https://schmidtocean.org/data/). Para a vida selvagem oceânica, tem o [Ocean Biological Information System](https://obis.org/), o [Global Biological Information System](https://www.gbif.org/) e o [Ocean Tracking Network](https://members.oceantrack.org/OTN/projects). Focado em pescaria, em especial a de alto mar, tem o [Global Fishing Watch](https://globalfishingwatch.org/datasets-and-code/), já o [Marine Traffic](https://www.marinetraffic.com/) mostra todo tipo de embarcações.
 
 ---
 support_scheme_heading: Plano de Apoio
 ---
 support_scheme_body:
 
-O esquema de minibolsas de 2021 já está fechado. Leia a nossa [postagem de blog](https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/) para saber mais sobre as organizações que recebem minibolsas este ano
+Em breve será divulgado o esquema de minibolsas para 2022
 ---
 support_scheme_button: Saiba mais
 ---
