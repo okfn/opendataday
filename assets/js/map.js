@@ -1,4 +1,4 @@
-var url = 'https://raw.githubusercontent.com/okfn/opendataday/master/databags/events-2021.json';
+var url = 'https://raw.githubusercontent.com/okfn/opendataday/master/databags/events-2022.json';
 mapboxgl.accessToken = 'pk.eyJ1Ijoib2tmbiIsImEiOiJjaXlrOW5yczgwMDEzMnlwaWd2ZzF6MDQ3In0.2UJlkR69zbu4-3YRJJgN5w';
 
 var clusterRadius = 50,

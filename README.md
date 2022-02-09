@@ -82,7 +82,7 @@ There are three bits of setup we need to do each year:
     - Once we've run the job for the first time it will create a `/databags/202x.json` file. This is consumed by the events list page and the events map
     - We can run `python ./etl/202x.py` locally as well as triggering it with GitHub actions
 - **2. Update the map:**
-    - Update https://github.com/okfn/opendataday/blob/d51d490fe15c9b02e33f0e8460cadadb636f83f6/assets/js/map.js#L1 to consume the new JSON file
+    - Update [map.js file](/assets/js/map.js) to consume the new JSON file
 - **3. Create a new events page:**
     - Create  `./content/events/202x/contents.lr` based on a previous year's file
     - Fill in the fields
