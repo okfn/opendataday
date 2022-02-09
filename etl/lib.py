@@ -44,31 +44,31 @@ class EventSchema(Schema):
         validate=validate_not_empty
     )
     num_participants = fields.Str(required=True, data_key="Number of participants")
-    organisers = fields.Str(required=True, data_key="Organisers")
+    organisers = fields.Str(required=True, data_key="Event organiser")
     event_purpose = fields.Str(required=True, data_key="Event purpose")
     event_date = fields.DateTime(
         required=False, missing=None, data_key="Date of event",
         format="%m/%d/%Y"  # USA format
     )
-    event_time = fields.Str(required=True, data_key="Time of event")  # just a string
-    timezone = fields.Str(required=True, data_key="Timezone")
-    country = fields.Str(required=True, data_key="Country")
-    world_region_code = fields.Str(required=True, data_key="World region AMER/EMEA/APAC",
+    event_time = fields.Str(required=False, data_key="Time of event")  # just a string
+    timezone = fields.Str(required=False, data_key="Timezone")
+    country = fields.Str(required=False, data_key="Country")
+    world_region_code = fields.Str(required=False, data_key="World region AMER/EMEA/APAC",
         validate=validate.OneOf(['AMER', 'EMEA', 'APAC', ''])
     )
-    online = fields.Boolean(required=True, data_key="Online event?")
-    online_event_url = fields.Str(required=True, data_key="Online event URL")
-    event_report_url = fields.Str(required=True, data_key="Event report external URL")
-    event_photo_url = fields.Str(required=True, data_key="Event photo")
-    event_video_url = fields.Str(required=True, data_key="Event video URL")
-    event_tweet_url = fields.Str(required=True, data_key="Event tweet URL")
-    mini_grant_winner = fields.Boolean(required=True, data_key="Mini-grant winner?")
-    has_event_report = fields.Boolean(required=True, data_key="Has event report?")
-    report_question_1 = fields.Str(required=True, data_key="How did your event celebrate open data?")
-    report_question_2 = fields.Str(required=True, data_key="Lessons learned from your event")
-    report_question_3 = fields.Str(required=True, data_key="Why do you love Open Data Day?")
-    report_question_4 = fields.Str(required=True, data_key="Any resources produced during event which can be shared?")
-    mini_grant_funder = fields.Str(required=True, data_key="Name of mini-grant funder",
+    online = fields.Boolean(required=False, data_key="Online event?", default=False)
+    online_event_url = fields.Str(required=False, data_key="Online event URL")
+    event_report_url = fields.Str(required=False, data_key="Event report external URL")
+    event_photo_url = fields.Str(required=False, data_key="Event photo")
+    event_video_url = fields.Str(required=False, data_key="Event video URL")
+    event_tweet_url = fields.Str(required=False, data_key="Event tweet URL")
+    mini_grant_winner = fields.Boolean(required=False, data_key="Mini-grant winner?", default=False)
+    has_event_report = fields.Boolean(required=False, data_key="Has event report?", default=False)
+    report_question_1 = fields.Str(required=False, data_key="How did your event celebrate open data?")
+    report_question_2 = fields.Str(required=False, data_key="Lessons learned from your event")
+    report_question_3 = fields.Str(required=False, data_key="Why do you love Open Data Day?")
+    report_question_4 = fields.Str(required=False, data_key="Any resources produced during event which can be shared?")
+    mini_grant_funder = fields.Str(required=False, data_key="Name of mini-grant funder",
         validate=validate.OneOf(VALID_FUNDERS)
     )
 
@@ -80,14 +80,25 @@ def get_data(in_url):
     stream = StringIO(r.text)
     reader = csv.DictReader(stream)
     data = [row for row in reader]
+    print(data)
     return data
 
 
 def pre_process(data):
+    """ Clean all data before started using it """
+
+    new_data = []
     for row in data:
-        if row['Date of event'] == "":
-            row['Date of event'] = None
-    return data
+        new_row = {}
+        # remove the (required) sufix
+        for k, v in row.items():
+            if '(required)' in k:
+                new_row[k.replace(' (required)', '')] = v
+            else:
+                new_row[k] = v
+            new_data.append(new_row)
+
+    return new_data
 
 
 def write_json(filename, data):
