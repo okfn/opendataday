@@ -80,7 +80,6 @@ def get_data(in_url):
     stream = StringIO(r.text)
     reader = csv.DictReader(stream)
     data = [row for row in reader]
-    print(data)
     return data
 
 
@@ -89,14 +88,23 @@ def pre_process(data):
 
     new_data = []
     for row in data:
-        new_row = {}
+        new_row = {
+            # default values no longer in use in google form
+            'Online event URL': '',
+            'Event report external URL': '',
+            'Event photo': '',
+            'Event video URL': '',
+            'Event tweet URL': '',
+            'World region AMER/EMEA/APAC': '',
+            'Has event report?': False,
+        }
         # remove the (required) sufix
         for k, v in row.items():
             if '(required)' in k:
                 new_row[k.replace(' (required)', '')] = v
             else:
                 new_row[k] = v
-            new_data.append(new_row)
+        new_data.append(new_row)
 
     return new_data
 
