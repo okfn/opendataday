@@ -159,6 +159,26 @@
       "url": "https://forms.gle/yc1Q2RRpmzh3R7zCA",
       "world_region_code": "",
       "world_region_text": ""
+    },
+    {
+      "event_date": null,
+      "event_name": "\u0414\u0435\u043d\u044c \u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445 2022",
+      "event_photo_url": "",
+      "event_purpose": "To update the open data agenda in Russia for 2022 and bring the community together",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 55.755825,
+      "longitude": 37.617298,
+      "num_participants": "300",
+      "online_event_url": "",
+      "organisers": "\u0410\u041d\u041e \"\u0418\u043d\u0444\u043e\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0430\"",
+      "place": "Moscow",
+      "slug": "den-otkrytykh-dannykh-2022",
+      "url": "https://opendataday.ru/msk",
+      "world_region_code": "",
+      "world_region_text": ""
     }
   ]
 }
