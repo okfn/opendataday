@@ -1,4 +1,4 @@
-from jinja2 import Markup
+from markupsafe import Markup
 from lektor.pluginsystem import Plugin
 import requests
 
@@ -29,7 +29,10 @@ _fb_embed_template = """
 
 
 def _facebook_video(url):
-    r = requests.get(url, allow_redirects=False)
+    try:
+        r = requests.get(url, allow_redirects=False)
+    except Exception:
+        return Markup("")
     if r.status_code in [301, 302]:
         return Markup(_fb_embed_template.format(url=r.headers["location"]))
     return Markup(_fb_embed_template.format(url=url))

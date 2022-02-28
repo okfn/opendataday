@@ -56,7 +56,7 @@
     {% endif %}
 
     {% if event['event_tweet_url'] %}
-      {{ event['event_tweet_url'] | tweet(params={'align': 'center', 'hide_thread': 'true'}) }}
+      {{ event['event_tweet_url'] | tweet(fallback=True, params={'align': 'center', 'hide_thread': 'true'}) }}
     {% endif %}
     
     {% if event['report_question_2'] %}
