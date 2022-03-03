@@ -146,8 +146,16 @@ def format_dates(data):
 
 
 def generate_slugs(data):
+    valid_slugs = []
     for row in data:
-        row['slug'] = slugify(row['event_name'][0:80])
+        event_slug = slugify(row['event_name'][0:80])
+        c = 2
+        while event_slug in valid_slugs:
+            base_slug = slugify(row['event_name'][0:80])
+            event_slug = f'{base_slug}-{c}'
+            c += 1
+        row['slug'] = event_slug
+        valid_slugs.append(event_slug)
 
     slugs = [row['slug'] for row in data]
     duplicate_slugs = [k for k,v in Counter(slugs).items() if v > 1]
