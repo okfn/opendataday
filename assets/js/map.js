@@ -1,4 +1,4 @@
-var url = 'https://raw.githubusercontent.com/okfn/opendataday/master/databags/events-2021.json';
+var url = 'https://raw.githubusercontent.com/okfn/opendataday/master/databags/events-2022.json';
 mapboxgl.accessToken = 'pk.eyJ1Ijoib2tmbiIsImEiOiJjaXlrOW5yczgwMDEzMnlwaWd2ZzF6MDQ3In0.2UJlkR69zbu4-3YRJJgN5w';
 
 var clusterRadius = 50,
@@ -83,13 +83,14 @@ map.on('load', function() {
     };
 
     events.forEach(function(event) {
+      var lat, lng, title;
       try {
-        var lat = Number(event.latitude)
-        var lng = Number(event.longitude)
-        var title = truncate(event.event_name, 20)
+        lat = Number(event.latitude);
+        lng = Number(event.longitude);
+        title = truncate(event.event_name, 20);
       } catch (error) {
-        console.error(error)
-        console.log('Error processing event "' + event.event_name + '"')
+        console.error(error);
+        console.log('Error processing event "' + event.event_name + '"');
       }
 
       if (lng && lat && title) {

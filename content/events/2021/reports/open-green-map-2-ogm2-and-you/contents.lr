@@ -1,0 +1,10 @@
+
+_model: report
+---
+_template: report.html
+---
+slug: open-green-map-2-ogm2-and-you
+---
+data_file: events-2021
+---
+year: 2021

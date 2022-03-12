@@ -2,7 +2,7 @@ _model: home
 ---
 banner_link: what
 ---
-next_date: 2021-03-06
+next_date: 2022-03-05
 ---
 
 
@@ -12,10 +12,7 @@ title: You are invited
 banner_heading_1: You Are Invited.
 ---
 banner_heading_2: Again!
----
-banner_content_1: Open Data Day 2021 will take place on
----
-banner_content_2: Saturday 6th March
+
 ---
 intro_heading: What is Open Data Day?
 ---
@@ -29,7 +26,7 @@ All outputs are open for everyone to use and re-use.
 ---
 year_intro:
 
-For Open Data Day 2021, we will give mini-grants focused on the key areas below that we believe open data can help solve:
+For Open Data Day 2022, we will give mini-grants focused on the key areas below that we believe open data can help solve:
 ---
 year_label_1: Environmental **data**
 ---
@@ -39,9 +36,11 @@ year_label_3: Open **mapping**
 ---
 year_label_4: Data for **equal development**
 ---
+year_label_5: Ocean **data** for a thriving planet
+---
 register_text: Register your event
 ---
-events_registered: events registered so far
+events_registered: events registered in 2022
 ---
 who_heading: Who is this for? Everyone!
 ---
@@ -117,7 +116,7 @@ If you want information on disaster risk management or resilience to natural haz
 [OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) and the [Open Data Charter's OpenUp guide to climate data](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) may also provide useful guidance and advice.
 
 ---
-[//]: # (resources_ideas_theme_2: 
+[//]: # (resources_ideas_theme_2:
 ---
 resources_ideas_theme_2_text:
 
@@ -142,17 +141,18 @@ resources_ideas_theme_5_text:
 The [Centre for Humanitarian Data](https://data.humdata.org) has over 17,000 humanitarian open datasets available via the CKAN-powered portal at [data.humdata.org](https://data.humdata.org/) which may help to highlight key issues about equal development. You can also visit the [United Nations' Open SDG Data Hub](https://unstats-undesa.opendata.arcgis.com), the [World Bank Open Data portal](https://data.worldbank.org) or the large data harvesting portals like the [European Data Portal](https://www.europeandataportal.eu/).
 
 ---
-resources_ideas_theme_6: Human Rights theme
+resources_ideas_theme_6: Ocean data for a thriving planet
 ---
 resources_ideas_theme_6_text:
+
+General ocean data portals include [EMODNet](https://emodnet.ec.europa.eu/en) and the [Pacific Data Hub](https://pacificdata.org/). For oceanographic data - seafloor maps, temperatures, currents - try the [International Oceanographic Data Exchange](https://uk-ioc.org/IODE) and [Schmidt Ocean Institute](https://schmidtocean.org/data/). For data on ocean wildlife try the [Ocean Biological Information System](https://obis.org/) the [Global Biological Information System](https://www.gbif.org/) and the [Ocean Tracking Network]( https://members.oceantrack.org/OTN/projects). [Global Fishing Watch](https://globalfishingwatch.org/datasets-and-code/) focuses on fishing, especially on the high seas and [Marine Traffic](https://www.marinetraffic.com/) shows all kinds of vessels.
 
 ---
 support_scheme_heading: Support Scheme
 ---
 support_scheme_body:
 
-The 2021 mini-grant scheme has now closed. Read our blogpost to find out more about the organisations receiving mini-grants this year
-
+IMPORTANT:  There will be a different grant scheme this year for Open Data Day. We will not support online events happening on March 5th, 2022. Instead, we will be opening a call for grants to celebrate face to face meetings,  when local conditions permit, to have months of action around Open Data. More information will be published shortly.
 ---
-support_scheme_button: Learn more
+support_scheme_button: Read more
 ---

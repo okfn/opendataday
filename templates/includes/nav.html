@@ -1,7 +1,13 @@
-<nav class="main-nav">
+<nav class="main-nav stuck">
   <div>
     <div>
       <a class="logo" href="{{ '/'|url }}">{% include 'includes/logo.svg' %}</a>
+
+      <ul class="short-menu" id="short-nav">
+        {% for item in bag('main-nav', this.alt) %}
+          {% include 'includes/menu_item.html' %}
+        {% endfor %}
+      </ul>
 
       <ul class="menu" id="nav">
         {% for item in bag('main-nav', this.alt) %}
@@ -27,7 +33,6 @@
           {% endif %}
 
           <ul class="menu" id="lang">
-            
           {% for code, title in bag('languages.all').items() %}
             <li{% if current_language == code %} class="active"{% endif %}>
               <a href="{{ '.'|url(alt=code) }}">{{ title }}</a>
@@ -40,3 +45,19 @@
     </div>
   </div>
 </nav>
+
+<noscript>
+  <style>
+    #short-nav {
+      display: table-cell;
+    }
+    #lang {
+      display: block;
+      text-align: left;
+      list-style-type: none;
+    }
+    nav.main-nav.stuck {
+      position:unset;
+    }
+  </style>
+</noscript>

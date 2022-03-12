@@ -1,0 +1,10 @@
+
+_model: report
+---
+_template: report.html
+---
+slug: datos-abiertos-para-la-transparencia-y-la-lucha-contra-la-corrupcion
+---
+data_file: events-2021
+---
+year: 2021

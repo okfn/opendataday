@@ -1,12 +1,13 @@
 {
   "all": {
-    "es_es": "Castellano",
-    "zh_hans": "简体中文",
-    "zh_tw": "正體中文",
-    "de": "Deutsch",
     "en": "English",
+    "de": "Deutsch",
     "fr": "Français",
     "it": "Italiano",
+    "es_es": "Castellano",
+    "ca": "Català",
+    "zh_hans": "简体中文",
+    "zh_tw": "正體中文",
     "ja": "日本語",
     "kr": "한국어",
     "ne": "Nepali",

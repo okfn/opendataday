@@ -7,12 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/css/style.css'|url }}">
   <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" rel="stylesheet" />
-  <script>
-    var okiConsent = {
-      analyticsTrackingID: 'UA-33874954-12',
-    };
-  </script>
-  <script src="https://a.okfn.org/html/oki/consent/assets/js/consent.js"></script>
+  <script defer data-domain="opendataday.org" src="https://plausible.io/js/plausible.js"></script>
 </head>
 <body class="{{ this._model }}">
 
@@ -34,7 +29,7 @@
   </footer>
   {% include 'includes/icons.svg' %}
 
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="{{ '/js/plugins.js'|url }}"></script>
   <script src="{{ '/js/main.js'|url }}"></script>
   {% block extra_js %}
@@ -56,14 +51,20 @@
 
         'allowParentLinks': true,
         'showChildren': true,
-        'closeOnClick': true
+        'closeOnClick': true,
+        'beforeOpen': function() {
+          $('#lang').slicknav('close');
+        }
       });
     });
     $(function(){
       $('#lang').slicknav({
         'prependTo': '.main-nav > div > div',
         'label' : '{{ current_language |replace("_", " ") }}',
-        'duplicate': false
+        'duplicate': false,
+        'beforeOpen': function() {
+          $('#nav').slicknav('close');
+        }
       });
     });
   </script>

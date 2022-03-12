@@ -1,0 +1,10 @@
+
+_model: report
+---
+_template: report.html
+---
+slug: data-challenge-take-advantage-of-the-first-dataset-published-under-the-ocds-in
+---
+data_file: events-2021
+---
+year: 2021

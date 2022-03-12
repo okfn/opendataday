@@ -2,7 +2,7 @@
   "en": [
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "What is this?",
@@ -28,8 +28,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2021/",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -37,6 +41,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -46,7 +54,7 @@
   "de":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "Was ist das?",
@@ -72,8 +80,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2021/",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -81,6 +93,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -90,7 +106,7 @@
   "es_es":[
     {
       "title": "El Día de los Datos Abiertos",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "¿Qué es?",
@@ -116,8 +132,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2021/",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -125,6 +145,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -134,7 +158,7 @@
   "fr":[
     {
       "title": "La Journée des Données Ouvertes",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "De quoi s'agit-il ?",
@@ -160,8 +184,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2021/",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -169,6 +197,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -178,7 +210,7 @@
   "it":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "Di che si tratta?",
@@ -204,8 +236,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2021/",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -213,6 +249,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -222,7 +262,7 @@
   "ja":[
     {
       "title": "オープンデータ・デイ",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "What is this?",
@@ -248,8 +288,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2021/",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -257,6 +301,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -266,7 +314,7 @@
   "kr":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "오픈 데이터 데이란?",
@@ -292,8 +340,12 @@
     },
     {
       "title": "이벤트 검색",
-      "link": "/events/2021/",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -301,6 +353,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -310,7 +366,7 @@
   "ne":[
     {
       "title": "खुल्ला डाटा दिवस",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "यो भनेको के हो?",
@@ -336,8 +392,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2021/",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -345,6 +405,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -354,7 +418,7 @@
   "nl":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "Wat?",
@@ -380,8 +444,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2021/",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -389,6 +457,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -398,7 +470,7 @@
   "pt_br":[
     {
       "title": "O Dia dos Dados Abertos",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "O que é?",
@@ -423,9 +495,13 @@
       ]
     },
     {
-      "title": "Search events",
-      "link": "/events/2021/",
+      "title": "Pesquisar eventos",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -433,6 +509,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -442,7 +522,7 @@
   "ru":[
     {
       "title": "День открытых данных",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "Что это?",
@@ -468,8 +548,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2021/",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -477,6 +561,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -486,7 +574,7 @@
   "th":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "นี่คืออะไร?",
@@ -511,9 +599,13 @@
       ]
     },
     {
-      "title": "Search events",
-      "link": "/events/2021/",
+      "title": "ค้นหากิจกรรม",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -521,6 +613,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -530,7 +626,7 @@
   "zh_hans":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "What is this?",
@@ -556,8 +652,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2021/",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -565,6 +665,10 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
@@ -574,7 +678,7 @@
   "zh_tw":[
     {
       "title": "Open Data Day",
-      "link": "",
+      "link": "/",
       "children": [
         {
           "title": "這是什麼？",
@@ -600,8 +704,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2021/",
+      "link": "/events/2022/",
       "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
         {
           "title": "2021",
           "link": "/events/2021/"
@@ -609,8 +717,64 @@
         {
           "title": "2020",
           "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
+        }
+      ]
+    }
+  ],
+
+  "ca": [
+    {
+      "title": "Dia de les Dades Obertes",
+      "link": "/",
+      "children": [
+        {
+          "title": "Què és?",
+          "link": "#what"
+        },
+        {
+          "title": "Mapa d'actes",
+          "link": "#map"
+        },
+        {
+          "title": "Per a qui és?",
+          "link": "#who"
+        },
+        {
+          "title": "Recursos per a actes",
+          "link": "#resources"
+        },
+        {
+          "title": "Programa d'ajuts",
+          "link": "#support"
+        }
+      ]
+    },
+    {
+      "title": "Cerca actes",
+      "link": "/events/2022/",
+      "children": [
+        {
+          "title": "2022",
+          "link": "/events/2022/"
+        },
+        {
+          "title": "2021",
+          "link": "/events/2021/"
+        },
+        {
+          "title": "2020",
+          "link": "/events/2020/"
+        },
+        {
+          "title": "2019",
+          "link": "/events/2019/"
         }
       ]
     }
   ]
+
 }

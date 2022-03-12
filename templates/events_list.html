@@ -23,6 +23,7 @@
         <option value="#filter:world-region-code=APAC">{{ bag('events-content', this.alt).filter_apac }}</option>
         <option value="#filter:event-location=Online">{{ bag('events-content', this.alt).filter_online }}</option>
         <option value="#filter:event-location=Offline">{{ bag('events-content', this.alt).filter_offline }}</option>
+        <option value="#filter:event-report=true">{{ bag('events-content', this.alt).filter_report }}</option>
       </select>
 
       <p><strong>Found <span id="num-results"></span> events</strong></p>
@@ -53,7 +54,7 @@
           </h3>
 
           <div class="event-detail">
-            <p>{{ event['event_purpose'] | markdown }}</p>
+            <p>{{ event['event_purpose'] | nl2br }}</p>
 
             <dl>
               {% include 'includes/event_date.html' %}
@@ -83,6 +84,12 @@
                 <dt style="display:none" aria-hidden="true" >World Region Code</dt>
                 <dd style="display:none" aria-hidden="true" class="world-region-code">{{event['world_region_code']}}</dd>
               {% endif %}
+              <dt style="display:none" aria-hidden="true" >Event Report</dt>
+              <dd
+                style="display:none"
+                aria-hidden="true"
+                class="event-report"
+              >{% if event['event_report_url'] or event['has_event_report'] %}true{% else %}false{% endif %}</dd>
             </dl>
 
             {% include 'includes/event_mini_grant.html' %}
@@ -91,7 +98,11 @@
               {% if event['event_report_url'] %}
                 <span class="social-link">
                   <svg class="leading-icon"><use xlink:href="#icon-book" /></svg>
-                  <a href="{{ event['event_report_url'] }}">{{ bag('events-content', this.alt).report }}</a>
+                  {% if event['event_report_url'].startswith('http') %}
+                    <a href="{{ event['event_report_url'] }}">{{ bag('events-content', this.alt).report }}</a>
+                  {% else %}
+                    <a href="{{ event['event_report_url'] | url }}">{{ bag('events-content', this.alt).report }}</a>
+                  {% endif %}
                 </span>
               {% endif %}
 
@@ -118,8 +129,8 @@
 
               {% if event['event_video_url'] %}
                 <span class="social-link">
-                  <svg class="leading-icon"><use xlink:href="#icon-youtube" /></svg>
-                  <a href="{{ event['event_video_url'] }}">{{ bag('events-content', this.alt).youtube }}</a>
+                  <svg class="leading-icon"><use xlink:href="#icon-video" /></svg>
+                  <a href="{{ event['event_video_url'] }}">{{ bag('events-content', this.alt).video }}</a>
                 </span>
               {% endif %}
             </p>
@@ -139,6 +150,16 @@
 
 {% block extra_js %}
 <script>
+  // shim string.startsWith for IE11
+  if (!String.prototype.startsWith) {
+    Object.defineProperty(String.prototype, 'startsWith', {
+      value: function(search, rawPos) {
+        var pos = rawPos > 0 ? rawPos|0 : 0;
+        return this.substring(pos, pos + search.length) === search;
+      }
+    });
+  }
+
   var options = {
       valueNames: [
         'event-title',
@@ -146,6 +167,7 @@
         'event-country',
         'world-region-text',
         'world-region-code',
+        'event-report',
       ],
       searchDelay: 500
   };
@@ -157,6 +179,7 @@
     '#filter:world-region-code=AMER': function(item) {return item.values()['world-region-code'] === 'AMER';},
     '#filter:event-location=Online': function(item) {return item.values()['event-location'] === 'Online';},
     '#filter:event-location=Offline': function(item) {return item.values()['event-location'] !== 'Online';},
+    '#filter:event-report=true': function(item) {return item.values()['event-report'] === 'true';},
   };
 
   function getFilter(hash) {
@@ -184,7 +207,7 @@
       $('#filter-input').val(parts[0]);
     }
     if (parts.length === 2) {
-      $('#search-input').val(parts[1]);
+      $('#search-input').val(decodeURIComponent(parts[1]));
     }
   }
 

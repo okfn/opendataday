@@ -1,0 +1,10 @@
+
+_model: report
+---
+_template: report.html
+---
+slug: concepcion-transparente-gastos-covid-19
+---
+data_file: events-2021
+---
+year: 2021

@@ -1,0 +1,23 @@
+{% if event['event_video_url'] %}
+  <div id="video-container">
+
+    {% if 'youtube' in event['event_video_url'] or 'youtu.be' in event['event_video_url'] %}
+      <div id="youtube-container">
+        <div id="youtube-outer" style="display:none">
+          <div id="youtube-inner">
+            {{ event['event_video_url'] | youtube(attrs={'id': 'youtube-video'}) }}
+          </div>
+        </div>
+        {% include 'includes/video_button.html' %}
+      </div>
+    {% elif 'facebook' in event['event_video_url'] %}
+      {{ import_facebook_video() }}
+      <div id="facebook-container">
+        {{ event['event_video_url'] | facebook_video }}
+      </div>
+    {% else %}
+      {% include 'includes/video_button.html' %}
+    {% endif %}
+
+  </div>
+{% endif %}

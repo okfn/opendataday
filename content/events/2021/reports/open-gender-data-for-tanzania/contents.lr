@@ -1,0 +1,10 @@
+
+_model: report
+---
+_template: report.html
+---
+slug: open-gender-data-for-tanzania
+---
+data_file: events-2021
+---
+year: 2021

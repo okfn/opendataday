@@ -1,5 +1,6 @@
 [project]
 name = Open Data Day
+output_path = build
 
 [servers.ci]
 enabled = yes
@@ -66,7 +67,7 @@ url_prefix = /ru/
 locale = ru
 
 [alternatives.th]
-name = Thai
+name = ไทย
 url_prefix = /th/
 locale = th
 
@@ -79,3 +80,8 @@ locale = zh_hans
 name = 正體中文
 url_prefix = /zh_tw/
 locale = zh_tw
+
+[alternatives.ca]
+name = Català
+url_prefix = /ca/
+locale = ca

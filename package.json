@@ -4,25 +4,22 @@
   },
   "devDependencies": {
     "animate.css": "^3.5.2",
-    "grunt": "^1.0.1",
+    "grunt": "^1.3.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^3.0.2",
     "grunt-svgstore": "^2.0.0",
-    "jquery-smooth-scroll": "^2.1.2",
+    "jquery-smooth-scroll": "^2.2.0",
     "list.js": "^2.3.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "normalize.css": "^5.0.0",
-    "slicknav": "^1.0.8",
-    "waypoints": "^4.0.1"
+    "slicknav": "^1.0.8"
   },
   "author": "Sam Smith",
-  "dependencies": {
-    "npm": "^6.14.6"
-  },
   "engines": {
-    "node": ">=8"
+    "node": ">=10",
+    "npm": ">=7"
   }
 }

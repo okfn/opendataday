@@ -21,7 +21,12 @@
     </div>
     <div class="this-year">
       <header>
-        <h2>Open Data<br /> Day {{ this.next_date.strftime('%Y') }}</h2>
+	      <h2>{% if this.mini_grants_title %}
+		      {{ this.mini_grants_title }}
+		  {% else %}
+		      Open Data Day<br /> mini-grants
+		  {% endif %}
+	      </h2>
         {{ this.year_intro }}
       </header>
       <ul>
@@ -41,6 +46,10 @@
           <svg><use xlink:href="#icon-equality" /></svg>
           {{ this.year_label_4 }}
         </li>
+        <li>
+          <svg><use xlink:href="#icon-wave" /></svg>
+          {{ this.year_label_5 }}
+        </li>
       </ul>
     </div>
   </div>
@@ -53,7 +62,7 @@
   <header>
     <div>
       <div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBBp5CZXe2M8wXulTNgRTZWo1PD2raB6IEEha9FJaq6hVSfQ/viewform" rel="external">{{ this.register_text }}</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeg44NQlpjkbl1AuLWwMSPU3KUDW658PJB1c_SYxCMe-ArSVA/viewform" rel="external" target="_blank">{{ this.register_text }}</a>
         <span class="count"><span id="event-number">0</span> {{ this.events_registered }}</span>
       </div>
     </div>
@@ -110,10 +119,11 @@
   <div>
     <header>
       <h2>{{ this.resources_heading }}</h2>
-      <svg class="research"><use xlink:href="#icon-research" /></svg>
+      <svg class="environment"><use xlink:href="#icon-environment" /></svg>
       <svg class="money"><use xlink:href="#icon-money" /></svg>
       <svg class="mapping"><use xlink:href="#icon-mapping" /></svg>
       <svg class="equality"><use xlink:href="#icon-equality" /></svg>
+      <svg class="ocean"><use xlink:href="#icon-wave-reverse" /></svg>
       {{ this.resources_intro }}
     </header>
     <a href="#resources">{{ this.resources_button }}</a>
@@ -143,6 +153,10 @@
           <h4>{{ this.resources_ideas_theme_5 }}</h4>
           {{ this.resources_ideas_theme_5_text }}
         </span>
+        <span class="theme">
+          <h4>{{ this.resources_ideas_theme_6 }}</h4>
+          {{ this.resources_ideas_theme_6_text }}
+        </span>
       </div>
     </article>
   </div>
@@ -154,9 +168,11 @@
       <h2>{{ this.support_scheme_heading }}</h2>
       {{ this.support_scheme_body }}
     </header>
+    <!--
     {% if this.support_scheme_button %}
-    <a href="https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/" rel="external">{{ this.support_scheme_button }}</a>
+    <a href="https://blog.okfn.org/2021/02/12/meet-the-organisations-receiving-open-data-day-2021-mini-grants/" rel="external" target="_blank">{{ this.support_scheme_button }}</a>
     {% endif %}
+    -->
   </div>
 </section>
 

@@ -1,0 +1,10 @@
+
+_model: report
+---
+_template: report.html
+---
+slug: open-data-day-by-suza-youthmappers
+---
+data_file: events-2021
+---
+year: 2021
