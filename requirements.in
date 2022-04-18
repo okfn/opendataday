@@ -1,8 +1,7 @@
-flask==2.0.3  # to be removed after jinja/markupsafe error
 lektor==3.3.3
-lektor-nl2br==0.1.1
-lektor-twitter-embed==0.1.0
-lektor-youtube-embed==0.1.1
-marshmallow==3.10.0
+lektor-nl2br==0.2.0
+lektor-twitter-embed==0.2.0
+lektor-youtube-embed==0.2.0
+marshmallow==3.15.0
 python-slugify==4.0.1
 Pillow==8.1.1
