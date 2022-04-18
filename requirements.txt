@@ -18,12 +18,12 @@ exifread==2.3.2
     # via lektor
 filetype==1.0.10
     # via lektor
-flask==2.1.1
-    # via lektor
+flask==2.0.3
+    # via
+    #   -r requirements.in
+    #   lektor
 idna==3.3
     # via requests
-importlib-metadata==4.11.3
-    # via flask
 inifile==0.4.1
     # via lektor
 itsdangerous==2.1.2
@@ -72,8 +72,6 @@ werkzeug==2.1.1
     # via
     #   flask
     #   lektor
-zipp==3.8.0
-    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
