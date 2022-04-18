@@ -41,6 +41,7 @@ Requirements:
 
 Setup:
 - Create a python >=3.6 virtual environment
+- Base requirements are defined in the `requirements.in` file (to ejecute `pip-compile` it's required to update `requirements.txt`)
 - `pip install -r requirements.txt`
 - `npm ci`
 - `lektor server`
