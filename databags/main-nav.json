@@ -28,8 +28,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -50,8 +54,7 @@
     }
   ],
 
-
-  "de":[
+  "de": [
     {
       "title": "Open Data Day",
       "link": "/",
@@ -80,8 +83,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -102,8 +109,7 @@
     }
   ],
 
-
-  "es_es":[
+  "es_es": [
     {
       "title": "El Día de los Datos Abiertos",
       "link": "/",
@@ -132,8 +138,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -154,8 +164,7 @@
     }
   ],
 
-
-  "fr":[
+  "fr": [
     {
       "title": "La Journée des Données Ouvertes",
       "link": "/",
@@ -184,8 +193,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -206,8 +219,7 @@
     }
   ],
 
-
-  "it":[
+  "it": [
     {
       "title": "Open Data Day",
       "link": "/",
@@ -236,11 +248,15 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
         {
           "title": "2022",
           "link": "/events/2022/"
+        },
+        {
+          "title": "2023",
+          "link": "/events/2023/"
         },
         {
           "title": "2021",
@@ -258,8 +274,7 @@
     }
   ],
 
-
-  "ja":[
+  "ja": [
     {
       "title": "オープンデータ・デイ",
       "link": "/",
@@ -288,8 +303,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -310,8 +329,7 @@
     }
   ],
 
-
-  "kr":[
+  "kr": [
     {
       "title": "Open Data Day",
       "link": "/",
@@ -340,8 +358,12 @@
     },
     {
       "title": "이벤트 검색",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -362,8 +384,7 @@
     }
   ],
 
-
-  "ne":[
+  "ne": [
     {
       "title": "खुल्ला डाटा दिवस",
       "link": "/",
@@ -392,8 +413,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -414,8 +439,7 @@
     }
   ],
 
-
-  "nl":[
+  "nl": [
     {
       "title": "Open Data Day",
       "link": "/",
@@ -444,8 +468,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -466,8 +494,7 @@
     }
   ],
 
-
-  "pt_br":[
+  "pt_br": [
     {
       "title": "O Dia dos Dados Abertos",
       "link": "/",
@@ -496,8 +523,12 @@
     },
     {
       "title": "Pesquisar eventos",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -518,8 +549,7 @@
     }
   ],
 
-
-  "ru":[
+  "ru": [
     {
       "title": "День открытых данных",
       "link": "/",
@@ -548,8 +578,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -570,8 +604,7 @@
     }
   ],
 
-
-  "th":[
+  "th": [
     {
       "title": "Open Data Day",
       "link": "/",
@@ -600,8 +633,12 @@
     },
     {
       "title": "ค้นหากิจกรรม",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -622,8 +659,7 @@
     }
   ],
 
-
-  "zh_hans":[
+  "zh_hans": [
     {
       "title": "Open Data Day",
       "link": "/",
@@ -652,8 +688,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -674,8 +714,7 @@
     }
   ],
 
-
-  "zh_tw":[
+  "zh_tw": [
     {
       "title": "Open Data Day",
       "link": "/",
@@ -704,8 +743,12 @@
     },
     {
       "title": "Search events",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -755,8 +798,12 @@
     },
     {
       "title": "Cerca actes",
-      "link": "/events/2022/",
+      "link": "/events/2023/",
       "children": [
+        {
+          "title": "2023",
+          "link": "/events/2023/"
+        },
         {
           "title": "2022",
           "link": "/events/2022/"
@@ -776,5 +823,4 @@
       ]
     }
   ]
-
 }
