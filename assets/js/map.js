@@ -1,19 +1,19 @@
-var url = 'https://raw.githubusercontent.com/okfn/opendataday/master/databags/events-2022.json';
+var url = 'https://raw.githubusercontent.com/okfn/opendataday/master/databags/events-2023.json';
 mapboxgl.accessToken = 'pk.eyJ1Ijoib2tmbiIsImEiOiJjaXlrOW5yczgwMDEzMnlwaWd2ZzF6MDQ3In0.2UJlkR69zbu4-3YRJJgN5w';
 
 var clusterRadius = 50,
-    clusterMaxZoom = 14; // Max zoom to cluster points on
+  clusterMaxZoom = 14; // Max zoom to cluster points on
 
 var map = new mapboxgl.Map({
   container: 'map-container',
   style: 'mapbox://styles/mapbox/bright-v9',
   zoom: 1,
-  center: [0,0],
+  center: [0, 0],
   scrollZoom: false
 });
 
-function truncate(str, n){
-  return (str.length > n) ? str.substr(0, n-1) + '…' : str;
+function truncate(str, n) {
+  return (str.length > n) ? str.substr(0, n - 1) + '…' : str;
 }
 
 function isWorkingUrl(url) {
@@ -74,15 +74,15 @@ function getDescription(event) {
 
 map.addControl(new mapboxgl.NavigationControl(), 'top-left');
 
-map.on('load', function() {
-  $.getJSON(url).done(function(data) {
+map.on('load', function () {
+  $.getJSON(url).done(function (data) {
     var events = data.events || [];
     var geojson = {
       type: 'FeatureCollection',
       features: []
     };
 
-    events.forEach(function(event) {
+    events.forEach(function (event) {
       var lat, lng, title;
       try {
         lat = Number(event.latitude);
@@ -125,7 +125,7 @@ map.on('load', function() {
       "interactive": true,
       "type": "symbol",
       "source": "events",
-      "filter": ["!",["has", "point_count"]],
+      "filter": ["!", ["has", "point_count"]],
       "layout": {
         "icon-allow-overlap": true,
         "text-allow-overlap": true,
@@ -177,16 +177,16 @@ map.on('load', function() {
       }
     });
 
-    map.on('mousemove', 'points', function(e) {
+    map.on('mousemove', 'points', function (e) {
       map.getCanvas().style.cursor = 'pointer';
     });
-    map.on('mouseleave', 'points', function(e) {
+    map.on('mouseleave', 'points', function (e) {
       map.getCanvas().style.cursor = '';
     });
-    map.on('mousemove', 'clusters', function(e) {
+    map.on('mousemove', 'clusters', function (e) {
       map.getCanvas().style.cursor = 'pointer';
     });
-    map.on('mouseleave', 'clusters', function(e) {
+    map.on('mouseleave', 'clusters', function (e) {
       map.getCanvas().style.cursor = '';
     });
 
@@ -200,9 +200,9 @@ map.on('load', function() {
       if (!feature.properties.cluster) {
         var descriptions = features.map(function (f) { return f.properties.description; });
         var popup = new mapboxgl.Popup()
-            .setLngLat(features.length == 1 ? features[0].geometry.coordinates : e.lngLat)
-            .setHTML(descriptions.join('<br><br>'))
-            .addTo(map);
+          .setLngLat(features.length == 1 ? features[0].geometry.coordinates : e.lngLat)
+          .setHTML(descriptions.join('<br><br>'))
+          .addTo(map);
       } else {
         // We need to expand a cluster
         var oldZoom = map.getZoom();
@@ -213,10 +213,10 @@ map.on('load', function() {
           }
 
           if (expansionZoom <= clusterMaxZoom) {
-            map.flyTo({center: feature.geometry.coordinates, zoom: expansionZoom });
+            map.flyTo({ center: feature.geometry.coordinates, zoom: expansionZoom });
           } else {
             // If we ran out of clustering levels, zoom to fit the individual points
-            map.getSource('events').getClusterLeaves(feature.properties.cluster_id, 9999, 0, function(error, features) {
+            map.getSource('events').getClusterLeaves(feature.properties.cluster_id, 9999, 0, function (error, features) {
               if (error) {
                 throw error;
               }
@@ -228,10 +228,10 @@ map.on('load', function() {
               map.fitBounds(bounds, {
                 animate: false,
                 padding: {
-                  top:    $('#map-container').height()*0.1 + $('.main-nav').height(),
-                  bottom: $('#map-container').height()*0.2,
-                  left:   $('#map-container').width()*0.2,
-                  right:  $('#map-container').width()*0.2
+                  top: $('#map-container').height() * 0.1 + $('.main-nav').height(),
+                  bottom: $('#map-container').height() * 0.2,
+                  left: $('#map-container').width() * 0.2,
+                  right: $('#map-container').width() * 0.2
                 }
               });
               var newCenter = map.getCenter();
@@ -241,8 +241,8 @@ map.on('load', function() {
               newZoom = Math.max(newZoom, clusterMaxZoom + 1);
 
               // Animate from old view to new view
-              map.jumpTo({center: oldCenter, zoom: oldZoom});
-              map.flyTo({center: newCenter, zoom: newZoom});
+              map.jumpTo({ center: oldCenter, zoom: oldZoom });
+              map.flyTo({ center: newCenter, zoom: newZoom });
             });
           }
         });
@@ -254,7 +254,7 @@ map.on('load', function() {
 
 function pointsToBounds(points) {
   return points.reduce(
-    function(bounds, point) {
+    function (bounds, point) {
       return bounds.extend(point.geometry.coordinates);
     },
     new mapboxgl.LngLatBounds(
