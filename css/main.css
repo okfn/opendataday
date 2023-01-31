@@ -364,6 +364,9 @@ body > section {
       width: 100%;
       padding: 20px;
       display: flex; }
+      @media (min-width: 900px) {
+        body > section .this-year .theme {
+          margin-top: 50%; } }
       body > section .this-year .theme svg {
         width: 40%; }
       body > section .this-year .theme .text {
