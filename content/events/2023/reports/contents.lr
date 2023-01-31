@@ -1,0 +1,6 @@
+
+_model: redirect
+---
+target: /events/2023
+---
+_discoverable: no

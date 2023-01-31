@@ -1,0 +1,17 @@
+_model: events_list
+---
+_template: events_list.html
+---
+data_file: events-2023
+---
+banner_link: main
+---
+csv_link: /home/venus/ODD/opendataday/Datasets/Events%202023.csv
+---
+
+
+
+title: 2023 Events
+---
+banner_heading_2: 2023 Events
+---
