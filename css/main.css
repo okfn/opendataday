@@ -245,7 +245,7 @@ body .banner {
         body .banner > a h1 span a {
           color: inherit; }
         body .banner > a h1 span:after {
-          content: '\00a0';
+          content: "\00a0";
           display: block;
           background-color: #1A1A1A;
           position: absolute;
@@ -270,7 +270,7 @@ body .banner {
         z-index: 1;
         display: inline-block; }
         body .banner > a p span:after {
-          content: '\00a0';
+          content: "\00a0";
           display: block;
           background-color: #fff;
           position: absolute;
@@ -346,7 +346,7 @@ body > section {
         float: right;
         width: 50%; }
         body > section .this-year:after {
-          content: '';
+          content: "";
           position: absolute;
           top: 0;
           bottom: 0;
@@ -360,6 +360,17 @@ body > section {
           padding-right: 0;
           text-align: right;
           float: right; } }
+    body > section .this-year .theme {
+      width: 100%;
+      padding: 20px;
+      display: flex; }
+      @media (min-width: 900px) {
+        body > section .this-year .theme {
+          margin-top: 50%; } }
+      body > section .this-year .theme svg {
+        width: 40%; }
+      body > section .this-year .theme .text {
+        width: 50%; }
     body > section .this-year ul {
       padding: 0;
       margin: 0 0 15px 15px;
@@ -435,7 +446,7 @@ body > section {
         position: relative;
         padding-bottom: 50px; }
         body > section#who:after {
-          content: '';
+          content: "";
           position: absolute;
           width: 0;
           height: 0;
@@ -578,7 +589,7 @@ body > section {
         position: relative;
         padding-top: 75px; }
         body > section#support:before {
-          content: '';
+          content: "";
           position: absolute;
           width: 0;
           height: 0;
@@ -615,7 +626,7 @@ body > section {
             margin-left: 1%; } }
         body > section#logos > div ul li {
           display: block;
-          padding: 30px 0;
+          padding: 0;
           box-sizing: border-box; }
           @media (min-width: 900px) {
             body > section#logos > div ul li {
