@@ -190,6 +190,9 @@ body {
 
       .theme {
         width: 100%;
+        @media (min-width: $large-screen) {
+          margin-top: 50%;
+        }
         svg {
           width: 40%;
         }
