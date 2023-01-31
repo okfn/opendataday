@@ -21,36 +21,69 @@
     </div>
     <div class="this-year">
       <header>
-	      <h2>{% if this.mini_grants_title %}
-		      {{ this.mini_grants_title }}
-		  {% else %}
-		      Open Data Day<br /> Small Grants
-		  {% endif %}
-	      </h2>
+        <h2>{% if this.mini_grants_title %}
+          {{ this.mini_grants_title }}
+          {% else %}
+          Open Data Day<br /> Small Grants
+          {% endif %}
+        </h2>
         {{ this.year_intro }}
       </header>
-      <ul>
-      <li>
-          <svg><use xlink:href="#icon-environment" /></svg>
+      <div class="theme">
+        <svg>
+          <use xlink:href="#icon-ai" />
+        </svg>
+        <div class="text" style="width:56%">
+          <h1>
+            {% if this.theme_title %}
+            {{ this.theme_title}}
+            {% endif %}
+          </h1>
+          <p>
+            {% if this.theme_description %}
+            {{ this.theme_description}}
+            {% endif %}
+          </p>
+        </div>
+      </div>
+      <!-- <ul>
+        <li>
+          <svg>
+            <use xlink:href="#icon-environment" />
+          </svg>
           {{ this.year_label_1 }}
         </li>
         <li>
-          <svg><use xlink:href="#icon-money" /></svg>
+          <svg>
+            <use xlink:href="#icon-environment" />
+          </svg>
+          {{ this.year_label_1 }}
+        </li>
+        <li>
+          <svg>
+            <use xlink:href="#icon-money" />
+          </svg>
           {{ this.year_label_2 }}
         </li>
         <li>
-          <svg><use xlink:href="#icon-mapping" /></svg>
+          <svg>
+            <use xlink:href="#icon-mapping" />
+          </svg>
           {{ this.year_label_3 }}
         </li>
         <li>
-          <svg><use xlink:href="#icon-equality" /></svg>
+          <svg>
+            <use xlink:href="#icon-equality" />
+          </svg>
           {{ this.year_label_4 }}
         </li>
         <li>
-          <svg><use xlink:href="#icon-wave" /></svg>
+          <svg>
+            <use xlink:href="#icon-wave" />
+          </svg>
           {{ this.year_label_5 }}
         </li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 </section>
@@ -62,7 +95,8 @@
   <header>
     <div>
       <div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeg44NQlpjkbl1AuLWwMSPU3KUDW658PJB1c_SYxCMe-ArSVA/viewform" rel="external" target="_blank">{{ this.register_text }}</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5wiXeUur8GHMKmi1TQIMxwk107eMJVN6UVoibIfUwGZfc7A/viewform"
+          rel="external" target="_blank">{{ this.register_text }}</a>
         <span class="count"><span id="event-number">0</span> {{ this.events_registered }}</span>
       </div>
     </div>
@@ -78,35 +112,45 @@
     <ul>
       <li>
         <span>
-          <svg><use xlink:href="#icon-user-outline" /></svg>
+          <svg>
+            <use xlink:href="#icon-user-outline" />
+          </svg>
         </span>
         <h3>{{ this.who_title_1 }}</h3>
         {{ this.who_description_1 }}
       </li>
       <li>
         <span>
-          <svg><use xlink:href="#icon-card" /></svg>
+          <svg>
+            <use xlink:href="#icon-card" />
+          </svg>
         </span>
         <h3>{{ this.who_title_2 }}</h3>
         {{ this.who_description_2 }}
       </li>
       <li>
         <span>
-          <svg><use xlink:href="#icon-brush" /></svg>
+          <svg>
+            <use xlink:href="#icon-brush" />
+          </svg>
         </span>
         <h3>{{ this.who_title_3 }}</h3>
         {{ this.who_description_3 }}
       </li>
       <li>
         <span>
-          <svg><use xlink:href="#icon-code-outline" /></svg>
+          <svg>
+            <use xlink:href="#icon-code-outline" />
+          </svg>
         </span>
         <h3>{{ this.who_title_4 }}</h3>
         {{ this.who_description_4 }}
       </li>
       <li>
         <span>
-          <svg><use xlink:href="#icon-chart-bar" /></svg>
+          <svg>
+            <use xlink:href="#icon-chart-bar" />
+          </svg>
         </span>
         <h3>{{ this.who_title_5 }}</h3>
         {{ this.who_description_5 }}
@@ -119,11 +163,21 @@
   <div>
     <header>
       <h2>{{ this.resources_heading }}</h2>
-      <svg class="environment"><use xlink:href="#icon-environment" /></svg>
-      <svg class="money"><use xlink:href="#icon-money" /></svg>
-      <svg class="mapping"><use xlink:href="#icon-mapping" /></svg>
-      <svg class="equality"><use xlink:href="#icon-equality" /></svg>
-      <svg class="ocean"><use xlink:href="#icon-wave-reverse" /></svg>
+      <svg class="environment">
+        <use xlink:href="#icon-environment" />
+      </svg>
+      <svg class="money">
+        <use xlink:href="#icon-money" />
+      </svg>
+      <svg class="mapping">
+        <use xlink:href="#icon-mapping" />
+      </svg>
+      <svg class="equality">
+        <use xlink:href="#icon-equality" />
+      </svg>
+      <svg class="ocean">
+        <use xlink:href="#icon-wave-reverse" />
+      </svg>
       {{ this.resources_intro }}
     </header>
     <a href="#resources">{{ this.resources_button }}</a>
@@ -169,7 +223,8 @@
       {{ this.support_scheme_body }}
     </header>
     {% if this.support_scheme_button %}
-    <a href="https://blog.okfn.org/2022/04/18/application-for-the-open-data-day-2022-small-grants-is-now-open/" rel="external" target="_blank">{{ this.support_scheme_button }}</a>
+    <a href="https://blog.okfn.org/2022/04/18/application-for-the-open-data-day-2022-small-grants-is-now-open/"
+      rel="external" target="_blank">{{ this.support_scheme_button }}</a>
     {% endif %}
   </div>
 </section>
