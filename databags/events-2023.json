@@ -2,6 +2,26 @@
   "events": [
     {
       "event_date": null,
+      "event_name": "Agenda de Datos Abiertos en #Guatemala #AgebdaDigital",
+      "event_photo_url": "",
+      "event_purpose": "Coordinate different open data topics in Guatemala in different sectors including government, private sector, academy and civil society",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 14.64198,
+      "longitude": -90.51324,
+      "num_participants": "50",
+      "online_event_url": "",
+      "organisers": "CampusTec",
+      "place": "Campus Tec - Nivel 4, Tec 2 ",
+      "slug": "agenda-de-datos-abiertos-en-guatemala-agebdadigital",
+      "url": "https://events.techsoup.org/events/details/techsoup-techsoup-connect-guatemala-chapter-presents-tecday-opendataday-guatemala-okf-via-campustec/",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
+      "event_date": null,
       "event_name": "Data on evironmental practices which enhance sustainable farming ",
       "event_photo_url": "",
       "event_purpose": "promote Environmental conservation practices which increase food production ",
