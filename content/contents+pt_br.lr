@@ -2,7 +2,7 @@ language: pt_br
 ---
 banner_link: what
 ---
-next_date: 2022-03-05
+next_date: 2023-03-04
 ---
 
 
@@ -19,7 +19,7 @@ intro_heading: O que é o Dia dos Dados Abertos?
 ---
 intro_body:
 
-O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Grupos de todas as partes do mundo criaram eventos locais no dia em que usarão dados abertos em suas comunidades. É uma oportunidade para mostrar os benefícios dos dados abertos e encorajar a adoção de políticas de dados abertos no governo, empresas e na sociedade civil.
+O Dia dos Dados Abertos é uma celebração anual dos dados abertos em todo o mundo. Grupos de todas as partes do mundo criam eventos locais no dia em que usarão dados abertos em suas comunidades. De forma a melhorar a participação em diferentes culturas, nesta edição os eventos locais poderão ser organizados na data mais propícia entre 4 e 10 de março. 
 ---
 intro_body_2:
 
@@ -27,8 +27,16 @@ Todos os resultados são abertos para que todos usem e reusem.
 ---
 year_intro:
 
-Para o Dia dos Dados Abertos 2022, nós daremos minibolsas focadas em áreas chave que acreditamos que os dados abertos podem ajudar a resolver:
+Para o Dia dos Dados Abertos 2023, focaremos em um único tema buscando maior impacto dos eventos e as minibolsas serão concentradas neste tema. 
 ---
+theme_title:
+
+Dados Abertos para Inteligência Artificial (IA)
+---
+theme_description:
+
+Com o tema **Dados Abertos para Inteligência Artificial (IA)**, nosso objetivo é descobrir como os dados abertos estão desempenhando um papel crítico no campo de Inteligência Artificial/Aprendizado de Máquina, além de outras tecnologias emergentes.[Saiba mais (em inglês)](https://docs.google.com/document/d/e/2PACX-1vSYXgAsjZFUFYNA3juKKm71TGOCX8UXBla_PSbnNhnTZwzDA757COfq06LQSHu9czBDj8L5hcUo-27E/pub)
+
 year_label_1: **Dados** do meio ambiente
 ---
 year_label_2: Rastrear fluxos de **dinheiro** público
@@ -149,7 +157,7 @@ Portais sobre dados dos oceanos incluem [EMODNet](https://emodnet.ec.europa.eu/e
 support_scheme_heading: Plano de Apoio
 ---
 support_scheme_body:
-O esquema de bolsas deste ano está ABERTO apenas para eventos presenciais e apoiará 14 eventos. 10 eventos de dados abertos e 4 eventos de categoria especial. Para obter mais informações, consulte o [blog](https://blog.okfn.org/2022/04/18/application-for-the-open-data-day-2022-small-grants-is-now-open/). Use este [formulário](https://docs.google.com/forms/d/e/1FAIpQLScKqOL7p7aBO_rPloVNMsXPlbjFgbHhUpH1D3QQpckJ48yVsQ/viewform) para enviar sua inscrição.
+A Open Knowledge Foundation está trabalhando nos detalhes para o esquema de bolsas deste ano. Mais informações serão publicadas em meados de fevereiro. 
 ---
 support_scheme_button: Saiba mais
 ---
