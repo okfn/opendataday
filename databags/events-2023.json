@@ -2,6 +2,26 @@
   "events": [
     {
       "event_date": null,
+      "event_name": "\"Mapping tree canopy using open-source tools in Morogoro, Tanzania ",
+      "event_photo_url": "",
+      "event_purpose": "Enhancing planning and monitoring of planted trees from Afforestation campaigns that address climate action (SDG 13).",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": -6.82824,
+      "longitude": 37.667789,
+      "num_participants": "50",
+      "online_event_url": "",
+      "organisers": "\"YouthMappers\" and \"Geospatial Technology and Environment (GeoTE TANZANIA)\" ",
+      "place": "Morogoro Tanzania",
+      "slug": "mapping-tree-canopy-using-open-source-tools-in-morogoro-tanzania",
+      "url": "https://twb.nz/geotetanzania",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
+      "event_date": null,
       "event_name": "Agenda de Datos Abiertos en #Guatemala #AgebdaDigital",
       "event_photo_url": "",
       "event_purpose": "Coordinate different open data topics in Guatemala in different sectors including government, private sector, academy and civil society",
