@@ -262,7 +262,6 @@ body .banner {
       font-size: 4vmin;
       display: inline-block;
       max-width: 50%;
-      mix-blend-mode: lighten;
       line-height: 1.3; }
       body .banner > a p span {
         background-color: #fff;
