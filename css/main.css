@@ -28,7 +28,7 @@ p {
   margin-top: 0; }
 
 a {
-  color: #0086FF; }
+  color: #00D1FF; }
   a:hover, a:active {
     color: #FF6200; }
 
@@ -215,7 +215,7 @@ html {
     position: sticky; }
 
 body .banner {
-  background-color: #FFB900;
+  background-color: #E4FF36;
   width: 100%;
   display: table;
   background-image: url("../images/banner.png");
@@ -312,12 +312,12 @@ body > section {
   body > section .about header {
     padding: 30px 30px 15px 30px; }
     body > section .about header h2 {
-      color: #0086FF; }
+      color: #00D1FF; }
     @media (min-width: 1260px) {
       body > section .about header {
         padding-left: 0; } }
     body > section .about header + a {
-      background-color: #0086FF;
+      background-color: #00D1FF;
       color: #fff;
       font-weight: bold;
       text-decoration: none;
@@ -334,7 +334,7 @@ body > section {
       float: left;
       width: 50%; } }
   body > section .this-year {
-    background-color: #9B20DC;
+    background-color: #E077FF;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -352,7 +352,7 @@ body > section {
           bottom: 0;
           left: 100%;
           width: 50vw;
-          background-color: #9B20DC; } }
+          background-color: #E077FF; } }
     body > section .this-year header {
       padding: 30px 30px 0 30px; }
       @media (min-width: 1260px) {
@@ -423,7 +423,7 @@ body > section {
             font-weight: 700;
             padding-top: 0.5em; }
           body > section#map header > div > div a {
-            background-color: #0086FF;
+            background-color: #00D1FF;
             color: #fff;
             font-weight: bold;
             text-decoration: none;
@@ -432,7 +432,7 @@ body > section {
             text-align: center;
             display: block; }
   body > section#who {
-    background-color: #0086FF;
+    background-color: #00D1FF;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
@@ -490,7 +490,7 @@ body > section {
             padding: 1.2em;
             border-radius: 50%; }
             body > section#who > div ul li span svg {
-              fill: #0086FF;
+              fill: #00D1FF;
               display: block;
               width: 100px;
               height: 100px; }
@@ -500,28 +500,28 @@ body > section {
       padding-left: 30px;
       padding-right: 30px; }
       body > section#resources > div > header h2 {
-        color: #0086FF; }
+        color: #00D1FF; }
       body > section#resources > div > header svg {
         width: 120px;
         height: 120px;
         margin: 30px 15px 15px; }
         body > section#resources > div > header svg.environment {
-          fill: #FFB900; }
+          fill: #E4FF36; }
         body > section#resources > div > header svg.money {
-          fill: #FF4900; }
+          fill: #FF80DB; }
         body > section#resources > div > header svg.mapping {
-          fill: #48C0AC; }
+          fill: #AEFFEC; }
         body > section#resources > div > header svg.equality {
-          fill: #9B20DC; }
+          fill: #E077FF; }
         body > section#resources > div > header svg.ocean {
-          fill: #0086FF !important; }
+          fill: #00D1FF !important; }
       body > section#resources > div > header p {
         max-width: 770px;
         display: block;
         margin-left: auto;
         margin-right: auto; }
       body > section#resources > div > header + a {
-        background-color: #0086FF;
+        background-color: #00D1FF;
         color: #fff;
         font-weight: bold;
         text-decoration: none;
@@ -548,13 +548,13 @@ body > section {
           break-inside: avoid;
           display: block; }
           body > section#resources:target article > div .theme:nth-of-type(1) h4 {
-            color: #FFB900; }
+            color: #E4FF36; }
           body > section#resources:target article > div .theme:nth-of-type(2) h4 {
-            color: #FF4900; }
+            color: #FF80DB; }
           body > section#resources:target article > div .theme:nth-of-type(3) h4 {
-            color: #48C0AC; }
+            color: #AEFFEC; }
           body > section#resources:target article > div .theme:nth-of-type(4) h4 {
-            color: #9B20DC; }
+            color: #E077FF; }
         body > section#resources:target article > div h4 {
           margin-top: 0; }
         body > section#resources:target article > div h4,
@@ -562,7 +562,7 @@ body > section {
           break-after: avoid;
           break-inside: avoid; }
   body > section#support {
-    background-color: #9B20DC;
+    background-color: #E077FF;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
@@ -574,7 +574,7 @@ body > section {
         padding: 30px 30px 0; }
         body > section#support > div > header + a {
           background-color: #fff;
-          color: #9B20DC;
+          color: #E077FF;
           font-weight: bold;
           text-decoration: none;
           padding: 0.8em 1.8em;
@@ -721,7 +721,7 @@ img.hero-image {
   max-height: 400px; }
 
 a.button {
-  background-color: #0086FF;
+  background-color: #00D1FF;
   color: #fff;
   font-weight: bold;
   text-decoration: none;
