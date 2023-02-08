@@ -43,7 +43,7 @@ class EventSchema(Schema):
     event_name = fields.Str(required=True, data_key="Event name",
         validate=validate_not_empty
     )
-    num_participants = fields.Str(required=True, data_key="Number of participants")
+    num_participants = fields.Str(required=False, data_key="Number of participants")
     organisers = fields.Str(required=True, data_key="Event organiser")
     event_purpose = fields.Str(required=True, data_key="Event purpose")
     event_date = fields.DateTime(
