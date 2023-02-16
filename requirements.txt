@@ -22,8 +22,6 @@ flask==2.1.1
     # via lektor
 idna==3.3
     # via requests
-importlib-metadata==4.11.3
-    # via flask
 inifile==0.4.1
     # via lektor
 itsdangerous==2.1.2
@@ -45,7 +43,9 @@ lektor-twitter-embed==0.2.0
 lektor-youtube-embed==0.2.0
     # via -r requirements.in
 markupsafe==2.1.1
-    # via jinja2
+    # via
+    #   jinja2
+    #   werkzeug
 marshmallow==3.15.0
     # via -r requirements.in
 mistune==0.8.4
@@ -72,12 +72,10 @@ urllib3==1.26.9
     # via requests
 watchdog==2.1.7
     # via lektor
-werkzeug==2.1.1
+werkzeug==2.2.3
     # via
     #   flask
     #   lektor
-zipp==3.8.0
-    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
