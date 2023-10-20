@@ -1,0 +1,23 @@
+{
+  "events": [
+    {
+      "event_date": null,
+      "event_name": "Some test 2024 ODD event",
+      "event_photo_url": "",
+      "event_purpose": "",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 33.91,
+      "longitude": 63.0,
+      "online_event_url": "",
+      "organisers": "Open data cordoba",
+      "place": "Cordoba",
+      "slug": "some-test-2024-odd-event",
+      "url": "",
+      "world_region_code": "",
+      "world_region_text": ""
+    }
+  ]
+}
