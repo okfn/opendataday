@@ -1,2 +1,3 @@
 event_date,event_name,event_photo_url,event_purpose,event_report_url,event_tweet_url,event_video_url,has_event_report,latitude,longitude,online_event_url,organisers,place,slug,url,world_region_code,world_region_text
 ,Some test 2024 ODD event,,,,,,False,33.91,63.0,,Open data cordoba,Cordoba,some-test-2024-odd-event,,,
+,Third event,,Some purpose,,,,False,-33.901,-64.81,,OKFN Cordoba,Cordoba,third-event,https://okfn.org,,

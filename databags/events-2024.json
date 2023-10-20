@@ -18,6 +18,25 @@
       "url": "",
       "world_region_code": "",
       "world_region_text": ""
+    },
+    {
+      "event_date": null,
+      "event_name": "Third event",
+      "event_photo_url": "",
+      "event_purpose": "Some purpose",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": -33.901,
+      "longitude": -64.81,
+      "online_event_url": "",
+      "organisers": "OKFN Cordoba",
+      "place": "Cordoba",
+      "slug": "third-event",
+      "url": "https://okfn.org",
+      "world_region_code": "",
+      "world_region_text": ""
     }
   ]
 }
