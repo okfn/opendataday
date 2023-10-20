@@ -150,9 +150,9 @@ map.on('load', function () {
         "circle-color": [
           "step",
           ["get", "point_count"],
-          '#0086FF',     // blue
-          10, '#FF4900', // red from count 10 up
-          20, '#FFB900'  // yellow from count 20 up
+          '#00d1ff',     // blue
+          10, '#e077ff', // red from count 10 up
+          20, '#e4ff36'  // yellow from count 20 up
         ],
         "circle-radius": 18
       }
