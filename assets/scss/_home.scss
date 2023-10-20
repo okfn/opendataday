@@ -159,7 +159,6 @@ body {
     }
     .this-year {
       background-color: $purple;
-      @include rev-text;
       position: relative;
 
       @media (min-width: $large-screen) {
@@ -278,7 +277,6 @@ body {
 
     &#who {
       background-color: $blue;
-      @include rev-text;
       @media (min-width: $max-screen) {
         position: relative;
         padding-bottom: 50px;
@@ -458,7 +456,6 @@ body {
 
     &#support {
       background-color: $purple;
-      @include rev-text;
 
       & > div {
         padding-bottom: $gutter;
