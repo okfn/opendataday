@@ -329,7 +329,7 @@ body {
 
             span {
               display: inline-block;
-              background-color: #fff;
+              background-color: $black;
               padding: 1.2em;
               border-radius: 50%;
 
@@ -454,7 +454,7 @@ body {
     }
 
     &#support {
-      background-color: $purple;
+      background-color: $fancy-green;
 
       & > div {
         padding-bottom: $gutter;
@@ -463,7 +463,7 @@ body {
           padding: $gutter $gutter 0;
 
           & + a {
-            @include button(#fff, $purple);
+            @include button($black, $white);
             margin: $gutter;
           }
         }

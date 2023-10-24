@@ -84,13 +84,16 @@ who_title_1: People
 ---
 who_description_1:
 
-We need you the most. If it wasn’t for you, this whole thing wouldn’t be happening. Wherever you come from and whatever your background, we need you.
+We need you the most. If it wasn’t for you, this whole thing wouldn’t be
+happening. Wherever you come from and whatever your background, we need you.
+
 ---
 who_title_2: Public servants
 ---
 who_description_2:
 
 Your input and context can help us to make government data better. Come converse and learn.
+
 ---
 who_title_3: Designers
 ---
@@ -114,7 +117,9 @@ resources_heading: Event Resources
 ---
 resources_intro:
 
-Need some inspiration for an Open Data Day event, or don't know where to find the data you need? Check out our event resources.
+Need some inspiration for an Open Data Day event, or don't know where to find
+the data you need? Check out our event resources.
+
 ---
 resources_button: Resources
 ---
@@ -180,14 +185,16 @@ resources_ideas_theme_6_text:
 General ocean data portals include [EMODNet](https://emodnet.ec.europa.eu/en) and the [Pacific Data Hub](https://pacificdata.org/). For oceanographic data - seafloor maps, temperatures, currents - try the [International Oceanographic Data Exchange](https://uk-ioc.org/IODE) and [Schmidt Ocean Institute](https://schmidtocean.org/data/). For data on ocean wildlife try the [Ocean Biological Information System](https://obis.org/) the [Global Biological Information System](https://www.gbif.org/) and the [Ocean Tracking Network]( https://members.oceantrack.org/OTN/projects). [Global Fishing Watch](https://globalfishingwatch.org/datasets-and-code/) focuses on fishing, especially on the high seas and [Marine Traffic](https://www.marinetraffic.com/) shows all kinds of vessels.
 
 ---
-support_scheme_heading: Support Scheme
+support_scheme_heading: Become a Sponsor
 ---
 support_scheme_body:
 
-The small grant application is open to all registered organisations across the world, who are interested in hosting in-person open data events and activities. For more information, please refer to the [blog](https://blog.okfn.org/2023/02/13/get-a-small-grant-for-your-open-data-days-2023-event-submit-your-proposal-now/).
-Please use this [form](https://forms.gle/W3k1PNS8Wim9NSEs9) to submit your application.
+We believe that working in partnership is the key to maximising our impact.  
+The Open Knowledge Foundation is looking for partners to support Open Data Day in 2024.  
+Find out the sponsorship tiers and consider joining us in the world’s largest and more
+important celebration of open data. For more information, please
+contact [carolina.matos@okfn.org](mailto:carolina.matos@okfn.org).
 
 ---
-support_scheme_button: 
-LEARN MORE
+support_scheme_button: Sponsorship Pack 
 ---
