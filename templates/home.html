@@ -24,27 +24,18 @@
     <div class="this-year">
       <header>
         {% include 'includes/hands.svg' %}
-        <a role="button" class="btn" href="#">
+        <a class="oddbtn" href="#">
           Register your event
         </a>
-        <a role="button" class="btn" href="#">
-          Register your event
-        </a>
-        <a role="button" class="btn" href="#">
+        <a class="oddbtn" href="https://okfn.org/en/network/">
           Join the community
         </a>
         {{ this.year_intro }}
       </header>
+      {% if this.theme_title %}
       <div class="theme">
-        <svg>
-          <use xlink:href="#icon-ai" />
-        </svg>
         <div class="text" style="width:56%">
-          <h1>
-            {% if this.theme_title %}
-            {{ this.theme_title}}
-            {% endif %}
-          </h1>
+          <h1>{{ this.theme_title}}</h1>
           <p>
             {% if this.theme_description %}
             {{ this.theme_description}}
@@ -52,44 +43,7 @@
           </p>
         </div>
       </div>
-      <!-- <ul>
-        <li>
-          <svg>
-            <use xlink:href="#icon-environment" />
-          </svg>
-          {{ this.year_label_1 }}
-        </li>
-        <li>
-          <svg>
-            <use xlink:href="#icon-environment" />
-          </svg>
-          {{ this.year_label_1 }}
-        </li>
-        <li>
-          <svg>
-            <use xlink:href="#icon-money" />
-          </svg>
-          {{ this.year_label_2 }}
-        </li>
-        <li>
-          <svg>
-            <use xlink:href="#icon-mapping" />
-          </svg>
-          {{ this.year_label_3 }}
-        </li>
-        <li>
-          <svg>
-            <use xlink:href="#icon-equality" />
-          </svg>
-          {{ this.year_label_4 }}
-        </li>
-        <li>
-          <svg>
-            <use xlink:href="#icon-wave" />
-          </svg>
-          {{ this.year_label_5 }}
-        </li>
-      </ul> -->
+      {% endif %}
     </div>
   </div>
 </section>

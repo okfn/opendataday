@@ -128,6 +128,9 @@ body {
         @media (min-width: $max-screen) {
           max-width: 500px;
         }
+        & svg{
+          width: 450px;
+        }
       }
     }
 
@@ -180,12 +183,6 @@ body {
 
       header {
         padding: $gutter $gutter 0 $gutter;
-
-        @media (min-width: $max-screen) {
-          padding-right: 0;
-          text-align: right;
-          float: right;
-        }
       }
 
       .theme {
@@ -543,4 +540,20 @@ body {
   padding: 25px;
   font-size: small;
   border: 3px solid $black;
+}
+
+.oddbtn {
+  background-color: $black;
+  color: $white;
+  padding: 20px 45px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  display: block;
+  border-radius: 12px;
+  font-weight: bold;
+  text-align: center;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
