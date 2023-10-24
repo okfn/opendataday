@@ -16,17 +16,19 @@
   <header class="banner">
     <a href="#{{ this.banner_link }}">
       {% set banner_heading_1 = this.banner_heading_1 or bag('global-content', this.alt).open_data_day %}
-      {% set banner_heading_2 = this.banner_heading_2 %}
-      {% set banner_content_1 = this.banner_content_1 or bag('global-content', this.alt).banner_content_1 %}
-      {% set banner_content_2 = this.banner_content_2 or bag('global-content', this.alt).banner_content_2 %}
-      {% set banner_heading_1_words = banner_heading_1.split(' ') %}
-      {% set banner_heading_2_words = banner_heading_2.split(' ') %}
-      {% set banner_content_1_words = banner_content_1.split(' ') %}
-      {% set banner_content_2_words = banner_content_2.split(' ') %}
-      <h1>{% for w in banner_heading_1_words %}<span class="l1">&nbsp;{{ w }}</span>{% endfor %}{% if banner_heading_2 %}<br />{% for w in banner_heading_2_words %}<span class="l2">&nbsp;{{ w }}</span>{% endfor %}{% endif %}</h1>
-      <p>
-        {% for w in banner_content_1_words %}<span class="l1">&nbsp;{{ w }}</span>{% endfor %}{% if banner_content_2 %}<br />{% for w in banner_content_2_words %}<span class="l2">&nbsp;{{ w }}</span>{% endfor %}{% endif %}
-      </p>
+      <h1>
+        <span class="l1">
+          {{ banner_heading_1 }}
+        </span>
+        {% if this.banner_heading_2 %}
+          <br />
+          <span class="l2">{{ this.banner_heading_2 }}</span>
+        {% endif %}
+        {% if this.banner_heading_3 %}
+          <br />
+          <span class="l3">{{ this.banner_heading_3 }}</span>
+        {% endif %}
+      </h1>
       <span class="down animated bounce"><svg><use xlink:href="#icon-down" /></svg></span>
     </a>
   </header>

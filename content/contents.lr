@@ -2,27 +2,46 @@ _model: home
 ---
 banner_link: what
 ---
-next_date: 2023-03-05
+next_date: 2024-03-02
 ---
 
 
 
 title: You are invited
 ---
-banner_heading_1: You Are Invited.
+banner_heading_1: Join. Host. Support.
 ---
-banner_heading_2: Again!
+banner_heading_2: Celebrate Open Data
+---
+banner_heading_3: Where You Are.
 
 ---
-intro_heading: What is Open Data Day?
+intro_heading: Save the date!  March 2-8, 2024
+
 ---
 intro_body:
 
-Open Data Day is an annual celebration of open data all over the world. Groups from around the world create local events on the day where they will use open data in their communities. As a way to increase the representation of different cultures around the world, in this edition we offer the opportunity for organisations to host the Open Data Day event on the best date for their location between March 4th and 10th.
+**Open Data Day (ODD) is an annual celebration of open data all over the world**.
+Groups from likely every country create local events on the day where they will
+use open data in their communities. ODD is led by the [Open Knowledge Foundation](https://okfn.org)
+(OKFN) and this year’s edition is co-organised by members of the
+[Open Knowledge Network](https://okfn.org/en/network/).  
+As a way to increase the representation of different cultures, since 2023 we
+offer the opportunity for organisations to host an Open Data Day event on the
+best date between March 2nd and 8th.  
+**All outputs are open** for everyone to use and re-use.
+
 ---
 intro_body_2:
 
-All outputs are open for everyone to use and re-use.
+**Thematic Focus: Open Data for Advancing Sustainable Development Goals (SDGs).**  
+  
+Following CKAN's recognition as a digital public good, in 2024 we will explore
+how open data is a key player in helping to achieve the UN’s Sustainable
+Development Goals (SDGs).  
+
+[Learn more](https://link.missing.com)
+
 ---
 year_intro:
 
