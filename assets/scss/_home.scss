@@ -2,7 +2,7 @@ body {
   .banner {
     background-color: $yellow;
     width: 100%;
-    display: table;
+    display: block;
     background-image: url("../images/banner.png");
     background-size: cover;
     background-position: center;
@@ -20,6 +20,7 @@ body {
       padding: $gutter;
       text-align: center;
       color: $black;
+      width: 100vw;
 
       h1 {
         font-size: 9vmin;
