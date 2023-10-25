@@ -74,6 +74,10 @@ These will need to be resolved by editing the input spreadsheet.
 
 There are three bits of setup we need to do each year:
 
+Before we start, we will need a Google Form and a Google Sheet to collect the event data.  
+This is the 2023 form: https://docs.google.com/forms/d/e/1FAIpQLSc5wiXeUur8GHMKmi1TQIMxwk107eMJVN6UVoibIfUwGZfc7A/viewform  
+The Google Sheet identificators must be added to the `/etl/202x.py` file.  
+This script will attempt to read the data from the Google Sheet so you need to ensure this sheet is public.
 
 - **1. Create a new import job:**
     - Create `./etl/202x.py` based on a previous year's file

@@ -2,39 +2,55 @@ _model: home
 ---
 banner_link: what
 ---
-next_date: 2023-03-05
+next_date: 2024-03-02
 ---
 
 
 
 title: You are invited
 ---
-banner_heading_1: You Are Invited.
+banner_heading_1: Join. Host. Support.
 ---
-banner_heading_2: Again!
+banner_heading_2: Celebrate Open Data
+---
+banner_heading_3: Where You Are.
 
 ---
-intro_heading: What is Open Data Day?
+intro_heading: Save the date!  March 2-8, 2024
+
 ---
 intro_body:
 
-Open Data Day is an annual celebration of open data all over the world. Groups from around the world create local events on the day where they will use open data in their communities. As a way to increase the representation of different cultures around the world, in this edition we offer the opportunity for organisations to host the Open Data Day event on the best date for their location between March 4th and 10th.
+**Open Data Day (ODD) is an annual celebration of open data all over the world**.
+Groups from likely every country create local events on the day where they will
+use open data in their communities. ODD is led by the [Open Knowledge Foundation](https://okfn.org)
+(OKFN) and this year’s edition is co-organised by members of the
+[Open Knowledge Network](https://okfn.org/en/network/).  
+As a way to increase the representation of different cultures, since 2023 we
+offer the opportunity for organisations to host an Open Data Day event on the
+best date between March 2nd and 8th.  
+**All outputs are open** for everyone to use and re-use.
+
 ---
 intro_body_2:
 
-All outputs are open for everyone to use and re-use.
+**Thematic Focus: Open Data for Advancing Sustainable Development Goals (SDGs).**  
+  
+Following CKAN's recognition as a digital public good, in 2024 we will explore
+how open data is a key player in helping to achieve the UN’s Sustainable
+Development Goals (SDGs).  
+
+[Learn more](https://link.missing.com)
+
 ---
 year_intro:
 
-For Open Data Day 2023, to achieve a greater impact from the events, ODD will focus on a single theme and concentrate mini/small grants around it.
 ---
 theme_title:
 
-Open Data to AI
 ---
 theme_description:
 
-With the theme **Open Data to AI** we aim to seek how open data is playing a critical role in the field of AI/ML and other emerging technologies. [Read more](https://docs.google.com/document/d/e/2PACX-1vSYXgAsjZFUFYNA3juKKm71TGOCX8UXBla_PSbnNhnTZwzDA757COfq06LQSHu9czBDj8L5hcUo-27E/pub)
 ---
 year_label_1: Environmental **data**
 ---
@@ -48,25 +64,36 @@ year_label_5: Ocean **data** for a thriving planet
 ---
 register_text: Register your event
 ---
-events_registered: events registered in 2023
+events_registered: events registered in 2024
 ---
-who_heading: Who is this for? Everyone!
+who_heading: Open Data Day is for everyone!
 ---
 who_body:
 
-If you have an idea for using open data, want to find an interesting project to contribute towards, learn about how to visualise or analyse data or simply want to see what's happening, then come participate! Participation is a core value of Open Data Day, everyone is free to voice their opinions in a constructive manner. No matter your skill-set or interests, we are encouraging organisers to foster opportunities for you to learn and help the global open data community grow.
+If you have an idea for using open data, want to find an interesting
+project to contribute towards, learn about how to visualise or analyse
+data or simply want to see what's happening, then come participate!  
+  
+Participation is a core value of Open Data Day, everyone is free to
+voice their opinions in a constructive manner. No matter your skill-set
+or interests, we are encouraging organisers to foster opportunities for
+you to learn and help the global open data community grow.  
+  
 ---
 who_title_1: People
 ---
 who_description_1:
 
-We need you the most. If it wasn’t for you, this whole thing wouldn’t be happening. Wherever you come from and whatever your background, we need you.
+We need you the most. If it wasn’t for you, this whole thing wouldn’t be
+happening. Wherever you come from and whatever your background, we need you.
+
 ---
 who_title_2: Public servants
 ---
 who_description_2:
 
 Your input and context can help us to make government data better. Come converse and learn.
+
 ---
 who_title_3: Designers
 ---
@@ -90,7 +117,9 @@ resources_heading: Event Resources
 ---
 resources_intro:
 
-Need some inspiration for an Open Data Day event, or don't know where to find the data you need? Check out our event resources.
+Need some inspiration for an Open Data Day event, or don't know where to find
+the data you need? Check out our event resources.
+
 ---
 resources_button: Resources
 ---
@@ -156,14 +185,16 @@ resources_ideas_theme_6_text:
 General ocean data portals include [EMODNet](https://emodnet.ec.europa.eu/en) and the [Pacific Data Hub](https://pacificdata.org/). For oceanographic data - seafloor maps, temperatures, currents - try the [International Oceanographic Data Exchange](https://uk-ioc.org/IODE) and [Schmidt Ocean Institute](https://schmidtocean.org/data/). For data on ocean wildlife try the [Ocean Biological Information System](https://obis.org/) the [Global Biological Information System](https://www.gbif.org/) and the [Ocean Tracking Network]( https://members.oceantrack.org/OTN/projects). [Global Fishing Watch](https://globalfishingwatch.org/datasets-and-code/) focuses on fishing, especially on the high seas and [Marine Traffic](https://www.marinetraffic.com/) shows all kinds of vessels.
 
 ---
-support_scheme_heading: Support Scheme
+support_scheme_heading: Become a Sponsor
 ---
 support_scheme_body:
 
-The small grant application is open to all registered organisations across the world, who are interested in hosting in-person open data events and activities. For more information, please refer to the [blog](https://blog.okfn.org/2023/02/13/get-a-small-grant-for-your-open-data-days-2023-event-submit-your-proposal-now/).
-Please use this [form](https://forms.gle/W3k1PNS8Wim9NSEs9) to submit your application.
+We believe that working in partnership is the key to maximising our impact.  
+The Open Knowledge Foundation is looking for partners to support Open Data Day in 2024.  
+Find out the sponsorship tiers and consider joining us in the world’s largest and more
+important celebration of open data. For more information, please
+contact [carolina.matos@okfn.org](mailto:carolina.matos@okfn.org).
 
 ---
-support_scheme_button: 
-LEARN MORE
+support_scheme_button: Sponsorship Pack 
 ---
