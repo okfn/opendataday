@@ -230,7 +230,7 @@ body .banner {
   background-color: #E4FF36;
   width: 100%;
   display: table;
-  background-image: url("../images/banner.svg");
+  background-image: url("../images/banner.png");
   background-size: cover;
   background-position: center; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3) and (min-width: 720px), only screen and (min--moz-device-pixel-ratio: 1.3) and (min-width: 720px), only screen and (-o-min-device-pixel-ratio: 1.3 / 1) and (min-width: 720px), only screen and (min-resolution: 125dpi) and (min-width: 720px), only screen and (min-resolution: 1.3dppx) and (min-width: 720px) {
