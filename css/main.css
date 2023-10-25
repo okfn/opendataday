@@ -1,6 +1,6 @@
 body {
   color: #1A1A1A;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "HK Grotesk", sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 
@@ -31,6 +31,18 @@ a {
   color: #00D1FF; }
   a:hover, a:active {
     color: #FF6200; }
+
+#ok-panel {
+  border-color: #2D2D2D; }
+
+#ok-panel-wrapper {
+  float: right; }
+
+#ok-panel-wrapper:not([data-breakpoint*='px']) > .ok-ribbon {
+  margin-top: 0;
+  background-color: #2D2D2D;
+  margin-bottom: 1.5em;
+  background-color: transparent; }
 
 dt {
   font-weight: bold;
@@ -218,7 +230,7 @@ body .banner {
   background-color: #E4FF36;
   width: 100%;
   display: table;
-  background-image: url("../images/banner.png");
+  background-image: url("../images/banner.svg");
   background-size: cover;
   background-position: center; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3) and (min-width: 720px), only screen and (min--moz-device-pixel-ratio: 1.3) and (min-width: 720px), only screen and (-o-min-device-pixel-ratio: 1.3 / 1) and (min-width: 720px), only screen and (min-resolution: 125dpi) and (min-width: 720px), only screen and (min-resolution: 1.3dppx) and (min-width: 720px) {
@@ -235,19 +247,12 @@ body .banner {
       margin-bottom: 1vh;
       line-height: 1.5; }
       body .banner > a h1 span {
-        background-color: #1A1A1A;
-        color: #fff;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
         position: relative;
         z-index: 1;
         display: inline-block; }
-        body .banner > a h1 span a {
-          color: inherit; }
         body .banner > a h1 span:after {
           content: "\00a0";
           display: block;
-          background-color: #1A1A1A;
           position: absolute;
           left: 100%;
           top: 0;
@@ -257,6 +262,9 @@ body .banner {
           z-index: 2; }
         body .banner > a h1 span.l2 {
           top: -0.3em; }
+        body .banner > a h1 span.l3 {
+          top: -0.3em;
+          font-weight: normal; }
     body .banner > a p {
       font-weight: bold;
       font-size: 4vmin;
@@ -308,10 +316,13 @@ body > section {
     body > section .about header,
     body > section .this-year header {
       max-width: 500px; } }
+  body > section .about header svg,
+  body > section .this-year header svg {
+    width: 450px; }
   body > section .about header {
     padding: 30px 30px 15px 30px; }
     body > section .about header h2 {
-      color: #00D1FF; }
+      color: #1A1A1A; }
     @media (min-width: 1260px) {
       body > section .about header {
         padding-left: 0; } }
@@ -333,13 +344,8 @@ body > section {
       float: left;
       width: 50%; } }
   body > section .this-year {
-    background-color: #E077FF;
-    color: #fff;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    background-color: #FFFFFF;
     position: relative; }
-    body > section .this-year a {
-      color: inherit; }
     @media (min-width: 900px) {
       body > section .this-year {
         float: right;
@@ -351,14 +357,9 @@ body > section {
           bottom: 0;
           left: 100%;
           width: 50vw;
-          background-color: #E077FF; } }
+          background-color: #FFFFFF; } }
     body > section .this-year header {
       padding: 30px 30px 0 30px; }
-      @media (min-width: 1260px) {
-        body > section .this-year header {
-          padding-right: 0;
-          text-align: right;
-          float: right; } }
     body > section .this-year .theme {
       width: 100%;
       padding: 20px;
@@ -431,12 +432,7 @@ body > section {
             text-align: center;
             display: block; }
   body > section#who {
-    background-color: #00D1FF;
-    color: #fff;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-    body > section#who a {
-      color: inherit; }
+    background-color: #00D1FF; }
     @media (min-width: 1260px) {
       body > section#who {
         position: relative;
@@ -485,7 +481,7 @@ body > section {
               width: 20%; } }
           body > section#who > div ul li span {
             display: inline-block;
-            background-color: #fff;
+            background-color: #1A1A1A;
             padding: 1.2em;
             border-radius: 50%; }
             body > section#who > div ul li span svg {
@@ -499,7 +495,7 @@ body > section {
       padding-left: 30px;
       padding-right: 30px; }
       body > section#resources > div > header h2 {
-        color: #00D1FF; }
+        color: #1A1A1A; }
       body > section#resources > div > header svg {
         width: 120px;
         height: 120px;
@@ -561,19 +557,14 @@ body > section {
           break-after: avoid;
           break-inside: avoid; }
   body > section#support {
-    background-color: #E077FF;
-    color: #fff;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-    body > section#support a {
-      color: inherit; }
+    background-color: #e4ff36; }
     body > section#support > div {
       padding-bottom: 30px; }
       body > section#support > div > header {
         padding: 30px 30px 0; }
         body > section#support > div > header + a {
-          background-color: #fff;
-          color: #E077FF;
+          background-color: #1A1A1A;
+          color: #FFFFFF;
           font-weight: bold;
           text-decoration: none;
           padding: 0.8em 1.8em;
@@ -635,6 +626,26 @@ body > section {
               width: 35%;
               margin-bottom: -100px;
               margin-top: -40px; }
+
+.intro2-box {
+  padding: 25px;
+  font-size: small;
+  border: 3px solid #1A1A1A; }
+
+.oddbtn {
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  padding: 20px 45px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  display: block;
+  border-radius: 12px;
+  font-weight: bold;
+  text-align: center;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .events_list #events #get-the-data {
   margin-top: 30px;
