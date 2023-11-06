@@ -3,40 +3,64 @@ language: es_es
 
 title: Celebra los #datosabiertos allí donde estés
 ---
-banner_heading_1: Están invitadxs.
+banner_heading_1: Únete. Invita. Apoya.
 ---
-banner_heading_2: ¡De nuevo!
+banner_heading_2: Celebra el Día de los Datos Abiertos
+---
+banner_heading_3: donde sea que estés
 
 ---
-intro_heading: ¿Qué es el Día de los Datos Abiertos?
+intro_heading: Agéndalo! Del 2 al 8 de marzo de 2024
 ---
-register_text: Registra tu evento aquí
+register_text: Registra tu evento
+---
+join_the_community: Únete a la comunidad
+
 ---
 intro_body:
 
-El Día de los Datos Abiertos es una celebración anual de los datos abiertos alrededor del mundo. Por décima vez en la historia, grupos de todo el mundo crearán eventos locales que utilizarán datos abiertos en sus comunidades para crear aplicaciones, visualizaciones, liberar datos o publicar análisis.
+**El Día de los Datos Abiertos (ODD) es una celebración anual de los datos
+abiertos en todo el mundo**.  
+Grupos de casi todos los países crean eventos locales en el día en el que
+usarán datos abiertos en sus comunidades. ODD es liderado por la
+[Open Knowledge Foundation](https://okfn.org) (OKFN) y la edición de este
+año es co-organizada por miembros de la [Red de miembros de Open Knowledge](https://okfn.org/en/network/).  
+Como una forma de aumentar la representación de diferentes culturas,
+desde 2023 ofrecemos la oportunidad de que los eventos se organicen
+en la mejor fecha entre el 2 y el 8 de marzo.  
+**Todos los resultados son abiertos** para que todos los usen y re-usen.
+
 ---
 intro_body_2:
 
-Todos los trabajos realizados son abiertos para usarse y re-usarse.
 ---
 year_intro:
 
-Para el Día de los Datos Abiertos 2021 queremos que la comunidad siga creciendo. El enfoque de este año será en cuatro áreas clave, las cuales creemos que los datos abiertos pueden ayudar a resolver.
 ---
-year_label_1: Datos **ambientales**
+year_label_1: 
 ---
-year_label_2: Rastreo de flujos de **dinero** público
+year_label_2: 
 ---
-year_label_3: **Mapeo** abierto
+year_label_3: 
 ---
-year_label_4: **Desarrollo** equitativo
+year_label_4: 
 ---
-who_heading: ¿A quién está dirigido? ¡A Todxs!
+events_registered: eventos registrados en 2024
+---
+who_heading: El día de los datos abiertos es para todos!
 ---
 who_body:
 
-Si tienes una idea que use datos abiertos, quieres encontrar un proyecto interesante para contribuir, aprender sobre cómo visualizar o analizar datos, o simplemente quieres ver lo que está pasando, entonces ¡definitivamente ven a participar! La participación es un valor central del hackatón, todo el mundo es libre de expresar sus opiniones de forma constructiva. No importa qué habilidades tengas o cuáles sean tus intereses, invitamos a lxs organizadores a facilitar oportunidades de aprendizaje y ayudar a que la comunidad global de datos abiertos crezca.
+Si tienes una idea para usar datos abiertos, quieres encontrar un
+proyecto interesante al que contribuir, aprender a visualizar o analizar
+datos o simplemente quieres ver qué está pasando, ¡ven a participar!  
+
+La participación es un valor fundamental del Día de los Datos Abiertos,
+todos son libres de expresar sus opiniones de manera constructiva.
+No importan tus habilidades o intereses, estamos alentando a los
+organizadores a fomentar oportunidades para que aprendas y ayudes
+a que la comunidad global de datos abiertos crezca.  
+
 ---
 who_title_1: La gente
 ---
@@ -175,11 +199,17 @@ resources_ideas_theme_6: Human Rights theme
 resources_ideas_theme_6_text:
 
 ---
-support_scheme_heading: Apoyos
+support_scheme_heading: Conviérte en sponsor
 ---
 support_scheme_body:
 
-Este año apoyaremos algunos eventos en todo el mundo a través de mini subsidios de $200 a $300. Estén atentos a la convocatoria de aplicaciones que se lanzará en enero de 2021.
+Creemos que trabajar en colaboración es la clave para maximizar nuestro impacto.  
+La Open Knowledge Foundation está buscando socios para apoyar el Día de los Datos Abiertos en 2024.  
+Descubre las opciones de patrocinio y considera unirte a nosotros en la celebración más grande
+e importante sobre datos abiertos. Para más información, por favor contacta a
+[carolina.matos@okfn.org](mailto:carolina.matos@okfn.org)  
+
+
 ---
 support_scheme_button: Más info
 ---
