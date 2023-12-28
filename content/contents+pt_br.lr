@@ -112,34 +112,34 @@ Precisa de inspiração para um evento do Dia dos Dados Abertos, ou não sabe on
 ---
 resources_button: Recursos
 ---
-resources_materials_heading: Materials
+resources_materials_heading: Materiais
 ---
 resources_materials_text:
 
-Create a logo for the event in your city using the [logo generator](http://odd.structure-and-representation.com/)!
+Crie um logotipo para o evento em sua cidade usando o [logotipo oficial](https://drive.google.com/open?id=1iZUlton9SKgtNwr5jQi6V4WLAVa49h_4&usp=drive_fs)!
 ---
-resources_ideas_heading: Ideas and data sources
+resources_ideas_heading: Ideias e fontes de dados
 ---
 resources_ideas_intro:
 
-Hey there open data enthusiast! You just saw that Open Data Day will be on Saturday 6th March 2021 and you're interested in hosting an event in your locality? Your only challenge now is finding the idea that will hit the right spot. Our friends from the open data community have some ideas and data sources worth checking out.
+Olá, entusiasta de dados abertos! Você acabou de ver que o Open Data Day será de 2 a 8 de março de 2024 e está interessadx em realizar um evento na sua cidade? Seu único desafio agora é encontrar uma ideia que vá direto ao ponto. Nossxs amigxs da comunidade de dados abertos têm algumas ideias e fontes de dados que vale a pena conferir.
 
-Visit the [CKAN website](https://ckan.org/about/instances/) to discover all the organisations around the world using CKAN to publish their data.
+Visite o site [CKAN](https://ckan.org/about/instances/) para descobrir todas as organizações do mundo inteiro que usam o CKAN para publicar seus dados.
 
-Use [data.world](https://data.world) to upload or find data from many sources and organise all aspects of a project - including data, notebooks, analysis and discussions - in a single workspace.
+Use o [data.world](https://data.world) para carregar ou encontrar dados de várias fontes e organizar todos os aspectos de um projeto, inclusive dados, notebooks, análises e discussões, em um único espaço de trabalho.
 
-If you have data but don't know where to put it, you can use [DataHub](https://datahub.io). You can publish datasets, [search for relevant data](https://datahub.io/search), [browse thematic data collections](https://datahub.io/collections) and [request help](https://gitter.im/datahubio/chat) with your open data publishing.
+Se você tem dados, mas não sabe onde colocá-los, pode usar o [DataHub](https://datahub.io). Você pode publicar conjuntos de dados, [pesquisar dados relevantes](https://datahub.io/search), [navegar por coleções de dados temáticos](https://datahub.io/collections) e [pedir ajuda](https://gitter.im/datahubio/chat) com sua publicação de dados abertos.
 
 ---
-resources_ideas_theme_1: Environmental data
+resources_ideas_theme_1: Dados ambientais
 ---
 resources_ideas_theme_1_text:
 
-To discover environmental or climate data to use or get inspiration from for your Open Data Day event: visit the [ResourceWatch.org site](https://resourcewatch.org/), a [World Resources Institute](https://www.wri.org/) data portal; explore [NASA's open data website](https://open.nasa.gov/open-data/); head to [geoportal.org](https://www.geoportal.org) for earth observation data; or discover forest cover/loss data with [Global Forest Watch](https://www.globalforestwatch.org/).
+Para descobrir dados ambientais ou climáticos para usar ou se inspirar em seu evento do Dia dos Dados Abertos: visite o site [ResourceWatch.org](https://resourcewatch.org/), um portal de dados do [World Resources Institute](https://www.wri.org/); explore o site de dados abertos da [NASA](https://open.nasa.gov/open-data/); acesse [geoportal.org](https://www.geoportal.org) para obter dados de observação da Terra; ou descubra dados de cobertura/perda florestal com o [Global Forest Watch](https://www.globalforestwatch.org/).
 
-If you want information on disaster risk management or resilience to natural hazards for your event, visit the [Global Facility for Disaster Reduction and Recovery Labs](https://www.gfdrr.org/en/gfdrr-labs) or [Open Data for Resilience Initiative](https://opendri.org/) websites to discover tools and projects or find open data and resources to use via the [Open Cities Africa project](https://opencitiesproject.org/), [Think Hazard](https://thinkhazard.org/en/), [OpenDRI Index](https://index.opendri.org/) and [Risk Data Library](http://riskdatalibrary.org/).
+Se quiser informações sobre gerenciamento de risco de desastres ou resiliência a perigos naturais para seu evento, visite os sites [Global Facility for Disaster Reduction and Recovery Labs](https://www.gfdrr.org/en/gfdrr-labs) ou [Open Data for Resilience Initiative](https://opendri.org/) para descobrir ferramentas e projetos ou encontrar dados abertos e recursos para usar por meio do projeto [Open Cities Africa](https://opencitiesproject.org/), [Think Hazard](https://thinkhazard.org/en/), [OpenDRI Index](https://index.opendri.org/) e [Risk Data Library](http://riskdatalibrary.org/).
 
-[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) and the [Open Data Charter's OpenUp guide to climate data](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) may also provide useful guidance and advice.
+[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) e o [guia para abrir dados climáticos do Open Data Charter](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) também podem fornecer orientações e conselhos úteis.
 
 ---
 [//]: # (resources_ideas_theme_2:
@@ -147,31 +147,31 @@ If you want information on disaster risk management or resilience to natural haz
 resources_ideas_theme_2_text:
 
 ---
-resources_ideas_theme_3: Tracking public money flows
+resources_ideas_theme_3: Rastreamento de fluxos de dinheiro público
 ---
 resources_ideas_theme_3_text:
 
-The [Open Contracting Partnership](https://www.open-contracting.org) and Hivos' [Open Up Contracting](https://www.openupcontracting.org/) websites provide lots of guidance and examples for people looking to do Open Data Day events focused on public procurement and spending. See also: the [Open Data Charter guide to using open data to combat corruption](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/).
+Os sites da [Open Contracting Partnership](https://www.open-contracting.org) e da Hivos [Open Up Contracting](https://www.openupcontracting.org/) fornecem muitas orientações e exemplos para pessoas que desejam realizar eventos do Dia dos Dados Abertos com foco em compras e gastos públicos. Consulte também: o [guia do Open Data Charter para usar dados de combate à corrupção](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/).
 ---
-resources_ideas_theme_4: Open mapping
+resources_ideas_theme_4: Mapeamento aberto
 ---
 resources_ideas_theme_4_text:
 
-Find out more about open mapping via the [Mapbox](https://www.mapbox.com), [OpenStreetMap](https://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](https://www.hotosm.org/) websites.
+Saiba mais sobre mapeamento aberto nos sites [Mapbox](https://www.mapbox.com), [OpenStreetMap](https://www.openstreetmap.org/) e [Humanitarian OpenStreetMap](https://www.hotosm.org/).
 
 ---
-resources_ideas_theme_5: Data for equal development
+resources_ideas_theme_5: Dados para desenvolvimento igualitário
 ---
 resources_ideas_theme_5_text:
 
-The [Centre for Humanitarian Data](https://data.humdata.org) has over 17,000 humanitarian open datasets available via the CKAN-powered portal at [data.humdata.org](https://data.humdata.org/) which may help to highlight key issues about equal development. You can also visit the [United Nations' Open SDG Data Hub](https://unstats-undesa.opendata.arcgis.com), the [World Bank Open Data portal](https://data.worldbank.org) or the large data harvesting portals like the [European Data Portal](https://data.europa.eu/en).
+O [Centre for Humanitarian Data](https://data.humdata.org) tem mais de 17.000 conjuntos de dados humanitários abertos disponíveis por meio do portal alimentado por CKAN em [data.humdata.org](https://data.humdata.org/), o que pode ajudar a destacar questões importantes sobre desenvolvimento igualitário. Você também pode visitar o [United Nations' Open SDG Data Hub](https://unstats-undesa.opendata.arcgis.com), o [World Bank Open Data portal](https://data.worldbank.org) ou os grandes portais de coleta de dados, como o [European Data Portal](https://data.europa.eu/en).
 
 ---
-resources_ideas_theme_6: Ocean data for a thriving planet
+resources_ideas_theme_6: Dados oceânicos para um planeta próspero
 ---
 resources_ideas_theme_6_text:
 
-General ocean data portals include [EMODNet](https://emodnet.ec.europa.eu/en) and the [Pacific Data Hub](https://pacificdata.org/). For oceanographic data - seafloor maps, temperatures, currents - try the [International Oceanographic Data Exchange](https://uk-ioc.org/IODE) and [Schmidt Ocean Institute](https://schmidtocean.org/data/). For data on ocean wildlife try the [Ocean Biological Information System](https://obis.org/) the [Global Biological Information System](https://www.gbif.org/) and the [Ocean Tracking Network]( https://members.oceantrack.org/OTN/projects). [Global Fishing Watch](https://globalfishingwatch.org/datasets-and-code/) focuses on fishing, especially on the high seas and [Marine Traffic](https://www.marinetraffic.com/) shows all kinds of vessels.
+Os portais gerais de dados oceânicos incluem o [EMODNet](https://emodnet.ec.europa.eu/en) e o [Pacific Data Hub](https://pacificdata.org/). Para obter dados oceanográficos (mapas do fundo do mar, temperaturas, correntes), procure o [International Oceanographic Data Exchange](https://uk-ioc.org/IODE) e o [Schmidt Ocean Institute](https://schmidtocean.org/data/). Para obter dados sobre a vida selvagem dos oceanos, consulte o [Ocean Biological Information System](https://obis.org/), o [Global Biological Information System](https://www.gbif.org/) e a [Ocean Tracking Network](https://members.oceantrack.org/OTN/projects). O [Global Fishing Watch](https://globalfishingwatch.org/datasets-and-code/) concentra-se na pesca, especialmente em alto mar, e o [Marine Traffic](https://www.marinetraffic.com/) mostra todos os tipos de embarcações.
 
 ---
 support_scheme_heading: Patrocine!
