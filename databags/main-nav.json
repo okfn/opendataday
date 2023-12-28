@@ -119,7 +119,7 @@
 
   "es_es": [
     {
-      "title": "El Día de los Datos Abiertos",
+      "title": "Día de los Datos Abiertos",
       "link": "/",
       "children": [
         {
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "title": "Search events",
+      "title": "Buscar eventos",
       "link": "/events/2024/",
       "children": [
         {
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "title": "Search events",
+      "title": "Recherche d'événements",
       "link": "/events/2024/",
       "children": [
         {
@@ -263,7 +263,7 @@
       ]
     },
     {
-      "title": "Search events",
+      "title": "Ricerca eventi",
       "link": "/events/2024/",
       "children": [
         {
@@ -532,7 +532,7 @@
 
   "pt_br": [
     {
-      "title": "O Dia dos Dados Abertos",
+      "title": "Dia dos Dados Abertos",
       "link": "/",
       "children": [
         {
