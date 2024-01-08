@@ -210,10 +210,20 @@ def main(in_url, this_year, json_out_file, csv_out_file, reports_dir, images_dir
     data = get_data(in_url)
     data = pre_process(data)
     schema = EventSchema()
+    new_data = []
+    # process each row and drop invalid ones
     for i, row in enumerate(data):
         print(f'Processing line {i+2} ', end='')
-        data[i] = schema.load(row)
+        try:
+            data[i] = schema.load(row)
+        except Exception as e:
+            print('❌')
+            print(f'Error in line {i+2}: {str(e)}')
+            print(f'row = {row}')
+            continue
+        new_data.append(data[i])
         print('✔️')
+    data = new_data
     data = filter_current_year(data, this_year)
     data = format_dates(data)
     data = generate_slugs(data)
