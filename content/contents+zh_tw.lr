@@ -1,26 +1,46 @@
 language: zh_tw
 ---
+banner_link: 什麼
+---
+next_date: 2024-03-02
+---
 
-title: Open Data Day
+title: 慶祝 #opendata 你在那裡
 ---
-banner_heading_1: 再一次
+banner_heading_1: 加入、主辦、支援
 ---
-banner_heading_2: 你被邀請參與！
+banner_heading_2: 慶祝開放資料
+---
+banner_heading_3: 你在那裡
 
 ---
-intro_heading: 什麼是 Open Data Day?
+intro_heading: 保留這一天！2024年3月2-8日
+
 ---
 intro_body:
 
-Open Data Day 是一年一度的全球性慶典，在這天全球的各個社群將會在當地舉辦活動，並在活動中利用各式各樣的開放資料。這是一個機會展示開放資料帶來的各種好處，進而鼓勵政府、企業及公民社會接受並採納開放資料的想法。
+**Open Data Day 是一年一度的全球性慶典**，在這天全球可能各國的各個社群將會在當地舉辦活動。ODD 由[開放知識基金會](https://okfn.org) (OKFN)倡議，這一年與[開放知識網路](https://okfn.org/en/network/)的成員共同主辦。
+並在活動中利用各式各樣的開放資料。這是一個機會展示開放資料帶來的各種好處，進而鼓勵政府、企業及公民社會接受並採納開放資料的想法。
+
+從 2023 年開始，為了增加各地方文化的再現性，我們開放讓大家選擇在3月2日至8日之間選擇最適合的一天舉行。
+
+**所有成果開放**給所有人使用及重製。
+
 ---
 intro_body_2:
 
-所有活動的產出皆開放予所有人使用及重製
+**強調主題：開放資料在精進永續發展目標 (Sustainable Development Goals)。**  
+  
+由於 CKAN 已經被視為數位公共財，在 2024 我們會探就開放資料如何達成聯合國永續發展指標 (Sustainable Development Goals)。
+
 ---
 year_intro:
 
-在 Open Data Day 2021，我們希望能將社群再往上一個檔次。今年的活動將給針對以下我們認為開放資料能夠協助我們解決的主題，給予微型獎助金。你可以看下面的領域：
+---
+theme_title:
+
+---
+theme_description:
 
 
 ---
@@ -40,15 +60,16 @@ who_heading: 誰可以參加這個活動? 任何人!
 ---
 who_body:
 
-如果你有使用開放資料的想法，如果你在尋找有興趣的專案貢獻，如果你想要知道如何視覺化、分析資料，或單純只是想知道開放資料在做什麼，那你一定要來參加 Open Data Day！ 積極參與是 Open Data Day 的核心價值，任何人都可以有建設性的自由地表達看法。不論你的專業和興趣為何，我們鼓勵籌辦者提供機會去學習和幫助全球的開放資料社群成長。
+如果你有使用開放資料的想法，如果你在尋找有興趣的專案貢獻，如果你想要知道如何視覺化、分析資料，或單純只是想知道開放資料在做什麼，那你一定要來參加 Open Data Day！ 
 
+積極參與是 Open Data Day 的核心價值，任何人都可以有建設性的自由地表達看法。不論你的專業和興趣為何，我們鼓勵籌辦者提供機會去學習和幫助全球的開放資料社群成長。
 
 ---
 who_title_1: 公民
 ---
 who_description_1:
 
-公民是我們最需要的成員! 如果不是為了你們，這個活動不可能會發生! 不論來自何方或是什麼背景，我們需要各種想法、啦啦隊/應援團，及各位幫我們向全世界宣傳。
+公民是我們最需要的成員! 如果不是為了你們，這個活動不可能會發生! 不論來自何方或是什麼背景，我們需要各位。
 ---
 who_title_2: 公務人員
 ---
@@ -90,13 +111,13 @@ resources_materials_heading: 材料
 ---
 resources_materials_text:
 
-使用 [logo 產生器](http://odd.structure-and-representation.com/)來產生你的活動的專用 LOGO !
+使用 [logo 產生器](https://drive.google.com/open?id=1iZUlton9SKgtNwr5jQi6V4WLAVa49h_4&usp=drive_fs)來為你所在城市產生你的活動專用 LOGO !
 ---
 resources_ideas_heading: 點子和資料來源
 ---
 resources_ideas_intro:
 
-嘿，各位開放資料愛好者你們好！你現在知道國際 Open Data Day 會在 2021 年 3 月 6 日星期六舉行，而且有興趣在當地舉辦開放資料的活動。你只剩下要找到那個可以一擊中的的點子。這邊有一些開放資料社群提供的點子和資料來源，你可以參考。
+嘿，各位開放資料愛好者你們好！你現在知道國際 Open Data Day 會在 2024 年 3 月 2 日至 8 日舉行，而且有興趣在當地舉辦開放資料的活動。你只剩下要找到那個可以一擊中的的點子。這邊有一些開放資料社群提供的點子和資料來源，你可以參考。
 
 瀏覽 [CKAN 網站](https://ckan.org/about/instances/)來探索全世界所有組織採用 CKAN 發佈資料的平台 。
 
@@ -109,10 +130,11 @@ resources_ideas_theme_1: 環境資料
 ---
 resources_ideas_theme_1_text:
 
-要發現使用環境或氣候資料，或是其他開放資料節活動的靈感：可以瀏覽 [ResourceWatch.org 網站](https://resourcewatch.org/)、[世界資源研究機構](https://www.wri.org/)資料平台；探索 [NASA 開放資料網站](https://open.nasa.gov/open-data/)；去到 [geoportal.org](https://www.geoportal.org) 來取得地理觀測資料；或是探索森林覆蓋/損失資料的 [全球森林守護](https://www.globalforestwatch.org/)。
+要發現使用環境或氣候資料，或是其他開放資料節活動的靈感：可以瀏覽 [ResourceWatch.org 網站](https://resourcewatch.org/)、[世界資源研究機構](https://www.wri.org/)資料平台；探索 [NASA 開放資料網站](https://open.nasa.gov/open-data/)；去到 [geoportal.org](https://www.geoportal.org) 來取得地理觀測資料；或是探索森林覆蓋/損失資料的[全球森林守護](https://www.globalforestwatch.org/)。
+
+如果你的活動需要災難風險管理或是自然災難韌性相關資訊，你可以到[全球減少災難與復原機構實驗室](https://www.gfdrr.org/en/gfdrr-labs)或是[開放資料的復原倡議](https://opendri.org/)網站來發現各種工具與計畫，或者透過[開放城市非洲計畫](https://opencitiesproject.org/), [Think Hazard](https://thinkhazard.org/en/)、[OpenDRI 指標](https://index.opendri.org/)以及[風險資料圖書館](http://riskdatalibrary.org/)找尋開放資料與資源。
 
 [OpenOil](http://openoil.net)、[Extract-a-Fact](http://www.extractafact.org/) 與 [Open Data Charter 氣候資料開放吧指引](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) 也許可以提供有用的指引與建議。
----
 
 ---
 [//]: # (resources_ideas_theme_2: 
@@ -139,19 +161,26 @@ resources_ideas_theme_5: 資料為了公平發展
 ---
 resources_ideas_theme_5_text:
 
-[人道救搜資料中心](https://data.humdata.org)在 CKAN 支援的平台 [data.humdata.org](https://data.humdata.org/) 上有超過 17,000 人道救援開放資料集，能夠幫忙聚焦在公平開發的重要議題。你也能瀏覽[聯合國開放永續發展資料節點](https://unstats-undesa.opendata.arcgis.com)、[世界銀行開放資料平台](https://data.worldbank.org)，或是像最大的資料截取平台如[歐洲資料平台](https://www.europeandataportal.eu/)。
+[人道救搜資料中心](https://data.humdata.org)在 CKAN 支援的平台 [data.humdata.org](https://data.humdata.org/)上有超過 17,000 人道救援開放資料集，能夠幫忙聚焦在公平開發的重要議題。你也能瀏覽[聯合國開放永續發展資料節點](https://unstats-undesa.opendata.arcgis.com)、[世界銀行開放資料平台](https://data.worldbank.org)，或是像最大的資料截取平台如[歐洲資料平台](https://www.europeandataportal.eu/)。
 
 ---
-resources_ideas_theme_6: 人權主題
+resources_ideas_theme_6: 為了生機生機勃勃的海洋資料
 ---
 resources_ideas_theme_6_text:
 
+一般海洋資料包括 [EMODNet](https://emodnet.ec.europa.eu/en) 以及[太平洋資料平台](https://pacificdata.org/)。而海洋地理資料 - 海床地圖、溫度、洋流 - 請試試[國際海洋地理資料交換平台](https://uk-ioc.org/IODE)以及[施密特海洋研究院](https://schmidtocean.org/data/)。要找海洋野生自然生物的資料的話，請試試[海洋生物資訊系統](https://obis.org/)、[全球生物資訊系統](https://www.gbif.org/) 以及[海洋追蹤網路]( https://members.oceantrack.org/OTN/projects)。[全球捕撈觀察](https://globalfishingwatch.org/datasets-and-code/)則是關注捕撈，特別是高緯度海域，而[海洋交通](https://www.marinetraffic.com/)則顯示所有的船集。.
+
 ---
-support_scheme_heading: 支持方案
+support_scheme_heading: 成為贊助者
 ---
 support_scheme_body:
 
-獲得 $300 美元來支援您的 2021  Open Data Day 活動！在 2021 年 2 月 5 日 午夜 GMT 前申請微型獎助金。
+我們相信以伙伴關係來進行是最大化影響力的方式。  
+
+開放裀識基金會尋找伙伴來支援 Open Data Day in 2024。
+
+要瞭解更贊助詳情與加入我們世界最大與最重要的開放資料慶祝行列，請聯繫 [info@okfn.org](mailto:info@okfn.org)。
+
 ---
-support_scheme_button: 了解更多
+support_scheme_button: 贊助方案 
 ---
