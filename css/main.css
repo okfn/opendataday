@@ -320,6 +320,14 @@ body > section {
   body > section .about header svg,
   body > section .this-year header svg {
     width: 450px; }
+  body > section .about header span.count,
+  body > section .this-year header span.count {
+    display: block;
+    font-weight: 700;
+    background-color: #e3e390;
+    padding: 15px;
+    margin: auto;
+    text-align: center; }
   body > section .about header {
     padding: 30px 30px 15px 30px; }
     body > section .about header h2 {
@@ -419,10 +427,6 @@ body > section {
           pointer-events: all;
           background-color: rgba(255, 255, 255, 0.8);
           padding: 9px; }
-          body > section#map header > div > div .count {
-            display: block;
-            font-weight: 700;
-            padding-top: 0.5em; }
           body > section#map header > div > div a {
             background-color: #00D1FF;
             color: #fff;

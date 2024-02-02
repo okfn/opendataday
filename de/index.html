@@ -26,7 +26,8 @@
   <link rel="stylesheet" href="../css/style.css">
   <!-- okf ribbon -->
   <link rel="stylesheet" href="https://a.okfn.org/html/oki/panel/assets/css/frontend.css"/>
-  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
   <script defer data-domain="opendataday.org" src="https://plausible.io/js/plausible.js"></script>
 </head>
 <body class="home">
@@ -487,9 +488,14 @@
 		C1226,1118,1222.5,1111.7,1217.7,1108.2z"/>
 </g>
 </svg>
-        <a class="oddbtn" href="https://docs.google.com/forms/d/e/1FAIpQLScaa4cLVHZJgtYUKUoFPvQBM3u1tZ-SlsDjTlulnWkfD55Hjg/viewform">
+        <a 
+          class="oddbtn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScaa4cLVHZJgtYUKUoFPvQBM3u1tZ-SlsDjTlulnWkfD55Hjg/viewform"
+          rel="external" target="_blank"
+        >
           Veranstaltung hier eintragen
         </a>
+        <span class="count"><span id="event-number">0</span> eingetragene Veranstaltungen</span>
         <a class="oddbtn" href="https://groups.google.com/forum/#!forum/open-data-day">
           Join the community
         </a>
@@ -520,16 +526,6 @@ aufkommende Gebiete spielt.</p>
 <section id="map">
   <div id="map-container" style="height: inherit">
   </div>
-
-  <header>
-    <div>
-      <div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScaa4cLVHZJgtYUKUoFPvQBM3u1tZ-SlsDjTlulnWkfD55Hjg/viewform"
-          rel="external" target="_blank">Veranstaltung hier eintragen</a>
-        <span class="count"><span id="event-number">0</span> eingetragene Veranstaltungen</span>
-      </div>
-    </div>
-  </header>
 </section>
 
 <section id="who">
@@ -1237,7 +1233,7 @@ dFNvZnR3YXJlAE1pY3Jvc29mdCBPZmZpY2V/7TVxAAAAAElFTkSuQmCC"/> </symbol><symbol vie
   <script src="../js/plugins.js"></script>
   <script src="../js/main.js"></script>
   
-<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="../js/map.js"></script>
 
 
