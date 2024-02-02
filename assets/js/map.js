@@ -1,5 +1,6 @@
 var url = 'https://raw.githubusercontent.com/okfn/opendataday/master/databags/events-2024.json';
-mapboxgl.accessToken = 'pk.eyJ1Ijoib2tmbiIsImEiOiJjbHMzZGcyNzgwczlrMmlwaTFvYWR0ZmZyIn0.60MVwquGgV6YT1hy7QEGsw'
+// Open Data Day site custom token
+mapboxgl.accessToken = 'pk.eyJ1Ijoib2tmbiIsImEiOiJjbHM0azFlZjUxYTN4MmtvNTR0d2RxNTZxIn0.XK13ZqhfpDhD2y6ARpo2kw'
 
 var clusterRadius = 50,
   clusterMaxZoom = 14; // Max zoom to cluster points on
