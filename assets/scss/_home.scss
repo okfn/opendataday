@@ -132,6 +132,14 @@ body {
         & svg{
           width: 450px;
         }
+        & span.count {
+          display: block;
+          font-weight: 700;
+          background-color: #e3e390;
+          padding: 15px;
+          margin: auto;
+          text-align: center;
+        }
       }
     }
 
@@ -259,12 +267,6 @@ body {
             pointer-events: all;
             background-color: rgba(#fff, 0.8);
             padding: $gutter * 0.3;
-
-            .count {
-              display: block;
-              font-weight: 700;
-              padding-top: $base-spacing/3;
-            }
 
             a {
               @include button;

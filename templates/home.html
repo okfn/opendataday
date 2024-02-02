@@ -24,9 +24,14 @@
     <div class="this-year">
       <header>
         {% include 'includes/hands.svg' %}
-        <a class="oddbtn" href="https://docs.google.com/forms/d/e/1FAIpQLScaa4cLVHZJgtYUKUoFPvQBM3u1tZ-SlsDjTlulnWkfD55Hjg/viewform">
+        <a 
+          class="oddbtn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScaa4cLVHZJgtYUKUoFPvQBM3u1tZ-SlsDjTlulnWkfD55Hjg/viewform"
+          rel="external" target="_blank"
+        >
           {{ this.register_text }}
         </a>
+        <span class="count"><span id="event-number">0</span> {{ this.events_registered }}</span>
         <a class="oddbtn" href="https://groups.google.com/forum/#!forum/open-data-day">
           {{ this.join_the_community }}
         </a>
@@ -51,16 +56,6 @@
 <section id="map">
   <div id="map-container" style="height: inherit">
   </div>
-
-  <header>
-    <div>
-      <div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScaa4cLVHZJgtYUKUoFPvQBM3u1tZ-SlsDjTlulnWkfD55Hjg/viewform"
-          rel="external" target="_blank">{{ this.register_text }}</a>
-        <span class="count"><span id="event-number">0</span> {{ this.events_registered }}</span>
-      </div>
-    </div>
-  </header>
 </section>
 
 <section id="who">
@@ -194,6 +189,6 @@
 {% endblock %}
 
 {% block extra_js %}
-<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="{{ '/js/map.js'|url }}"></script>
 {% endblock %}
