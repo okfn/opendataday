@@ -47,62 +47,16 @@ map.on('load', function () {
     $("#event-number").text(events.length);
 
     map.on('click', function (e) {
-      var features = map.queryRenderedFeatures(e.point, { layers: ['points', 'clusters'] });
+      var features = map.queryRenderedFeatures(e.point, { layers: ['points'] });
       if (!features.length) {
         return;
       }
       var feature = features[0];
+      var descriptions = features.map(function (f) { return f.properties.description; });
+      // create a leaflet popup whit descriptions as HTML
 
-      if (!feature.properties.cluster) {
-        var descriptions = features.map(function (f) { return f.properties.description; });
-        // create a leaflet popup whit descriptions as HTML
-
-        var popup = L.popup()
-          .setLatLng([e.lngLat.lat, e.lngLat.lng]).setContent(descriptions.join('<br><br>')).openOn(map);
-      } else {
-        // We need to expand a cluster
-        var oldZoom = map.getZoom();
-
-        map.getSource('events').getClusterExpansionZoom(feature.properties.cluster_id, function (error, expansionZoom) {
-          if (error) {
-            throw error;
-          }
-
-          if (expansionZoom <= clusterMaxZoom) {
-            map.flyTo({ center: feature.geometry.coordinates, zoom: expansionZoom });
-          } else {
-            // If we ran out of clustering levels, zoom to fit the individual points
-            map.getSource('events').getClusterLeaves(feature.properties.cluster_id, 9999, 0, function (error, features) {
-              if (error) {
-                throw error;
-              }
-
-              var bounds = pointsToBounds(features);
-              var oldCenter = map.getCenter();
-
-              // Perform a test fit to calculate prospective center and zoom
-              map.fitBounds(bounds, {
-                animate: false,
-                padding: {
-                  top: $('#map-container').height() * 0.1 + $('.main-nav').height(),
-                  bottom: $('#map-container').height() * 0.2,
-                  left: $('#map-container').width() * 0.2,
-                  right: $('#map-container').width() * 0.2
-                }
-              });
-              var newCenter = map.getCenter();
-              var newZoom = map.getZoom();
-
-              // Make sure we stay past the clustering levels
-              newZoom = Math.max(newZoom, clusterMaxZoom + 1);
-
-              // Animate from old view to new view
-              map.jumpTo({ center: oldCenter, zoom: oldZoom });
-              map.flyTo({ center: newCenter, zoom: newZoom });
-            });
-          }
-        });
-      }
+      var popup = L.popup()
+        .setLatLng([e.lngLat.lat, e.lngLat.lng]).setContent(descriptions.join('<br><br>')).openOn(map);
     });
   });
 
