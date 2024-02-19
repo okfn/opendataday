@@ -62,15 +62,10 @@ map.on('load', function () {
 
 });
 
-map.setView([0, 0], 4);
+map.setView([0, 0], 2);
 
-var attr = '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a>' +
-  '&copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> ' +
-  '&copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> ' +
-  '&copy; <a href="https://www.openstreetmap.org/about/" target="_blank">OpenStreetMap contributors</a>'
-
-  L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}@2x.jpg', {
-    attribution: attr
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
 function truncate(str, n) {
