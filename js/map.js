@@ -83,13 +83,13 @@ function getLink(url) {
 function getDescription(event) {
   var htmlStr = '<strong>Event:</strong> ' + event.event_name;
 
-  if (isWorkingUrl(event.url)) {
-    htmlStr += '<br><strong>URL:</strong> ' + getLink(event.url);
-  }
-
   var date = event.event_date ? new Date(event.event_date).toDateString() : '';
   if (date) {
     htmlStr += '<br><strong>Date:</strong> ' + date;
+  }
+
+  if (isWorkingUrl(event.url)) {
+    htmlStr += '<br><strong>URL:</strong> ' + getLink(event.url);
   }
 
   if (event.event_time) {
