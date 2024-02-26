@@ -47,8 +47,8 @@ class EventSchema(Schema):
     organisers = fields.Str(required=True, data_key="Event organiser")
     event_purpose = fields.Str(required=True, data_key="Event purpose")
     event_date = fields.DateTime(
-        required=False, missing=None, data_key="Date of event",
-        format="%m/%d/%Y"  # USA format
+        required=False, missing=None, data_key="Event date",
+        format="%d/%m/%Y"  # Global format
     )
     event_time = fields.Str(required=False, data_key="Time of event")  # just a string
     timezone = fields.Str(required=False, data_key="Timezone")
@@ -141,7 +141,7 @@ def format_dates(data):
     for row in data:
         if row['event_date'] is None:
             continue
-        row['event_date'] = row['event_date'].strftime('%Y-%m-%d')
+        row['event_date'] = row['event_date'].strftime('%d-%m-%Y')
     return data
 
 
