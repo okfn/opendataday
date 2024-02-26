@@ -141,7 +141,7 @@ def format_dates(data):
     for row in data:
         if row['event_date'] is None:
             continue
-        row['event_date'] = row['event_date'].strftime('%d-%m-%Y')
+        row['event_date'] = row['event_date'].strftime('%Y-%m-%d')
     return data
 
 
