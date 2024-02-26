@@ -68,7 +68,9 @@ class EventSchema(Schema):
     report_question_2 = fields.Str(required=False, data_key="Lessons learned from your event")
     report_question_3 = fields.Str(required=False, data_key="Why do you love Open Data Day?")
     report_question_4 = fields.Str(required=False, data_key="Any resources produced during event which can be shared?")
-    mini_grant_funder = fields.Str(required=False, data_key="Name of mini-grant funder",
+    mini_grant_funder = fields.Str(
+        required=False,
+        data_key="Name of mini-grant funder",
         validate=validate.OneOf(VALID_FUNDERS)
     )
 
