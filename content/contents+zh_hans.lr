@@ -82,7 +82,7 @@ resources_materials_heading: Materials
 ---
 resources_materials_text:
 
-为您的城市活动创建一个图标 [logo generator](http://odd.structure-and-representation.com/)!
+用[图标生成器](http://odd.structure-and-representation.com/)为您城市的活动创建一个图标!
 ---
 resources_ideas_heading: 灵感与数据资源
 ---
@@ -94,16 +94,16 @@ resources_ideas_intro:
 
 使用 [data.world](https://data.world) 从多个来源上传或查找数据，在单一工作区组织项目的各方面-包括数据，笔记本，分析和讨论。
 
-如果您不知道数据放在哪里合适，可以放在 [DataHub](https://datahub.io). 您可以发布数据集，[搜索相关数据](https://datahub.io/search), [浏览主题数据集合](https://datahub.io/collections) 和[请求帮助](https://gitter.im/datahubio/chat)
+如果您不知道数据放在哪里合适，可以放在 [DataHub](https://datahub.io)。 您可以发布数据集，[搜索相关数据](https://datahub.io/search), [浏览主题数据集合](https://datahub.io/collections) 和[请求帮助](https://gitter.im/datahubio/chat)
 
 ---
 resources_ideas_theme_1: 环境数据
 ---
 resources_ideas_theme_1_text:
 
-要发现可用于您的开放数据日活动的环境或气候数据或从中获取灵感，请访问：[ResourceWatch.org site]（https://resourcewatch.org/），[世界资源研究所]（https：// www .wri.org /）数据门户；浏览[NASA's open data website]（https://open.nasa.gov/open-data/）；前往[geoportal.org]（https://www.geoportal.org）获取地球观测数据；或使用[Global Forest Watch]（https://www.globalforestwatch.org/）发现森林覆盖/损失数据。
+要发现可用于您的开放数据日活动的环境或气候数据，或从中获取灵感，请访问：[资源观察](https://resourcewatch.org/)，[世界资源研究所](https://www.wri.org/)数据门户；浏览[美国宇航局数据开放网站](https://open.nasa.gov/open-data/)；前往 [geoportal.org](https://www.geoportal.org)获取地球观测数据；或使用[全球森林观察](https://www.globalforestwatch.org/)发现森林覆盖／损失数据。
 
-[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) 以及 [Open Data Charter's OpenUp guide to climate data](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) 也可能提供有用的指导和意见。
+[OpenOil](http://openoil.net) ， [Extract-a-Fact](http://www.extractafact.org/) 以及 [Open Data Charter's OpenUp guide to climate data](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) 也可能提供有用的指导和意见。
 
 ---
 [//]: # (resources_ideas_theme_2: 
@@ -115,20 +115,20 @@ resources_ideas_theme_3: 追踪公共资金流
 ---
 resources_ideas_theme_3_text:
 
-[Open Contracting Partnership](https://www.open-contracting.org) 和 Hivos 的 [Open Up Contracting](https://www.openupcontracting.org/) 网站为有志于此的人们提供了许多指导和示例开展针对公共采购和支出的开放数据日活动。另请参阅：[《使用开放数据打击腐败的开放数据宪章指南》（https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/ ）。
+[Open Contracting Partnership](https://www.open-contracting.org) 和 Hivos 的 [Open Up Contracting](https://www.openupcontracting.org/) 网站为有志于此的人们提供了许多指导和示例开展针对公共采购和支出的开放数据日活动。另请参阅：《[使用开放数据打击腐败的开放数据宪章指南](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/)》。
 ---
 resources_ideas_theme_4: 开放地图
 ---
 resources_ideas_theme_4_text:
 
-通过[Mapbox]（https://www.mapbox.com），[OpenStreetMap]（https://www.openstreetmap.org/）和[Humanitarian OpenStreetMap](https://www.hotosm.org/) 了解更多有关开放地图的信息。
+通过 [Mapbox](https://www.mapbox.com) ， [OpenStreetMap](https://www.openstreetmap.org/) 和 [Humanitarian OpenStreetMap](https://www.hotosm.org/) 了解更多有关开放地图的信息。
 
 ---
 resources_ideas_theme_5: 平等发展数据
 ---
 resources_ideas_theme_5_text:
 
-[人道主义数据中心]（https://data.humdata.org）通过CKAN支持的门户网站[data.humdata.org]（https://data.humdata.org/）拥有超过17,000个人道主义开放数据集。 ），这可能有助于强调有关平等发展的关键问题。您也可以访问[联合国开放式SDG数据中心]（https://unstats-undesa.opendata.arcgis.com），[世界银行开放数据门户]（https://data.worldbank.org）或大型数据收集门户，例如[欧洲数据门户]（https://www.europeandataportal.eu/）。
+由 CKAN 支持的[人道主义数据中心](https://data.humdata.org)门户网站拥有超过 17,000 个人道主义开放数据集。），这可能有助于强调有关平等发展的关键问题。您也可以访问[联合国开放式 SDG 数据中心](https://unstats-undesa.opendata.arcgis.com)，[世界银行开放数据门户](https://data.worldbank.org)或大型数据收集门户，例如[欧洲数据门户](https://www.europeandataportal.eu/)网站。
 
 ---
 resources_ideas_theme_6: 人权主题
