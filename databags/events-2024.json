@@ -4808,6 +4808,25 @@
       "world_region_text": ""
     },
     {
+      "event_date": "2024-10-10",
+      "event_name": "Th\u00e8me central : les donn\u00e9es ouvertes pour faire progresser les objectifs de d\u00e9veloppement durable (ODD)",
+      "event_photo_url": "",
+      "event_purpose": "",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 16.0,
+      "longitude": 31.0,
+      "online_event_url": "",
+      "organisers": "",
+      "place": "suisse",
+      "slug": "theme-central-les-donnees-ouvertes-pour-faire-progresser-les-objectifs-de-deve",
+      "url": "",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
       "event_date": "2024-03-06",
       "event_name": "Turn your GitHub dataset into an elegant and interactive site",
       "event_photo_url": "",
