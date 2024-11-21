@@ -98,7 +98,9 @@ This script will attempt to read the data from the Google Sheet so you need to e
         - Update the 'Search events' link to the current year ([main-nav.json](/databags/main-nav.json)).
         - Repeat for each supported alternate language
 
-For reference, you can check the [PR for the 2022 update](https://github.com/okfn/opendataday/pull/345)
+For reference, you can check the:
+ - [PR for the 2022 update](https://github.com/okfn/opendataday/pull/345)
+ - [PR for the 2025 update](https://github.com/okfn/opendataday/pull/411)
 
 ## Previous version
 
