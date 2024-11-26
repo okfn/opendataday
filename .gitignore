@@ -9,3 +9,4 @@ plugins.js
 .DS_Store
 /build
 .venv
+.vscode/

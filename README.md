@@ -35,14 +35,15 @@ If we are adding new language to the site we also need to:
 ## Running the site locally
 
 Requirements:
-- Python >= 3.6
+- Python >= 3.10
 - Node JS >= 10
 - NPM >= 7
 
 Setup:
-- Create a python >=3.6 virtual environment
+- Create a python >=3.10 virtual environment
 - Base requirements are defined in the `requirements.in` file (to ejecute `pip-compile` it's required to update `requirements.txt`)
 - `pip install -r requirements.txt`
+- `nvm use 19`
 - `npm ci`
 - `lektor server`
 - http://127.0.0.1:5000/
@@ -98,7 +99,9 @@ This script will attempt to read the data from the Google Sheet so you need to e
         - Update the 'Search events' link to the current year ([main-nav.json](/databags/main-nav.json)).
         - Repeat for each supported alternate language
 
-For reference, you can check the [PR for the 2022 update](https://github.com/okfn/opendataday/pull/345)
+For reference, you can check the:
+ - [PR for the 2022 update](https://github.com/okfn/opendataday/pull/345)
+ - [PR for the 2025 update](https://github.com/okfn/opendataday/pull/411)
 
 ## Previous version
 
