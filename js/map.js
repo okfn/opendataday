@@ -1,4 +1,4 @@
-var url = 'https://raw.githubusercontent.com/okfn/opendataday/master/databags/events-2024.json';
+var url = 'https://raw.githubusercontent.com/okfn/opendataday/master/databags/events-2025.json';
 
 var map = L.map('map');
 // on load map event
