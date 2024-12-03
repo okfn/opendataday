@@ -20,6 +20,25 @@
       "world_region_text": ""
     },
     {
+      "event_date": "2025-03-07",
+      "event_name": "Open Data for Resilience: Tackling Poverty, Inequality, and Crisis Through Collaboration",
+      "event_photo_url": "",
+      "event_purpose": "Empower communities by leveraging open data to address the intersection of poverty, inequality, violence, and climate crises, fostering innovative solutions for resilience and equitable development.",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": -15.387526,
+      "longitude": 28.322817,
+      "online_event_url": "",
+      "organisers": "Women in Data Science and AI Zambia Chapter",
+      "place": "Lusaka",
+      "slug": "open-data-for-resilience-tackling-poverty-inequality-and-crisis-through-colla",
+      "url": "",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
       "event_date": "2025-03-06",
       "event_name": "Test event 2025",
       "event_photo_url": "",
