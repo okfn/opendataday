@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "event_date": "2025-03-01",
+      "event_name": "Contra Costa County Open Government Day",
+      "event_photo_url": "",
+      "event_purpose": "Extract, collect, analyze, and visualize local government data for cities and districts across Contra Costa County.",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 37.8937797,
+      "longitude": -122.0626805,
+      "online_event_url": "",
+      "organisers": "Contra Costa Taxpayers Association",
+      "place": "Walnut Creek, CA, USA",
+      "slug": "contra-costa-county-open-government-day",
+      "url": "https://cocotax.org/event-5980148",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
       "event_date": "2025-03-08",
       "event_name": "Open Data for Data Science Education & Innovation",
       "event_photo_url": "",
