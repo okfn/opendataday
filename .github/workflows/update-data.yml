@@ -13,15 +13,15 @@ jobs:
         with:
           ref: "master"
 
-      - name: Set up Python 3.8
+      - name: Set up Python 3.10
         uses: actions/setup-python@v1
         with:
-          python-version: 3.8
+          python-version: "3.10"
 
-      - name: Set up Node.js 12
+      - name: Set up Node.js 16
         uses: actions/setup-node@v1
         with:
-          node-version: 12.x
+          node-version: 16.x
 
       - name: Install python dependencies
         run: |
