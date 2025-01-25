@@ -12,18 +12,33 @@ intro_heading: Wat is Open Data Day?
 ---
 intro_body:
 
-De Open Data Day is een jaarlijkse evenement ter ere van open data. Voor de negende keer in de geschiedenis tonen mensen wereldwijd de voordelen van open data aan in de hoop open data beleid bij overheden en bedrijven te stimuleren en de voordelen van het publiceren van open data te realiseren.
+**Open Data Day (ODD) is een jaarlijks feest ter ere van open data over de gehele wereld**. Groepen van over de hele wereld organiseren evenementen om open data te promoten, of om open data in hun gemeenschappen te gebruiken.
+ODD wordt onderhouden en ondersteund door de [Open Knowledge Foundation](https://okfn.org) (OKFN) via het [Open Knowledge Network](https://okfn.org/en/network/). 
+
+Om de vertegenwoordiging van verschillende culturen te vergroten, bieden we sinds 2023 organisaties de mogelijkheid om op een door hen gekozen datum binnen een week een Open Data Day-evenement te organiseren.
+
+**Alle uitkomsten zijn open** en mogen door iedereen gebruikt en hergebruikt worden.
 
 ---
 intro_body_2:
 
-Alles wat op Open Data Day wordt gemaakt zal via een open licentie, zoals van Creative Commons, beschikbaar worden gesteld.
+**Thematische focus: Open data om de polycrisis aan te pakken**
+
+Elk jaar is het thema bewust breed gekozen om zo toepasbaar te zijn voor uiteenlopende praktijken en perspectieven van het werken met open data voor het algemeen belang. 
+In 2025 willen we verder gaan dan klimaatrechtvaardigheid en ook andere urgente kwesties van onze tijd aanpakken.  
+Daarom hebben we gekozen voor het thema [polycrisis](https://en.wikipedia.org/wiki/Polycrisis), met specifieke aandacht voor de wisselwerking tussen armoede en meervoudige ongelijkheden, geweld en conflict, en klimaat en rampenbestrijding.
+
 ---
 year_intro:
 
-Voor Open Data Day 2021 verdelen we de activiteiten in vier categoriën.
 ---
-year_label_1: Open **onderzoeksdata**
+theme_title:
+
+---
+theme_description:
+
+---
+year_label_1: Milieu **data**
 ---
 year_label_2: Het volgen van publieke **geldstromen**
 ---
@@ -31,21 +46,28 @@ year_label_3: Open data voor **kaarten**
 ---
 year_label_4: Open data voor **emancipatie**
 ---
-register_text: Publiceer je evenement >
+year_label_5: Oceaan **data** voor een bloeiende planeet
 ---
-events_registered: Evenementen
+register_text: Publiceer je evenement 
+---
+join_the_community: Sluit je aan bij de community
+---
+events_registered: Evenementen geregistreerd in 2025
 ---
 who_heading: Voor wie? Voor iedereen!
 ---
 who_body:
 
-Wanneer je een idee hebt voor het gebruik van open data, op zoek bent naar een interessant project om aan bij te dragen, om te leren hoe je data kunt visualiseren of analyseren of gewoon nieuwsgierig bent, kom dan vooral meedoen! Meedoen is een belangrijk onderdeel van Open Data Day. We nodigen iedereen uit een constructieve bijlage te leveren. Het maakt niet uit wat je kunt of welke interesses je hebt. Wij moedigen organisatoren aan om iedereen de ruimte te geven. Wij willen de open data community zien groeien!
+Wanneer je een idee hebt voor het gebruik van open data, op zoek bent naar een interessant project om aan bij te dragen, om te leren hoe je data kunt visualiseren of analyseren of gewoon nieuwsgierig bent, kom dan vooral meedoen! 
+Meedoen is een belangrijk onderdeel van Open Data Day. 
+We nodigen iedereen uit een constructieve bijlage te leveren. Het maakt niet uit wat je kunt of welke interesses je hebt. 
+Wij moedigen organisatoren aan om iedereen de ruimte te geven. Wij willen de open data community zien groeien!
 ---
 who_title_1: Jou!
 ---
 who_description_1:
 
-Zonder jou zou dit evenement niet kunnen plaatsvinden. We zoeken ideëen, enthousiasme, ja jou! Om open data te delen.
+Zonder jou zou dit evenement niet kplaatsvinden. Waar je ook vandaan komt en wat je achtergrond ook is, we hebben je nodig!
 ---
 who_title_2: Ambtenaren
 ---
@@ -69,7 +91,7 @@ who_title_5: Statisticus
 ---
 who_description_5:
 
-Leer anderen om data te begrijpen door belangrijke verbanden te openbaren.
+Gebruik jouw vaardigheden om de gegevens te begrijpen en er belangrijke inzichten uit te halen.
 ---
 resources_heading: Middelen
 ---
@@ -83,81 +105,66 @@ resources_materials_heading: Materialen
 ---
 resources_materials_text:
 
-Maak een logo voor je evenement met de [logo generator](http://odd.structure-and-representation.com/)!
+Maak een logo voor je evenement met de [officiële logo's](https://drive.google.com/open?id=1iZUlton9SKgtNwr5jQi6V4WLAVa49h_4&usp=drive_fs)!
 ---
 resources_ideas_heading: Ideeën en bronnen
 ---
 resources_ideas_intro:
-
+Hey open data-enthousiasteling! Je hebt net gezien dat Open Data Day van 3-9 maart 2025 is en je bent geïnteresseerd in het organiseren van een evenement? 
+Je enige uitdaging is nu om het idee te vinden dat de juiste snaar raakt. 
 De open data community heeft een aantal ideeën en databronnen op een rijtje gezet. Misschien dat je hier iets mee kunt voor het organiseren van je eigen evenement?
+
+Bezoek de [CKAN-website](https://ckan.org/about/instances/) om alle organisaties over de hele wereld te ontdekken die CKAN gebruiken om hun data te publiceren.
+
+Gebruik [data.world](https://data.world) om data te uploaden of te vinden en organiseer alle aspecten van een project - inclusief data, notebooks, analyses en discussies - in één werkruimte.
+
+Je kan data ook uploaden via [DataHub](https://datahub.io). Je kunt hier datasets publiceren, [zoeken naar relevante data](https://datahub.io/search), [thematische datacollecties doorbladeren](https://datahub.io/collections) en [vragen om hulp](https://gitter.im/datahubio/chat).
+
 ---
-resources_ideas_theme_1: Open data voor onderzoek
+resources_ideas_theme_1: Milieu data
 ---
 resources_ideas_theme_1_text:
 
-* Root data commons - een register voor algemene datasets voor de wetenschap op de website van het OSDC.
-* Open Data beleid van de [US Federal data sharing resource](http://datasharing.sparcopen.org/)
-* Data over klinische proeven [Open Trials](http://opentrials.net/)
-* Text & data mining [Content Mine](http://contentmine.org/)
-* Herbruikbare datasets zoeken [Zenodo](https://zenodo.org/search?page=1&size=20&q=&access_right=open)
+Om milieu- of klimaatgegevens te ontdekken die u kunt gebruiken (ter inspiratie van) jouw Open Data Day-evenement: bezoek de [ResourceWatch.org-site](https://resourcewatch.org/), een [World Resources Institute](https://www.wri.org/) dataportaal; verken [NASA's open data-website](https://open.nasa.gov/open-data/); ga naar [geoportal.org](https://www.geoportal.org) voor aardobservatiegegevens; of ontdek gegevens over bosbedekking/-verlies met [Global Forest Watch](https://www.globalforestwatch.org/).
+
+Als u informatie wilt over rampenrisicobeheer of veerkracht tegen natuurrampen voor uw evenement, bezoek dan de websites van [Global Facility for Disaster Reduction and Recovery Labs](https://www.gfdrr.org/en/gfdrr-labs) of [Open Data for Resilience Initiative](https://opendri.org/) om tools en projecten te ontdekken of open data en bronnen te vinden die u kunt gebruiken via het [Open Cities Africa-project](https://opencitiesproject.org/), [Think Hazard](https://thinkhazard.org/en/), [OpenDRI Index](https://index.opendri.org/) en [Risk Data Library](http://riskdatalibrary.org/).
+
+[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) en de [Open Data Charter's OpenUp guide to climate data](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) kunnen ook nuttig zijn.
 ---
 resources_ideas_theme_2: Publiek geld
 ---
 resources_ideas_theme_2_text:
 
-* [Open Contracting](http://www.open-contracting.org/)
-* [Open Spending](http://next.openspending.org/)
-* [Budget fingeren (satirisch)](http://www.cookingbudgets.com/)
-* [Panama Papers](https://panamapapers.icij.org/)
-* [Ontwikkelingshulp](http://www.developmentcheck.org/)
+De websites van [Open Contracting Partnership](https://www.open-contracting.org) en Hivos' [Open Up Contracting](https://www.openupcontracting.org/) bieden informatie voor mensen die Open Data Day-evenementen willen organiseren die gericht zijn op overheidsaanbestedingen en -uitgaven. Zie ook: de [Open Data Charter-gids voor het gebruik van open data om corruptie te bestrijden](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/).
 ---
-resources_ideas_theme_3: Open data voor het milieu
+resources_ideas_theme_3: Open kaarten
 ---
 resources_ideas_theme_3_text:
-##### Droogte
-* [Hack 4 Water (Zuid Afrika)](http://www.hack4water.org.za/ https://www.dwa.gov.za/events/hack4water/default.aspx)
+Zie de volgende websites voor meer informatie over open kaarten: [Mapbox](https://www.mapbox.com), [OpenStreetMap](https://www.openstreetmap.org/) en [Humanitarian OpenStreetMap](https://www.hotosm.org/).
 
-##### Overstroming
-* FloodAlerts is een website waarmee het Britse Milieu Agentschap inwoners van Engeland informeert over overstromingen.
-* UNOCHA rapport van December 2016 over El Nino in Oost en Zuid Afrika.
-* De gevolgen wanneer de Kariba dam zou instorten (op de grens van Zambia en Zimbabwe)
-
-##### Ontbossing
-Global Forest Watch levert verschillende datasets over bossen en oerwouden.
-
-##### Vervuiling
-* [Sensor data](https://www.opensensors.io)
-* [Open Development Mekong](https://opendevelopmentmekong.net/)
-
-##### Delfstoffen
-* [Open Oil](http://openoil.net/contract-modeling/) heeft verschillende modellen vrijgegeven.
-* Extract-A-Fact, een project van Publish What You Pay, is een toolset om feiten over de Delfstoffen industrie te achterhalen.
-
-##### Branden
-* Aardobservatie
-* Global Forest Watch’s brandendata/kaart
 ---
-resources_ideas_theme_5: Algemeen
----
-resources_ideas_theme_5_text:
-
-Gebruik [data.world](https://data.world) om data te zoeken of te plaatsen van allerlei bronnen op een plek.
----
-resources_ideas_theme_4: Open data voor human rights
+resources_ideas_theme_4: Open data voor emancipatie
 ---
 resources_ideas_theme_4_text:
 
-* [LGBTQ rechten](http://www.lgbtdata.com/)
-* Oorlogsmisdaden
-* Immigratie
-* Internet shutdowns - Zoek naar manieren om informatie te combineren van AccessNow, Dyn Research, Akamai (SOTI)
-* Belastingen - Mogelijk is er een verband tussen belasting en mensenrechten?
-* Armoede monitoren in steden
+Het [Centre for Humanitarian Data](https://data.humdata.org) heeft meer dan 17.000 humanitaire open datasets beschikbaar via het CKAN-portaal op [data.humdata.org](https://data.humdata.org/). Of gebruik de [United Nations' Open SDG Data Hub](https://unstats-undesa.opendata.arcgis.com), het [World Bank Open Data-portaal](https://data.worldbank.org) of de grote data-harvestingsportals zoals het [European Data Portal](https://data.europa.eu/en).
+
+---
+resources_ideas_theme_5: Oceaan data voor een bloeiende planeet
+---
+resources_ideas_theme_5_text:
+
+Algemene portals voor oceaangegevens zijn onder andere [EMODNet](https://emodnet.ec.europa.eu/en) en de [Pacific Data Hub](https://pacificdata.org/). 
+Voor oceanografische gegevens - kaarten van de zeebodem, temperaturen, stromingen - zie [International Oceanographic Data Exchange](https://uk-ioc.org/IODE) en [Schmidt Ocean Institute](https://schmidtocean.org/data/). 
+Voor gegevens over het leven in de oceaan probeer het [Ocean Biological Information System](https://obis.org/), het [Global Biological Information System](https://www.gbif.org/) en het [Ocean Tracking Network](https://members.oceantrack.org/OTN/projects). [Global Fishing Watch](https://globalfishingwatch.org/datasets-and-code/) richt zich op de visserij, met name op volle zee en [Marine Traffic](https://www.marinetraffic.com/) toont allerlei soorten vaartuigen.
 ---
 support_scheme_heading: Ondersteuning
 ---
 support_scheme_body:
-Er zijn fondsen beschikbaar voor de 2019 International Open Data Day! Klik op onderstaande knop om meer te lezen over hoe je in aanmerking komt voor dit geld (in het Engels):
+Elk jaar biedt de [Open Knowledge Foundation](https://okfn.org/en/) (OKFN) samen met verschillende ondersteunende partners kleine financiële bijdragen in de vorm van mini-beurzen aan welke gebruikt kunnen worden om evenementen over de hele wereld te promoten. Blijf op de hoogte via onze sociale mediakanalen en onze nieuwsbrief om erachter te komen wanneer de volgende oproep wordt geopend.
+
+In 2024 werden in totaal 26 beurzen aangeboden in twee categoriën (één algemeen en de andere gericht op open kaarten) dankzij de steun van [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT), [Jokkolabs Banjul](https://okfn.org/en/gambia/), [Open Knowledge Germany](https://okfn.de/), [Datopian](https://www.datopian.com/) en [Link Digital](https://linkdigital.com.au/).
 ---
-support_scheme_button: Ik wil meer weten over ondersteuning!
+support_scheme_button: Maak kennis met de winnaars van 2024
+
 ---
