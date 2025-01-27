@@ -2,37 +2,37 @@ _model: home
 ---
 banner_link: what
 ---
-next_date: 2024-03-02
+next_date: 2025-03-02
 ---
 
 
 
-title: Celebra los #datosabiertos allí donde estés
+title: Celebra los #datosabiertos donde estés
 ---
 banner_heading_1: Únete. Organiza. Apoya.
 ---
 banner_heading_2: Celebra los datos abiertos
 ---
-banner_heading_3: allí donde estés.
+banner_heading_3: donde estés
 
 ---
-intro_heading: ¡Marque su agenda! 2-8 de marzo de 2024
+intro_heading: ¡Anótalo en tu agenda!  1-7 de marzo, 2025
 
 ---
 intro_body:
 
-**El Día de los Datos Abiertos es una celebración anual de los datos abiertos alrededor del mundo**. En estos días, grupos de probablemente todos los países crean eventos locales para utilizar y promover los datos abiertos en sus comunidades. El ODD está dirigido por la [Open Knowledge Foundation](https://okfn.org) (OKFN) y la edición de este año está coorganizada por [Jokkolabs Banjul](https://okfn.org/en/gambia/) (Gambia), [Open Knowledge Alemania](https://okfn.de/), [Open Knowledge Ghana](https://okfn.org/en/ghana/), y [Open Knowledge Nepal](https://oknp.org/), organizaciones parte de la [Red Open Knowledge](https://okfn.org/en/network/).
+**El Día de los Datos Abiertos (ODD, por sus siglas en inglés) es una celebración anual de los datos abiertos en todo el mundo**. Grupos de casi todos los países organizan eventos locales para usar y promover los datos abiertos en sus comunidades. El ODD está organizado por la [Open Knowledge Foundation](https://okfn.org/es/) (OKFN) a través de la [Red Open Knowledge](https://okfn.org/es/red/).
 
-Para aumentar la representación de diferentes culturas, desde 2023 es posible organizar un evento no solo en un día, sino a lo largo de una semana. En 2024, el Día de los Datos Abiertos tendrá lugar entre el 2 y el 8 de marzo.  
+Para aumentar la representación de diferentes culturas, desde 2023 ofrecemos a las organizaciones la oportunidad de celebrar un evento del Día de los Datos Abiertos durante el día que elijan dentro de la semana estipulada. 
 
-**Los resultados generados en cada evento están abiertos** a todo el mundo para su uso y reutilización.
+**Los resultados que se obtengan en los eventos estarán disponibles** a todo el mundo para que puedan reutilizarse libremente.
 
 ---
 intro_body_2:
 
-**Tema destacado: Datos abiertos para impulsar los Objetivos de Desarrollo Sostenible (ODS).**
+**Foco temático: Datos abiertos para afrontar la policrisis**  
 
-El año pasado, CKAN fue reconocido como bien público digital. Así que en 2024 exploraremos cómo los datos abiertos son un factor clave para ayudar a alcanzar los Objetivos de Desarrollo Sostenible de la ONU.
+Cada año, el tema es deliberadamente amplio para dar lugar a prácticas y perspectivas diversas sobre el trabajo con datos abiertos para el interés público. En 2025, queremos abordar algunas de las cuestiones más urgentes de nuestra época e ir más allá de la justicia climática. Por eso estamos desarrollando el tema en torno al concepto de [policrisis](https://en.wikipedia.org/wiki/Polycrisis) y, más concretamente, a las intersecciones entre la pobreza y las múltiples desigualdades, la violencia y los conflictos, y la respuesta al clima y las catástrofes.
 
 ---
 year_intro:
@@ -44,68 +44,77 @@ theme_title:
 theme_description:
 
 ---
-year_label_1: Environmental **data**
+year_label_1: Datos **ambientales**
 ---
-year_label_2: Tracking public **money** flows
+year_label_2: Seguimiento de flujo de **fondos públicos**
 ---
-year_label_3: Open **mapping**
+year_label_3: **Mapas** abiertos
 ---
-year_label_4: Data for **equal development**
+year_label_4: Datos para el **desarrollo equitativo**
 ---
-year_label_5: Ocean **data** for a thriving planet
+year_label_5: **Datos oceánicos** para un planeta próspero
 ---
 register_text: Registra tu evento
 ---
-join_the_community: Participa de la comunidad
+join_the_community: Únete a la comunidad
 ---
-events_registered: eventos registrados en 2024
+events_registered: eventos registrados en el 2025
 ---
 who_heading: ¡El Día de los Datos Abiertos es para todo el mundo!
 ---
 who_body:
 
-Si tienes una idea para utilizar datos abiertos, quieres encontrar un proyecto interesante al que contribuir, aprender a visualizar o analizar datos o simplemente quieres ver qué se cuece, ¡ven y participa! 
-
-La participación es un valor esencial del Día de los Datos Abiertos. Todo el mundo es libre de dar su opinión de forma constructiva. Sean cuales sean tus conocimientos o intereses, animamos a lxs organizadores a que te brinden oportunidades para aprender y ayudar a crecer a la comunidad mundial de datos abiertos. 
-  
+Si tienes una idea para usar datos abiertos, quieres encontrar un 
+proyecto interesante al que contribuir, aprender a visualizar o analizar 
+datos o simplemente quieres ver qué está pasando, ¡participa!  
+ 
+La participación es un valor fundamental del Día de los Datos Abiertos 
+y todo el mundo es libre de expresar sus opiniones de manera constructiva. Independientemente de tus conocimientos o intereses, animamos a quienes 
+organizan a que fomenten oportunidades para que aprendas y ayudes 
+a crecer a la comunidad mundial de datos abiertos. 
+ 
 ---
-who_title_1: La gente
+who_title_1: Personas
 ---
 who_description_1:
 
-El Día de los Datos Abiertos es un evento que nace de la gente. Si somos más, más eco tendremos. Son bienvenidas todas las personas que traigan ideas, promotorxs de proyectos y amigxs que ayuden a pasar la voz.
+Necesitamos tu apoyo. Si no fuera por ti, nada de todo esto estaría pasando. 
+Sin importar de donde vengas o cual sea tu historia, te necesitamos.
+
 
 ---
-who_title_2: Servidorxs públicos
+who_title_2: Funcionarixs públicos
 ---
 who_description_2:
 
-Sus contribuciones son muy valiosas por cuanto entienden el contexto en el que se trabaja con ciertos datos, por lo que su visión y experiencia nos puede ayudar a mejorar los datos abiertos de los propios gobiernos. Vengan a conversar y a aprender cooperativamente.
+Tu contribución y experiencia pueden ayudarnos a mejorar los datos gubernamentales. Ven a conversar y aprender.
 
 ---
 who_title_3: Diseñadorxs
 ---
 who_description_3:
 
-Ayuden a hacer que los datos sean cercanos, para que más personas los utilicen y los entiendan.
+Ayúdanos a hacer que los datos abiertos sean accesibles, para que más personas puedan entenderlos y usarlos.
 ---
 who_title_4: Desarrolladorxs
 ---
 who_description_4:
 
-Utilicen sus habilidades para desarrollar soluciones que puedan ayudar a solucionar problemas sociales importantes.
+Ayúdanos a desarrollar soluciones enfocadas en problemáticas sociales.
+
 ---
 who_title_5: Estadísticxs
 ---
 who_description_5:
 
-Utilicen sus habilidades para entender los datos y aprender de ellos.
+Usa tus conocimientos para ayudarnos a entender y obtener información de los datos.
+
 ---
-resources_heading: Recursos para Eventos
+resources_heading: Recursos para eventos
 ---
 resources_intro:
 
-¿Necesitas inspiración para un evento?, ¿no sabes dónde encontrar los datos que necesitas? Revisa nuestros recursos para eventos.
+¿Necesitas inspiración para un evento del Día de los Datos Abiertos, o no sabes dónde encontrar los datos que necesitas? Consulta nuestros recursos para eventos.
 
 ---
 resources_button: Recursos
@@ -114,73 +123,73 @@ resources_materials_heading: Materiales
 ---
 resources_materials_text:
 
-Cree un logotipo para el evento en su ciudad utilizando el [logotipo oficial](https://drive.google.com/open?id=1iZUlton9SKgtNwr5jQi6V4WLAVa49h_4&usp=drive_fs)!
+Crea un logo para el evento en tu ciudad usando el [logo oficial](https://drive.google.com/open?id=1iZUlton9SKgtNwr5jQi6V4WLAVa49h_4&usp=drive_fs)!
 ---
 resources_ideas_heading: Ideas y fuentes de datos
 ---
 resources_ideas_intro:
 
-¡Hola entusiasta de los datos abiertos! ¿Acabas de ver que el Día de los Datos Abiertos será del 2 al 8 de marzo de 2024 y estás interesadx en organizar un evento en tu localidad? Tu único reto ahora es encontrar la idea que dé en el clavo. Nuestrxs amigxs de la comunidad de datos abiertos tienen algunas ideas y fuentes de datos que merece la pena consultar.
+¡Hola entusiasta de los datos abiertos! ¿Viste que el Día de los Datos Abiertos será del 1 al 7 de marzo del 2025 y te interesa organizar un evento en tu localidad? Tu único reto ahora es encontrar la idea correcta. La comunidad de datos abiertos tiene algunas ideas y fuentes de datos que vale la pena revisar.
 
-Visita [CKAN website](https://ckan.org/about/instances/) para descubrir todas las organizaciones del mundo que utilizan CKAN para publicar sus datos.
+Visita la [página web de CKAN](https://ckan.org/about/instances/) para descubrir todas las organizaciones alrededor del mundo que usan CKAN para publicar sus datos.
 
-Utiliza [data.world](https://data.world) para cargar o encontrar datos de muchas fuentes y organizar todos los aspectos de un proyecto -incluidos datos, cuadernos, análisis y discusiones- en un único espacio de trabajo.
+Usa [data.world](https://data.world) para subir o encontrar datos de distintas fuentes y organizar todos los aspectos de un proyecto - incluyendo datos, notebooks, análisis y discusiones - en un único lugar.
 
-Si tienes datos pero no sabes dónde colocarlos, puedes utilizar [DataHub](https://datahub.io). Puede publicar conjuntos de datos, [buscar datos relevantes](https://datahub.io/search), [explorar colecciones de datos temáticos](https://datahub.io/collections) y [solicitar ayuda](https://gitter.im/datahubio/chat) con su publicación de datos abiertos.
+Si tienes datos pero no sabes dónde ponerlos, puedes usar [DataHub](https://datahub.io). Puedes publicar datasets, [buscar datos](https://datahub.io/search), [explorar colecciones de datos por temática](https://datahub.io/collections) y [pedir ayuda](https://gitter.im/datahubio/chat) para publicar tus datos.
 
 ---
-resources_ideas_theme_1: Datos medioambientales
+resources_ideas_theme_1: Datos ambientales
 ---
 resources_ideas_theme_1_text:
 
-Para descubrir datos medioambientales o climáticos que utilizar o en los que inspirarse para tu evento del Día de los Datos Abiertos: visita [ResourceWatch.org site](https://resourcewatch.org/), un portal de datos del [World Resources Institute](https://www.wri.org/); explora [el portal de dados abiertos de NASA](https://open.nasa.gov/open-data/); diríjete a [geoportal.org](https://www.geoportal.org) para obtener datos de observación de la Tierra; o descubre datos sobre cubierta forestal/pérdida de bosques con [Global Forest Watch](https://www.globalforestwatch.org/).
+Si te interesa descubrir datos ambientales o climáticos para usar e inspirarte, visita [el sitio ResourceWatch.org](https://resourcewatch.org/), un portal de datos del [World Resources Institute](https://www.wri.org/); explora el [sitio de datos abiertos de la NASA](https://open.nasa.gov/open-data/); [geoportal.org](https://www.geoportal.org) para datos de observación de la Tierra; o descubre datos de cobertura/pérdida de bosques con [Global Forest Watch](https://www.globalforestwatch.org/).
 
-Si deseas información sobre gestión del riesgo de catástrofes o resiliencia ante peligros naturales para tu evento, visita los sitios web [Global Facility for Disaster Reduction and Recovery Labs](https://www.gfdrr.org/en/gfdrr-labs) o [Open Data for Resilience Initiative](https://opendri.org/) para descubrir herramientas y proyectos, o encuentra datos abiertos y recursos para utilizar a través del proyecto [Open Cities Africa](https://opencitiesproject.org/), [Think Hazard](https://thinkhazard.org/en/), [OpenDRI Index](https://index.opendri.org/) y [Risk Data Library](http://riskdatalibrary.org/).
+Si quieres información sobre manejo de riesgo o resiliencia durante catástrofes naturales para tu evento, visita las webs de [Global Facility for Disaster Reduction and Recovery Labs](https://www.gfdrr.org/en/gfdrr-labs) o [Open Data for Resilience Initiative](https://opendri.org/) para descubrir herramientas y proyectos, o encontrar datos abiertos para usar a través del [proyecto Open Cities Africa](https://opencitiesproject.org/), [Think Hazard](https://thinkhazard.org/en/), [OpenDRI Index](https://index.opendri.org/) y [Risk Data Library](http://riskdatalibrary.org/).
 
-[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) y la [guia para datos del clima de Open Data Charter](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) también pueden ofrecer orientación y asesoramiento útiles.
+[OpenOil](http://openoil.net), [Extract-a-Fact](http://www.extractafact.org/) y [la guía de datos climáticos del Open Data Charter's OpenUp](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-advance-climate-a/) también pueden ser útiles.
+
 ---
 [//]: # (resources_ideas_theme_2:
 ---
 resources_ideas_theme_2_text:
 
 ---
-resources_ideas_theme_3: Seguimiento de los flujos de dinero público
+resources_ideas_theme_3: Seguimiento del flujo de fondos públicos
 ---
 resources_ideas_theme_3_text:
 
-Los sitios web de [Open Contracting Partnership](https://www.open-contracting.org) y [Open Up Contracting](https://www.openupcontracting.org/) de Hivos ofrecen numerosas orientaciones y ejemplos para quienes deseen organizar actos del Día de los Datos Abiertos centrados en la contratación y el gasto públicos. Véase también: [Open Data Charter guide to using open data to combat corruption](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/).
+Los sitios web de la [Open Contracting Partnership](https://www.open-contracting.org/es/) y la [Open Up Contracting](https://www.openupcontracting.org/) de Hivos proveen una excelente guía y muchos ejemplos para quienes quieran organizar eventos del Día de los Datos Abiertos enfocados en el uso de fondos públicos. También puede interesarte la [guía de uso de datos abiertos para combatir la corrupción del Open Data Charter](https://open-data-charter.gitbook.io/open-up-guide-using-open-data-to-combat-corruption/).
 ---
-resources_ideas_theme_4: Mapeo abierto
+resources_ideas_theme_4: Maps abiertos
 ---
 resources_ideas_theme_4_text:
 
-Más información sobre cartografía abierta en los sitios web [Mapbox](https://www.mapbox.com), [OpenStreetMap](https://www.openstreetmap.org/) y [Humanitarian OpenStreetMap](https://www.hotosm.org/).
+Descubre más sobre mapas abiertos en los sitios web de [Mapbox](https://www.mapbox.com), [OpenStreetMap](https://www.openstreetmap.org/) y [Humanitarian OpenStreetMap](https://www.hotosm.org/).
 
 ---
 resources_ideas_theme_5: Datos para un desarrollo equitativo
 ---
 resources_ideas_theme_5_text:
 
-El [Centro de Datos Humanitarios](https://data.humdata.org) cuenta con más de 17.000 conjuntos de datos humanitarios abiertos disponibles a través del portal impulsado por CKAN en [data.humdata.org](https://data.humdata.org/) que pueden ayudar a poner de relieve cuestiones clave sobre la igualdad en el desarrollo. También puede visitar [United Nations' Open SDG Data Hub](https://unstats-undesa.opendata.arcgis.com), el [World Bank Open Data portal](https://data.worldbank.org) o los grandes portales de recopilación de datos como el [European Data Portal](https://data.europa.eu/en).
+El [Centro de Datos Humanitarios](https://data.humdata.org) cuenta con más de 17000 sets de datos abiertos disponibles a través de su portal basado en CKAN, que pueden ayudar a destacar problemas clave sobre el desarrollo equitativo. También puedes visitar [el portal de datos abiertos de SDG de Naciones Unidas](https://unstats-undesa.opendata.arcgis.com), el [portal de datos abiertos del Banco Mundial](https://data.worldbank.org) o grandes portales de recopilación datos abiertos como el [portal oficial de datos europeos](https://data.europa.eu/es).
 
 ---
 resources_ideas_theme_6: Datos oceánicos para un planeta próspero
 ---
 resources_ideas_theme_6_text:
 
-Los portales generales de datos oceánicos son [EMODNet](https://emodnet.ec.europa.eu/en) y [Pacific Data Hub](https://pacificdata.org/). Para obtener datos oceanográficos (mapas del fondo marino, temperaturas, corrientes), visite [International Oceanographic Data Exchange](https://uk-ioc.org/IODE) y [Schmidt Ocean Institute](https://schmidtocean.org/data/). Para datos sobre la fauna oceánica, visite el [Ocean Biological Information System](https://obis.org/), el [Global Biological Information System](https://www.gbif.org/) y la [Ocean Tracking Network]( https://members.oceantrack.org/OTN/projects). [Global Fishing Watch](https://globalfishingwatch.org/datasets-and-code/) se centra en la pesca, especialmente en alta mar, y [Marine Traffic](https://www.marinetraffic.com/) muestra todo tipo de embarcaciones.
+Portales generales de datos oceánicos incluyen [EMODNet](https://emodnet.ec.europa.eu/en) y el [Pacific Data Hub](https://pacificdata.org/). Para datos oceanográficos, como mapas del suelo oceánico, temperaturas y corrientes, visita el [International Oceanographic Data Exchange](https://iode.org/) y el [Schmidt Ocean Institute](https://schmidtocean.org/data/). Para datos sobre fauna, visita el [Ocean Biological Information System](https://obis.org/), el [Global Biological Information System](https://www.gbif.org/) y la [Ocean Tracking Network]( https://members.oceantrack.org/). La [Global Fishing Watch](https://globalfishingwatch.org/datasets-and-code/) se enfoca en la pesca, particularmente en alta mar, y [Marine Traffic](https://www.marinetraffic.com/) muestra todo tipo de embarcaciones.
 
 ---
-support_scheme_heading: ¡Patrocina!
+support_scheme_heading: Tu evento merece apoyo
 ---
 support_scheme_body:
 
-Creemos que trabajar en alianzas es la clave para maximizar nuestro impact.
+Cada año, junto con distintas organizaciones colaboradoras, la [Open Knowledge Foundation](https://okfn.org/es/) (OKFN) ofrece pequeñas contribuciones económicas en forma de mini-becas para ayudar a promover eventos presenciales en todo el mundo. Sigue las actualizaciones en nuestras redes sociales y nuestro newsletter para enterarte cuándo se abrirá el siguiente llamado (suele ser en enero).
 
-La Open Knowledge Foundation busca socixs para apoyar el Día de los Datos Abiertos en 2024.
-
-Descubra las ventajas de ser patrocinadorx y considere la posibilidad de unirse a nosotros en la mayor y más importante celebración mundial de los datos abiertos. Para más información, póngase en contacto con [info@okfn.org](mailto:info@okfn.org).
+En 2024, ofrecimos un total de 26 becas en dos llamados (uno general y uno enfocado en mapas abiertos) gracias al apoyo de [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT), [Jokkolabs Banjul](https://okfn.org/en/gambia/), [Open Knowledge Germany](https://okfn.de/), [Datopian](https://www.datopian.com/), y [Link Digital](https://linkdigital.com.au/).
 
 ---
-support_scheme_button: Kit de Patrocinio
+support_scheme_button: Conoce a los ganadores del 2024
 ---
+
