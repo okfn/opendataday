@@ -153,6 +153,25 @@
       "world_region_text": ""
     },
     {
+      "event_date": "2025-03-01",
+      "event_name": "Open Data Day Munich 2025",
+      "event_photo_url": "",
+      "event_purpose": "A day all about Open Data: lectures and workshops will provide impulses and insights into the multifaceted world of data, and special offers to get to know each other, network and exchange ideas await the participants.",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 48.135124,
+      "longitude": 11.581981,
+      "online_event_url": "",
+      "organisers": "City of Munich, byte - The Bavarian Agency for Digital Affairs, OK Lab Munich",
+      "place": "Muncih",
+      "slug": "open-data-day-munich-2025",
+      "url": "https://veranstaltungen.muenchen.de/rit/veranstaltungen/open-data-day-muenchen-2025/",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
       "event_date": "2025-03-08",
       "event_name": "Open Data for Data Science Education & Innovation",
       "event_photo_url": "",
