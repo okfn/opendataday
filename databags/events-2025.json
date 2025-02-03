@@ -39,6 +39,25 @@
       "world_region_text": ""
     },
     {
+      "event_date": "2025-02-21",
+      "event_name": "Azad-on on ODD",
+      "event_photo_url": "",
+      "event_purpose": "\u0639\u062f\u0627\u0644\u062a \u0627\u062c\u062a\u0645\u0627\u0639\u06cc\u060c \u062f\u0627\u062f\u0647\u200c\u0647\u0627\u06cc \u0622\u0632\u0627\u062f\u060c \u0627\u0647\u062f\u0627\u0641 \u0648 \u0631\u0627\u0647\u06a9\u0627\u0631\u0647\u0627",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 35.699434,
+      "longitude": 51.338097,
+      "online_event_url": "",
+      "organisers": "Azad-on (Mostafa Ahangarha)",
+      "place": "Tehran (or online)",
+      "slug": "azad-on-on-odd",
+      "url": "https://azad-on.com",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
       "event_date": "2025-03-05",
       "event_name": "Conference on datas collection ",
       "event_photo_url": "",
@@ -529,6 +548,25 @@
       "place": "Yamaga-shi, Kumamoto 8610541 JAPAN",
       "slug": "wikimediadeshan-lu-li-qian-jie-dao-woqian-dai-niba-qian-dai-ni",
       "url": "https://iodd2025kumamoto.peatix.com/",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
+      "event_date": "2025-03-07",
+      "event_name": "\u0631\u0648\u0632 \u062f\u0627\u062f\u0647\u0654 \u0622\u0632\u0627\u062f \u06f1\u06f4\u06f0\u06f3 \u0622\u0632\u0627\u062f\u0627\u0646",
+      "event_photo_url": "",
+      "event_purpose": "\u0628\u0631\u0631\u0633\u06cc \u0627\u0647\u0645\u06cc\u062a \u0648 \u0631\u0627\u0647\u06a9\u0627\u0631\u0647\u0627\u06cc \u062a\u0648\u0644\u06cc\u062f \u0648 \u0627\u0633\u062a\u0641\u0627\u062f\u0647 \u0627\u0632 \u062f\u0627\u062f\u0647\u200c\u0647\u0627\u06cc \u0622\u0632\u0627\u062f",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 35.699752,
+      "longitude": 51.338049,
+      "online_event_url": "",
+      "organisers": "\u0622\u0632\u0627\u062f\u0627\u0646 / \u0645\u0635\u0637\u0641\u06cc \u0622\u0647\u0646\u06af\u0631\u0647\u0627",
+      "place": "Tehran (or online)",
+      "slug": "rwz-ddh-azd-1403-azdn",
+      "url": "https://odd1403.azad-on.com/",
       "world_region_code": "",
       "world_region_text": ""
     }
