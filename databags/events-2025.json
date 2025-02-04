@@ -362,6 +362,25 @@
       "world_region_text": ""
     },
     {
+      "event_date": "2025-02-07",
+      "event_name": "Open Data Day Pakistan ",
+      "event_photo_url": "",
+      "event_purpose": "Raise Awareness for Open Access, Open Data, and Open Society",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 30.37,
+      "longitude": 69.34,
+      "online_event_url": "",
+      "organisers": "Pak Education Society / Pakistan Development Network and Shoki Enterprises ",
+      "place": "Karachi",
+      "slug": "open-data-day-pakistan",
+      "url": "",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
       "event_date": "2025-03-05",
       "event_name": "Open Data Expo 2025",
       "event_photo_url": "",
