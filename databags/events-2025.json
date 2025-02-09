@@ -362,6 +362,25 @@
       "world_region_text": ""
     },
     {
+      "event_date": "2025-03-08",
+      "event_name": "Open Data Day Curitiba 2025",
+      "event_photo_url": "",
+      "event_purpose": "The event will bring together the local community to explore and research the city's open data, promoting knowledge and engagement among new participants in the use and development of public data.",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": -25.480877,
+      "longitude": -49.304424,
+      "online_event_url": "",
+      "organisers": "Terra\u00e7o Verde e Ricardo Mendes Jr ricardomendesjr@gmail.com",
+      "place": "Curitiba",
+      "slug": "open-data-day-curitiba-2025",
+      "url": "https://opendataday.curitiba.br/",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
       "event_date": "2025-03-01",
       "event_name": "Open Data Day Flensburg - rund um Karten und Daten",
       "event_photo_url": "",
