@@ -83,7 +83,7 @@ function getLink(url) {
 function getDescription(event) {
   var htmlStr = '<strong>Event:</strong> ' + event.event_name;
 
-  var date = event.event_date ? new Date(event.event_date).toDateString() : '';
+  var date = event.event_date;
   if (date) {
     htmlStr += '<br><strong>Date:</strong> ' + date;
   }
