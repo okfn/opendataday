@@ -2376,6 +2376,25 @@
       "world_region_text": ""
     },
     {
+      "event_date": "2025-03-22",
+      "event_name": "Open Data Days 2025",
+      "event_photo_url": "",
+      "event_purpose": "Make people aware about need and importance of open data and also how to collect, process and visualize it.",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 8.616442,
+      "longitude": 76.852592,
+      "online_event_url": "",
+      "organisers": "OpendataKerala, Sahya Digital Conservation Foundation, Wikimedians of Kerala User Group, Data Meet, Digital University Kerala ",
+      "place": "Digital University Kerala, Thiruvananthapuram",
+      "slug": "open-data-days-2025",
+      "url": "https://opendatakerala.org/post/2025/03/19/odd2025/",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
       "event_date": "2025-03-08",
       "event_name": "Open data des femmes litt\u00e9raires et scientifiques du Cameroun",
       "event_photo_url": "",
