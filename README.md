@@ -37,14 +37,14 @@ If we are adding new language to the site we also need to:
 
 Requirements:
 - Python >= 3.10
-- Node JS >= 10
-- NPM >= 7
+- Node JS >= 20
+- NPM >= 10
 
 Setup:
 - Create a python >=3.10 virtual environment
 - Base requirements are defined in the `requirements.in` file (to ejecute `pip-compile` it's required to update `requirements.txt`)
 - `pip install -r requirements.txt`
-- `nvm use 19`
+- `nvm use 20`
 - `npm ci`
 - `lektor server`
 - http://127.0.0.1:5000/
@@ -84,7 +84,7 @@ This script will attempt to read the data from the Google Sheet so you need to e
 
 - **1. Create a new import job:**
     - Create `./etl/202x.py` based on a previous year's file
-    - Fill in `SPREADSHEET_ID`, `SHEET_ID` and `THIS_YEAR`
+    - Fill in `PUBLISH_ID`, `SHEET_ID` and `THIS_YEAR`
     - Update schema as applicable if the spreadsheet has changed, but we want to keep the JSON output the same if possible as every year's events page uses the same template to render the JSON to HTML
     - Replace the [GitHub workflow update-data.yml](/.github/workflows/update-data.yml) with the new job tu run `python ./etl/202X.py`. We don't need to keep running last year's script.
     - Once we've run the job for the first time it will create a `/databags/202x.json` file. This is consumed by the events list page and the events map
