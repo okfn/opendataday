@@ -10,7 +10,7 @@ IN_URL = f'https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/export?format
 # If you have permission and want to see (not download) the spreadsheet
 # EDIT_URL = f'https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/edit#gid={SHEET_ID}'
 
-THIS_YEAR = 2025
+THIS_YEAR = 2026
 JSON_OUT_FILE = Path(__file__).absolute().parent.parent / 'databags' / f'events-{str(THIS_YEAR)}.json'
 CSV_OUT_FILE = Path(__file__).absolute().parent.parent / 'Datasets' / f'Events {str(THIS_YEAR)}.csv'
 REPORTS_DIR = Path(__file__).absolute().parent.parent / 'content' / 'events' / str(THIS_YEAR) / 'reports'

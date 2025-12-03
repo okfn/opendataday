@@ -1,0 +1,23 @@
+{
+  "events": [
+    {
+      "event_date": "2026-03-04",
+      "event_name": "Test event",
+      "event_photo_url": "",
+      "event_purpose": "Test event",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": -31.59,
+      "longitude": -64.49,
+      "online_event_url": "",
+      "organisers": "Test organizer",
+      "place": "Cordoba, Argentina",
+      "slug": "test-event",
+      "url": "https://test-event.org",
+      "world_region_code": "",
+      "world_region_text": ""
+    }
+]
+}
