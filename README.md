@@ -11,6 +11,7 @@ Check <http://opendataday.org> for public website.
 ## Editing / contributing
 
 * This site is built with [Lektor](https://www.getlektor.com/).
+* npm is required (`sudo apt install nodejs npm` on Ubuntu).
 * Install dependencies: `make install`
 * Start dev server: `make serve`
 * `grunt` will watch for changes to your [SCSS files](https://github.com/okfn/opendataday/tree/master/assets/scss), and also [icons](https://github.com/okfn/opendataday/tree/master/assets/icons) (see [svgstore](https://github.com/FWeinb/grunt-svgstore)).
@@ -36,14 +37,14 @@ If we are adding new language to the site we also need to:
 
 Requirements:
 - Python >= 3.10
-- Node JS >= 10
-- NPM >= 7
+- Node JS >= 20
+- NPM >= 10
 
 Setup:
 - Create a python >=3.10 virtual environment
 - Base requirements are defined in the `requirements.in` file (to ejecute `pip-compile` it's required to update `requirements.txt`)
 - `pip install -r requirements.txt`
-- `nvm use 19`
+- `nvm use 20`
 - `npm ci`
 - `lektor server`
 - http://127.0.0.1:5000/
@@ -75,14 +76,15 @@ These will need to be resolved by editing the input spreadsheet.
 
 There are three bits of setup we need to do each year:
 
-Before we start, we will need a Google Form and a Google Sheet to collect the event data.  
-This is the 2023 form: https://docs.google.com/forms/d/e/1FAIpQLSc5wiXeUur8GHMKmi1TQIMxwk107eMJVN6UVoibIfUwGZfc7A/viewform  
+Before we start, we will need a Google Form and a Google Sheet to collect the event data. [This is the 2026 form](https://docs.google.com/forms/d/1BkqYBPSaqQnpNzl1ml0hByydQn-823MylOaAZzTAZzY/edit).  
+You can just duplicate last year's form and create a new Google Sheet for responses.  
+Also, ensure you allow view access for everyone with the link to the google sheet to allow the ETL script to read the data.  
 The Google Sheet identificators must be added to the `/etl/202x.py` file.  
 This script will attempt to read the data from the Google Sheet so you need to ensure this sheet is public.
 
 - **1. Create a new import job:**
     - Create `./etl/202x.py` based on a previous year's file
-    - Fill in `SPREADSHEET_ID`, `SHEET_ID` and `THIS_YEAR`
+    - Fill in `PUBLISH_ID`, `SHEET_ID` and `THIS_YEAR`
     - Update schema as applicable if the spreadsheet has changed, but we want to keep the JSON output the same if possible as every year's events page uses the same template to render the JSON to HTML
     - Replace the [GitHub workflow update-data.yml](/.github/workflows/update-data.yml) with the new job tu run `python ./etl/202X.py`. We don't need to keep running last year's script.
     - Once we've run the job for the first time it will create a `/databags/202x.json` file. This is consumed by the events list page and the events map
@@ -102,6 +104,7 @@ This script will attempt to read the data from the Google Sheet so you need to e
 For reference, you can check the:
  - [PR for the 2022 update](https://github.com/okfn/opendataday/pull/345)
  - [PR for the 2025 update](https://github.com/okfn/opendataday/pull/411)
+ - [PR for the 2026 update](https://github.com/okfn/opendataday/pull/421)
 
 ## Previous version
 
