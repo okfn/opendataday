@@ -36,12 +36,12 @@ If we are adding new language to the site we also need to:
 ## Running the site locally
 
 Requirements:
-- Python >= 3.10
+- Python >= 3.12
 - Node JS >= 20
 - NPM >= 10
 
 Setup:
-- Create a python >=3.10 virtual environment
+- Create a python >=3.12 virtual environment
 - Base requirements are defined in the `requirements.in` file (to ejecute `pip-compile` it's required to update `requirements.txt`)
 - `pip install -r requirements.txt`
 - `nvm use 20`
