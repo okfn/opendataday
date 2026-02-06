@@ -229,6 +229,25 @@
       "world_region_text": ""
     },
     {
+      "event_date": "2026-03-08",
+      "event_name": "Nagasaki Champon-Style Future Conference 2026",
+      "event_photo_url": "",
+      "event_purpose": "This workshop blends Nagasaki's \u201cslopes, food, history, and night views\u201d with the spice of data to envision a more ambitious and exciting future for Nagasaki.",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 32.750336,
+      "longitude": 129.867908,
+      "online_event_url": "",
+      "organisers": "Code for Nagasaki\uff08Japan\uff09",
+      "place": "Nagasaki Prefectural Government",
+      "slug": "nagasaki-champon-style-future-conference-2026",
+      "url": "https://forms.gle/kS155SDYGaEBikyf9",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
       "event_date": "2026-03-05",
       "event_name": "Open Data Cordoba",
       "event_photo_url": "",
