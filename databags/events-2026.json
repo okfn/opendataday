@@ -457,6 +457,25 @@
       "world_region_text": ""
     },
     {
+      "event_date": "2026-03-11",
+      "event_name": "Parcels N'At in Action: A Demo for City & County Teams",
+      "event_photo_url": "",
+      "event_purpose": "This in-person event showcases the local - indeed, the hyperlocal - value of open data rendered accessible and visible with the help of open-source solutions. Members of the Western Pennsylvania Regional Data Center (WPRDC) will set up shop in the lobby of the City of Pittsburgh and Allegheny County\u2019s City-County Building to provide on-the-spot demonstrations of Parcels N\u2019At, a parcel-level data explorer that consolidates county and city records to provide a comprehensive view of land and property conditions across the region.\n\nBuilt using CKAN and drawing on open data made publicly accessible by the City of Pittsburgh and Allegheny County, Parcels N\u2019At makes the parcel-level information usable for both government operations and everyday public inquiry.",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 40.440624,
+      "longitude": -79.995888,
+      "online_event_url": "",
+      "organisers": "Western Pennsylvania Regional Data Center",
+      "place": "Pittsburgh, PA",
+      "slug": "parcels-n-at-in-action-a-demo-for-city-county-teams",
+      "url": "https://parcelsnat.org/",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
       "event_date": "2026-03-05",
       "event_name": "Some test event",
       "event_photo_url": "",
