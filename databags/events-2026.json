@@ -115,6 +115,25 @@
       "world_region_text": ""
     },
     {
+      "event_date": "2026-03-08",
+      "event_name": "Data Resilience USenghor",
+      "event_photo_url": "",
+      "event_purpose": "Unite Francophone students around open data resilience by promoting digital culture, creativity and knowledge-sharing at Universit\u00e9 Senghor.",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 30.847001,
+      "longitude": 29.411106,
+      "online_event_url": "",
+      "organisers": "Club Numerik, Universit\u00e9 Senghor \u2014 nambininjanahary.andrian.2025@etu-usenghor.org",
+      "place": "New Borg El Arab - Alexandrie (Egypt)",
+      "slug": "data-resilience-usenghor",
+      "url": "https://www.facebook.com/share/1AkTJwf3Fk/",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
       "event_date": "2026-04-09",
       "event_name": "Dia de Dados Abertos 2026",
       "event_photo_url": "",
