@@ -930,6 +930,25 @@
       "url": "",
       "world_region_code": "",
       "world_region_text": ""
+    },
+    {
+      "event_date": "2026-03-07",
+      "event_name": "\u516c\u5171\u4ea4\u901a\u30aa\u30fc\u30d7\u30f3\u30c7\u30fc\u30bf\u6700\u524d\u7dda2026",
+      "event_photo_url": "",
+      "event_purpose": "GTFS\u3092\u59cb\u3081\u3068\u3059\u308b\u516c\u5171\u4ea4\u901a\u30aa\u30fc\u30d7\u30f3\u30c7\u30fc\u30bf\u306e\u666e\u53ca\u306e\u63a8\u9032",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 35.714262,
+      "longitude": 139.761861,
+      "online_event_url": "",
+      "organisers": "\u4e00\u822c\u793e\u56e3\u6cd5\u4eba\u65e5\u672c\u30d0\u30b9\u60c5\u5831\u5354\u4f1a",
+      "place": "Tokyo/Japan",
+      "slug": "gong-gong-jiao-tong-ohuntetazui-qian-xian-2026",
+      "url": "https://odd2026.peatix.com",
+      "world_region_code": "",
+      "world_region_text": ""
     }
   ]
 }
