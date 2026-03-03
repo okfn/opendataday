@@ -19,7 +19,7 @@ jobs:
           python-version: "3.12"
 
       - name: Set up Node.js 20
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v6
         with:
           node-version: 20.x
 
