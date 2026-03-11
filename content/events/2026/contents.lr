@@ -6,7 +6,7 @@ data_file: events-2026
 ---
 banner_link: main
 ---
-csv_link: /home/venus/ODD/opendataday/Datasets/Events%202026.csv
+csv_link: https://raw.githubusercontent.com/okfn/opendataday/master/Datasets/Events%202026.csv
 ---
 
 
