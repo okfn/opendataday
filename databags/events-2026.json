@@ -1445,6 +1445,25 @@
       "world_region_text": ""
     },
     {
+      "event_date": "2026-03-13",
+      "event_name": "Open Data Day Armenia 2026",
+      "event_photo_url": "",
+      "event_purpose": "Open Data promotion in Armenia",
+      "event_report_url": "",
+      "event_tweet_url": "",
+      "event_video_url": "",
+      "has_event_report": false,
+      "latitude": 40.179188,
+      "longitude": 44.499104,
+      "online_event_url": "",
+      "organisers": "Open Data Armenia",
+      "place": "Yerevan",
+      "slug": "open-data-day-armenia-2026",
+      "url": "https://odd.opendata.am",
+      "world_region_code": "",
+      "world_region_text": ""
+    },
+    {
       "event_date": "2026-04-07",
       "event_name": "Open Data Day CDMX 2026",
       "event_photo_url": "",
