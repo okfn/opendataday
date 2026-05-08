@@ -1,0 +1,160 @@
+language: es_mx
+---
+next_date: 2018-03-03
+---
+title: Están invitados
+---
+banner_heading_1: Están invitados.
+---
+banner_heading_2: ¡De nuevo!
+---
+banner_content_1: El Día de los Datos Abiertos se llevará a cabo el
+---
+banner_content_2: sábado, 4 de marzo de 2018
+---
+intro_heading: ¿Qué es el día de los datos abiertos?
+---
+register_text: Registra tu evento aquí
+---
+intro_body:
+
+El día de los datos abiertos es una celebración anual de los datos abiertos alrededor del mundo. Por quinta vez en la historia, grupos de todo el mundo crearán eventos locales en este día que utilizarán los datos abiertos en sus comunidades para crear aplicaciones, visualizaciones, liberar datos o publicar análisis sobre el estado de los datos abiertos. Es una oportunidad para mostrar los beneficios de los datos abiertos y fomentar la adopción de políticas de datos en gobiernos, iniciativa privada y sociedad civil.
+---
+intro_body_2:
+
+Todos los trabajos realizados son abiertos para usarse y re-usarse.
+---
+year_intro:
+
+Para el Día de los datos abiertos 2018 queremos mejorar más. El enfoque este año será en cuatro áreas claves que creemos que los datos abiertos pueden ayudar a resolver.
+---
+year_label_1: Datos abiertos de **investigación**
+---
+year_label_2: Rastreo de flujos de **dinero** público
+---
+year_label_3: Datos abiertos sobre **medio ambiente**
+---
+year_label_4: Datos abiertos sobre **derechos humanos**
+---
+who_heading: ¿A quién está dirigido? ¡A Todos!
+---
+who_body:
+
+Si tienes una idea que use datos abiertos, quieres encontrar un proyecto interesante para contribuir, aprender sobre cómo visualizar o analisar datos o simplemente quieres ver lo que está pasando, entonces ¡definitivamente ven a participar! La participación es un valor central del hackatón, todo el mundo es libre de expresar sus opiniones de forma constructiva. No importa qué habilidades tengas o cuáles sean tus intereses, invitamos a lxs organizadores a facilitar oportunidades de aprendizaje y ayudar a que la comunidad global de datos abiertos crezca.
+---
+who_title_1: Ciudadanos
+---
+who_description_1:
+
+Todxs somos ciudadanos, el día de los datos abiertos es un evento que nace de la ciudadanía. Si somos más, más eco tendremos. Son bienvenidas todas las personas que traigan ideas, promotorxs de proyectos y amigxs que ayuden a pasar la voz.
+---
+who_title_2: Servidores Públicos
+---
+who_description_2:
+
+Sus contribuciones son muy valiosas por cuanto entienden el contexto en el que se trabaja con ciertos datos, por lo que su visión y experiencia nos puede ayudar a mejorar los datos abiertos de los propios gobiernos. Vengan a conversar y a aprender cooperativamente.
+---
+who_title_3: Diseñadores
+---
+who_description_3:
+
+Ayuden a hacer que los datos sean cercanos, para que más personas los utilicen y los entiendan.
+---
+who_title_4: Desarrolladores
+---
+who_description_4:
+
+Utilicen sus habilidades para desarrollar soluciones que puedan ayudar a solucionar problemas sociales importantes.
+---
+who_title_5: Científicos de Datos
+---
+who_description_5:
+
+Utilicen sus habilidades para entender los datos y aprender de ellos.
+---
+resources_heading: Recursos para eventos
+---
+resources_intro:
+
+¿Necesitas inspiración para un evento?, ¿no sabes dónde encontrar los datos que necesitas? Revisa nuestros recursos para eventos 2018.
+---
+resources_button: Recursos
+---
+resources_materials_heading: Materiales
+---
+resources_materials_text:
+
+¡Crea un logo para tu evento con [este generador de logos](http://logo.odd.okfn.jp/)!
+---
+resources_ideas_heading: Ideas y fuentes de datos
+---
+resources_ideas_intro:
+
+¡Hola, entusiasta de los datos abiertos! Acabas de ver que el día de los datos abiertos será el sábado 4 de marzo de 2018 y tendrás interés en facilitar un evento en tu localidad. Tu único reto es encontrar la idea correcta. Nuestros amigxs de la comunidad de datos abiertos tienen algunas ideas y recursos de datos que vale la pena revisar.
+---
+resources_ideas_theme_1: Datos Abietos de Investigación
+---
+resources_ideas_theme_1_text:
+
+Root data commons - Repositorio de conjuntos de datos públicos generales de interés científico, hospedado en el OSDC.
+Explora las políticas de datos abiertos con el US Federal data sharing resource
+Todos los datos de pruebas clínicas enlazados: Open Trials
+Minería de datos y texto: Content Mine
+Encuentra un conjunto de datos reusable: Zenodo
+[tbc: ayuda a que el conjunto de datos de otro esté disponible]
+---
+resources_ideas_theme_2: Rastreo de flujos de fondos públicos
+---
+resources_ideas_theme_2_text:
+
+Open Contracting, Open Spending, Cooking budgets, Panama Papers, Municipal Money, Development check
+---
+resources_ideas_theme_3: Medio Ambiente
+---
+resources_ideas_theme_3_text:
+
+Listado de recursos:
+
+#### Sequía
+
+Sequía en el sur de África
+En las noticias:
+Guardian, Marzo 2016
+Thompson Reuters, Noviembre 2016
+Trabajo de datos que está ocurriendo:
+Hack 4 Water (South Africa) http://www.hack4water.org.za/ https://www.dwa.gov.za/events/hack4water/default.aspx
+
+##### Inundaciones
+FloodAlerts es un siito web que usa datos de la British Environment Agency para informar a lxs habitantes de Inglaterra y Gales con alertas sobre posibles inundaciones.
+
+##### Deforestación
+Global Forest Watch http://www.globalforestwatch.org/ ofrece datos sobre superficie de los bosques, usos, pérdidas, comunidades indígenas, etc.
+
+##### Contaminación - aire, agua
+Datos de sensores de https://www.opensensors.io
+
+##### Extractivas
+Imagina una industria del petróleo con información de datos abiertos y un modelo de contratos. Eso lo puedes encontrar en http://openoil.net
+
+##### Incendios
+Se puede utilizar tanto Global Forest Watch como el observatorio de datos de la tierra de la NASA, http://earthobservatory.nasa.gov/, entre otros.
+
+---
+resources_ideas_theme_4: Derechos humanos
+---
+resources_ideas_theme_4_text:
+
+Según el informe anual de Amnistía Internacional, el número de personas desplazadas y en busca de refugio en el mundo es el más elevado desde la Segunda Guerra Mundial. Vivimos una época de creciente inacción política mientras se abren brechas en los derechos humanos a nivel mundial.
+
+Pero las injusticias no siempre se producen a miles de kilómetros de distancia. La defensa de los Derechos Humanos empieza en nuestro entorno. En nuestro barrio y nuestra ciudad. En España, leyes como la Ley de Seguridad Ciudadana han recortado derechos fundamentales. Mientras tanto, la pobreza infantil y la dificultad de acceso a la vivienda siguen azotando a nuestra sociedad.
+
+En línea con ese enfoque local, en el año 2000 los países de la Unión Europea firmaron la Carta Europea de Salvaguarda de los Derechos Humanos de la Ciudad. Algunos ayuntamientos están impulsando nuevas políticas con arreglo a esas líneas de actuación. Por ejemplo, el Ayuntamiento de Madrid está recopilando datos para llevar a cabo un plan transversal de Derechos Humanos que afecte a todas sus políticas públicas.
+
+---
+support_scheme_heading: Apoyos
+---
+support_scheme_body:
+
+Open Knowlede International, organización que vertebra el día de los datos abiertos ha conseguido fondos de SPARC, el programa de Contrataciones Abiertas de Hivos, Article 19 y la Hewlett Foundation. De esta manera, se distribuirán 12.500 dólares EE.UU. en mini becas para apoyar sus ideas para eventos.
+---
+support_scheme_button: Conoce más
